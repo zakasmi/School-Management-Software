@@ -32,6 +32,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.bunifuDragControl1 = new ns1.BunifuDragControl(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
+            this.Lbl_Form1_NameHeader = new System.Windows.Forms.Label();
+            this.bunifuImageButton1 = new ns1.BunifuImageButton();
             this.BTN_Login_Close = new ns1.BunifuImageButton();
             this.bunifuMetroTextbox1 = new ns1.BunifuMetroTextbox();
             this.bunifuMetroTextbox2 = new ns1.BunifuMetroTextbox();
@@ -40,6 +42,7 @@
             this.BTN_Login_Connecter = new ns1.BunifuThinButton2();
             this.Tab = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.LBL_Login_MotDePasseOublie = new ns1.BunifuCustomLabel();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.BIB_Oubliemp_Retour = new ns1.BunifuImageButton();
             this.BTN_MotDePasseOublie_Ok = new ns1.BunifuThinButton2();
@@ -52,10 +55,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.TXB_Mmp_nouveumotpasse = new ns1.BunifuMetroTextbox();
             this.TXB_Mmp_Confirmémotpasse = new ns1.BunifuMetroTextbox();
-            this.bunifuImageButton1 = new ns1.BunifuImageButton();
-            this.LBL_Login_MotDePasseOublie = new ns1.BunifuCustomLabel();
-            this.Lbl_Form1_NameHeader = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BTN_Login_Close)).BeginInit();
             this.Tab.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -63,7 +64,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.BIB_Oubliemp_Retour)).BeginInit();
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BIB_Modifiermp_Retour)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuDragControl1
@@ -83,6 +83,31 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(674, 55);
             this.panel1.TabIndex = 3;
+            // 
+            // Lbl_Form1_NameHeader
+            // 
+            this.Lbl_Form1_NameHeader.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Form1_NameHeader.ForeColor = System.Drawing.Color.White;
+            this.Lbl_Form1_NameHeader.Location = new System.Drawing.Point(67, 5);
+            this.Lbl_Form1_NameHeader.Name = "Lbl_Form1_NameHeader";
+            this.Lbl_Form1_NameHeader.Size = new System.Drawing.Size(114, 44);
+            this.Lbl_Form1_NameHeader.TabIndex = 3;
+            this.Lbl_Form1_NameHeader.Text = "Connecter";
+            this.Lbl_Form1_NameHeader.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuImageButton1
+            // 
+            this.bunifuImageButton1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.Image")));
+            this.bunifuImageButton1.ImageActive = null;
+            this.bunifuImageButton1.Location = new System.Drawing.Point(14, 9);
+            this.bunifuImageButton1.Name = "bunifuImageButton1";
+            this.bunifuImageButton1.Size = new System.Drawing.Size(36, 36);
+            this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton1.TabIndex = 2;
+            this.bunifuImageButton1.TabStop = false;
+            this.bunifuImageButton1.Zoom = 10;
+            this.bunifuImageButton1.Click += new System.EventHandler(this.BTN_Login_Close_Click);
             // 
             // BTN_Login_Close
             // 
@@ -211,6 +236,20 @@
             this.tabPage1.Size = new System.Drawing.Size(666, 382);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
+            // 
+            // LBL_Login_MotDePasseOublie
+            // 
+            this.LBL_Login_MotDePasseOublie.AutoSize = true;
+            this.LBL_Login_MotDePasseOublie.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LBL_Login_MotDePasseOublie.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBL_Login_MotDePasseOublie.ForeColor = System.Drawing.Color.White;
+            this.LBL_Login_MotDePasseOublie.Location = new System.Drawing.Point(227, 187);
+            this.LBL_Login_MotDePasseOublie.Name = "LBL_Login_MotDePasseOublie";
+            this.LBL_Login_MotDePasseOublie.Size = new System.Drawing.Size(128, 16);
+            this.LBL_Login_MotDePasseOublie.TabIndex = 2;
+            this.LBL_Login_MotDePasseOublie.Text = "Mot de passe oublié ?";
+            this.LBL_Login_MotDePasseOublie.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LBL_Login_MotDePasseOublie.Click += new System.EventHandler(this.LBL_Login_MotDePasseOublie_Click);
             // 
             // tabPage2
             // 
@@ -406,45 +445,6 @@
             this.TXB_Mmp_Confirmémotpasse.TabIndex = 27;
             this.TXB_Mmp_Confirmémotpasse.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // bunifuImageButton1
-            // 
-            this.bunifuImageButton1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.Image")));
-            this.bunifuImageButton1.ImageActive = null;
-            this.bunifuImageButton1.Location = new System.Drawing.Point(14, 9);
-            this.bunifuImageButton1.Name = "bunifuImageButton1";
-            this.bunifuImageButton1.Size = new System.Drawing.Size(36, 36);
-            this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuImageButton1.TabIndex = 2;
-            this.bunifuImageButton1.TabStop = false;
-            this.bunifuImageButton1.Zoom = 10;
-            this.bunifuImageButton1.Click += new System.EventHandler(this.BTN_Login_Close_Click);
-            // 
-            // LBL_Login_MotDePasseOublie
-            // 
-            this.LBL_Login_MotDePasseOublie.AutoSize = true;
-            this.LBL_Login_MotDePasseOublie.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.LBL_Login_MotDePasseOublie.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LBL_Login_MotDePasseOublie.ForeColor = System.Drawing.Color.White;
-            this.LBL_Login_MotDePasseOublie.Location = new System.Drawing.Point(227, 187);
-            this.LBL_Login_MotDePasseOublie.Name = "LBL_Login_MotDePasseOublie";
-            this.LBL_Login_MotDePasseOublie.Size = new System.Drawing.Size(128, 16);
-            this.LBL_Login_MotDePasseOublie.TabIndex = 2;
-            this.LBL_Login_MotDePasseOublie.Text = "Mot de passe oublié ?";
-            this.LBL_Login_MotDePasseOublie.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.LBL_Login_MotDePasseOublie.Click += new System.EventHandler(this.LBL_Login_MotDePasseOublie_Click);
-            // 
-            // Lbl_Form1_NameHeader
-            // 
-            this.Lbl_Form1_NameHeader.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Form1_NameHeader.ForeColor = System.Drawing.Color.White;
-            this.Lbl_Form1_NameHeader.Location = new System.Drawing.Point(67, 5);
-            this.Lbl_Form1_NameHeader.Name = "Lbl_Form1_NameHeader";
-            this.Lbl_Form1_NameHeader.Size = new System.Drawing.Size(114, 44);
-            this.Lbl_Form1_NameHeader.TabIndex = 3;
-            this.Lbl_Form1_NameHeader.Text = "Connecter";
-            this.Lbl_Form1_NameHeader.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -458,6 +458,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BTN_Login_Close)).EndInit();
             this.Tab.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
@@ -466,7 +467,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.BIB_Oubliemp_Retour)).EndInit();
             this.tabPage3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.BIB_Modifiermp_Retour)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
             this.ResumeLayout(false);
 
         }
