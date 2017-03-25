@@ -73,30 +73,19 @@ namespace GestionCentre
         // --------------------------- Stagiaire ---------------------------------------------------------
 
         //FIll  all Stagiaire 
-         public static void FillStagiaire()
-        {
-            if (ds.Tables.Contains("StagPersonne")) { ds.Tables["StagPersonne"].Rows.Clear(); }
-            using (SqlDataAdapter da = new SqlDataAdapter("select S.IdStagiaire,P.Cin,P.Nom,P.Prenom,P.Tel,P.Email,P.DateNaissance,P.Adresse,P.sexe,S.DateInscription,S.idspecialite,S.idgroupe,S.Question,S.Reponse from  Personne P inner join Stagiaire S  on P.Cin=S.cin inner join Groupe G on G.IdGroupe=S.idgroupe where  G.Annee= '" + RecentYear+"'", cnx)) {
-                da.Fill(ds, "StagPersonne");
-                MessageBox.Show("nombre de stagiaire de cette année " + ds.Tables["StagPersonne"].Rows.Count + " : " + RecentYear);
-             
-                ds.Tables["StagPersonne"].PrimaryKey = new DataColumn[] { ds.Tables["StagPersonne"].Columns["IdStagiaire"] };      
-            }
-
-        }
-        public static void FillStagiaireDifferentYear(string Year)
+         public static void FillStagiaire(string Year)
         {
             if (ds.Tables.Contains("StagPersonne")) { ds.Tables["StagPersonne"].Rows.Clear(); }
             using (SqlDataAdapter da = new SqlDataAdapter("select S.IdStagiaire,P.Cin,P.Nom,P.Prenom,P.Tel,P.Email,P.DateNaissance,P.Adresse,P.sexe,S.DateInscription,S.idspecialite,S.idgroupe,S.Question,S.Reponse from  Personne P inner join Stagiaire S  on P.Cin=S.cin inner join Groupe G on G.IdGroupe=S.idgroupe where  G.Annee= " + Year + "", cnx))
             {
-                
                 da.Fill(ds, "StagPersonne");
                 MessageBox.Show("nombre de stagiaire de cette année " + ds.Tables["StagPersonne"].Rows.Count + " : " + Year);
-                MessageBox.Show(RecentYear + "  ;" + ds.Tables["StagPersonne"].Rows.Count);
-                ds.Tables["StagPersonne"].PrimaryKey = new DataColumn[] { ds.Tables["StagPersonne"].Columns["IdStagiaire"] };
+                RecentStagiareYearinDataSet = int.Parse(Year);
+                ds.Tables["StagPersonne"].PrimaryKey = new DataColumn[] { ds.Tables["StagPersonne"].Columns["IdStagiaire"] };      
             }
 
         }
+    
         //
 
         //get all Stagiaire
@@ -108,50 +97,96 @@ namespace GestionCentre
             DataRow[] dr = ds.Tables["StagPersonne"].Select("idgroupe="+ Groupe);
             DataTable dt = ds.Tables["StagPersonne"].Clone();
             foreach (DataRow r in dr) { dt.ImportRow(r); }
-
-
             return dt;
         }
+        //--------------------Method ---------------Delete Stagiaire from DataGrid By IdStagiaire -----------------------------------------
+
+        public static bool DeleteStagiaireFromDataGrid(DataGridView DGV,ref string DeletedString) {
+            int k = 0;
+            ds.Tables["StagPersonne"].AcceptChanges();
+            //Check if you checked any checkbox. it will Break for the first CHecked checkBox 
+            for (int i = 0; i < DGV.Rows.Count; i++)
+            {
+                if (DGV.Rows[i].Cells[0].Value.ToString() == "T")
+                {
+                    k = 1;
+                    break;
+                }
+          // MessageBox.Show(i.ToString());
+            }
+            if (k == 1)
+            {
+                if (MessageBox.Show("Voulez Vous Supprimer", "Supprimer ?", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) == DialogResult.OK)
+                {
+                    List<string> DeletedIds = new List<string>();
+                    for (int i = DGV.Rows.Count - 1; i >= 0; i--)
+                    {
+                        if (DGV.Rows[i].Cells[0].Value.ToString() == "T")
+                        {
+                            DeletedIds.Add(DGV.Rows[i].Cells[1].Value.ToString());
+                            ds.Tables["StagPersonne"].Rows.Find(DGV.Rows[i].Cells[1].Value.ToString()).Delete();
+                            DGV.Rows.RemoveAt(i);
+                            ;
+                        }
+                    }
+                    DeletedString = string.Join(",", DeletedIds.ToArray());
+                    return true;
+                }
+            }
+            else
+            {
+                MessageBox.Show("Cocher Au minimum 1 Stagiaire !!", "Stagiaire", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+            return true;
+
+        }
+
 
         // ---------------------- Methods ---------- ViderTabPage--------------------
         public static void ViderTabPage(TabPage P)
         {
-            foreach (Control C in P.Controls) {
-                if (C is TextBox)  { C.Text = null;  }
-                else if(C is MetroFramework.Controls.MetroTextBox){
+            foreach (Control C in P.Controls)
+            {
+                if (C is TextBox) { C.Text = null; }
+                else if (C is MetroFramework.Controls.MetroTextBox)
+                {
 
                     var C2 = C as MetroFramework.Controls.MetroTextBox;
                     C2.Text = null;
                 }
-                else if(C is MetroFramework.Controls.MetroComboBox)
+                else if (C is MetroFramework.Controls.MetroComboBox)
                 {
                     var C2 = C as MetroFramework.Controls.MetroComboBox;
                     C2.SelectedIndex = -1;
-                    
-                }else if (C is RadioButton) {
-                    var C2 = C as RadioButton;
-                    C2.Checked = false;
-                    
-                }else if (C is MetroFramework.Controls.MetroDateTime) {
-                    var C2 = C as MetroFramework.Controls.MetroDateTime;
-                    C2.Value = DateTime.Now;
-                    
 
                 }
+                else if (C is RadioButton)
+                {
+                    var C2 = C as RadioButton;
+                    C2.Checked = false;
 
-
-
-
-              /*  if (C is MetroFramework.Controls.MetroLabel ) {
-                    var C2 = C as MetroFramework.Controls.MetroLabel;
-                    C2.Text = "Iam a MetroLabel";
-                }*/
+                }
+                else if (C is MetroFramework.Controls.MetroDateTime)
+                {
+                    var C2 = C as MetroFramework.Controls.MetroDateTime;
+                    C2.Value = DateTime.Now;
+                }
+                /*  if (C is MetroFramework.Controls.MetroLabel ) {
+                      var C2 = C as MetroFramework.Controls.MetroLabel;
+                      C2.Text = "Iam a MetroLabel";
+                  }*/
             }
 
-          
-
-
         } 
+
+       //initialiser datagrid view 
+       public static void InitialiserDataGrid(DataGridView DGV) {
+            foreach (DataGridViewRow R in DGV.Rows) {
+                R.Cells[0].Value = "F";
+            }
+        }
 
 
     }

@@ -14,6 +14,7 @@ namespace GestionCentre
 {
     public partial class Form1 : Form
     {
+
         public static bool AjouterStagiaireClicked = false;
        
         public Form1()
@@ -31,7 +32,7 @@ namespace GestionCentre
         {
 
         }
-
+        //------------------------ Load ---------------------------------------
         private void Form1_Load(object sender, EventArgs e)
         {
             /*  FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -47,7 +48,7 @@ namespace GestionCentre
 
 
 
-           
+           // check month 
             if (DateTime.Now.Month < 9)
             {
                 Provider.RecentYear = (DateTime.Now.Year - 1);
@@ -61,7 +62,8 @@ namespace GestionCentre
             }
 
             Provider.FillGroupe();
-            Provider.FillStagiaire();
+            //fill 'stagiaire' with recent year 'stagiaires'
+            Provider.FillStagiaire(Provider.RecentYear.ToString());
             CB_Stagiaire_Niveau.SelectedIndex = 0;
             CB_Stagiaire_Filiere.SelectedIndex = -1;
 
@@ -81,26 +83,30 @@ namespace GestionCentre
         private void BTN_ModifierMotPass_Connecter_Click(object sender, EventArgs e)
         {
             tabControl2_Stagiaire.SelectTab(0);
-            
-            if (!string.IsNullOrEmpty(CB_Stagiaire_Groupe.SelectedValue.ToString()) || CB_Stagiaire_Groupe.SelectedIndex != -1) {
-                if (CB_Stagiaire_Annee.SelectedItem.ToString() != Provider.RecentYear.ToString())
+
+            if (CB_Stagiaire_Annee.SelectedIndex !=-1)
+            {
+                if (CB_Stagiaire_Groupe.Items.Count > 0)
                 {
-                    // if the the selected year is different from the recent year . you need to download new data from the server
-                    if (Provider.RecentStagiareYearinDataSet) {
-                        Provider.originalstagiaredeleted = true;
-                        Provider.FillStagiaireDifferentYear(CB_Stagiaire_Annee.SelectedItem.ToString());
-                        DGV_Stagiaire1.DataSource = Provider.GetStagiareByGroupe(CB_Stagiaire_Groupe.SelectedValue.ToString());
+                    if (!string.IsNullOrEmpty(CB_Stagiaire_Groupe.SelectedValue.ToString()) && CB_Stagiaire_Groupe.SelectedIndex != -1)
+                    {
+                        if (Provider.RecentStagiareYearinDataSet.ToString() == CB_Stagiaire_Annee.SelectedItem.ToString())
+                        {
+                            // if you clicked "valider" for the second time (simultantly) . and didn't change the year(Annee) . the databse dataset table StagiarePersonne already filled 
+                            DGV_Stagiaire1.DataSource = Provider.GetStagiareByGroupe(CB_Stagiaire_Groupe.SelectedValue.ToString());
+                            Provider.InitialiserDataGrid(DGV_Stagiaire1);
+                        }
+                        else
+                        {   // if you  change the year and you click valider .
+                            
+                            Provider.FillStagiaire(CB_Stagiaire_Annee.SelectedItem.ToString());
+                            DGV_Stagiaire1.DataSource = Provider.GetStagiareByGroupe(CB_Stagiaire_Groupe.SelectedValue.ToString());
+                            Provider.InitialiserDataGrid(DGV_Stagiaire1);
+                        }
                     }
+                    else MessageBox.Show("Please select a groupe ");
                 }
-                else if (Provider.originalstagiaredeleted)
-                {
-                   // if the the selected year == the recent year . and the original table ((stagiaire) of this year) is already deleted you need to download it again from database 
-                    Provider.FillStagiaireDifferentYear(Provider.RecentYear.ToString());
-                    DGV_Stagiaire1.DataSource = Provider.GetStagiareByGroupe(CB_Stagiaire_Groupe.SelectedValue.ToString());
-                    Provider.originalstagiaredeleted = false;
-                }
-                else { // if you did'nt change the selected year 
-                    DGV_Stagiaire1.DataSource = Provider.GetStagiareByGroupe(CB_Stagiaire_Groupe.SelectedValue.ToString()); }
+                else MessageBox.Show("makayan ta Groupe . kolchi khawii"); 
             }
         }
 
@@ -116,6 +122,12 @@ namespace GestionCentre
         private void CB_Stagiaire_Annee_SelectedIndexChanged(object sender, EventArgs e)
         {
             GetGroups(1);
+            if (CB_Stagiaire_Annee.SelectedItem.ToString() !=Provider.RecentYear.ToString()) {
+
+                BTN_Stagiaire_Modifier.Enabled = false;
+                BTN_Stagiaire_Ajouter.Enabled = false;
+                BTN_Stagiaire_Supprimer.Enabled = false;
+            }
         }
         // Stagiaire : Methode Get Groups pour remplir CB_Stagiaire_Groupe  
         public void GetGroups(int x)
@@ -147,7 +159,7 @@ namespace GestionCentre
         private void BTN_Stagiaire_Consulter_Click(object sender, EventArgs e)
         {
             tabControl2_Stagiaire.SelectTab(2);
-            if (!string.IsNullOrEmpty(LBL_Stagiaire_Id_Clicked.Text)) {
+            if (!string.IsNullOrEmpty(LBL_Stagiaire_Id_Clicked.Text) && LBL_Stagiaire_Nom_Clicked.Text != "Nom") {
                 SqlCommand cmd = new SqlCommand("select S.IdStagiaire,P.Cin,P.Nom,P.Prenom,P.Tel,P.Email,P.DateNaissance,P.Adresse,P.sexe,S.DateInscription,S.idspecialite,G.NomGroupe,S.Question,S.Reponse  from Personne P  inner join Stagiaire S on P.Cin = S.cin  inner join Groupe G on G.IdGroupe=S.idgroupe where S.IdStagiaire=" + LBL_Stagiaire_Id_Clicked.Text + " ", Provider.cnx);
                 Provider.cnx.Open();
                 SqlDataReader dr = cmd.ExecuteReader();
@@ -183,6 +195,7 @@ namespace GestionCentre
             CB_Stagiaire_Ajouter_Niveau.SelectedIndex = -1;
             tabControl2_Stagiaire.SelectTab(1);
             if (!AjouterStagiaireClicked) {
+
                 CB_Stagiaire_Ajouter_Specialite.DataSource = Provider.GetAllSpecialite;
                 CB_Stagiaire_Ajouter_Specialite.DisplayMember = "Designation";
                 CB_Stagiaire_Ajouter_Specialite.ValueMember = "IdSpecialite";
@@ -242,7 +255,7 @@ namespace GestionCentre
 
         private void Vider_Panel_Click(object sender, EventArgs e)
         {
-            
+            MessageBox.Show(DGV_Stagiaire1.Rows.Count.ToString());
         }
         // Stagiaire : Ajouter => Vider 
         private void BTN_Stagiaire_Ajouter_Vider_Click(object sender, EventArgs e)
@@ -265,14 +278,39 @@ namespace GestionCentre
                 }
             }
         }
-
+        // Stagiaire : Supprimer ------------ 
         private void BTN_Stagiaire_Supprimer_Click(object sender, EventArgs e)
         {
-            tabControl2_Stagiaire.SelectTab(0);
 
+            if (tabControl2_Stagiaire.SelectedIndex != 0)
+            {
+                tabControl2_Stagiaire.SelectTab(0);
+                MessageBox.Show("Cocher Les Stagiaire que vous voulez Supprimer !!");
+            }
+            else
+            {
+                string Deletedstring = "";
+                if (Provider.DeleteStagiaireFromDataGrid(DGV_Stagiaire1, ref Deletedstring))
+                {
+                    MessageBox.Show("delete from Stagiaire where IdStagiaire  in (" + Deletedstring + ")");
+                    int x;
+                    using (SqlCommand cmd = new SqlCommand("delete from Stagiaire where IdStagiaire  in (" + Deletedstring + ")", Provider.cnx))
+                    {
+                        Provider.cnx.Open();
+                        x = cmd.ExecuteNonQuery();
+                        MessageBox.Show(x.ToString());
+                        Provider.cnx.Close();
+                    }
+                    if (x <= 0) { Provider.ds.Tables["StagPersonne"].RejectChanges();
+                        MessageBox.Show("Erreur De Communication avec le serveur");
+                    }else
+                    {
+                        MessageBox.Show("Les Stagiaires Sont Supprimer avec Succes Rest :total :" + Provider.ds.Tables["StagPersonne"].Rows.Count);
+                    }
+                }
+
+            }
         }
-        //Stagiaire: Ajouter => CB_Stagiaire_Ajouter_Specialite index changed
-       
 
         private void CB_Stagiaire_Ajouter_Niveau_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -291,6 +329,11 @@ namespace GestionCentre
             GetGroups(2);
         }
         private void BTN_Stagiaire_Ajouter_Enregistrer_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabControl2_Stagiaire_tabpage2_Ajouter_Click(object sender, EventArgs e)
         {
 
         }
