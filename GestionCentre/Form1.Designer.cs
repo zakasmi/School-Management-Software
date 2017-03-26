@@ -30,14 +30,14 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.bunifuImageButton2 = new ns1.BunifuImageButton();
@@ -101,6 +101,40 @@
             this.bunifuThinButton23 = new ns1.BunifuThinButton2();
             this.bunifuThinButton22 = new ns1.BunifuThinButton2();
             this.bunifuThinButton21 = new ns1.BunifuThinButton2();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.DTP_Stagiaire_Modifier_DateNaissance = new MetroFramework.Controls.MetroDateTime();
+            this.TB_Stagiaire_Modifier_Cin = new MetroFramework.Controls.MetroTextBox();
+            this.BTN_Stagiaire_Modifier_Enregistrer = new ns1.BunifuThinButton2();
+            this.bunifuThinButton28 = new ns1.BunifuThinButton2();
+            this.bunifuImageButton5 = new ns1.BunifuImageButton();
+            this.label46 = new System.Windows.Forms.Label();
+            this.CB_Stagiaire_Modifier_Question = new MetroFramework.Controls.MetroComboBox();
+            this.CB_Stagiaire_Modifier_Annee = new MetroFramework.Controls.MetroComboBox();
+            this.CB_Stagiaire_Modifier_Niveau = new MetroFramework.Controls.MetroComboBox();
+            this.CB_Stagiaire_Modifier_Groupe = new MetroFramework.Controls.MetroComboBox();
+            this.label47 = new System.Windows.Forms.Label();
+            this.CB_Stagiaire_Modifier_Reponse = new MetroFramework.Controls.MetroTextBox();
+            this.label48 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.label51 = new System.Windows.Forms.Label();
+            this.label52 = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
+            this.label54 = new System.Windows.Forms.Label();
+            this.label55 = new System.Windows.Forms.Label();
+            this.label56 = new System.Windows.Forms.Label();
+            this.label57 = new System.Windows.Forms.Label();
+            this.label58 = new System.Windows.Forms.Label();
+            this.label59 = new System.Windows.Forms.Label();
+            this.CB_Stagiaire_Modifier_Specialite = new MetroFramework.Controls.MetroComboBox();
+            this.TB_Stagiaire_Modifier_Adresse = new MetroFramework.Controls.MetroTextBox();
+            this.TB_Stagiaire_Modifier_M = new System.Windows.Forms.RadioButton();
+            this.TB_Stagiaire_Modifier_Nom = new MetroFramework.Controls.MetroTextBox();
+            this.TB_Stagiaire_Modifier_F = new System.Windows.Forms.RadioButton();
+            this.TB_Stagiaire_Modifier_Prenom = new MetroFramework.Controls.MetroTextBox();
+            this.TB_Stagiaire_Modifier_Email = new MetroFramework.Controls.MetroTextBox();
+            this.TB_Stagiaire_Modifier_Tel = new MetroFramework.Controls.MetroTextBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.TB_Stagiaire_Consulter_Sexe = new MetroFramework.Controls.MetroTextBox();
             this.TB_Stagiaire_Consulter_Email = new MetroFramework.Controls.MetroTextBox();
@@ -220,6 +254,14 @@
             this.BTN_Menu_Stagiaire = new ns1.BunifuFlatButton();
             this.panel3 = new System.Windows.Forms.Panel();
             this.bunifuDragControl1 = new ns1.BunifuDragControl(this.components);
+            this.label60 = new System.Windows.Forms.Label();
+            this.label61 = new System.Windows.Forms.Label();
+            this.label62 = new System.Windows.Forms.Label();
+            this.label63 = new System.Windows.Forms.Label();
+            this.label64 = new System.Windows.Forms.Label();
+            this.TB_Stagiaire_Modifier_IdStagiaire = new MetroFramework.Controls.MetroTextBox();
+            this.TB_Stagiaire_Modifier_DateInsciption = new MetroFramework.Controls.MetroTextBox();
+            this.label65 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
@@ -235,6 +277,9 @@
             this.tabControl2_Stagiaire_tabpage2_Ajouter.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BIBTN_Stagiaire_Image)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BIBTN_Stagiaire_SelectImage)).BeginInit();
+            this.tabPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton5)).BeginInit();
             this.tabPage5.SuspendLayout();
             this.panel15.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -523,6 +568,7 @@
             resources.ApplyResources(this.tabControl2_Stagiaire, "tabControl2_Stagiaire");
             this.tabControl2_Stagiaire.Controls.Add(this.tabPage3);
             this.tabControl2_Stagiaire.Controls.Add(this.tabControl2_Stagiaire_tabpage2_Ajouter);
+            this.tabControl2_Stagiaire.Controls.Add(this.tabPage4);
             this.tabControl2_Stagiaire.Controls.Add(this.tabPage5);
             this.tabControl2_Stagiaire.Multiline = true;
             this.tabControl2_Stagiaire.Name = "tabControl2_Stagiaire";
@@ -540,30 +586,30 @@
             // 
             this.DGV_Stagiaire1.AllowUserToAddRows = false;
             this.DGV_Stagiaire1.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.DGV_Stagiaire1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.DGV_Stagiaire1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle33;
             this.DGV_Stagiaire1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
             this.DGV_Stagiaire1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DGV_Stagiaire1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.SeaGreen;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DGV_Stagiaire1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle34.BackColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle34.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle34.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle34.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle34.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle34.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DGV_Stagiaire1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle34;
             this.DGV_Stagiaire1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGV_Stagiaire1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.supprimer});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DGV_Stagiaire1.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle35.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle35.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle35.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle35.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle35.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle35.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DGV_Stagiaire1.DefaultCellStyle = dataGridViewCellStyle35;
             resources.ApplyResources(this.DGV_Stagiaire1, "DGV_Stagiaire1");
             this.DGV_Stagiaire1.DoubleBuffered = true;
             this.DGV_Stagiaire1.EnableHeadersVisualStyles = false;
@@ -572,14 +618,14 @@
             this.DGV_Stagiaire1.HeaderForeColor = System.Drawing.Color.Black;
             this.DGV_Stagiaire1.Name = "DGV_Stagiaire1";
             this.DGV_Stagiaire1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DGV_Stagiaire1.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle36.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle36.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle36.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle36.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle36.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DGV_Stagiaire1.RowHeadersDefaultCellStyle = dataGridViewCellStyle36;
             this.DGV_Stagiaire1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV_Stagiaire1_CellClick);
             // 
             // supprimer
@@ -647,10 +693,12 @@
             this.DTP_Stagiaire_Ajouter_DateNaissance2.CalendarTitleForeColor = System.Drawing.Color.Maroon;
             this.DTP_Stagiaire_Ajouter_DateNaissance2.CalendarTrailingForeColor = System.Drawing.Color.White;
             resources.ApplyResources(this.DTP_Stagiaire_Ajouter_DateNaissance2, "DTP_Stagiaire_Ajouter_DateNaissance2");
+            this.DTP_Stagiaire_Ajouter_DateNaissance2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.DTP_Stagiaire_Ajouter_DateNaissance2.Name = "DTP_Stagiaire_Ajouter_DateNaissance2";
             this.DTP_Stagiaire_Ajouter_DateNaissance2.UseCustomBackColor = true;
             this.DTP_Stagiaire_Ajouter_DateNaissance2.UseCustomForeColor = true;
             this.DTP_Stagiaire_Ajouter_DateNaissance2.UseStyleColors = true;
+            this.DTP_Stagiaire_Ajouter_DateNaissance2.Value = new System.DateTime(2017, 3, 26, 4, 6, 31, 0);
             // 
             // TB_Stagiaire_Ajouter_Cin
             // 
@@ -953,6 +1001,7 @@
             // 
             // 
             this.TB_Stagiaire_Ajouter_Adresse.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
+            this.TB_Stagiaire_Ajouter_Adresse.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode")));
             this.TB_Stagiaire_Ajouter_Adresse.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location2")));
             this.TB_Stagiaire_Ajouter_Adresse.CustomButton.Name = "";
             this.TB_Stagiaire_Ajouter_Adresse.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size2")));
@@ -1175,6 +1224,539 @@
             this.bunifuThinButton21.Name = "bunifuThinButton21";
             this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // tabPage4
+            // 
+            this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
+            this.tabPage4.Controls.Add(this.pictureBox2);
+            this.tabPage4.Controls.Add(this.DTP_Stagiaire_Modifier_DateNaissance);
+            this.tabPage4.Controls.Add(this.TB_Stagiaire_Modifier_DateInsciption);
+            this.tabPage4.Controls.Add(this.TB_Stagiaire_Modifier_IdStagiaire);
+            this.tabPage4.Controls.Add(this.TB_Stagiaire_Modifier_Cin);
+            this.tabPage4.Controls.Add(this.BTN_Stagiaire_Modifier_Enregistrer);
+            this.tabPage4.Controls.Add(this.bunifuThinButton28);
+            this.tabPage4.Controls.Add(this.bunifuImageButton5);
+            this.tabPage4.Controls.Add(this.label64);
+            this.tabPage4.Controls.Add(this.label46);
+            this.tabPage4.Controls.Add(this.CB_Stagiaire_Modifier_Question);
+            this.tabPage4.Controls.Add(this.CB_Stagiaire_Modifier_Annee);
+            this.tabPage4.Controls.Add(this.CB_Stagiaire_Modifier_Niveau);
+            this.tabPage4.Controls.Add(this.CB_Stagiaire_Modifier_Groupe);
+            this.tabPage4.Controls.Add(this.label47);
+            this.tabPage4.Controls.Add(this.CB_Stagiaire_Modifier_Reponse);
+            this.tabPage4.Controls.Add(this.label48);
+            this.tabPage4.Controls.Add(this.label49);
+            this.tabPage4.Controls.Add(this.label50);
+            this.tabPage4.Controls.Add(this.label51);
+            this.tabPage4.Controls.Add(this.label52);
+            this.tabPage4.Controls.Add(this.label53);
+            this.tabPage4.Controls.Add(this.label54);
+            this.tabPage4.Controls.Add(this.label55);
+            this.tabPage4.Controls.Add(this.label56);
+            this.tabPage4.Controls.Add(this.label57);
+            this.tabPage4.Controls.Add(this.label58);
+            this.tabPage4.Controls.Add(this.label65);
+            this.tabPage4.Controls.Add(this.label59);
+            this.tabPage4.Controls.Add(this.CB_Stagiaire_Modifier_Specialite);
+            this.tabPage4.Controls.Add(this.TB_Stagiaire_Modifier_Adresse);
+            this.tabPage4.Controls.Add(this.TB_Stagiaire_Modifier_M);
+            this.tabPage4.Controls.Add(this.TB_Stagiaire_Modifier_Nom);
+            this.tabPage4.Controls.Add(this.TB_Stagiaire_Modifier_F);
+            this.tabPage4.Controls.Add(this.TB_Stagiaire_Modifier_Prenom);
+            this.tabPage4.Controls.Add(this.TB_Stagiaire_Modifier_Email);
+            this.tabPage4.Controls.Add(this.TB_Stagiaire_Modifier_Tel);
+            resources.ApplyResources(this.tabPage4, "tabPage4");
+            this.tabPage4.Name = "tabPage4";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::GestionCentre.Properties.Resources.stagiaire2;
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.TabStop = false;
+            // 
+            // DTP_Stagiaire_Modifier_DateNaissance
+            // 
+            this.DTP_Stagiaire_Modifier_DateNaissance.CalendarForeColor = System.Drawing.Color.White;
+            this.DTP_Stagiaire_Modifier_DateNaissance.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.DTP_Stagiaire_Modifier_DateNaissance.CalendarTitleBackColor = System.Drawing.Color.Aqua;
+            this.DTP_Stagiaire_Modifier_DateNaissance.CalendarTitleForeColor = System.Drawing.Color.Maroon;
+            this.DTP_Stagiaire_Modifier_DateNaissance.CalendarTrailingForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.DTP_Stagiaire_Modifier_DateNaissance, "DTP_Stagiaire_Modifier_DateNaissance");
+            this.DTP_Stagiaire_Modifier_DateNaissance.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.DTP_Stagiaire_Modifier_DateNaissance.Name = "DTP_Stagiaire_Modifier_DateNaissance";
+            this.DTP_Stagiaire_Modifier_DateNaissance.UseCustomBackColor = true;
+            this.DTP_Stagiaire_Modifier_DateNaissance.UseCustomForeColor = true;
+            this.DTP_Stagiaire_Modifier_DateNaissance.UseStyleColors = true;
+            this.DTP_Stagiaire_Modifier_DateNaissance.Value = new System.DateTime(2017, 3, 26, 4, 6, 31, 0);
+            // 
+            // TB_Stagiaire_Modifier_Cin
+            // 
+            // 
+            // 
+            // 
+            this.TB_Stagiaire_Modifier_Cin.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image9")));
+            this.TB_Stagiaire_Modifier_Cin.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode3")));
+            this.TB_Stagiaire_Modifier_Cin.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location9")));
+            this.TB_Stagiaire_Modifier_Cin.CustomButton.Name = "";
+            this.TB_Stagiaire_Modifier_Cin.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size9")));
+            this.TB_Stagiaire_Modifier_Cin.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.TB_Stagiaire_Modifier_Cin.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex9")));
+            this.TB_Stagiaire_Modifier_Cin.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.TB_Stagiaire_Modifier_Cin.CustomButton.UseSelectable = true;
+            this.TB_Stagiaire_Modifier_Cin.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible9")));
+            this.TB_Stagiaire_Modifier_Cin.ForeColor = System.Drawing.Color.White;
+            this.TB_Stagiaire_Modifier_Cin.Lines = new string[0];
+            resources.ApplyResources(this.TB_Stagiaire_Modifier_Cin, "TB_Stagiaire_Modifier_Cin");
+            this.TB_Stagiaire_Modifier_Cin.MaxLength = 32767;
+            this.TB_Stagiaire_Modifier_Cin.Name = "TB_Stagiaire_Modifier_Cin";
+            this.TB_Stagiaire_Modifier_Cin.PasswordChar = '\0';
+            this.TB_Stagiaire_Modifier_Cin.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TB_Stagiaire_Modifier_Cin.SelectedText = "";
+            this.TB_Stagiaire_Modifier_Cin.SelectionLength = 0;
+            this.TB_Stagiaire_Modifier_Cin.SelectionStart = 0;
+            this.TB_Stagiaire_Modifier_Cin.UseCustomBackColor = true;
+            this.TB_Stagiaire_Modifier_Cin.UseCustomForeColor = true;
+            this.TB_Stagiaire_Modifier_Cin.UseSelectable = true;
+            this.TB_Stagiaire_Modifier_Cin.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.TB_Stagiaire_Modifier_Cin.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // BTN_Stagiaire_Modifier_Enregistrer
+            // 
+            this.BTN_Stagiaire_Modifier_Enregistrer.ActiveBorderThickness = 1;
+            this.BTN_Stagiaire_Modifier_Enregistrer.ActiveCornerRadius = 20;
+            this.BTN_Stagiaire_Modifier_Enregistrer.ActiveFillColor = System.Drawing.Color.Aqua;
+            this.BTN_Stagiaire_Modifier_Enregistrer.ActiveForecolor = System.Drawing.Color.Black;
+            this.BTN_Stagiaire_Modifier_Enregistrer.ActiveLineColor = System.Drawing.Color.Aqua;
+            this.BTN_Stagiaire_Modifier_Enregistrer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
+            resources.ApplyResources(this.BTN_Stagiaire_Modifier_Enregistrer, "BTN_Stagiaire_Modifier_Enregistrer");
+            this.BTN_Stagiaire_Modifier_Enregistrer.ButtonText = "Enregistrer";
+            this.BTN_Stagiaire_Modifier_Enregistrer.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BTN_Stagiaire_Modifier_Enregistrer.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BTN_Stagiaire_Modifier_Enregistrer.IdleBorderThickness = 1;
+            this.BTN_Stagiaire_Modifier_Enregistrer.IdleCornerRadius = 20;
+            this.BTN_Stagiaire_Modifier_Enregistrer.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.BTN_Stagiaire_Modifier_Enregistrer.IdleForecolor = System.Drawing.Color.White;
+            this.BTN_Stagiaire_Modifier_Enregistrer.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.BTN_Stagiaire_Modifier_Enregistrer.Name = "BTN_Stagiaire_Modifier_Enregistrer";
+            this.BTN_Stagiaire_Modifier_Enregistrer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.BTN_Stagiaire_Modifier_Enregistrer.Click += new System.EventHandler(this.BTN_Stagiaire_Modifier_Enregistrer_Click);
+            // 
+            // bunifuThinButton28
+            // 
+            this.bunifuThinButton28.ActiveBorderThickness = 1;
+            this.bunifuThinButton28.ActiveCornerRadius = 20;
+            this.bunifuThinButton28.ActiveFillColor = System.Drawing.Color.Aqua;
+            this.bunifuThinButton28.ActiveForecolor = System.Drawing.Color.Black;
+            this.bunifuThinButton28.ActiveLineColor = System.Drawing.Color.Aqua;
+            this.bunifuThinButton28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
+            resources.ApplyResources(this.bunifuThinButton28, "bunifuThinButton28");
+            this.bunifuThinButton28.ButtonText = "Annuler";
+            this.bunifuThinButton28.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton28.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.bunifuThinButton28.IdleBorderThickness = 1;
+            this.bunifuThinButton28.IdleCornerRadius = 20;
+            this.bunifuThinButton28.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.bunifuThinButton28.IdleForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton28.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.bunifuThinButton28.Name = "bunifuThinButton28";
+            this.bunifuThinButton28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuImageButton5
+            // 
+            this.bunifuImageButton5.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.bunifuImageButton5, "bunifuImageButton5");
+            this.bunifuImageButton5.ImageActive = null;
+            this.bunifuImageButton5.Name = "bunifuImageButton5";
+            this.bunifuImageButton5.TabStop = false;
+            this.bunifuImageButton5.Zoom = 10;
+            // 
+            // label46
+            // 
+            resources.ApplyResources(this.label46, "label46");
+            this.label46.ForeColor = System.Drawing.Color.White;
+            this.label46.Name = "label46";
+            // 
+            // CB_Stagiaire_Modifier_Question
+            // 
+            this.CB_Stagiaire_Modifier_Question.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.CB_Stagiaire_Modifier_Question.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.CB_Stagiaire_Modifier_Question, "CB_Stagiaire_Modifier_Question");
+            this.CB_Stagiaire_Modifier_Question.ForeColor = System.Drawing.Color.White;
+            this.CB_Stagiaire_Modifier_Question.FormattingEnabled = true;
+            this.CB_Stagiaire_Modifier_Question.Items.AddRange(new object[] {
+            resources.GetString("CB_Stagiaire_Modifier_Question.Items"),
+            resources.GetString("CB_Stagiaire_Modifier_Question.Items1"),
+            resources.GetString("CB_Stagiaire_Modifier_Question.Items2")});
+            this.CB_Stagiaire_Modifier_Question.Name = "CB_Stagiaire_Modifier_Question";
+            this.CB_Stagiaire_Modifier_Question.Style = MetroFramework.MetroColorStyle.Blue;
+            this.CB_Stagiaire_Modifier_Question.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.CB_Stagiaire_Modifier_Question.UseCustomBackColor = true;
+            this.CB_Stagiaire_Modifier_Question.UseCustomForeColor = true;
+            this.CB_Stagiaire_Modifier_Question.UseSelectable = true;
+            // 
+            // CB_Stagiaire_Modifier_Annee
+            // 
+            this.CB_Stagiaire_Modifier_Annee.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.CB_Stagiaire_Modifier_Annee.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.CB_Stagiaire_Modifier_Annee, "CB_Stagiaire_Modifier_Annee");
+            this.CB_Stagiaire_Modifier_Annee.ForeColor = System.Drawing.Color.White;
+            this.CB_Stagiaire_Modifier_Annee.FormattingEnabled = true;
+            this.CB_Stagiaire_Modifier_Annee.Items.AddRange(new object[] {
+            resources.GetString("CB_Stagiaire_Modifier_Annee.Items"),
+            resources.GetString("CB_Stagiaire_Modifier_Annee.Items1"),
+            resources.GetString("CB_Stagiaire_Modifier_Annee.Items2"),
+            resources.GetString("CB_Stagiaire_Modifier_Annee.Items3"),
+            resources.GetString("CB_Stagiaire_Modifier_Annee.Items4"),
+            resources.GetString("CB_Stagiaire_Modifier_Annee.Items5"),
+            resources.GetString("CB_Stagiaire_Modifier_Annee.Items6"),
+            resources.GetString("CB_Stagiaire_Modifier_Annee.Items7"),
+            resources.GetString("CB_Stagiaire_Modifier_Annee.Items8"),
+            resources.GetString("CB_Stagiaire_Modifier_Annee.Items9")});
+            this.CB_Stagiaire_Modifier_Annee.Name = "CB_Stagiaire_Modifier_Annee";
+            this.CB_Stagiaire_Modifier_Annee.Style = MetroFramework.MetroColorStyle.Blue;
+            this.CB_Stagiaire_Modifier_Annee.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.CB_Stagiaire_Modifier_Annee.UseCustomBackColor = true;
+            this.CB_Stagiaire_Modifier_Annee.UseCustomForeColor = true;
+            this.CB_Stagiaire_Modifier_Annee.UseSelectable = true;
+            this.CB_Stagiaire_Modifier_Annee.SelectedIndexChanged += new System.EventHandler(this.CB_Stagiaire_Modifier_Annee_SelectedIndexChanged);
+            // 
+            // CB_Stagiaire_Modifier_Niveau
+            // 
+            this.CB_Stagiaire_Modifier_Niveau.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.CB_Stagiaire_Modifier_Niveau.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.CB_Stagiaire_Modifier_Niveau, "CB_Stagiaire_Modifier_Niveau");
+            this.CB_Stagiaire_Modifier_Niveau.ForeColor = System.Drawing.Color.White;
+            this.CB_Stagiaire_Modifier_Niveau.FormattingEnabled = true;
+            this.CB_Stagiaire_Modifier_Niveau.Items.AddRange(new object[] {
+            resources.GetString("CB_Stagiaire_Modifier_Niveau.Items"),
+            resources.GetString("CB_Stagiaire_Modifier_Niveau.Items1")});
+            this.CB_Stagiaire_Modifier_Niveau.Name = "CB_Stagiaire_Modifier_Niveau";
+            this.CB_Stagiaire_Modifier_Niveau.Style = MetroFramework.MetroColorStyle.Blue;
+            this.CB_Stagiaire_Modifier_Niveau.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.CB_Stagiaire_Modifier_Niveau.UseCustomBackColor = true;
+            this.CB_Stagiaire_Modifier_Niveau.UseCustomForeColor = true;
+            this.CB_Stagiaire_Modifier_Niveau.UseSelectable = true;
+            this.CB_Stagiaire_Modifier_Niveau.SelectedIndexChanged += new System.EventHandler(this.CB_Stagiaire_Modifier_Niveau_SelectedIndexChanged);
+            // 
+            // CB_Stagiaire_Modifier_Groupe
+            // 
+            this.CB_Stagiaire_Modifier_Groupe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.CB_Stagiaire_Modifier_Groupe.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.CB_Stagiaire_Modifier_Groupe, "CB_Stagiaire_Modifier_Groupe");
+            this.CB_Stagiaire_Modifier_Groupe.ForeColor = System.Drawing.Color.White;
+            this.CB_Stagiaire_Modifier_Groupe.FormattingEnabled = true;
+            this.CB_Stagiaire_Modifier_Groupe.Items.AddRange(new object[] {
+            resources.GetString("CB_Stagiaire_Modifier_Groupe.Items"),
+            resources.GetString("CB_Stagiaire_Modifier_Groupe.Items1"),
+            resources.GetString("CB_Stagiaire_Modifier_Groupe.Items2")});
+            this.CB_Stagiaire_Modifier_Groupe.Name = "CB_Stagiaire_Modifier_Groupe";
+            this.CB_Stagiaire_Modifier_Groupe.Style = MetroFramework.MetroColorStyle.Blue;
+            this.CB_Stagiaire_Modifier_Groupe.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.CB_Stagiaire_Modifier_Groupe.UseCustomBackColor = true;
+            this.CB_Stagiaire_Modifier_Groupe.UseCustomForeColor = true;
+            this.CB_Stagiaire_Modifier_Groupe.UseSelectable = true;
+            // 
+            // label47
+            // 
+            resources.ApplyResources(this.label47, "label47");
+            this.label47.ForeColor = System.Drawing.Color.White;
+            this.label47.Name = "label47";
+            // 
+            // CB_Stagiaire_Modifier_Reponse
+            // 
+            // 
+            // 
+            // 
+            this.CB_Stagiaire_Modifier_Reponse.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image10")));
+            this.CB_Stagiaire_Modifier_Reponse.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode4")));
+            this.CB_Stagiaire_Modifier_Reponse.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location10")));
+            this.CB_Stagiaire_Modifier_Reponse.CustomButton.Name = "";
+            this.CB_Stagiaire_Modifier_Reponse.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size10")));
+            this.CB_Stagiaire_Modifier_Reponse.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.CB_Stagiaire_Modifier_Reponse.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex10")));
+            this.CB_Stagiaire_Modifier_Reponse.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.CB_Stagiaire_Modifier_Reponse.CustomButton.UseSelectable = true;
+            this.CB_Stagiaire_Modifier_Reponse.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible10")));
+            this.CB_Stagiaire_Modifier_Reponse.ForeColor = System.Drawing.Color.White;
+            this.CB_Stagiaire_Modifier_Reponse.Lines = new string[0];
+            resources.ApplyResources(this.CB_Stagiaire_Modifier_Reponse, "CB_Stagiaire_Modifier_Reponse");
+            this.CB_Stagiaire_Modifier_Reponse.MaxLength = 32767;
+            this.CB_Stagiaire_Modifier_Reponse.Name = "CB_Stagiaire_Modifier_Reponse";
+            this.CB_Stagiaire_Modifier_Reponse.PasswordChar = '\0';
+            this.CB_Stagiaire_Modifier_Reponse.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.CB_Stagiaire_Modifier_Reponse.SelectedText = "";
+            this.CB_Stagiaire_Modifier_Reponse.SelectionLength = 0;
+            this.CB_Stagiaire_Modifier_Reponse.SelectionStart = 0;
+            this.CB_Stagiaire_Modifier_Reponse.UseCustomBackColor = true;
+            this.CB_Stagiaire_Modifier_Reponse.UseCustomForeColor = true;
+            this.CB_Stagiaire_Modifier_Reponse.UseSelectable = true;
+            this.CB_Stagiaire_Modifier_Reponse.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.CB_Stagiaire_Modifier_Reponse.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // label48
+            // 
+            resources.ApplyResources(this.label48, "label48");
+            this.label48.ForeColor = System.Drawing.Color.White;
+            this.label48.Name = "label48";
+            // 
+            // label49
+            // 
+            resources.ApplyResources(this.label49, "label49");
+            this.label49.ForeColor = System.Drawing.Color.White;
+            this.label49.Name = "label49";
+            // 
+            // label50
+            // 
+            resources.ApplyResources(this.label50, "label50");
+            this.label50.ForeColor = System.Drawing.Color.White;
+            this.label50.Name = "label50";
+            // 
+            // label51
+            // 
+            resources.ApplyResources(this.label51, "label51");
+            this.label51.ForeColor = System.Drawing.Color.White;
+            this.label51.Name = "label51";
+            // 
+            // label52
+            // 
+            resources.ApplyResources(this.label52, "label52");
+            this.label52.ForeColor = System.Drawing.Color.White;
+            this.label52.Name = "label52";
+            // 
+            // label53
+            // 
+            resources.ApplyResources(this.label53, "label53");
+            this.label53.ForeColor = System.Drawing.Color.White;
+            this.label53.Name = "label53";
+            // 
+            // label54
+            // 
+            resources.ApplyResources(this.label54, "label54");
+            this.label54.ForeColor = System.Drawing.Color.White;
+            this.label54.Name = "label54";
+            // 
+            // label55
+            // 
+            resources.ApplyResources(this.label55, "label55");
+            this.label55.ForeColor = System.Drawing.Color.White;
+            this.label55.Name = "label55";
+            // 
+            // label56
+            // 
+            resources.ApplyResources(this.label56, "label56");
+            this.label56.ForeColor = System.Drawing.Color.White;
+            this.label56.Name = "label56";
+            // 
+            // label57
+            // 
+            resources.ApplyResources(this.label57, "label57");
+            this.label57.ForeColor = System.Drawing.Color.White;
+            this.label57.Name = "label57";
+            // 
+            // label58
+            // 
+            resources.ApplyResources(this.label58, "label58");
+            this.label58.ForeColor = System.Drawing.Color.White;
+            this.label58.Name = "label58";
+            // 
+            // label59
+            // 
+            resources.ApplyResources(this.label59, "label59");
+            this.label59.ForeColor = System.Drawing.Color.White;
+            this.label59.Name = "label59";
+            // 
+            // CB_Stagiaire_Modifier_Specialite
+            // 
+            this.CB_Stagiaire_Modifier_Specialite.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.CB_Stagiaire_Modifier_Specialite.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.CB_Stagiaire_Modifier_Specialite, "CB_Stagiaire_Modifier_Specialite");
+            this.CB_Stagiaire_Modifier_Specialite.ForeColor = System.Drawing.Color.White;
+            this.CB_Stagiaire_Modifier_Specialite.FormattingEnabled = true;
+            this.CB_Stagiaire_Modifier_Specialite.Items.AddRange(new object[] {
+            resources.GetString("CB_Stagiaire_Modifier_Specialite.Items"),
+            resources.GetString("CB_Stagiaire_Modifier_Specialite.Items1"),
+            resources.GetString("CB_Stagiaire_Modifier_Specialite.Items2")});
+            this.CB_Stagiaire_Modifier_Specialite.Name = "CB_Stagiaire_Modifier_Specialite";
+            this.CB_Stagiaire_Modifier_Specialite.Style = MetroFramework.MetroColorStyle.Blue;
+            this.CB_Stagiaire_Modifier_Specialite.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.CB_Stagiaire_Modifier_Specialite.UseCustomBackColor = true;
+            this.CB_Stagiaire_Modifier_Specialite.UseCustomForeColor = true;
+            this.CB_Stagiaire_Modifier_Specialite.UseSelectable = true;
+            this.CB_Stagiaire_Modifier_Specialite.SelectedIndexChanged += new System.EventHandler(this.CB_Stagiaire_Modifier_Specialite_SelectedIndexChanged);
+            // 
+            // TB_Stagiaire_Modifier_Adresse
+            // 
+            // 
+            // 
+            // 
+            this.TB_Stagiaire_Modifier_Adresse.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image11")));
+            this.TB_Stagiaire_Modifier_Adresse.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode5")));
+            this.TB_Stagiaire_Modifier_Adresse.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location11")));
+            this.TB_Stagiaire_Modifier_Adresse.CustomButton.Name = "";
+            this.TB_Stagiaire_Modifier_Adresse.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size11")));
+            this.TB_Stagiaire_Modifier_Adresse.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.TB_Stagiaire_Modifier_Adresse.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex11")));
+            this.TB_Stagiaire_Modifier_Adresse.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.TB_Stagiaire_Modifier_Adresse.CustomButton.UseSelectable = true;
+            this.TB_Stagiaire_Modifier_Adresse.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible11")));
+            this.TB_Stagiaire_Modifier_Adresse.ForeColor = System.Drawing.Color.White;
+            this.TB_Stagiaire_Modifier_Adresse.Lines = new string[0];
+            resources.ApplyResources(this.TB_Stagiaire_Modifier_Adresse, "TB_Stagiaire_Modifier_Adresse");
+            this.TB_Stagiaire_Modifier_Adresse.MaxLength = 32767;
+            this.TB_Stagiaire_Modifier_Adresse.Name = "TB_Stagiaire_Modifier_Adresse";
+            this.TB_Stagiaire_Modifier_Adresse.PasswordChar = '\0';
+            this.TB_Stagiaire_Modifier_Adresse.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TB_Stagiaire_Modifier_Adresse.SelectedText = "";
+            this.TB_Stagiaire_Modifier_Adresse.SelectionLength = 0;
+            this.TB_Stagiaire_Modifier_Adresse.SelectionStart = 0;
+            this.TB_Stagiaire_Modifier_Adresse.UseCustomBackColor = true;
+            this.TB_Stagiaire_Modifier_Adresse.UseCustomForeColor = true;
+            this.TB_Stagiaire_Modifier_Adresse.UseSelectable = true;
+            this.TB_Stagiaire_Modifier_Adresse.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.TB_Stagiaire_Modifier_Adresse.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // TB_Stagiaire_Modifier_M
+            // 
+            this.TB_Stagiaire_Modifier_M.BackColor = System.Drawing.Color.Transparent;
+            this.TB_Stagiaire_Modifier_M.Checked = true;
+            resources.ApplyResources(this.TB_Stagiaire_Modifier_M, "TB_Stagiaire_Modifier_M");
+            this.TB_Stagiaire_Modifier_M.ForeColor = System.Drawing.Color.White;
+            this.TB_Stagiaire_Modifier_M.Name = "TB_Stagiaire_Modifier_M";
+            this.TB_Stagiaire_Modifier_M.TabStop = true;
+            this.TB_Stagiaire_Modifier_M.UseVisualStyleBackColor = false;
+            // 
+            // TB_Stagiaire_Modifier_Nom
+            // 
+            // 
+            // 
+            // 
+            this.TB_Stagiaire_Modifier_Nom.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image12")));
+            this.TB_Stagiaire_Modifier_Nom.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode6")));
+            this.TB_Stagiaire_Modifier_Nom.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location12")));
+            this.TB_Stagiaire_Modifier_Nom.CustomButton.Name = "";
+            this.TB_Stagiaire_Modifier_Nom.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size12")));
+            this.TB_Stagiaire_Modifier_Nom.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.TB_Stagiaire_Modifier_Nom.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex12")));
+            this.TB_Stagiaire_Modifier_Nom.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.TB_Stagiaire_Modifier_Nom.CustomButton.UseSelectable = true;
+            this.TB_Stagiaire_Modifier_Nom.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible12")));
+            this.TB_Stagiaire_Modifier_Nom.ForeColor = System.Drawing.Color.White;
+            this.TB_Stagiaire_Modifier_Nom.Lines = new string[0];
+            resources.ApplyResources(this.TB_Stagiaire_Modifier_Nom, "TB_Stagiaire_Modifier_Nom");
+            this.TB_Stagiaire_Modifier_Nom.MaxLength = 32767;
+            this.TB_Stagiaire_Modifier_Nom.Name = "TB_Stagiaire_Modifier_Nom";
+            this.TB_Stagiaire_Modifier_Nom.PasswordChar = '\0';
+            this.TB_Stagiaire_Modifier_Nom.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TB_Stagiaire_Modifier_Nom.SelectedText = "";
+            this.TB_Stagiaire_Modifier_Nom.SelectionLength = 0;
+            this.TB_Stagiaire_Modifier_Nom.SelectionStart = 0;
+            this.TB_Stagiaire_Modifier_Nom.UseCustomBackColor = true;
+            this.TB_Stagiaire_Modifier_Nom.UseCustomForeColor = true;
+            this.TB_Stagiaire_Modifier_Nom.UseSelectable = true;
+            this.TB_Stagiaire_Modifier_Nom.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.TB_Stagiaire_Modifier_Nom.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // TB_Stagiaire_Modifier_F
+            // 
+            this.TB_Stagiaire_Modifier_F.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.TB_Stagiaire_Modifier_F, "TB_Stagiaire_Modifier_F");
+            this.TB_Stagiaire_Modifier_F.ForeColor = System.Drawing.Color.White;
+            this.TB_Stagiaire_Modifier_F.Name = "TB_Stagiaire_Modifier_F";
+            this.TB_Stagiaire_Modifier_F.UseVisualStyleBackColor = false;
+            // 
+            // TB_Stagiaire_Modifier_Prenom
+            // 
+            // 
+            // 
+            // 
+            this.TB_Stagiaire_Modifier_Prenom.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image13")));
+            this.TB_Stagiaire_Modifier_Prenom.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode7")));
+            this.TB_Stagiaire_Modifier_Prenom.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location13")));
+            this.TB_Stagiaire_Modifier_Prenom.CustomButton.Name = "";
+            this.TB_Stagiaire_Modifier_Prenom.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size13")));
+            this.TB_Stagiaire_Modifier_Prenom.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.TB_Stagiaire_Modifier_Prenom.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex13")));
+            this.TB_Stagiaire_Modifier_Prenom.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.TB_Stagiaire_Modifier_Prenom.CustomButton.UseSelectable = true;
+            this.TB_Stagiaire_Modifier_Prenom.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible13")));
+            this.TB_Stagiaire_Modifier_Prenom.ForeColor = System.Drawing.Color.White;
+            this.TB_Stagiaire_Modifier_Prenom.Lines = new string[0];
+            resources.ApplyResources(this.TB_Stagiaire_Modifier_Prenom, "TB_Stagiaire_Modifier_Prenom");
+            this.TB_Stagiaire_Modifier_Prenom.MaxLength = 32767;
+            this.TB_Stagiaire_Modifier_Prenom.Name = "TB_Stagiaire_Modifier_Prenom";
+            this.TB_Stagiaire_Modifier_Prenom.PasswordChar = '\0';
+            this.TB_Stagiaire_Modifier_Prenom.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TB_Stagiaire_Modifier_Prenom.SelectedText = "";
+            this.TB_Stagiaire_Modifier_Prenom.SelectionLength = 0;
+            this.TB_Stagiaire_Modifier_Prenom.SelectionStart = 0;
+            this.TB_Stagiaire_Modifier_Prenom.UseCustomBackColor = true;
+            this.TB_Stagiaire_Modifier_Prenom.UseCustomForeColor = true;
+            this.TB_Stagiaire_Modifier_Prenom.UseSelectable = true;
+            this.TB_Stagiaire_Modifier_Prenom.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.TB_Stagiaire_Modifier_Prenom.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // TB_Stagiaire_Modifier_Email
+            // 
+            // 
+            // 
+            // 
+            this.TB_Stagiaire_Modifier_Email.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image14")));
+            this.TB_Stagiaire_Modifier_Email.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode8")));
+            this.TB_Stagiaire_Modifier_Email.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location14")));
+            this.TB_Stagiaire_Modifier_Email.CustomButton.Name = "";
+            this.TB_Stagiaire_Modifier_Email.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size14")));
+            this.TB_Stagiaire_Modifier_Email.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.TB_Stagiaire_Modifier_Email.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex14")));
+            this.TB_Stagiaire_Modifier_Email.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.TB_Stagiaire_Modifier_Email.CustomButton.UseSelectable = true;
+            this.TB_Stagiaire_Modifier_Email.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible14")));
+            this.TB_Stagiaire_Modifier_Email.ForeColor = System.Drawing.Color.White;
+            this.TB_Stagiaire_Modifier_Email.Lines = new string[0];
+            resources.ApplyResources(this.TB_Stagiaire_Modifier_Email, "TB_Stagiaire_Modifier_Email");
+            this.TB_Stagiaire_Modifier_Email.MaxLength = 32767;
+            this.TB_Stagiaire_Modifier_Email.Name = "TB_Stagiaire_Modifier_Email";
+            this.TB_Stagiaire_Modifier_Email.PasswordChar = '\0';
+            this.TB_Stagiaire_Modifier_Email.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TB_Stagiaire_Modifier_Email.SelectedText = "";
+            this.TB_Stagiaire_Modifier_Email.SelectionLength = 0;
+            this.TB_Stagiaire_Modifier_Email.SelectionStart = 0;
+            this.TB_Stagiaire_Modifier_Email.UseCustomBackColor = true;
+            this.TB_Stagiaire_Modifier_Email.UseCustomForeColor = true;
+            this.TB_Stagiaire_Modifier_Email.UseSelectable = true;
+            this.TB_Stagiaire_Modifier_Email.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.TB_Stagiaire_Modifier_Email.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // TB_Stagiaire_Modifier_Tel
+            // 
+            // 
+            // 
+            // 
+            this.TB_Stagiaire_Modifier_Tel.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image15")));
+            this.TB_Stagiaire_Modifier_Tel.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode9")));
+            this.TB_Stagiaire_Modifier_Tel.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location15")));
+            this.TB_Stagiaire_Modifier_Tel.CustomButton.Name = "";
+            this.TB_Stagiaire_Modifier_Tel.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size15")));
+            this.TB_Stagiaire_Modifier_Tel.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.TB_Stagiaire_Modifier_Tel.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex15")));
+            this.TB_Stagiaire_Modifier_Tel.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.TB_Stagiaire_Modifier_Tel.CustomButton.UseSelectable = true;
+            this.TB_Stagiaire_Modifier_Tel.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible15")));
+            this.TB_Stagiaire_Modifier_Tel.ForeColor = System.Drawing.Color.White;
+            this.TB_Stagiaire_Modifier_Tel.Lines = new string[0];
+            resources.ApplyResources(this.TB_Stagiaire_Modifier_Tel, "TB_Stagiaire_Modifier_Tel");
+            this.TB_Stagiaire_Modifier_Tel.MaxLength = 32767;
+            this.TB_Stagiaire_Modifier_Tel.Name = "TB_Stagiaire_Modifier_Tel";
+            this.TB_Stagiaire_Modifier_Tel.PasswordChar = '\0';
+            this.TB_Stagiaire_Modifier_Tel.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TB_Stagiaire_Modifier_Tel.SelectedText = "";
+            this.TB_Stagiaire_Modifier_Tel.SelectionLength = 0;
+            this.TB_Stagiaire_Modifier_Tel.SelectionStart = 0;
+            this.TB_Stagiaire_Modifier_Tel.UseCustomBackColor = true;
+            this.TB_Stagiaire_Modifier_Tel.UseCustomForeColor = true;
+            this.TB_Stagiaire_Modifier_Tel.UseSelectable = true;
+            this.TB_Stagiaire_Modifier_Tel.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.TB_Stagiaire_Modifier_Tel.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
             // tabPage5
             // 
             this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
@@ -1215,15 +1797,15 @@
             // 
             // 
             // 
-            this.TB_Stagiaire_Consulter_Sexe.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image7")));
-            this.TB_Stagiaire_Consulter_Sexe.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location7")));
+            this.TB_Stagiaire_Consulter_Sexe.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image16")));
+            this.TB_Stagiaire_Consulter_Sexe.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location16")));
             this.TB_Stagiaire_Consulter_Sexe.CustomButton.Name = "";
-            this.TB_Stagiaire_Consulter_Sexe.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size7")));
+            this.TB_Stagiaire_Consulter_Sexe.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size16")));
             this.TB_Stagiaire_Consulter_Sexe.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.TB_Stagiaire_Consulter_Sexe.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex7")));
+            this.TB_Stagiaire_Consulter_Sexe.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex16")));
             this.TB_Stagiaire_Consulter_Sexe.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.TB_Stagiaire_Consulter_Sexe.CustomButton.UseSelectable = true;
-            this.TB_Stagiaire_Consulter_Sexe.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible7")));
+            this.TB_Stagiaire_Consulter_Sexe.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible16")));
             this.TB_Stagiaire_Consulter_Sexe.ForeColor = System.Drawing.Color.White;
             this.TB_Stagiaire_Consulter_Sexe.Lines = new string[0];
             resources.ApplyResources(this.TB_Stagiaire_Consulter_Sexe, "TB_Stagiaire_Consulter_Sexe");
@@ -1246,15 +1828,15 @@
             // 
             // 
             // 
-            this.TB_Stagiaire_Consulter_Email.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image8")));
-            this.TB_Stagiaire_Consulter_Email.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location8")));
+            this.TB_Stagiaire_Consulter_Email.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image17")));
+            this.TB_Stagiaire_Consulter_Email.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location17")));
             this.TB_Stagiaire_Consulter_Email.CustomButton.Name = "";
-            this.TB_Stagiaire_Consulter_Email.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size8")));
+            this.TB_Stagiaire_Consulter_Email.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size17")));
             this.TB_Stagiaire_Consulter_Email.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.TB_Stagiaire_Consulter_Email.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex8")));
+            this.TB_Stagiaire_Consulter_Email.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex17")));
             this.TB_Stagiaire_Consulter_Email.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.TB_Stagiaire_Consulter_Email.CustomButton.UseSelectable = true;
-            this.TB_Stagiaire_Consulter_Email.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible8")));
+            this.TB_Stagiaire_Consulter_Email.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible17")));
             this.TB_Stagiaire_Consulter_Email.ForeColor = System.Drawing.Color.White;
             this.TB_Stagiaire_Consulter_Email.Lines = new string[0];
             resources.ApplyResources(this.TB_Stagiaire_Consulter_Email, "TB_Stagiaire_Consulter_Email");
@@ -1277,15 +1859,15 @@
             // 
             // 
             // 
-            this.TB_Stagiaire_Consulter_Telephone.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image9")));
-            this.TB_Stagiaire_Consulter_Telephone.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location9")));
+            this.TB_Stagiaire_Consulter_Telephone.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image18")));
+            this.TB_Stagiaire_Consulter_Telephone.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location18")));
             this.TB_Stagiaire_Consulter_Telephone.CustomButton.Name = "";
-            this.TB_Stagiaire_Consulter_Telephone.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size9")));
+            this.TB_Stagiaire_Consulter_Telephone.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size18")));
             this.TB_Stagiaire_Consulter_Telephone.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.TB_Stagiaire_Consulter_Telephone.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex9")));
+            this.TB_Stagiaire_Consulter_Telephone.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex18")));
             this.TB_Stagiaire_Consulter_Telephone.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.TB_Stagiaire_Consulter_Telephone.CustomButton.UseSelectable = true;
-            this.TB_Stagiaire_Consulter_Telephone.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible9")));
+            this.TB_Stagiaire_Consulter_Telephone.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible18")));
             this.TB_Stagiaire_Consulter_Telephone.ForeColor = System.Drawing.Color.White;
             this.TB_Stagiaire_Consulter_Telephone.Lines = new string[0];
             resources.ApplyResources(this.TB_Stagiaire_Consulter_Telephone, "TB_Stagiaire_Consulter_Telephone");
@@ -1308,15 +1890,15 @@
             // 
             // 
             // 
-            this.TB_Stagiaire_Consulter_Prenom.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image10")));
-            this.TB_Stagiaire_Consulter_Prenom.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location10")));
+            this.TB_Stagiaire_Consulter_Prenom.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image19")));
+            this.TB_Stagiaire_Consulter_Prenom.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location19")));
             this.TB_Stagiaire_Consulter_Prenom.CustomButton.Name = "";
-            this.TB_Stagiaire_Consulter_Prenom.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size10")));
+            this.TB_Stagiaire_Consulter_Prenom.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size19")));
             this.TB_Stagiaire_Consulter_Prenom.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.TB_Stagiaire_Consulter_Prenom.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex10")));
+            this.TB_Stagiaire_Consulter_Prenom.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex19")));
             this.TB_Stagiaire_Consulter_Prenom.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.TB_Stagiaire_Consulter_Prenom.CustomButton.UseSelectable = true;
-            this.TB_Stagiaire_Consulter_Prenom.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible10")));
+            this.TB_Stagiaire_Consulter_Prenom.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible19")));
             this.TB_Stagiaire_Consulter_Prenom.ForeColor = System.Drawing.Color.White;
             this.TB_Stagiaire_Consulter_Prenom.Lines = new string[0];
             resources.ApplyResources(this.TB_Stagiaire_Consulter_Prenom, "TB_Stagiaire_Consulter_Prenom");
@@ -1339,15 +1921,15 @@
             // 
             // 
             // 
-            this.TB_Stagiaire_Consulter_Nom.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image11")));
-            this.TB_Stagiaire_Consulter_Nom.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location11")));
+            this.TB_Stagiaire_Consulter_Nom.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image20")));
+            this.TB_Stagiaire_Consulter_Nom.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location20")));
             this.TB_Stagiaire_Consulter_Nom.CustomButton.Name = "";
-            this.TB_Stagiaire_Consulter_Nom.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size11")));
+            this.TB_Stagiaire_Consulter_Nom.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size20")));
             this.TB_Stagiaire_Consulter_Nom.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.TB_Stagiaire_Consulter_Nom.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex11")));
+            this.TB_Stagiaire_Consulter_Nom.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex20")));
             this.TB_Stagiaire_Consulter_Nom.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.TB_Stagiaire_Consulter_Nom.CustomButton.UseSelectable = true;
-            this.TB_Stagiaire_Consulter_Nom.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible11")));
+            this.TB_Stagiaire_Consulter_Nom.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible20")));
             this.TB_Stagiaire_Consulter_Nom.ForeColor = System.Drawing.Color.White;
             this.TB_Stagiaire_Consulter_Nom.Lines = new string[0];
             resources.ApplyResources(this.TB_Stagiaire_Consulter_Nom, "TB_Stagiaire_Consulter_Nom");
@@ -1370,15 +1952,15 @@
             // 
             // 
             // 
-            this.TB_Stagiaire_Consulter_DateNaissance.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image12")));
-            this.TB_Stagiaire_Consulter_DateNaissance.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location12")));
+            this.TB_Stagiaire_Consulter_DateNaissance.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image21")));
+            this.TB_Stagiaire_Consulter_DateNaissance.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location21")));
             this.TB_Stagiaire_Consulter_DateNaissance.CustomButton.Name = "";
-            this.TB_Stagiaire_Consulter_DateNaissance.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size12")));
+            this.TB_Stagiaire_Consulter_DateNaissance.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size21")));
             this.TB_Stagiaire_Consulter_DateNaissance.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.TB_Stagiaire_Consulter_DateNaissance.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex12")));
+            this.TB_Stagiaire_Consulter_DateNaissance.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex21")));
             this.TB_Stagiaire_Consulter_DateNaissance.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.TB_Stagiaire_Consulter_DateNaissance.CustomButton.UseSelectable = true;
-            this.TB_Stagiaire_Consulter_DateNaissance.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible12")));
+            this.TB_Stagiaire_Consulter_DateNaissance.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible21")));
             this.TB_Stagiaire_Consulter_DateNaissance.ForeColor = System.Drawing.Color.White;
             this.TB_Stagiaire_Consulter_DateNaissance.Lines = new string[0];
             resources.ApplyResources(this.TB_Stagiaire_Consulter_DateNaissance, "TB_Stagiaire_Consulter_DateNaissance");
@@ -1401,15 +1983,15 @@
             // 
             // 
             // 
-            this.TB_Stagiaire_Consulter_Reponse.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image13")));
-            this.TB_Stagiaire_Consulter_Reponse.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location13")));
+            this.TB_Stagiaire_Consulter_Reponse.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image22")));
+            this.TB_Stagiaire_Consulter_Reponse.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location22")));
             this.TB_Stagiaire_Consulter_Reponse.CustomButton.Name = "";
-            this.TB_Stagiaire_Consulter_Reponse.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size13")));
+            this.TB_Stagiaire_Consulter_Reponse.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size22")));
             this.TB_Stagiaire_Consulter_Reponse.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.TB_Stagiaire_Consulter_Reponse.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex13")));
+            this.TB_Stagiaire_Consulter_Reponse.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex22")));
             this.TB_Stagiaire_Consulter_Reponse.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.TB_Stagiaire_Consulter_Reponse.CustomButton.UseSelectable = true;
-            this.TB_Stagiaire_Consulter_Reponse.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible13")));
+            this.TB_Stagiaire_Consulter_Reponse.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible22")));
             this.TB_Stagiaire_Consulter_Reponse.ForeColor = System.Drawing.Color.White;
             this.TB_Stagiaire_Consulter_Reponse.Lines = new string[0];
             resources.ApplyResources(this.TB_Stagiaire_Consulter_Reponse, "TB_Stagiaire_Consulter_Reponse");
@@ -1432,15 +2014,15 @@
             // 
             // 
             // 
-            this.TB_Stagiaire_Consulter_Question.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image14")));
-            this.TB_Stagiaire_Consulter_Question.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location14")));
+            this.TB_Stagiaire_Consulter_Question.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image23")));
+            this.TB_Stagiaire_Consulter_Question.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location23")));
             this.TB_Stagiaire_Consulter_Question.CustomButton.Name = "";
-            this.TB_Stagiaire_Consulter_Question.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size14")));
+            this.TB_Stagiaire_Consulter_Question.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size23")));
             this.TB_Stagiaire_Consulter_Question.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.TB_Stagiaire_Consulter_Question.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex14")));
+            this.TB_Stagiaire_Consulter_Question.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex23")));
             this.TB_Stagiaire_Consulter_Question.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.TB_Stagiaire_Consulter_Question.CustomButton.UseSelectable = true;
-            this.TB_Stagiaire_Consulter_Question.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible14")));
+            this.TB_Stagiaire_Consulter_Question.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible23")));
             this.TB_Stagiaire_Consulter_Question.ForeColor = System.Drawing.Color.White;
             this.TB_Stagiaire_Consulter_Question.Lines = new string[0];
             resources.ApplyResources(this.TB_Stagiaire_Consulter_Question, "TB_Stagiaire_Consulter_Question");
@@ -1463,15 +2045,15 @@
             // 
             // 
             // 
-            this.TB_Stagiaire_Consulter_Groupe.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image15")));
-            this.TB_Stagiaire_Consulter_Groupe.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location15")));
+            this.TB_Stagiaire_Consulter_Groupe.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image24")));
+            this.TB_Stagiaire_Consulter_Groupe.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location24")));
             this.TB_Stagiaire_Consulter_Groupe.CustomButton.Name = "";
-            this.TB_Stagiaire_Consulter_Groupe.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size15")));
+            this.TB_Stagiaire_Consulter_Groupe.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size24")));
             this.TB_Stagiaire_Consulter_Groupe.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.TB_Stagiaire_Consulter_Groupe.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex15")));
+            this.TB_Stagiaire_Consulter_Groupe.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex24")));
             this.TB_Stagiaire_Consulter_Groupe.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.TB_Stagiaire_Consulter_Groupe.CustomButton.UseSelectable = true;
-            this.TB_Stagiaire_Consulter_Groupe.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible15")));
+            this.TB_Stagiaire_Consulter_Groupe.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible24")));
             this.TB_Stagiaire_Consulter_Groupe.ForeColor = System.Drawing.Color.White;
             this.TB_Stagiaire_Consulter_Groupe.Lines = new string[0];
             resources.ApplyResources(this.TB_Stagiaire_Consulter_Groupe, "TB_Stagiaire_Consulter_Groupe");
@@ -1494,15 +2076,15 @@
             // 
             // 
             // 
-            this.TB_Stagiaire_Consulter_Specialite.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image16")));
-            this.TB_Stagiaire_Consulter_Specialite.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location16")));
+            this.TB_Stagiaire_Consulter_Specialite.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image25")));
+            this.TB_Stagiaire_Consulter_Specialite.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location25")));
             this.TB_Stagiaire_Consulter_Specialite.CustomButton.Name = "";
-            this.TB_Stagiaire_Consulter_Specialite.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size16")));
+            this.TB_Stagiaire_Consulter_Specialite.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size25")));
             this.TB_Stagiaire_Consulter_Specialite.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.TB_Stagiaire_Consulter_Specialite.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex16")));
+            this.TB_Stagiaire_Consulter_Specialite.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex25")));
             this.TB_Stagiaire_Consulter_Specialite.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.TB_Stagiaire_Consulter_Specialite.CustomButton.UseSelectable = true;
-            this.TB_Stagiaire_Consulter_Specialite.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible16")));
+            this.TB_Stagiaire_Consulter_Specialite.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible25")));
             this.TB_Stagiaire_Consulter_Specialite.ForeColor = System.Drawing.Color.White;
             this.TB_Stagiaire_Consulter_Specialite.Lines = new string[0];
             resources.ApplyResources(this.TB_Stagiaire_Consulter_Specialite, "TB_Stagiaire_Consulter_Specialite");
@@ -1525,15 +2107,15 @@
             // 
             // 
             // 
-            this.TB_Stagiaire_Consulter_DateInscription.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image17")));
-            this.TB_Stagiaire_Consulter_DateInscription.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location17")));
+            this.TB_Stagiaire_Consulter_DateInscription.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image26")));
+            this.TB_Stagiaire_Consulter_DateInscription.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location26")));
             this.TB_Stagiaire_Consulter_DateInscription.CustomButton.Name = "";
-            this.TB_Stagiaire_Consulter_DateInscription.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size17")));
+            this.TB_Stagiaire_Consulter_DateInscription.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size26")));
             this.TB_Stagiaire_Consulter_DateInscription.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.TB_Stagiaire_Consulter_DateInscription.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex17")));
+            this.TB_Stagiaire_Consulter_DateInscription.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex26")));
             this.TB_Stagiaire_Consulter_DateInscription.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.TB_Stagiaire_Consulter_DateInscription.CustomButton.UseSelectable = true;
-            this.TB_Stagiaire_Consulter_DateInscription.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible17")));
+            this.TB_Stagiaire_Consulter_DateInscription.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible26")));
             this.TB_Stagiaire_Consulter_DateInscription.ForeColor = System.Drawing.Color.White;
             this.TB_Stagiaire_Consulter_DateInscription.Lines = new string[0];
             resources.ApplyResources(this.TB_Stagiaire_Consulter_DateInscription, "TB_Stagiaire_Consulter_DateInscription");
@@ -1556,15 +2138,15 @@
             // 
             // 
             // 
-            this.TB_Stagiaire_Consulter_Adresse.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image18")));
-            this.TB_Stagiaire_Consulter_Adresse.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location18")));
+            this.TB_Stagiaire_Consulter_Adresse.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image27")));
+            this.TB_Stagiaire_Consulter_Adresse.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location27")));
             this.TB_Stagiaire_Consulter_Adresse.CustomButton.Name = "";
-            this.TB_Stagiaire_Consulter_Adresse.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size18")));
+            this.TB_Stagiaire_Consulter_Adresse.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size27")));
             this.TB_Stagiaire_Consulter_Adresse.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.TB_Stagiaire_Consulter_Adresse.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex18")));
+            this.TB_Stagiaire_Consulter_Adresse.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex27")));
             this.TB_Stagiaire_Consulter_Adresse.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.TB_Stagiaire_Consulter_Adresse.CustomButton.UseSelectable = true;
-            this.TB_Stagiaire_Consulter_Adresse.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible18")));
+            this.TB_Stagiaire_Consulter_Adresse.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible27")));
             this.TB_Stagiaire_Consulter_Adresse.ForeColor = System.Drawing.Color.White;
             this.TB_Stagiaire_Consulter_Adresse.Lines = new string[0];
             resources.ApplyResources(this.TB_Stagiaire_Consulter_Adresse, "TB_Stagiaire_Consulter_Adresse");
@@ -1593,15 +2175,15 @@
             // 
             // 
             // 
-            this.TB_Stagiaire_Consulter_Id.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image19")));
-            this.TB_Stagiaire_Consulter_Id.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location19")));
+            this.TB_Stagiaire_Consulter_Id.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image28")));
+            this.TB_Stagiaire_Consulter_Id.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location28")));
             this.TB_Stagiaire_Consulter_Id.CustomButton.Name = "";
-            this.TB_Stagiaire_Consulter_Id.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size19")));
+            this.TB_Stagiaire_Consulter_Id.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size28")));
             this.TB_Stagiaire_Consulter_Id.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.TB_Stagiaire_Consulter_Id.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex19")));
+            this.TB_Stagiaire_Consulter_Id.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex28")));
             this.TB_Stagiaire_Consulter_Id.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.TB_Stagiaire_Consulter_Id.CustomButton.UseSelectable = true;
-            this.TB_Stagiaire_Consulter_Id.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible19")));
+            this.TB_Stagiaire_Consulter_Id.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible28")));
             this.TB_Stagiaire_Consulter_Id.ForeColor = System.Drawing.Color.White;
             this.TB_Stagiaire_Consulter_Id.Lines = new string[0];
             resources.ApplyResources(this.TB_Stagiaire_Consulter_Id, "TB_Stagiaire_Consulter_Id");
@@ -1636,15 +2218,15 @@
             // 
             // 
             // 
-            this.TB_Stagiaiare_Consulter_Cin.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image20")));
-            this.TB_Stagiaiare_Consulter_Cin.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location20")));
+            this.TB_Stagiaiare_Consulter_Cin.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image29")));
+            this.TB_Stagiaiare_Consulter_Cin.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location29")));
             this.TB_Stagiaiare_Consulter_Cin.CustomButton.Name = "";
-            this.TB_Stagiaiare_Consulter_Cin.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size20")));
+            this.TB_Stagiaiare_Consulter_Cin.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size29")));
             this.TB_Stagiaiare_Consulter_Cin.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.TB_Stagiaiare_Consulter_Cin.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex20")));
+            this.TB_Stagiaiare_Consulter_Cin.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex29")));
             this.TB_Stagiaiare_Consulter_Cin.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.TB_Stagiaiare_Consulter_Cin.CustomButton.UseSelectable = true;
-            this.TB_Stagiaiare_Consulter_Cin.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible20")));
+            this.TB_Stagiaiare_Consulter_Cin.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible29")));
             this.TB_Stagiaiare_Consulter_Cin.ForeColor = System.Drawing.Color.White;
             this.TB_Stagiaiare_Consulter_Cin.Lines = new string[0];
             resources.ApplyResources(this.TB_Stagiaiare_Consulter_Cin, "TB_Stagiaiare_Consulter_Cin");
@@ -1811,6 +2393,10 @@
             this.panel11.Controls.Add(this.LBL_Stagiaire_Prenom_Clicked);
             this.panel11.Controls.Add(this.LBL_Stagiaire_Nom_Clicked);
             this.panel11.Controls.Add(this.LBL_Stagiaire_Id_Clicked);
+            this.panel11.Controls.Add(this.label63);
+            this.panel11.Controls.Add(this.label62);
+            this.panel11.Controls.Add(this.label61);
+            this.panel11.Controls.Add(this.label60);
             this.panel11.Controls.Add(this.LBL_Stagiaire_Cin_Clicked);
             resources.ApplyResources(this.panel11, "panel11");
             this.panel11.Name = "panel11";
@@ -1900,6 +2486,7 @@
             this.BTN_Stagiaire_Modifier.LabelPosition = 24;
             this.BTN_Stagiaire_Modifier.LabelText = "Modifier";
             this.BTN_Stagiaire_Modifier.Name = "BTN_Stagiaire_Modifier";
+            this.BTN_Stagiaire_Modifier.Click += new System.EventHandler(this.BTN_Stagiaire_Modifier_Click);
             // 
             // BTN_Stagiaire_Ajouter
             // 
@@ -1954,30 +2541,30 @@
             // bunifuCustomDataGrid1
             // 
             this.bunifuCustomDataGrid1.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuCustomDataGrid1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bunifuCustomDataGrid1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle37;
             this.bunifuCustomDataGrid1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
             this.bunifuCustomDataGrid1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.bunifuCustomDataGrid1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.SeaGreen;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuCustomDataGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle38.BackColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle38.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle38.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle38.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle38.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle38.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuCustomDataGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle38;
             this.bunifuCustomDataGrid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.bunifuCustomDataGrid1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewCheckBoxColumn1});
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.bunifuCustomDataGrid1.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle39.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle39.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle39.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle39.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle39.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle39.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.bunifuCustomDataGrid1.DefaultCellStyle = dataGridViewCellStyle39;
             resources.ApplyResources(this.bunifuCustomDataGrid1, "bunifuCustomDataGrid1");
             this.bunifuCustomDataGrid1.DoubleBuffered = true;
             this.bunifuCustomDataGrid1.EnableHeadersVisualStyles = false;
@@ -1986,14 +2573,14 @@
             this.bunifuCustomDataGrid1.HeaderForeColor = System.Drawing.Color.Black;
             this.bunifuCustomDataGrid1.Name = "bunifuCustomDataGrid1";
             this.bunifuCustomDataGrid1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuCustomDataGrid1.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle40.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle40.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle40.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle40.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle40.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle40.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuCustomDataGrid1.RowHeadersDefaultCellStyle = dataGridViewCellStyle40;
             // 
             // dataGridViewCheckBoxColumn1
             // 
@@ -2257,19 +2844,18 @@
             // 
             // 
             // 
-            this.metroTextBox1.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image21")));
-            this.metroTextBox1.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location21")));
+            this.metroTextBox1.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image30")));
+            this.metroTextBox1.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location30")));
             this.metroTextBox1.CustomButton.Name = "";
-            this.metroTextBox1.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size21")));
+            this.metroTextBox1.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size30")));
             this.metroTextBox1.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox1.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex21")));
+            this.metroTextBox1.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex30")));
             this.metroTextBox1.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.metroTextBox1.CustomButton.UseSelectable = true;
-            this.metroTextBox1.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible21")));
+            this.metroTextBox1.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible30")));
             resources.ApplyResources(this.metroTextBox1, "metroTextBox1");
             this.metroTextBox1.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox1.Lines = new string[] {
-        "S7618"};
+            this.metroTextBox1.Lines = new string[0];
             this.metroTextBox1.MaxLength = 32767;
             this.metroTextBox1.Name = "metroTextBox1";
             this.metroTextBox1.PasswordChar = '\0';
@@ -2288,19 +2874,18 @@
             // 
             // 
             // 
-            this.metroTextBox2.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image22")));
-            this.metroTextBox2.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location22")));
+            this.metroTextBox2.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image31")));
+            this.metroTextBox2.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location31")));
             this.metroTextBox2.CustomButton.Name = "";
-            this.metroTextBox2.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size22")));
+            this.metroTextBox2.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size31")));
             this.metroTextBox2.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox2.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex22")));
+            this.metroTextBox2.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex31")));
             this.metroTextBox2.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.metroTextBox2.CustomButton.UseSelectable = true;
-            this.metroTextBox2.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible22")));
+            this.metroTextBox2.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible31")));
             resources.ApplyResources(this.metroTextBox2, "metroTextBox2");
             this.metroTextBox2.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox2.Lines = new string[] {
-        "S7618"};
+            this.metroTextBox2.Lines = new string[0];
             this.metroTextBox2.MaxLength = 32767;
             this.metroTextBox2.Name = "metroTextBox2";
             this.metroTextBox2.PasswordChar = '\0';
@@ -2319,19 +2904,18 @@
             // 
             // 
             // 
-            this.metroTextBox3.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image23")));
-            this.metroTextBox3.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location23")));
+            this.metroTextBox3.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image32")));
+            this.metroTextBox3.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location32")));
             this.metroTextBox3.CustomButton.Name = "";
-            this.metroTextBox3.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size23")));
+            this.metroTextBox3.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size32")));
             this.metroTextBox3.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox3.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex23")));
+            this.metroTextBox3.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex32")));
             this.metroTextBox3.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.metroTextBox3.CustomButton.UseSelectable = true;
-            this.metroTextBox3.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible23")));
+            this.metroTextBox3.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible32")));
             resources.ApplyResources(this.metroTextBox3, "metroTextBox3");
             this.metroTextBox3.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox3.Lines = new string[] {
-        "S7618"};
+            this.metroTextBox3.Lines = new string[0];
             this.metroTextBox3.MaxLength = 32767;
             this.metroTextBox3.Name = "metroTextBox3";
             this.metroTextBox3.PasswordChar = '\0';
@@ -2350,19 +2934,18 @@
             // 
             // 
             // 
-            this.metroTextBox4.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image24")));
-            this.metroTextBox4.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location24")));
+            this.metroTextBox4.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image33")));
+            this.metroTextBox4.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location33")));
             this.metroTextBox4.CustomButton.Name = "";
-            this.metroTextBox4.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size24")));
+            this.metroTextBox4.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size33")));
             this.metroTextBox4.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox4.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex24")));
+            this.metroTextBox4.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex33")));
             this.metroTextBox4.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.metroTextBox4.CustomButton.UseSelectable = true;
-            this.metroTextBox4.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible24")));
+            this.metroTextBox4.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible33")));
             resources.ApplyResources(this.metroTextBox4, "metroTextBox4");
             this.metroTextBox4.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox4.Lines = new string[] {
-        "S7618"};
+            this.metroTextBox4.Lines = new string[0];
             this.metroTextBox4.MaxLength = 32767;
             this.metroTextBox4.Name = "metroTextBox4";
             this.metroTextBox4.PasswordChar = '\0';
@@ -2381,19 +2964,18 @@
             // 
             // 
             // 
-            this.metroTextBox5.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image25")));
-            this.metroTextBox5.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location25")));
+            this.metroTextBox5.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image34")));
+            this.metroTextBox5.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location34")));
             this.metroTextBox5.CustomButton.Name = "";
-            this.metroTextBox5.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size25")));
+            this.metroTextBox5.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size34")));
             this.metroTextBox5.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox5.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex25")));
+            this.metroTextBox5.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex34")));
             this.metroTextBox5.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.metroTextBox5.CustomButton.UseSelectable = true;
-            this.metroTextBox5.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible25")));
+            this.metroTextBox5.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible34")));
             resources.ApplyResources(this.metroTextBox5, "metroTextBox5");
             this.metroTextBox5.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox5.Lines = new string[] {
-        "S7618"};
+            this.metroTextBox5.Lines = new string[0];
             this.metroTextBox5.MaxLength = 32767;
             this.metroTextBox5.Name = "metroTextBox5";
             this.metroTextBox5.PasswordChar = '\0';
@@ -2412,19 +2994,18 @@
             // 
             // 
             // 
-            this.metroTextBox6.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image26")));
-            this.metroTextBox6.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location26")));
+            this.metroTextBox6.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image35")));
+            this.metroTextBox6.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location35")));
             this.metroTextBox6.CustomButton.Name = "";
-            this.metroTextBox6.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size26")));
+            this.metroTextBox6.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size35")));
             this.metroTextBox6.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox6.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex26")));
+            this.metroTextBox6.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex35")));
             this.metroTextBox6.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.metroTextBox6.CustomButton.UseSelectable = true;
-            this.metroTextBox6.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible26")));
+            this.metroTextBox6.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible35")));
             resources.ApplyResources(this.metroTextBox6, "metroTextBox6");
             this.metroTextBox6.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox6.Lines = new string[] {
-        "S7618"};
+            this.metroTextBox6.Lines = new string[0];
             this.metroTextBox6.MaxLength = 32767;
             this.metroTextBox6.Name = "metroTextBox6";
             this.metroTextBox6.PasswordChar = '\0';
@@ -2443,19 +3024,18 @@
             // 
             // 
             // 
-            this.metroTextBox7.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image27")));
-            this.metroTextBox7.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location27")));
+            this.metroTextBox7.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image36")));
+            this.metroTextBox7.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location36")));
             this.metroTextBox7.CustomButton.Name = "";
-            this.metroTextBox7.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size27")));
+            this.metroTextBox7.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size36")));
             this.metroTextBox7.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox7.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex27")));
+            this.metroTextBox7.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex36")));
             this.metroTextBox7.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.metroTextBox7.CustomButton.UseSelectable = true;
-            this.metroTextBox7.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible27")));
+            this.metroTextBox7.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible36")));
             resources.ApplyResources(this.metroTextBox7, "metroTextBox7");
             this.metroTextBox7.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox7.Lines = new string[] {
-        "S7618"};
+            this.metroTextBox7.Lines = new string[0];
             this.metroTextBox7.MaxLength = 32767;
             this.metroTextBox7.Name = "metroTextBox7";
             this.metroTextBox7.PasswordChar = '\0';
@@ -2474,19 +3054,18 @@
             // 
             // 
             // 
-            this.metroTextBox8.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image28")));
-            this.metroTextBox8.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location28")));
+            this.metroTextBox8.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image37")));
+            this.metroTextBox8.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location37")));
             this.metroTextBox8.CustomButton.Name = "";
-            this.metroTextBox8.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size28")));
+            this.metroTextBox8.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size37")));
             this.metroTextBox8.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox8.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex28")));
+            this.metroTextBox8.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex37")));
             this.metroTextBox8.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.metroTextBox8.CustomButton.UseSelectable = true;
-            this.metroTextBox8.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible28")));
+            this.metroTextBox8.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible37")));
             resources.ApplyResources(this.metroTextBox8, "metroTextBox8");
             this.metroTextBox8.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox8.Lines = new string[] {
-        "S7618"};
+            this.metroTextBox8.Lines = new string[0];
             this.metroTextBox8.MaxLength = 32767;
             this.metroTextBox8.Name = "metroTextBox8";
             this.metroTextBox8.PasswordChar = '\0';
@@ -2505,19 +3084,18 @@
             // 
             // 
             // 
-            this.metroTextBox9.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image29")));
-            this.metroTextBox9.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location29")));
+            this.metroTextBox9.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image38")));
+            this.metroTextBox9.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location38")));
             this.metroTextBox9.CustomButton.Name = "";
-            this.metroTextBox9.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size29")));
+            this.metroTextBox9.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size38")));
             this.metroTextBox9.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox9.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex29")));
+            this.metroTextBox9.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex38")));
             this.metroTextBox9.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.metroTextBox9.CustomButton.UseSelectable = true;
-            this.metroTextBox9.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible29")));
+            this.metroTextBox9.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible38")));
             resources.ApplyResources(this.metroTextBox9, "metroTextBox9");
             this.metroTextBox9.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox9.Lines = new string[] {
-        "S7618"};
+            this.metroTextBox9.Lines = new string[0];
             this.metroTextBox9.MaxLength = 32767;
             this.metroTextBox9.Name = "metroTextBox9";
             this.metroTextBox9.PasswordChar = '\0';
@@ -2536,19 +3114,18 @@
             // 
             // 
             // 
-            this.metroTextBox10.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image30")));
-            this.metroTextBox10.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location30")));
+            this.metroTextBox10.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image39")));
+            this.metroTextBox10.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location39")));
             this.metroTextBox10.CustomButton.Name = "";
-            this.metroTextBox10.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size30")));
+            this.metroTextBox10.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size39")));
             this.metroTextBox10.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox10.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex30")));
+            this.metroTextBox10.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex39")));
             this.metroTextBox10.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.metroTextBox10.CustomButton.UseSelectable = true;
-            this.metroTextBox10.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible30")));
+            this.metroTextBox10.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible39")));
             resources.ApplyResources(this.metroTextBox10, "metroTextBox10");
             this.metroTextBox10.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox10.Lines = new string[] {
-        "S7618"};
+            this.metroTextBox10.Lines = new string[0];
             this.metroTextBox10.MaxLength = 32767;
             this.metroTextBox10.Name = "metroTextBox10";
             this.metroTextBox10.PasswordChar = '\0';
@@ -2567,19 +3144,18 @@
             // 
             // 
             // 
-            this.metroTextBox11.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image31")));
-            this.metroTextBox11.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location31")));
+            this.metroTextBox11.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image40")));
+            this.metroTextBox11.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location40")));
             this.metroTextBox11.CustomButton.Name = "";
-            this.metroTextBox11.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size31")));
+            this.metroTextBox11.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size40")));
             this.metroTextBox11.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox11.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex31")));
+            this.metroTextBox11.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex40")));
             this.metroTextBox11.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.metroTextBox11.CustomButton.UseSelectable = true;
-            this.metroTextBox11.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible31")));
+            this.metroTextBox11.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible40")));
             resources.ApplyResources(this.metroTextBox11, "metroTextBox11");
             this.metroTextBox11.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox11.Lines = new string[] {
-        "S7618"};
+            this.metroTextBox11.Lines = new string[0];
             this.metroTextBox11.MaxLength = 32767;
             this.metroTextBox11.Name = "metroTextBox11";
             this.metroTextBox11.PasswordChar = '\0';
@@ -2616,19 +3192,18 @@
             // 
             // 
             // 
-            this.metroTextBox13.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image32")));
-            this.metroTextBox13.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location32")));
+            this.metroTextBox13.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image41")));
+            this.metroTextBox13.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location41")));
             this.metroTextBox13.CustomButton.Name = "";
-            this.metroTextBox13.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size32")));
+            this.metroTextBox13.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size41")));
             this.metroTextBox13.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox13.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex32")));
+            this.metroTextBox13.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex41")));
             this.metroTextBox13.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.metroTextBox13.CustomButton.UseSelectable = true;
-            this.metroTextBox13.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible32")));
+            this.metroTextBox13.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible41")));
             resources.ApplyResources(this.metroTextBox13, "metroTextBox13");
             this.metroTextBox13.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox13.Lines = new string[] {
-        "S7618"};
+            this.metroTextBox13.Lines = new string[0];
             this.metroTextBox13.MaxLength = 32767;
             this.metroTextBox13.Name = "metroTextBox13";
             this.metroTextBox13.PasswordChar = '\0';
@@ -3232,6 +3807,107 @@
             this.bunifuDragControl1.TargetControl = this.panel1;
             this.bunifuDragControl1.Vertical = true;
             // 
+            // label60
+            // 
+            resources.ApplyResources(this.label60, "label60");
+            this.label60.ForeColor = System.Drawing.Color.White;
+            this.label60.Name = "label60";
+            // 
+            // label61
+            // 
+            resources.ApplyResources(this.label61, "label61");
+            this.label61.ForeColor = System.Drawing.Color.White;
+            this.label61.Name = "label61";
+            // 
+            // label62
+            // 
+            resources.ApplyResources(this.label62, "label62");
+            this.label62.ForeColor = System.Drawing.Color.White;
+            this.label62.Name = "label62";
+            this.label62.Click += new System.EventHandler(this.label62_Click);
+            // 
+            // label63
+            // 
+            resources.ApplyResources(this.label63, "label63");
+            this.label63.ForeColor = System.Drawing.Color.White;
+            this.label63.Name = "label63";
+            // 
+            // label64
+            // 
+            resources.ApplyResources(this.label64, "label64");
+            this.label64.ForeColor = System.Drawing.Color.White;
+            this.label64.Name = "label64";
+            // 
+            // TB_Stagiaire_Modifier_IdStagiaire
+            // 
+            // 
+            // 
+            // 
+            this.TB_Stagiaire_Modifier_IdStagiaire.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image8")));
+            this.TB_Stagiaire_Modifier_IdStagiaire.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode2")));
+            this.TB_Stagiaire_Modifier_IdStagiaire.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location8")));
+            this.TB_Stagiaire_Modifier_IdStagiaire.CustomButton.Name = "";
+            this.TB_Stagiaire_Modifier_IdStagiaire.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size8")));
+            this.TB_Stagiaire_Modifier_IdStagiaire.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.TB_Stagiaire_Modifier_IdStagiaire.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex8")));
+            this.TB_Stagiaire_Modifier_IdStagiaire.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.TB_Stagiaire_Modifier_IdStagiaire.CustomButton.UseSelectable = true;
+            this.TB_Stagiaire_Modifier_IdStagiaire.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible8")));
+            this.TB_Stagiaire_Modifier_IdStagiaire.ForeColor = System.Drawing.Color.White;
+            this.TB_Stagiaire_Modifier_IdStagiaire.Lines = new string[0];
+            resources.ApplyResources(this.TB_Stagiaire_Modifier_IdStagiaire, "TB_Stagiaire_Modifier_IdStagiaire");
+            this.TB_Stagiaire_Modifier_IdStagiaire.MaxLength = 32767;
+            this.TB_Stagiaire_Modifier_IdStagiaire.Name = "TB_Stagiaire_Modifier_IdStagiaire";
+            this.TB_Stagiaire_Modifier_IdStagiaire.PasswordChar = '\0';
+            this.TB_Stagiaire_Modifier_IdStagiaire.ReadOnly = true;
+            this.TB_Stagiaire_Modifier_IdStagiaire.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TB_Stagiaire_Modifier_IdStagiaire.SelectedText = "";
+            this.TB_Stagiaire_Modifier_IdStagiaire.SelectionLength = 0;
+            this.TB_Stagiaire_Modifier_IdStagiaire.SelectionStart = 0;
+            this.TB_Stagiaire_Modifier_IdStagiaire.UseCustomBackColor = true;
+            this.TB_Stagiaire_Modifier_IdStagiaire.UseCustomForeColor = true;
+            this.TB_Stagiaire_Modifier_IdStagiaire.UseSelectable = true;
+            this.TB_Stagiaire_Modifier_IdStagiaire.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.TB_Stagiaire_Modifier_IdStagiaire.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // TB_Stagiaire_Modifier_DateInsciption
+            // 
+            // 
+            // 
+            // 
+            this.TB_Stagiaire_Modifier_DateInsciption.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image7")));
+            this.TB_Stagiaire_Modifier_DateInsciption.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode1")));
+            this.TB_Stagiaire_Modifier_DateInsciption.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location7")));
+            this.TB_Stagiaire_Modifier_DateInsciption.CustomButton.Name = "";
+            this.TB_Stagiaire_Modifier_DateInsciption.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size7")));
+            this.TB_Stagiaire_Modifier_DateInsciption.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.TB_Stagiaire_Modifier_DateInsciption.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex7")));
+            this.TB_Stagiaire_Modifier_DateInsciption.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.TB_Stagiaire_Modifier_DateInsciption.CustomButton.UseSelectable = true;
+            this.TB_Stagiaire_Modifier_DateInsciption.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible7")));
+            this.TB_Stagiaire_Modifier_DateInsciption.ForeColor = System.Drawing.Color.White;
+            this.TB_Stagiaire_Modifier_DateInsciption.Lines = new string[0];
+            resources.ApplyResources(this.TB_Stagiaire_Modifier_DateInsciption, "TB_Stagiaire_Modifier_DateInsciption");
+            this.TB_Stagiaire_Modifier_DateInsciption.MaxLength = 32767;
+            this.TB_Stagiaire_Modifier_DateInsciption.Name = "TB_Stagiaire_Modifier_DateInsciption";
+            this.TB_Stagiaire_Modifier_DateInsciption.PasswordChar = '\0';
+            this.TB_Stagiaire_Modifier_DateInsciption.ReadOnly = true;
+            this.TB_Stagiaire_Modifier_DateInsciption.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TB_Stagiaire_Modifier_DateInsciption.SelectedText = "";
+            this.TB_Stagiaire_Modifier_DateInsciption.SelectionLength = 0;
+            this.TB_Stagiaire_Modifier_DateInsciption.SelectionStart = 0;
+            this.TB_Stagiaire_Modifier_DateInsciption.UseCustomBackColor = true;
+            this.TB_Stagiaire_Modifier_DateInsciption.UseCustomForeColor = true;
+            this.TB_Stagiaire_Modifier_DateInsciption.UseSelectable = true;
+            this.TB_Stagiaire_Modifier_DateInsciption.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.TB_Stagiaire_Modifier_DateInsciption.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // label65
+            // 
+            resources.ApplyResources(this.label65, "label65");
+            this.label65.ForeColor = System.Drawing.Color.White;
+            this.label65.Name = "label65";
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -3260,6 +3936,9 @@
             this.tabControl2_Stagiaire_tabpage2_Ajouter.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.BIBTN_Stagiaire_Image)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BIBTN_Stagiaire_SelectImage)).EndInit();
+            this.tabPage4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton5)).EndInit();
             this.tabPage5.ResumeLayout(false);
             this.panel15.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -3466,6 +4145,48 @@
         private MetroFramework.Controls.MetroComboBox CB_Stagiaire_Ajouter_Annee;
         private System.Windows.Forms.Label label45;
         private System.Windows.Forms.DataGridViewCheckBoxColumn supprimer;
+        private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private MetroFramework.Controls.MetroDateTime DTP_Stagiaire_Modifier_DateNaissance;
+        private MetroFramework.Controls.MetroTextBox TB_Stagiaire_Modifier_Cin;
+        private ns1.BunifuThinButton2 BTN_Stagiaire_Modifier_Enregistrer;
+        private ns1.BunifuThinButton2 bunifuThinButton28;
+        private ns1.BunifuImageButton bunifuImageButton5;
+        private System.Windows.Forms.Label label46;
+        private MetroFramework.Controls.MetroComboBox CB_Stagiaire_Modifier_Question;
+        private MetroFramework.Controls.MetroComboBox CB_Stagiaire_Modifier_Annee;
+        private MetroFramework.Controls.MetroComboBox CB_Stagiaire_Modifier_Niveau;
+        private MetroFramework.Controls.MetroComboBox CB_Stagiaire_Modifier_Groupe;
+        private System.Windows.Forms.Label label47;
+        private MetroFramework.Controls.MetroTextBox CB_Stagiaire_Modifier_Reponse;
+        private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.Label label56;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.Label label59;
+        private MetroFramework.Controls.MetroComboBox CB_Stagiaire_Modifier_Specialite;
+        private MetroFramework.Controls.MetroTextBox TB_Stagiaire_Modifier_Adresse;
+        private System.Windows.Forms.RadioButton TB_Stagiaire_Modifier_M;
+        private MetroFramework.Controls.MetroTextBox TB_Stagiaire_Modifier_Nom;
+        private System.Windows.Forms.RadioButton TB_Stagiaire_Modifier_F;
+        private MetroFramework.Controls.MetroTextBox TB_Stagiaire_Modifier_Prenom;
+        private MetroFramework.Controls.MetroTextBox TB_Stagiaire_Modifier_Email;
+        private MetroFramework.Controls.MetroTextBox TB_Stagiaire_Modifier_Tel;
+        private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.Label label62;
+        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.Label label60;
+        private MetroFramework.Controls.MetroTextBox TB_Stagiaire_Modifier_IdStagiaire;
+        private System.Windows.Forms.Label label64;
+        private MetroFramework.Controls.MetroTextBox TB_Stagiaire_Modifier_DateInsciption;
+        private System.Windows.Forms.Label label65;
     }
 }
 

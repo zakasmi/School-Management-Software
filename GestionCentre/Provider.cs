@@ -16,7 +16,8 @@ namespace GestionCentre
         public static DataSet ds = new DataSet();
         public static int RecentYear;
         public static bool originalstagiaredeleted = false;
-        public static int RecentStagiareYearinDataSet ; 
+        public static string RecentGroupeYearInStagiaire = "";
+        public static string LastStagiaireGroup ="";
 
         //----------------------Specialite ------------------------------------
         //fill All Specialite Table 
@@ -28,7 +29,7 @@ namespace GestionCentre
             {
                 da.Fill(ds, "Specialite");
                 ds.Tables["Specialite"].PrimaryKey = new DataColumn[] { ds.Tables["Specialite"].Columns["IdSpecialite"] };
-
+                
             }
         }
         // Get All Specialite Table 
@@ -55,7 +56,13 @@ namespace GestionCentre
         public static DataTable GetAllGroupe {
             get { return ds.Tables["Groupe"]; }
         }
-        //Get Groupes by Specialitee and Niveau 
+        //Get Groupes by IdGroupe
+        public static DataRow GetGroupeById(string IdGroupe)
+        {
+       
+            DataRow[] dr = ds.Tables["Groupe"].Select("IdGroupe = " + IdGroupe );
+            return dr[0];
+        }
 
         public static DataTable GetGroupeByFSpecialiteAndNiveauAndAnnee(string Specialite ,string niveau,string Annee)
         {
@@ -72,47 +79,125 @@ namespace GestionCentre
 
         // --------------------------- Stagiaire ---------------------------------------------------------
 
-        //FIll  all Stagiaire 
-         public static void FillStagiaire(string Year)
+        //FIll  all Stagiaire of a specific year year
+        /*  public static void FillStagiaire(string Year)
+         {
+             if (ds.Tables.Contains("StagPersonne")) { ds.Tables["StagPersonne"].Rows.Clear(); }
+             using (SqlDataAdapter da = new SqlDataAdapter("select S.IdStagiaire,P.Cin,P.Nom,P.Prenom,P.Tel,P.Email,P.DateNaissance,P.Adresse,P.sexe,S.DateInscription,S.idspecialite,S.idgroupe,S.Question,S.Reponse from  Personne P inner join Stagiaire S  on P.Cin=S.cin inner join Groupe G on G.IdGroupe=S.idgroupe where  G.Annee= " + Year + "", cnx))
+             {
+                 da.Fill(ds, "StagPersonne");
+                 MessageBox.Show("nombre de stagiaire de cette année " + ds.Tables["StagPersonne"].Rows.Count + " : " + Year);
+                 RecentStagiareYearinDataSet = int.Parse(Year);
+                 ds.Tables["StagPersonne"].PrimaryKey = new DataColumn[] { ds.Tables["StagPersonne"].Columns["IdStagiaire"] };      
+             }
+
+         }*/
+        //Method : Fill table Stagiaire with a specific Groupe----------
+        public static void FillStagiaireByGroupe(string Groupe)
         {
             if (ds.Tables.Contains("StagPersonne")) { ds.Tables["StagPersonne"].Rows.Clear(); }
-            using (SqlDataAdapter da = new SqlDataAdapter("select S.IdStagiaire,P.Cin,P.Nom,P.Prenom,P.Tel,P.Email,P.DateNaissance,P.Adresse,P.sexe,S.DateInscription,S.idspecialite,S.idgroupe,S.Question,S.Reponse from  Personne P inner join Stagiaire S  on P.Cin=S.cin inner join Groupe G on G.IdGroupe=S.idgroupe where  G.Annee= " + Year + "", cnx))
+            using (SqlDataAdapter da = new SqlDataAdapter("select S.IdStagiaire,P.Cin,P.Nom,P.Prenom,P.Tel,P.Email,P.DateNaissance,P.Adresse,P.sexe,S.DateInscription,S.idspecialite,S.idgroupe,G.NomGroupe,S.Question,S.Reponse from  Personne P inner join Stagiaire S  on P.Cin=S.cin inner join Groupe G on G.IdGroupe=S.idgroupe where  G.IdGroupe=" + Groupe + "", cnx))
             {
                 da.Fill(ds, "StagPersonne");
-                MessageBox.Show("nombre de stagiaire de cette année " + ds.Tables["StagPersonne"].Rows.Count + " : " + Year);
-                RecentStagiareYearinDataSet = int.Parse(Year);
-                ds.Tables["StagPersonne"].PrimaryKey = new DataColumn[] { ds.Tables["StagPersonne"].Columns["IdStagiaire"] };      
+                LastStagiaireGroup = Groupe;
+                ds.Tables["StagPersonne"].PrimaryKey = new DataColumn[] { ds.Tables["StagPersonne"].Columns["IdStagiaire"] };
             }
-
         }
-    
-        //
+        //Stagiaire : Methode =>Modifier 
+        public static bool ModifierStagiaire(string IdStagiaire,string Cin, string Nom, string Prenom, string Tel, string Email, string DateNaissance, string Adresse, string Sexe, string idspecialite, string idgroupe, string Question, string Reponse,string OriginalCin)
+        {
+            int x = 0;
+            int y = 0;
+            using (SqlCommand cmd = new SqlCommand("Update Personne set Cin ='"+Cin+"' ,Nom ='"+Nom+"' ,Prenom ='"+ Prenom + "',Tel ='"+ Tel + "',Email='"+ Email + "',DateNaissance='"+ DateNaissance + "',Adresse='"+ Adresse + "',sexe='"+ Sexe + "' where Cin='"+OriginalCin+"'", cnx))
+            {
+                cnx.Open();
+                x = cmd.ExecuteNonQuery();
+                cnx.Close();
+            }
+            if (x > 0)
+            {
+                using (SqlCommand cmd = new SqlCommand("Update Stagiaire set idspecialite = '" + idspecialite + "', idgroupe = '" + idgroupe + "', Question = '" + Question + "' where  IdStagiaire= " + IdStagiaire + "", cnx))
+                {
+                    cnx.Open();
+                    y = cmd.ExecuteNonQuery();
+                    cnx.Close();
+                    if (y > 0)
+                    {
+                        return true;
+                    }
 
-        //get all Stagiaire
+                }
+            }
+            else return false;
 
-        //get Stagiare by groupe
-        public static DataTable GetStagiareByGroupe(string Groupe)
+            return false;
+        }
+
+ 
+        //Getter : Get ALl Stagiaire Recently in StagePersonne
+        public static DataTable GetStagiaire
+        {
+            get { return ds.Tables["StagPersonne"]; }
+        }
+        // Stagiaire :Methode =>Ajouter Stagiaire 
+
+            public static bool AjouterStagiaire(string Cin,string Nom,string Prenom,string Tel,string Email,string DateNaissance,string Adresse,string Sexe,string idspecialite,string idgroupe,string Question,string Reponse,ref string IdStagiaire )
+        {
+            try
+            {
+                using (SqlCommand cmd = new SqlCommand("Declare @x int  Exec AjouterStagiaire '" + Cin + "','" + Nom + "','" + Prenom + "','" + Tel + "','" + Email + "','" + DateNaissance + "','" + Adresse + "','" + Sexe + "','" + idspecialite + "','" + idgroupe + "','" + Question + "','" + Reponse + "',@x output", Provider.cnx))
+                {
+                    cnx.Open();
+                    var c = cmd.ExecuteNonQuery();
+                        if (c.ToString() == "2") MessageBox.Show(c.ToString() + " Le stagiaire a été inscrit dans le groupe avec succée \n N.B ce stagiaire est deja Inscrit dans ce centre , ancien donnée  n'est pas modifier . Penser a modifier les donnée necessaire");
+                        if (c.ToString() == "1") MessageBox.Show(c.ToString() + " Le stagiaire a éte inscrit avec succes .\n N.B Nouveau Stagiare ");
+                        if (c.ToString() == "0") MessageBox.Show(c.ToString() + " Erreur !! Le stagiaire n'est pas inscrit .", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    cnx.Close();
+                    return true;
+                }
+             }
+           catch (Exception e2)
+            {
+                MessageBox.Show(e2.Message);
+                return false;
+            }
+            finally
+            {
+                cnx.Close();
+            }
+        }
+        //check if personne existe 
+        public static bool CheckIfPersonneExiste(string Cin)
+        {
+            int x = 0;
+            using (SqlCommand cmd = new SqlCommand("Select *from Personne where Cin=" + Cin + "", Provider.cnx))
+            {
+                x=cmd.ExecuteNonQuery();
+            }
+            if (x > 0) { return true; }
+            else { return true; }
+        }
+
+        //get Stagiare by groupe------------
+     /*   public static DataTable GetStagiareByGroupe(string Groupe)
         {
            // MessageBox.Show("idgroupe=" + Groupe);
             DataRow[] dr = ds.Tables["StagPersonne"].Select("idgroupe="+ Groupe);
             DataTable dt = ds.Tables["StagPersonne"].Clone();
             foreach (DataRow r in dr) { dt.ImportRow(r); }
             return dt;
-        }
+        }*/
         //--------------------Method ---------------Delete Stagiaire from DataGrid By IdStagiaire -----------------------------------------
 
         public static bool DeleteStagiaireFromDataGrid(DataGridView DGV,ref string DeletedString) {
-            int k = 0;
-            ds.Tables["StagPersonne"].AcceptChanges();
+            int k = 0;          
             //Check if you checked any checkbox. it will Break for the first CHecked checkBox 
             for (int i = 0; i < DGV.Rows.Count; i++)
             {
-                if (DGV.Rows[i].Cells[0].Value.ToString() == "T")
-                {
+                if (DGV.Rows[i].Cells[0].Value.ToString() =="T") {
                     k = 1;
                     break;
                 }
-          // MessageBox.Show(i.ToString());
             }
             if (k == 1)
             {
@@ -125,13 +210,12 @@ namespace GestionCentre
                         {
                             DeletedIds.Add(DGV.Rows[i].Cells[1].Value.ToString());
                             ds.Tables["StagPersonne"].Rows.Find(DGV.Rows[i].Cells[1].Value.ToString()).Delete();
-                            DGV.Rows.RemoveAt(i);
-                            ;
                         }
                     }
                     DeletedString = string.Join(",", DeletedIds.ToArray());
                     return true;
                 }
+                else return false;
             }
             else
             {
@@ -139,7 +223,7 @@ namespace GestionCentre
                 return false;
             }
 
-            return true;
+           
 
         }
 
