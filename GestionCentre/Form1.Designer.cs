@@ -30,22 +30,22 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle97 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle98 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle99 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle100 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle101 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle102 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle103 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle104 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle105 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle106 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle107 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle108 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle109 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle110 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle111 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle112 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.bunifuImageButton2 = new ns1.BunifuImageButton();
@@ -185,7 +185,6 @@
             this.label10 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.DGV_Stagiaire_Chercher = new ns1.BunifuCustomDataGrid();
-            this.Consulter = new System.Windows.Forms.DataGridViewButtonColumn();
             this.BFBTN8CB_Stagiaire_Chercher = new ns1.BunifuFlatButton();
             this.TB_Stagiaire_Chercher_Chercher_Nom = new ns1.BunifuTextbox();
             this.TB_Stagiaire_Chercher_Chercher_CinOuPrenom = new ns1.BunifuTextbox();
@@ -194,18 +193,12 @@
             this.LBL_Chercher_Nom = new System.Windows.Forms.Label();
             this.LBL_Stagiaire_Chercher_CinOuNom = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.P_Stagiaire_Preview = new System.Windows.Forms.Panel();
-            this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
-            this.P_Stagiaire_Preview2 = new System.Windows.Forms.Panel();
-            this.LBL_Stagiaire_Nom_Clicked = new System.Windows.Forms.Label();
-            this.LBL_Stagiaire_Cin_Clicked = new System.Windows.Forms.Label();
-            this.LBL_Stagiaire_Id_Clicked = new System.Windows.Forms.Label();
-            this.LBL_Stagiaire_Prenom_Clicked = new System.Windows.Forms.Label();
             this.BTN_Stagiaire_Liste = new ns1.BunifuTileButton();
+            this.P_Stagiaire_Preview = new System.Windows.Forms.Panel();
+            this.LBL_Stagiaire_Prenom_Clicked = new System.Windows.Forms.Label();
+            this.LBL_Stagiaire_Nom_Clicked = new System.Windows.Forms.Label();
+            this.LBL_Stagiaire_Id_Clicked = new System.Windows.Forms.Label();
+            this.LBL_Stagiaire_Cin_Clicked = new System.Windows.Forms.Label();
             this.BTN_Stagiaire_Consulter = new ns1.BunifuTileButton();
             this.BTN_Stagiaire_Chercher = new ns1.BunifuTileButton();
             this.BTN_Stagiaire_Supprimer = new ns1.BunifuTileButton();
@@ -213,11 +206,72 @@
             this.BTN_Stagiaire_Ajouter = new ns1.BunifuTileButton();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.panel17 = new System.Windows.Forms.Panel();
+            this.BTN_Prof_Liste = new ns1.BunifuTileButton();
+            this.panel18 = new System.Windows.Forms.Panel();
+            this.BTN_Prof_Consulter = new ns1.BunifuTileButton();
+            this.BTN_Prof_Chercher = new ns1.BunifuTileButton();
+            this.BTN_Prof_Supprimer = new ns1.BunifuTileButton();
+            this.BTN_Prof_Modifier = new ns1.BunifuTileButton();
+            this.BTN_Prof_Ajouter = new ns1.BunifuTileButton();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.bunifuFlatButton11 = new ns1.BunifuFlatButton();
+            this.bunifuFlatButton1 = new ns1.BunifuFlatButton();
+            this.bunifuFlatButton12 = new ns1.BunifuFlatButton();
+            this.BTN_Menu_Parametre = new ns1.BunifuFlatButton();
+            this.BTN_Menu_Notification = new ns1.BunifuFlatButton();
+            this.BTN_Menu_Seance = new ns1.BunifuFlatButton();
+            this.BTN_Menu_Cours = new ns1.BunifuFlatButton();
+            this.BTN_Menu_Note = new ns1.BunifuFlatButton();
+            this.BTN_Menu_Matiere = new ns1.BunifuFlatButton();
+            this.BTN_Menu_Groupe = new ns1.BunifuFlatButton();
+            this.BTN_Menu_Filiere = new ns1.BunifuFlatButton();
+            this.BTN_Menu_Professeur = new ns1.BunifuFlatButton();
+            this.BTN_Menu_Stagiaire = new ns1.BunifuFlatButton();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.bunifuDragControl1 = new ns1.BunifuDragControl(this.components);
+            this.Consulter = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.P_Stagiaire_Preview2 = new System.Windows.Forms.Panel();
+            this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
             this.tabControl2_Professeur = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.DGV_Professeur1 = new ns1.BunifuCustomDataGrid();
             this.dataGridViewCheckBoxColumn1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.tabControl2_Prof_tabpage2_Ajouter = new System.Windows.Forms.TabPage();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.metroDateTime1 = new MetroFramework.Controls.MetroDateTime();
+            this.TB_Prof_Ajouter_Cin = new MetroFramework.Controls.MetroTextBox();
+            this.bunifuThinButton24 = new ns1.BunifuThinButton2();
+            this.bunifuThinButton25 = new ns1.BunifuThinButton2();
+            this.bunifuImageButton3 = new ns1.BunifuImageButton();
+            this.label5 = new System.Windows.Forms.Label();
+            this.metroComboBox1 = new MetroFramework.Controls.MetroComboBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.metroTextBox2 = new MetroFramework.Controls.MetroTextBox();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label60 = new System.Windows.Forms.Label();
+            this.metroTextBox3 = new MetroFramework.Controls.MetroTextBox();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.TB_Prof_Ajouter_Nom = new MetroFramework.Controls.MetroTextBox();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.metroTextBox5 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox6 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox7 = new MetroFramework.Controls.MetroTextBox();
+            this.bunifuThinButton26 = new ns1.BunifuThinButton2();
+            this.bunifuThinButton27 = new ns1.BunifuThinButton2();
+            this.bunifuThinButton28 = new ns1.BunifuThinButton2();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.bunifuThinButton29 = new ns1.BunifuThinButton2();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -256,16 +310,6 @@
             this.metroTextBox14 = new MetroFramework.Controls.MetroTextBox();
             this.metroTextBox15 = new MetroFramework.Controls.MetroTextBox();
             this.metroTextBox16 = new MetroFramework.Controls.MetroTextBox();
-            this.tabPage9 = new System.Windows.Forms.TabPage();
-            this.bunifuCustomDataGrid2 = new ns1.BunifuCustomDataGrid();
-            this.dataGridViewButtonColumn1 = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.bunifuFlatButton2 = new ns1.BunifuFlatButton();
-            this.bunifuTextbox1 = new ns1.BunifuTextbox();
-            this.bunifuTextbox2 = new ns1.BunifuTextbox();
-            this.metroComboBox11 = new MetroFramework.Controls.MetroComboBox();
-            this.label97 = new System.Windows.Forms.Label();
-            this.label98 = new System.Windows.Forms.Label();
-            this.label99 = new System.Windows.Forms.Label();
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.metroTextBox17 = new MetroFramework.Controls.MetroTextBox();
             this.metroTextBox18 = new MetroFramework.Controls.MetroTextBox();
@@ -302,63 +346,18 @@
             this.label94 = new System.Windows.Forms.Label();
             this.label95 = new System.Windows.Forms.Label();
             this.label96 = new System.Windows.Forms.Label();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.BTN_Prof_Liste = new ns1.BunifuTileButton();
-            this.panel18 = new System.Windows.Forms.Panel();
-            this.BTN_Prof_Consulter = new ns1.BunifuTileButton();
-            this.BTN_Prof_Chercher = new ns1.BunifuTileButton();
-            this.BTN_Prof_Supprimer = new ns1.BunifuTileButton();
-            this.BTN_Prof_Modifier = new ns1.BunifuTileButton();
-            this.BTN_Prof_Ajouter = new ns1.BunifuTileButton();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.DTP_Prof_Ajouter_DateEmbauche = new MetroFramework.Controls.MetroDateTime();
-            this.DTP_Prof_Ajouter_DateNaissance = new MetroFramework.Controls.MetroDateTime();
-            this.TB_Prof_Ajouter_Cin = new MetroFramework.Controls.MetroTextBox();
-            this.BTN_Prof_Ajouter_Ajouter = new ns1.BunifuThinButton2();
-            this.BTN_Prof_Ajouter_Vider = new ns1.BunifuThinButton2();
-            this.bunifuImageButton3 = new ns1.BunifuImageButton();
-            this.label5 = new System.Windows.Forms.Label();
-            this.CB_Prof_Ajouter_Question = new MetroFramework.Controls.MetroComboBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.TB_Prof_Ajouter_Reponse = new MetroFramework.Controls.MetroTextBox();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label60 = new System.Windows.Forms.Label();
-            this.TB_Prof_Ajouter_Adresse = new MetroFramework.Controls.MetroTextBox();
-            this.CHB_Prof_Ajouter_M = new System.Windows.Forms.RadioButton();
-            this.TB_Prof_Ajouter_Nom = new MetroFramework.Controls.MetroTextBox();
-            this.CHB_Prof_Ajouter_F = new System.Windows.Forms.RadioButton();
-            this.TB_Prof_Ajouter_Prenom = new MetroFramework.Controls.MetroTextBox();
-            this.TB_Prof_Ajouter_Email = new MetroFramework.Controls.MetroTextBox();
-            this.TB_Prof_Ajouter_MoteDePasse = new MetroFramework.Controls.MetroTextBox();
-            this.TB_Prof_Ajouter_Tel = new MetroFramework.Controls.MetroTextBox();
-            this.bunifuThinButton26 = new ns1.BunifuThinButton2();
-            this.bunifuThinButton27 = new ns1.BunifuThinButton2();
-            this.bunifuThinButton28 = new ns1.BunifuThinButton2();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.bunifuFlatButton11 = new ns1.BunifuFlatButton();
-            this.bunifuFlatButton1 = new ns1.BunifuFlatButton();
-            this.bunifuFlatButton12 = new ns1.BunifuFlatButton();
-            this.BTN_Menu_Parametre = new ns1.BunifuFlatButton();
-            this.BTN_Menu_Notification = new ns1.BunifuFlatButton();
-            this.BTN_Menu_Seance = new ns1.BunifuFlatButton();
-            this.BTN_Menu_Cours = new ns1.BunifuFlatButton();
-            this.BTN_Menu_Note = new ns1.BunifuFlatButton();
-            this.BTN_Menu_Matiere = new ns1.BunifuFlatButton();
-            this.BTN_Menu_Groupe = new ns1.BunifuFlatButton();
-            this.BTN_Menu_Filiere = new ns1.BunifuFlatButton();
-            this.BTN_Menu_Professeur = new ns1.BunifuFlatButton();
-            this.BTN_Menu_Stagiaire = new ns1.BunifuFlatButton();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.bunifuDragControl1 = new ns1.BunifuDragControl(this.components);
-            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.bunifuCustomDataGrid2 = new ns1.BunifuCustomDataGrid();
+            this.dataGridViewButtonColumn1 = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.bunifuFlatButton2 = new ns1.BunifuFlatButton();
+            this.bunifuTextbox1 = new ns1.BunifuTextbox();
+            this.bunifuTextbox2 = new ns1.BunifuTextbox();
+            this.metroComboBox11 = new MetroFramework.Controls.MetroComboBox();
+            this.label97 = new System.Windows.Forms.Label();
+            this.label98 = new System.Windows.Forms.Label();
+            this.label99 = new System.Windows.Forms.Label();
+            this.metroDateTime3 = new MetroFramework.Controls.MetroDateTime();
+            this.metroTextBox31 = new MetroFramework.Controls.MetroTextBox();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
@@ -385,27 +384,27 @@
             ((System.ComponentModel.ISupportInitialize)(this.DGV_Stagiaire_Chercher)).BeginInit();
             this.panel10.SuspendLayout();
             this.P_Stagiaire_Preview.SuspendLayout();
-            this.P_Stagiaire_Preview2.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.panel6.SuspendLayout();
+            this.panel17.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.P_Stagiaire_Preview2.SuspendLayout();
             this.tabControl2_Professeur.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGV_Professeur1)).BeginInit();
+            this.tabPage6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton3)).BeginInit();
             this.tabPage7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton4)).BeginInit();
-            this.tabPage9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid2)).BeginInit();
             this.tabPage8.SuspendLayout();
             this.panel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel11.SuspendLayout();
-            this.panel17.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton3)).BeginInit();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.tabPage6.SuspendLayout();
+            this.tabPage9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -696,30 +695,30 @@
             // 
             this.DGV_Stagiaire1.AllowUserToAddRows = false;
             this.DGV_Stagiaire1.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.DGV_Stagiaire1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle97.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.DGV_Stagiaire1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle97;
             this.DGV_Stagiaire1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
             this.DGV_Stagiaire1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DGV_Stagiaire1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle18.BackColor = System.Drawing.Color.SeaGreen;
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DGV_Stagiaire1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle98.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle98.BackColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle98.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle98.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle98.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle98.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle98.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DGV_Stagiaire1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle98;
             this.DGV_Stagiaire1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGV_Stagiaire1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.supprimer});
-            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle19.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle19.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DGV_Stagiaire1.DefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle99.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle99.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle99.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle99.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle99.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle99.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle99.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DGV_Stagiaire1.DefaultCellStyle = dataGridViewCellStyle99;
             resources.ApplyResources(this.DGV_Stagiaire1, "DGV_Stagiaire1");
             this.DGV_Stagiaire1.DoubleBuffered = true;
             this.DGV_Stagiaire1.EnableHeadersVisualStyles = false;
@@ -728,14 +727,14 @@
             this.DGV_Stagiaire1.HeaderForeColor = System.Drawing.Color.Black;
             this.DGV_Stagiaire1.Name = "DGV_Stagiaire1";
             this.DGV_Stagiaire1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle20.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle20.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DGV_Stagiaire1.RowHeadersDefaultCellStyle = dataGridViewCellStyle20;
+            dataGridViewCellStyle100.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle100.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle100.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle100.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle100.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle100.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle100.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DGV_Stagiaire1.RowHeadersDefaultCellStyle = dataGridViewCellStyle100;
             this.DGV_Stagiaire1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV_Stagiaire1_CellClick);
             // 
             // supprimer
@@ -2564,30 +2563,30 @@
             // 
             this.DGV_Stagiaire_Chercher.AllowUserToAddRows = false;
             this.DGV_Stagiaire_Chercher.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.DGV_Stagiaire_Chercher.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle21;
+            dataGridViewCellStyle101.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.DGV_Stagiaire_Chercher.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle101;
             this.DGV_Stagiaire_Chercher.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
             this.DGV_Stagiaire_Chercher.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DGV_Stagiaire_Chercher.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle22.BackColor = System.Drawing.Color.SeaGreen;
-            dataGridViewCellStyle22.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle22.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DGV_Stagiaire_Chercher.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle22;
+            dataGridViewCellStyle102.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle102.BackColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle102.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle102.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle102.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle102.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle102.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DGV_Stagiaire_Chercher.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle102;
             this.DGV_Stagiaire_Chercher.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGV_Stagiaire_Chercher.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Consulter});
-            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle23.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle23.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DGV_Stagiaire_Chercher.DefaultCellStyle = dataGridViewCellStyle23;
+            dataGridViewCellStyle103.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle103.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle103.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle103.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle103.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle103.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle103.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DGV_Stagiaire_Chercher.DefaultCellStyle = dataGridViewCellStyle103;
             resources.ApplyResources(this.DGV_Stagiaire_Chercher, "DGV_Stagiaire_Chercher");
             this.DGV_Stagiaire_Chercher.DoubleBuffered = true;
             this.DGV_Stagiaire_Chercher.EnableHeadersVisualStyles = false;
@@ -2596,24 +2595,16 @@
             this.DGV_Stagiaire_Chercher.HeaderForeColor = System.Drawing.Color.Black;
             this.DGV_Stagiaire_Chercher.Name = "DGV_Stagiaire_Chercher";
             this.DGV_Stagiaire_Chercher.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle24.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle24.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DGV_Stagiaire_Chercher.RowHeadersDefaultCellStyle = dataGridViewCellStyle24;
+            dataGridViewCellStyle104.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle104.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle104.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle104.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle104.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle104.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle104.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DGV_Stagiaire_Chercher.RowHeadersDefaultCellStyle = dataGridViewCellStyle104;
             this.DGV_Stagiaire_Chercher.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV_Stagiaire_Chercher_CellClick);
             this.DGV_Stagiaire_Chercher.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV_Stagiaire_Chercher_CellContentClick);
-            // 
-            // Consulter
-            // 
-            this.Consulter.DataPropertyName = "Afficher";
-            resources.ApplyResources(this.Consulter, "Consulter");
-            this.Consulter.Name = "Consulter";
-            this.Consulter.Text = "Afficher";
-            this.Consulter.UseColumnTextForButtonValue = true;
             // 
             // BFBTN8CB_Stagiaire_Chercher
             // 
@@ -2716,94 +2707,6 @@
             resources.ApplyResources(this.panel10, "panel10");
             this.panel10.Name = "panel10";
             // 
-            // P_Stagiaire_Preview
-            // 
-            this.P_Stagiaire_Preview.Controls.Add(this.metroLabel5);
-            this.P_Stagiaire_Preview.Controls.Add(this.metroLabel1);
-            this.P_Stagiaire_Preview.Controls.Add(this.metroLabel4);
-            this.P_Stagiaire_Preview.Controls.Add(this.metroLabel2);
-            this.P_Stagiaire_Preview.Controls.Add(this.metroLabel3);
-            resources.ApplyResources(this.P_Stagiaire_Preview, "P_Stagiaire_Preview");
-            this.P_Stagiaire_Preview.Name = "P_Stagiaire_Preview";
-            // 
-            // metroLabel5
-            // 
-            resources.ApplyResources(this.metroLabel5, "metroLabel5");
-            this.metroLabel5.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel5.ForeColor = System.Drawing.Color.White;
-            this.metroLabel5.Name = "metroLabel5";
-            this.metroLabel5.UseCustomBackColor = true;
-            this.metroLabel5.UseCustomForeColor = true;
-            // 
-            // metroLabel1
-            // 
-            resources.ApplyResources(this.metroLabel1, "metroLabel1");
-            this.metroLabel1.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel1.ForeColor = System.Drawing.Color.White;
-            this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.UseCustomBackColor = true;
-            this.metroLabel1.UseCustomForeColor = true;
-            // 
-            // metroLabel4
-            // 
-            resources.ApplyResources(this.metroLabel4, "metroLabel4");
-            this.metroLabel4.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel4.ForeColor = System.Drawing.Color.White;
-            this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.UseCustomBackColor = true;
-            this.metroLabel4.UseCustomForeColor = true;
-            // 
-            // metroLabel2
-            // 
-            resources.ApplyResources(this.metroLabel2, "metroLabel2");
-            this.metroLabel2.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel2.ForeColor = System.Drawing.Color.White;
-            this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.UseCustomBackColor = true;
-            this.metroLabel2.UseCustomForeColor = true;
-            // 
-            // metroLabel3
-            // 
-            resources.ApplyResources(this.metroLabel3, "metroLabel3");
-            this.metroLabel3.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel3.ForeColor = System.Drawing.Color.White;
-            this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.UseCustomBackColor = true;
-            this.metroLabel3.UseCustomForeColor = true;
-            // 
-            // P_Stagiaire_Preview2
-            // 
-            this.P_Stagiaire_Preview2.Controls.Add(this.LBL_Stagiaire_Nom_Clicked);
-            this.P_Stagiaire_Preview2.Controls.Add(this.LBL_Stagiaire_Cin_Clicked);
-            this.P_Stagiaire_Preview2.Controls.Add(this.LBL_Stagiaire_Id_Clicked);
-            this.P_Stagiaire_Preview2.Controls.Add(this.LBL_Stagiaire_Prenom_Clicked);
-            resources.ApplyResources(this.P_Stagiaire_Preview2, "P_Stagiaire_Preview2");
-            this.P_Stagiaire_Preview2.Name = "P_Stagiaire_Preview2";
-            // 
-            // LBL_Stagiaire_Nom_Clicked
-            // 
-            resources.ApplyResources(this.LBL_Stagiaire_Nom_Clicked, "LBL_Stagiaire_Nom_Clicked");
-            this.LBL_Stagiaire_Nom_Clicked.ForeColor = System.Drawing.Color.White;
-            this.LBL_Stagiaire_Nom_Clicked.Name = "LBL_Stagiaire_Nom_Clicked";
-            // 
-            // LBL_Stagiaire_Cin_Clicked
-            // 
-            resources.ApplyResources(this.LBL_Stagiaire_Cin_Clicked, "LBL_Stagiaire_Cin_Clicked");
-            this.LBL_Stagiaire_Cin_Clicked.ForeColor = System.Drawing.Color.White;
-            this.LBL_Stagiaire_Cin_Clicked.Name = "LBL_Stagiaire_Cin_Clicked";
-            // 
-            // LBL_Stagiaire_Id_Clicked
-            // 
-            resources.ApplyResources(this.LBL_Stagiaire_Id_Clicked, "LBL_Stagiaire_Id_Clicked");
-            this.LBL_Stagiaire_Id_Clicked.ForeColor = System.Drawing.Color.White;
-            this.LBL_Stagiaire_Id_Clicked.Name = "LBL_Stagiaire_Id_Clicked";
-            // 
-            // LBL_Stagiaire_Prenom_Clicked
-            // 
-            resources.ApplyResources(this.LBL_Stagiaire_Prenom_Clicked, "LBL_Stagiaire_Prenom_Clicked");
-            this.LBL_Stagiaire_Prenom_Clicked.ForeColor = System.Drawing.Color.White;
-            this.LBL_Stagiaire_Prenom_Clicked.Name = "LBL_Stagiaire_Prenom_Clicked";
-            // 
             // BTN_Stagiaire_Liste
             // 
             this.BTN_Stagiaire_Liste.BackColor = System.Drawing.Color.Transparent;
@@ -2819,6 +2722,40 @@
             this.BTN_Stagiaire_Liste.LabelText = "Liste";
             this.BTN_Stagiaire_Liste.Name = "BTN_Stagiaire_Liste";
             this.BTN_Stagiaire_Liste.Click += new System.EventHandler(this.BTN_Stagiaire_Liste_Click);
+            // 
+            // P_Stagiaire_Preview
+            // 
+            this.P_Stagiaire_Preview.Controls.Add(this.metroLabel5);
+            this.P_Stagiaire_Preview.Controls.Add(this.metroLabel1);
+            this.P_Stagiaire_Preview.Controls.Add(this.metroLabel4);
+            this.P_Stagiaire_Preview.Controls.Add(this.metroLabel2);
+            this.P_Stagiaire_Preview.Controls.Add(this.metroLabel3);
+            resources.ApplyResources(this.P_Stagiaire_Preview, "P_Stagiaire_Preview");
+            this.P_Stagiaire_Preview.Name = "P_Stagiaire_Preview";
+            // 
+            // LBL_Stagiaire_Prenom_Clicked
+            // 
+            resources.ApplyResources(this.LBL_Stagiaire_Prenom_Clicked, "LBL_Stagiaire_Prenom_Clicked");
+            this.LBL_Stagiaire_Prenom_Clicked.ForeColor = System.Drawing.Color.White;
+            this.LBL_Stagiaire_Prenom_Clicked.Name = "LBL_Stagiaire_Prenom_Clicked";
+            // 
+            // LBL_Stagiaire_Nom_Clicked
+            // 
+            resources.ApplyResources(this.LBL_Stagiaire_Nom_Clicked, "LBL_Stagiaire_Nom_Clicked");
+            this.LBL_Stagiaire_Nom_Clicked.ForeColor = System.Drawing.Color.White;
+            this.LBL_Stagiaire_Nom_Clicked.Name = "LBL_Stagiaire_Nom_Clicked";
+            // 
+            // LBL_Stagiaire_Id_Clicked
+            // 
+            resources.ApplyResources(this.LBL_Stagiaire_Id_Clicked, "LBL_Stagiaire_Id_Clicked");
+            this.LBL_Stagiaire_Id_Clicked.ForeColor = System.Drawing.Color.White;
+            this.LBL_Stagiaire_Id_Clicked.Name = "LBL_Stagiaire_Id_Clicked";
+            // 
+            // LBL_Stagiaire_Cin_Clicked
+            // 
+            resources.ApplyResources(this.LBL_Stagiaire_Cin_Clicked, "LBL_Stagiaire_Cin_Clicked");
+            this.LBL_Stagiaire_Cin_Clicked.ForeColor = System.Drawing.Color.White;
+            this.LBL_Stagiaire_Cin_Clicked.Name = "LBL_Stagiaire_Cin_Clicked";
             // 
             // BTN_Stagiaire_Consulter
             // 
@@ -2914,1459 +2851,6 @@
             this.panel6.Controls.Add(this.panel17);
             resources.ApplyResources(this.panel6, "panel6");
             this.panel6.Name = "panel6";
-            // 
-            // tabControl2_Professeur
-            // 
-            this.tabControl2_Professeur.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            resources.ApplyResources(this.tabControl2_Professeur, "tabControl2_Professeur");
-            this.tabControl2_Professeur.Controls.Add(this.tabControl2_Prof_tabpage2_Ajouter);
-            this.tabControl2_Professeur.Controls.Add(this.tabPage1);
-            this.tabControl2_Professeur.Controls.Add(this.tabPage7);
-            this.tabControl2_Professeur.Controls.Add(this.tabPage9);
-            this.tabControl2_Professeur.Controls.Add(this.tabPage8);
-            this.tabControl2_Professeur.Multiline = true;
-            this.tabControl2_Professeur.Name = "tabControl2_Professeur";
-            this.tabControl2_Professeur.SelectedIndex = 0;
-            this.tabControl2_Professeur.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            // 
-            // tabPage1
-            // 
-            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.tabPage1.Controls.Add(this.DGV_Professeur1);
-            resources.ApplyResources(this.tabPage1, "tabPage1");
-            this.tabPage1.Name = "tabPage1";
-            // 
-            // DGV_Professeur1
-            // 
-            this.DGV_Professeur1.AllowUserToAddRows = false;
-            this.DGV_Professeur1.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.DGV_Professeur1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle25;
-            this.DGV_Professeur1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
-            this.DGV_Professeur1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
-            this.DGV_Professeur1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.DGV_Professeur1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle26.BackColor = System.Drawing.Color.SeaGreen;
-            dataGridViewCellStyle26.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle26.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DGV_Professeur1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle26;
-            this.DGV_Professeur1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGV_Professeur1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewCheckBoxColumn1});
-            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle27.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle27.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DGV_Professeur1.DefaultCellStyle = dataGridViewCellStyle27;
-            resources.ApplyResources(this.DGV_Professeur1, "DGV_Professeur1");
-            this.DGV_Professeur1.DoubleBuffered = true;
-            this.DGV_Professeur1.EnableHeadersVisualStyles = false;
-            this.DGV_Professeur1.GridColor = System.Drawing.Color.DimGray;
-            this.DGV_Professeur1.HeaderBgColor = System.Drawing.Color.SeaGreen;
-            this.DGV_Professeur1.HeaderForeColor = System.Drawing.Color.Black;
-            this.DGV_Professeur1.Name = "DGV_Professeur1";
-            this.DGV_Professeur1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle28.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle28.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle28.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DGV_Professeur1.RowHeadersDefaultCellStyle = dataGridViewCellStyle28;
-            // 
-            // dataGridViewCheckBoxColumn1
-            // 
-            this.dataGridViewCheckBoxColumn1.FalseValue = "F";
-            resources.ApplyResources(this.dataGridViewCheckBoxColumn1, "dataGridViewCheckBoxColumn1");
-            this.dataGridViewCheckBoxColumn1.Name = "dataGridViewCheckBoxColumn1";
-            this.dataGridViewCheckBoxColumn1.TrueValue = "T";
-            // 
-            // tabControl2_Prof_tabpage2_Ajouter
-            // 
-            this.tabControl2_Prof_tabpage2_Ajouter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
-            resources.ApplyResources(this.tabControl2_Prof_tabpage2_Ajouter, "tabControl2_Prof_tabpage2_Ajouter");
-            this.tabControl2_Prof_tabpage2_Ajouter.Name = "tabControl2_Prof_tabpage2_Ajouter";
-            this.tabControl2_Prof_tabpage2_Ajouter.Click += new System.EventHandler(this.tabPage6_Click);
-            // 
-            // tabPage7
-            // 
-            this.tabPage7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
-            this.tabPage7.Controls.Add(this.bunifuThinButton29);
-            this.tabPage7.Controls.Add(this.pictureBox4);
-            this.tabPage7.Controls.Add(this.metroDateTime2);
-            this.tabPage7.Controls.Add(this.metroTextBox8);
-            this.tabPage7.Controls.Add(this.metroTextBox9);
-            this.tabPage7.Controls.Add(this.metroTextBox10);
-            this.tabPage7.Controls.Add(this.bunifuThinButton210);
-            this.tabPage7.Controls.Add(this.bunifuImageButton4);
-            this.tabPage7.Controls.Add(this.label61);
-            this.tabPage7.Controls.Add(this.label62);
-            this.tabPage7.Controls.Add(this.metroComboBox6);
-            this.tabPage7.Controls.Add(this.metroComboBox7);
-            this.tabPage7.Controls.Add(this.metroComboBox8);
-            this.tabPage7.Controls.Add(this.metroComboBox9);
-            this.tabPage7.Controls.Add(this.label63);
-            this.tabPage7.Controls.Add(this.metroTextBox11);
-            this.tabPage7.Controls.Add(this.label66);
-            this.tabPage7.Controls.Add(this.label68);
-            this.tabPage7.Controls.Add(this.label69);
-            this.tabPage7.Controls.Add(this.label70);
-            this.tabPage7.Controls.Add(this.label71);
-            this.tabPage7.Controls.Add(this.label72);
-            this.tabPage7.Controls.Add(this.label73);
-            this.tabPage7.Controls.Add(this.label74);
-            this.tabPage7.Controls.Add(this.label75);
-            this.tabPage7.Controls.Add(this.label76);
-            this.tabPage7.Controls.Add(this.label77);
-            this.tabPage7.Controls.Add(this.label78);
-            this.tabPage7.Controls.Add(this.label79);
-            this.tabPage7.Controls.Add(this.metroComboBox10);
-            this.tabPage7.Controls.Add(this.metroTextBox12);
-            this.tabPage7.Controls.Add(this.radioButton3);
-            this.tabPage7.Controls.Add(this.metroTextBox13);
-            this.tabPage7.Controls.Add(this.radioButton4);
-            this.tabPage7.Controls.Add(this.metroTextBox14);
-            this.tabPage7.Controls.Add(this.metroTextBox15);
-            this.tabPage7.Controls.Add(this.metroTextBox16);
-            resources.ApplyResources(this.tabPage7, "tabPage7");
-            this.tabPage7.Name = "tabPage7";
-            // 
-            // bunifuThinButton29
-            // 
-            this.bunifuThinButton29.ActiveBorderThickness = 1;
-            this.bunifuThinButton29.ActiveCornerRadius = 20;
-            this.bunifuThinButton29.ActiveFillColor = System.Drawing.Color.Aqua;
-            this.bunifuThinButton29.ActiveForecolor = System.Drawing.Color.Black;
-            this.bunifuThinButton29.ActiveLineColor = System.Drawing.Color.Aqua;
-            this.bunifuThinButton29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
-            resources.ApplyResources(this.bunifuThinButton29, "bunifuThinButton29");
-            this.bunifuThinButton29.ButtonText = "Annuler";
-            this.bunifuThinButton29.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton29.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bunifuThinButton29.IdleBorderThickness = 1;
-            this.bunifuThinButton29.IdleCornerRadius = 20;
-            this.bunifuThinButton29.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.bunifuThinButton29.IdleForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton29.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.bunifuThinButton29.Name = "bunifuThinButton29";
-            this.bunifuThinButton29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackgroundImage = global::GestionCentre.Properties.Resources.stagiaire2;
-            resources.ApplyResources(this.pictureBox4, "pictureBox4");
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.TabStop = false;
-            // 
-            // metroDateTime2
-            // 
-            this.metroDateTime2.CalendarForeColor = System.Drawing.Color.White;
-            this.metroDateTime2.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.metroDateTime2.CalendarTitleBackColor = System.Drawing.Color.Aqua;
-            this.metroDateTime2.CalendarTitleForeColor = System.Drawing.Color.Maroon;
-            this.metroDateTime2.CalendarTrailingForeColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.metroDateTime2, "metroDateTime2");
-            this.metroDateTime2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.metroDateTime2.Name = "metroDateTime2";
-            this.metroDateTime2.UseCustomBackColor = true;
-            this.metroDateTime2.UseCustomForeColor = true;
-            this.metroDateTime2.UseStyleColors = true;
-            this.metroDateTime2.Value = new System.DateTime(2017, 3, 26, 4, 6, 31, 0);
-            // 
-            // metroTextBox8
-            // 
-            // 
-            // 
-            // 
-            this.metroTextBox8.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image30")));
-            this.metroTextBox8.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode10")));
-            this.metroTextBox8.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location30")));
-            this.metroTextBox8.CustomButton.Name = "";
-            this.metroTextBox8.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size30")));
-            this.metroTextBox8.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox8.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex30")));
-            this.metroTextBox8.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox8.CustomButton.UseSelectable = true;
-            this.metroTextBox8.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible30")));
-            this.metroTextBox8.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox8.Lines = new string[0];
-            resources.ApplyResources(this.metroTextBox8, "metroTextBox8");
-            this.metroTextBox8.MaxLength = 32767;
-            this.metroTextBox8.Name = "metroTextBox8";
-            this.metroTextBox8.PasswordChar = '\0';
-            this.metroTextBox8.ReadOnly = true;
-            this.metroTextBox8.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox8.SelectedText = "";
-            this.metroTextBox8.SelectionLength = 0;
-            this.metroTextBox8.SelectionStart = 0;
-            this.metroTextBox8.UseCustomBackColor = true;
-            this.metroTextBox8.UseCustomForeColor = true;
-            this.metroTextBox8.UseSelectable = true;
-            this.metroTextBox8.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox8.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // metroTextBox9
-            // 
-            // 
-            // 
-            // 
-            this.metroTextBox9.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image31")));
-            this.metroTextBox9.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode11")));
-            this.metroTextBox9.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location31")));
-            this.metroTextBox9.CustomButton.Name = "";
-            this.metroTextBox9.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size31")));
-            this.metroTextBox9.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox9.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex31")));
-            this.metroTextBox9.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox9.CustomButton.UseSelectable = true;
-            this.metroTextBox9.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible31")));
-            this.metroTextBox9.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox9.Lines = new string[0];
-            resources.ApplyResources(this.metroTextBox9, "metroTextBox9");
-            this.metroTextBox9.MaxLength = 32767;
-            this.metroTextBox9.Name = "metroTextBox9";
-            this.metroTextBox9.PasswordChar = '\0';
-            this.metroTextBox9.ReadOnly = true;
-            this.metroTextBox9.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox9.SelectedText = "";
-            this.metroTextBox9.SelectionLength = 0;
-            this.metroTextBox9.SelectionStart = 0;
-            this.metroTextBox9.UseCustomBackColor = true;
-            this.metroTextBox9.UseCustomForeColor = true;
-            this.metroTextBox9.UseSelectable = true;
-            this.metroTextBox9.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox9.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // metroTextBox10
-            // 
-            // 
-            // 
-            // 
-            this.metroTextBox10.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image32")));
-            this.metroTextBox10.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode12")));
-            this.metroTextBox10.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location32")));
-            this.metroTextBox10.CustomButton.Name = "";
-            this.metroTextBox10.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size32")));
-            this.metroTextBox10.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox10.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex32")));
-            this.metroTextBox10.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox10.CustomButton.UseSelectable = true;
-            this.metroTextBox10.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible32")));
-            this.metroTextBox10.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox10.Lines = new string[0];
-            resources.ApplyResources(this.metroTextBox10, "metroTextBox10");
-            this.metroTextBox10.MaxLength = 32767;
-            this.metroTextBox10.Name = "metroTextBox10";
-            this.metroTextBox10.PasswordChar = '\0';
-            this.metroTextBox10.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox10.SelectedText = "";
-            this.metroTextBox10.SelectionLength = 0;
-            this.metroTextBox10.SelectionStart = 0;
-            this.metroTextBox10.UseCustomBackColor = true;
-            this.metroTextBox10.UseCustomForeColor = true;
-            this.metroTextBox10.UseSelectable = true;
-            this.metroTextBox10.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox10.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // bunifuThinButton210
-            // 
-            this.bunifuThinButton210.ActiveBorderThickness = 1;
-            this.bunifuThinButton210.ActiveCornerRadius = 20;
-            this.bunifuThinButton210.ActiveFillColor = System.Drawing.Color.Aqua;
-            this.bunifuThinButton210.ActiveForecolor = System.Drawing.Color.Black;
-            this.bunifuThinButton210.ActiveLineColor = System.Drawing.Color.Aqua;
-            this.bunifuThinButton210.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
-            resources.ApplyResources(this.bunifuThinButton210, "bunifuThinButton210");
-            this.bunifuThinButton210.ButtonText = "Modifier";
-            this.bunifuThinButton210.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton210.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bunifuThinButton210.IdleBorderThickness = 1;
-            this.bunifuThinButton210.IdleCornerRadius = 20;
-            this.bunifuThinButton210.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.bunifuThinButton210.IdleForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton210.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.bunifuThinButton210.Name = "bunifuThinButton210";
-            this.bunifuThinButton210.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuImageButton4
-            // 
-            this.bunifuImageButton4.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.bunifuImageButton4, "bunifuImageButton4");
-            this.bunifuImageButton4.ImageActive = null;
-            this.bunifuImageButton4.Name = "bunifuImageButton4";
-            this.bunifuImageButton4.TabStop = false;
-            this.bunifuImageButton4.Zoom = 10;
-            // 
-            // label61
-            // 
-            resources.ApplyResources(this.label61, "label61");
-            this.label61.ForeColor = System.Drawing.Color.White;
-            this.label61.Name = "label61";
-            // 
-            // label62
-            // 
-            resources.ApplyResources(this.label62, "label62");
-            this.label62.ForeColor = System.Drawing.Color.White;
-            this.label62.Name = "label62";
-            // 
-            // metroComboBox6
-            // 
-            this.metroComboBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.metroComboBox6.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.metroComboBox6, "metroComboBox6");
-            this.metroComboBox6.ForeColor = System.Drawing.Color.White;
-            this.metroComboBox6.FormattingEnabled = true;
-            this.metroComboBox6.Items.AddRange(new object[] {
-            resources.GetString("metroComboBox6.Items"),
-            resources.GetString("metroComboBox6.Items1"),
-            resources.GetString("metroComboBox6.Items2")});
-            this.metroComboBox6.Name = "metroComboBox6";
-            this.metroComboBox6.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroComboBox6.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroComboBox6.UseCustomBackColor = true;
-            this.metroComboBox6.UseCustomForeColor = true;
-            this.metroComboBox6.UseSelectable = true;
-            // 
-            // metroComboBox7
-            // 
-            this.metroComboBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.metroComboBox7.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.metroComboBox7, "metroComboBox7");
-            this.metroComboBox7.ForeColor = System.Drawing.Color.White;
-            this.metroComboBox7.FormattingEnabled = true;
-            this.metroComboBox7.Items.AddRange(new object[] {
-            resources.GetString("metroComboBox7.Items"),
-            resources.GetString("metroComboBox7.Items1"),
-            resources.GetString("metroComboBox7.Items2"),
-            resources.GetString("metroComboBox7.Items3"),
-            resources.GetString("metroComboBox7.Items4"),
-            resources.GetString("metroComboBox7.Items5"),
-            resources.GetString("metroComboBox7.Items6"),
-            resources.GetString("metroComboBox7.Items7"),
-            resources.GetString("metroComboBox7.Items8"),
-            resources.GetString("metroComboBox7.Items9")});
-            this.metroComboBox7.Name = "metroComboBox7";
-            this.metroComboBox7.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroComboBox7.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroComboBox7.UseCustomBackColor = true;
-            this.metroComboBox7.UseCustomForeColor = true;
-            this.metroComboBox7.UseSelectable = true;
-            // 
-            // metroComboBox8
-            // 
-            this.metroComboBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.metroComboBox8.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.metroComboBox8, "metroComboBox8");
-            this.metroComboBox8.ForeColor = System.Drawing.Color.White;
-            this.metroComboBox8.FormattingEnabled = true;
-            this.metroComboBox8.Items.AddRange(new object[] {
-            resources.GetString("metroComboBox8.Items"),
-            resources.GetString("metroComboBox8.Items1")});
-            this.metroComboBox8.Name = "metroComboBox8";
-            this.metroComboBox8.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroComboBox8.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroComboBox8.UseCustomBackColor = true;
-            this.metroComboBox8.UseCustomForeColor = true;
-            this.metroComboBox8.UseSelectable = true;
-            // 
-            // metroComboBox9
-            // 
-            this.metroComboBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.metroComboBox9.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.metroComboBox9, "metroComboBox9");
-            this.metroComboBox9.ForeColor = System.Drawing.Color.White;
-            this.metroComboBox9.FormattingEnabled = true;
-            this.metroComboBox9.Items.AddRange(new object[] {
-            resources.GetString("metroComboBox9.Items"),
-            resources.GetString("metroComboBox9.Items1"),
-            resources.GetString("metroComboBox9.Items2")});
-            this.metroComboBox9.Name = "metroComboBox9";
-            this.metroComboBox9.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroComboBox9.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroComboBox9.UseCustomBackColor = true;
-            this.metroComboBox9.UseCustomForeColor = true;
-            this.metroComboBox9.UseSelectable = true;
-            // 
-            // label63
-            // 
-            resources.ApplyResources(this.label63, "label63");
-            this.label63.ForeColor = System.Drawing.Color.White;
-            this.label63.Name = "label63";
-            // 
-            // metroTextBox11
-            // 
-            // 
-            // 
-            // 
-            this.metroTextBox11.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image33")));
-            this.metroTextBox11.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode13")));
-            this.metroTextBox11.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location33")));
-            this.metroTextBox11.CustomButton.Name = "";
-            this.metroTextBox11.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size33")));
-            this.metroTextBox11.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox11.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex33")));
-            this.metroTextBox11.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox11.CustomButton.UseSelectable = true;
-            this.metroTextBox11.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible33")));
-            this.metroTextBox11.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox11.Lines = new string[0];
-            resources.ApplyResources(this.metroTextBox11, "metroTextBox11");
-            this.metroTextBox11.MaxLength = 32767;
-            this.metroTextBox11.Name = "metroTextBox11";
-            this.metroTextBox11.PasswordChar = '\0';
-            this.metroTextBox11.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox11.SelectedText = "";
-            this.metroTextBox11.SelectionLength = 0;
-            this.metroTextBox11.SelectionStart = 0;
-            this.metroTextBox11.UseCustomBackColor = true;
-            this.metroTextBox11.UseCustomForeColor = true;
-            this.metroTextBox11.UseSelectable = true;
-            this.metroTextBox11.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox11.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // label66
-            // 
-            resources.ApplyResources(this.label66, "label66");
-            this.label66.ForeColor = System.Drawing.Color.White;
-            this.label66.Name = "label66";
-            // 
-            // label68
-            // 
-            resources.ApplyResources(this.label68, "label68");
-            this.label68.ForeColor = System.Drawing.Color.White;
-            this.label68.Name = "label68";
-            // 
-            // label69
-            // 
-            resources.ApplyResources(this.label69, "label69");
-            this.label69.ForeColor = System.Drawing.Color.White;
-            this.label69.Name = "label69";
-            // 
-            // label70
-            // 
-            resources.ApplyResources(this.label70, "label70");
-            this.label70.ForeColor = System.Drawing.Color.White;
-            this.label70.Name = "label70";
-            // 
-            // label71
-            // 
-            resources.ApplyResources(this.label71, "label71");
-            this.label71.ForeColor = System.Drawing.Color.White;
-            this.label71.Name = "label71";
-            // 
-            // label72
-            // 
-            resources.ApplyResources(this.label72, "label72");
-            this.label72.ForeColor = System.Drawing.Color.White;
-            this.label72.Name = "label72";
-            // 
-            // label73
-            // 
-            resources.ApplyResources(this.label73, "label73");
-            this.label73.ForeColor = System.Drawing.Color.White;
-            this.label73.Name = "label73";
-            // 
-            // label74
-            // 
-            resources.ApplyResources(this.label74, "label74");
-            this.label74.ForeColor = System.Drawing.Color.White;
-            this.label74.Name = "label74";
-            // 
-            // label75
-            // 
-            resources.ApplyResources(this.label75, "label75");
-            this.label75.ForeColor = System.Drawing.Color.White;
-            this.label75.Name = "label75";
-            // 
-            // label76
-            // 
-            resources.ApplyResources(this.label76, "label76");
-            this.label76.ForeColor = System.Drawing.Color.White;
-            this.label76.Name = "label76";
-            // 
-            // label77
-            // 
-            resources.ApplyResources(this.label77, "label77");
-            this.label77.ForeColor = System.Drawing.Color.White;
-            this.label77.Name = "label77";
-            // 
-            // label78
-            // 
-            resources.ApplyResources(this.label78, "label78");
-            this.label78.ForeColor = System.Drawing.Color.White;
-            this.label78.Name = "label78";
-            // 
-            // label79
-            // 
-            resources.ApplyResources(this.label79, "label79");
-            this.label79.ForeColor = System.Drawing.Color.White;
-            this.label79.Name = "label79";
-            // 
-            // metroComboBox10
-            // 
-            this.metroComboBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.metroComboBox10.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.metroComboBox10, "metroComboBox10");
-            this.metroComboBox10.ForeColor = System.Drawing.Color.White;
-            this.metroComboBox10.FormattingEnabled = true;
-            this.metroComboBox10.Items.AddRange(new object[] {
-            resources.GetString("metroComboBox10.Items"),
-            resources.GetString("metroComboBox10.Items1"),
-            resources.GetString("metroComboBox10.Items2")});
-            this.metroComboBox10.Name = "metroComboBox10";
-            this.metroComboBox10.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroComboBox10.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroComboBox10.UseCustomBackColor = true;
-            this.metroComboBox10.UseCustomForeColor = true;
-            this.metroComboBox10.UseSelectable = true;
-            // 
-            // metroTextBox12
-            // 
-            // 
-            // 
-            // 
-            this.metroTextBox12.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image34")));
-            this.metroTextBox12.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode14")));
-            this.metroTextBox12.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location34")));
-            this.metroTextBox12.CustomButton.Name = "";
-            this.metroTextBox12.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size34")));
-            this.metroTextBox12.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox12.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex34")));
-            this.metroTextBox12.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox12.CustomButton.UseSelectable = true;
-            this.metroTextBox12.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible34")));
-            this.metroTextBox12.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox12.Lines = new string[0];
-            resources.ApplyResources(this.metroTextBox12, "metroTextBox12");
-            this.metroTextBox12.MaxLength = 32767;
-            this.metroTextBox12.Name = "metroTextBox12";
-            this.metroTextBox12.PasswordChar = '\0';
-            this.metroTextBox12.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox12.SelectedText = "";
-            this.metroTextBox12.SelectionLength = 0;
-            this.metroTextBox12.SelectionStart = 0;
-            this.metroTextBox12.UseCustomBackColor = true;
-            this.metroTextBox12.UseCustomForeColor = true;
-            this.metroTextBox12.UseSelectable = true;
-            this.metroTextBox12.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox12.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton3.Checked = true;
-            resources.ApplyResources(this.radioButton3, "radioButton3");
-            this.radioButton3.ForeColor = System.Drawing.Color.White;
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.TabStop = true;
-            this.radioButton3.UseVisualStyleBackColor = false;
-            // 
-            // metroTextBox13
-            // 
-            // 
-            // 
-            // 
-            this.metroTextBox13.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image35")));
-            this.metroTextBox13.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode15")));
-            this.metroTextBox13.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location35")));
-            this.metroTextBox13.CustomButton.Name = "";
-            this.metroTextBox13.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size35")));
-            this.metroTextBox13.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox13.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex35")));
-            this.metroTextBox13.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox13.CustomButton.UseSelectable = true;
-            this.metroTextBox13.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible35")));
-            this.metroTextBox13.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox13.Lines = new string[0];
-            resources.ApplyResources(this.metroTextBox13, "metroTextBox13");
-            this.metroTextBox13.MaxLength = 32767;
-            this.metroTextBox13.Name = "metroTextBox13";
-            this.metroTextBox13.PasswordChar = '\0';
-            this.metroTextBox13.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox13.SelectedText = "";
-            this.metroTextBox13.SelectionLength = 0;
-            this.metroTextBox13.SelectionStart = 0;
-            this.metroTextBox13.UseCustomBackColor = true;
-            this.metroTextBox13.UseCustomForeColor = true;
-            this.metroTextBox13.UseSelectable = true;
-            this.metroTextBox13.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox13.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // radioButton4
-            // 
-            this.radioButton4.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.radioButton4, "radioButton4");
-            this.radioButton4.ForeColor = System.Drawing.Color.White;
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.UseVisualStyleBackColor = false;
-            // 
-            // metroTextBox14
-            // 
-            // 
-            // 
-            // 
-            this.metroTextBox14.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image36")));
-            this.metroTextBox14.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode16")));
-            this.metroTextBox14.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location36")));
-            this.metroTextBox14.CustomButton.Name = "";
-            this.metroTextBox14.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size36")));
-            this.metroTextBox14.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox14.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex36")));
-            this.metroTextBox14.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox14.CustomButton.UseSelectable = true;
-            this.metroTextBox14.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible36")));
-            this.metroTextBox14.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox14.Lines = new string[0];
-            resources.ApplyResources(this.metroTextBox14, "metroTextBox14");
-            this.metroTextBox14.MaxLength = 32767;
-            this.metroTextBox14.Name = "metroTextBox14";
-            this.metroTextBox14.PasswordChar = '\0';
-            this.metroTextBox14.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox14.SelectedText = "";
-            this.metroTextBox14.SelectionLength = 0;
-            this.metroTextBox14.SelectionStart = 0;
-            this.metroTextBox14.UseCustomBackColor = true;
-            this.metroTextBox14.UseCustomForeColor = true;
-            this.metroTextBox14.UseSelectable = true;
-            this.metroTextBox14.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox14.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // metroTextBox15
-            // 
-            // 
-            // 
-            // 
-            this.metroTextBox15.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image37")));
-            this.metroTextBox15.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode17")));
-            this.metroTextBox15.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location37")));
-            this.metroTextBox15.CustomButton.Name = "";
-            this.metroTextBox15.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size37")));
-            this.metroTextBox15.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox15.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex37")));
-            this.metroTextBox15.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox15.CustomButton.UseSelectable = true;
-            this.metroTextBox15.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible37")));
-            this.metroTextBox15.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox15.Lines = new string[0];
-            resources.ApplyResources(this.metroTextBox15, "metroTextBox15");
-            this.metroTextBox15.MaxLength = 32767;
-            this.metroTextBox15.Name = "metroTextBox15";
-            this.metroTextBox15.PasswordChar = '\0';
-            this.metroTextBox15.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox15.SelectedText = "";
-            this.metroTextBox15.SelectionLength = 0;
-            this.metroTextBox15.SelectionStart = 0;
-            this.metroTextBox15.UseCustomBackColor = true;
-            this.metroTextBox15.UseCustomForeColor = true;
-            this.metroTextBox15.UseSelectable = true;
-            this.metroTextBox15.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox15.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // metroTextBox16
-            // 
-            // 
-            // 
-            // 
-            this.metroTextBox16.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image38")));
-            this.metroTextBox16.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode18")));
-            this.metroTextBox16.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location38")));
-            this.metroTextBox16.CustomButton.Name = "";
-            this.metroTextBox16.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size38")));
-            this.metroTextBox16.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox16.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex38")));
-            this.metroTextBox16.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox16.CustomButton.UseSelectable = true;
-            this.metroTextBox16.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible38")));
-            this.metroTextBox16.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox16.Lines = new string[0];
-            resources.ApplyResources(this.metroTextBox16, "metroTextBox16");
-            this.metroTextBox16.MaxLength = 32767;
-            this.metroTextBox16.Name = "metroTextBox16";
-            this.metroTextBox16.PasswordChar = '\0';
-            this.metroTextBox16.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox16.SelectedText = "";
-            this.metroTextBox16.SelectionLength = 0;
-            this.metroTextBox16.SelectionStart = 0;
-            this.metroTextBox16.UseCustomBackColor = true;
-            this.metroTextBox16.UseCustomForeColor = true;
-            this.metroTextBox16.UseSelectable = true;
-            this.metroTextBox16.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox16.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // tabPage9
-            // 
-            this.tabPage9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
-            this.tabPage9.Controls.Add(this.bunifuCustomDataGrid2);
-            this.tabPage9.Controls.Add(this.bunifuFlatButton2);
-            this.tabPage9.Controls.Add(this.bunifuTextbox1);
-            this.tabPage9.Controls.Add(this.bunifuTextbox2);
-            this.tabPage9.Controls.Add(this.metroComboBox11);
-            this.tabPage9.Controls.Add(this.label97);
-            this.tabPage9.Controls.Add(this.label98);
-            this.tabPage9.Controls.Add(this.label99);
-            resources.ApplyResources(this.tabPage9, "tabPage9");
-            this.tabPage9.Name = "tabPage9";
-            // 
-            // bunifuCustomDataGrid2
-            // 
-            this.bunifuCustomDataGrid2.AllowUserToAddRows = false;
-            this.bunifuCustomDataGrid2.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuCustomDataGrid2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle29;
-            this.bunifuCustomDataGrid2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
-            this.bunifuCustomDataGrid2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.bunifuCustomDataGrid2.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle30.BackColor = System.Drawing.Color.SeaGreen;
-            dataGridViewCellStyle30.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle30.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle30.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle30.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle30.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuCustomDataGrid2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle30;
-            this.bunifuCustomDataGrid2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.bunifuCustomDataGrid2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewButtonColumn1});
-            dataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle31.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle31.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle31.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle31.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle31.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle31.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.bunifuCustomDataGrid2.DefaultCellStyle = dataGridViewCellStyle31;
-            resources.ApplyResources(this.bunifuCustomDataGrid2, "bunifuCustomDataGrid2");
-            this.bunifuCustomDataGrid2.DoubleBuffered = true;
-            this.bunifuCustomDataGrid2.EnableHeadersVisualStyles = false;
-            this.bunifuCustomDataGrid2.GridColor = System.Drawing.Color.DimGray;
-            this.bunifuCustomDataGrid2.HeaderBgColor = System.Drawing.Color.SeaGreen;
-            this.bunifuCustomDataGrid2.HeaderForeColor = System.Drawing.Color.Black;
-            this.bunifuCustomDataGrid2.Name = "bunifuCustomDataGrid2";
-            this.bunifuCustomDataGrid2.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle32.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle32.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle32.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle32.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle32.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle32.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuCustomDataGrid2.RowHeadersDefaultCellStyle = dataGridViewCellStyle32;
-            // 
-            // dataGridViewButtonColumn1
-            // 
-            this.dataGridViewButtonColumn1.DataPropertyName = "Afficher";
-            resources.ApplyResources(this.dataGridViewButtonColumn1, "dataGridViewButtonColumn1");
-            this.dataGridViewButtonColumn1.Name = "dataGridViewButtonColumn1";
-            this.dataGridViewButtonColumn1.Text = "Afficher";
-            this.dataGridViewButtonColumn1.UseColumnTextForButtonValue = true;
-            // 
-            // bunifuFlatButton2
-            // 
-            this.bunifuFlatButton2.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.bunifuFlatButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            resources.ApplyResources(this.bunifuFlatButton2, "bunifuFlatButton2");
-            this.bunifuFlatButton2.BorderRadius = 0;
-            this.bunifuFlatButton2.ButtonText = "Chercher";
-            this.bunifuFlatButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton2.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton2.ForeColor = System.Drawing.Color.Black;
-            this.bunifuFlatButton2.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton2.Iconimage = null;
-            this.bunifuFlatButton2.Iconimage_right = null;
-            this.bunifuFlatButton2.Iconimage_right_Selected = null;
-            this.bunifuFlatButton2.Iconimage_Selected = null;
-            this.bunifuFlatButton2.IconMarginLeft = 5;
-            this.bunifuFlatButton2.IconMarginRight = 0;
-            this.bunifuFlatButton2.IconRightVisible = false;
-            this.bunifuFlatButton2.IconRightZoom = 0D;
-            this.bunifuFlatButton2.IconVisible = false;
-            this.bunifuFlatButton2.IconZoom = 90D;
-            this.bunifuFlatButton2.IsTab = false;
-            this.bunifuFlatButton2.Name = "bunifuFlatButton2";
-            this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.bunifuFlatButton2.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton2.selected = false;
-            this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton2.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // bunifuTextbox1
-            // 
-            this.bunifuTextbox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            resources.ApplyResources(this.bunifuTextbox1, "bunifuTextbox1");
-            this.bunifuTextbox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(123)))), ((int)(((byte)(231)))));
-            this.bunifuTextbox1.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox1.Icon")));
-            this.bunifuTextbox1.Name = "bunifuTextbox1";
-            this.bunifuTextbox1.text = "";
-            // 
-            // bunifuTextbox2
-            // 
-            this.bunifuTextbox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            resources.ApplyResources(this.bunifuTextbox2, "bunifuTextbox2");
-            this.bunifuTextbox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(123)))), ((int)(((byte)(231)))));
-            this.bunifuTextbox2.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox2.Icon")));
-            this.bunifuTextbox2.Name = "bunifuTextbox2";
-            this.bunifuTextbox2.text = "";
-            // 
-            // metroComboBox11
-            // 
-            this.metroComboBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.metroComboBox11.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.metroComboBox11, "metroComboBox11");
-            this.metroComboBox11.ForeColor = System.Drawing.Color.White;
-            this.metroComboBox11.FormattingEnabled = true;
-            this.metroComboBox11.Items.AddRange(new object[] {
-            resources.GetString("metroComboBox11.Items"),
-            resources.GetString("metroComboBox11.Items1")});
-            this.metroComboBox11.Name = "metroComboBox11";
-            this.metroComboBox11.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroComboBox11.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroComboBox11.UseCustomBackColor = true;
-            this.metroComboBox11.UseCustomForeColor = true;
-            this.metroComboBox11.UseSelectable = true;
-            // 
-            // label97
-            // 
-            resources.ApplyResources(this.label97, "label97");
-            this.label97.ForeColor = System.Drawing.Color.White;
-            this.label97.Name = "label97";
-            // 
-            // label98
-            // 
-            resources.ApplyResources(this.label98, "label98");
-            this.label98.ForeColor = System.Drawing.Color.White;
-            this.label98.Name = "label98";
-            // 
-            // label99
-            // 
-            resources.ApplyResources(this.label99, "label99");
-            this.label99.ForeColor = System.Drawing.Color.White;
-            this.label99.Name = "label99";
-            // 
-            // tabPage8
-            // 
-            this.tabPage8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
-            this.tabPage8.Controls.Add(this.metroTextBox17);
-            this.tabPage8.Controls.Add(this.metroTextBox18);
-            this.tabPage8.Controls.Add(this.metroTextBox19);
-            this.tabPage8.Controls.Add(this.metroTextBox20);
-            this.tabPage8.Controls.Add(this.metroTextBox21);
-            this.tabPage8.Controls.Add(this.metroTextBox22);
-            this.tabPage8.Controls.Add(this.metroTextBox23);
-            this.tabPage8.Controls.Add(this.metroTextBox24);
-            this.tabPage8.Controls.Add(this.metroTextBox25);
-            this.tabPage8.Controls.Add(this.metroTextBox26);
-            this.tabPage8.Controls.Add(this.metroTextBox27);
-            this.tabPage8.Controls.Add(this.metroTextBox28);
-            this.tabPage8.Controls.Add(this.label80);
-            this.tabPage8.Controls.Add(this.metroTextBox29);
-            this.tabPage8.Controls.Add(this.label81);
-            this.tabPage8.Controls.Add(this.label82);
-            this.tabPage8.Controls.Add(this.metroTextBox30);
-            this.tabPage8.Controls.Add(this.label83);
-            this.tabPage8.Controls.Add(this.label84);
-            this.tabPage8.Controls.Add(this.label85);
-            this.tabPage8.Controls.Add(this.panel9);
-            this.tabPage8.Controls.Add(this.label89);
-            this.tabPage8.Controls.Add(this.label90);
-            this.tabPage8.Controls.Add(this.label91);
-            this.tabPage8.Controls.Add(this.label92);
-            this.tabPage8.Controls.Add(this.label93);
-            this.tabPage8.Controls.Add(this.label94);
-            this.tabPage8.Controls.Add(this.label95);
-            this.tabPage8.Controls.Add(this.label96);
-            resources.ApplyResources(this.tabPage8, "tabPage8");
-            this.tabPage8.Name = "tabPage8";
-            // 
-            // metroTextBox17
-            // 
-            // 
-            // 
-            // 
-            this.metroTextBox17.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image39")));
-            this.metroTextBox17.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode19")));
-            this.metroTextBox17.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location39")));
-            this.metroTextBox17.CustomButton.Name = "";
-            this.metroTextBox17.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size39")));
-            this.metroTextBox17.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox17.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex39")));
-            this.metroTextBox17.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox17.CustomButton.UseSelectable = true;
-            this.metroTextBox17.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible39")));
-            this.metroTextBox17.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox17.Lines = new string[0];
-            resources.ApplyResources(this.metroTextBox17, "metroTextBox17");
-            this.metroTextBox17.MaxLength = 32767;
-            this.metroTextBox17.Name = "metroTextBox17";
-            this.metroTextBox17.PasswordChar = '\0';
-            this.metroTextBox17.ReadOnly = true;
-            this.metroTextBox17.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox17.SelectedText = "";
-            this.metroTextBox17.SelectionLength = 0;
-            this.metroTextBox17.SelectionStart = 0;
-            this.metroTextBox17.UseCustomBackColor = true;
-            this.metroTextBox17.UseCustomForeColor = true;
-            this.metroTextBox17.UseSelectable = true;
-            this.metroTextBox17.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox17.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // metroTextBox18
-            // 
-            // 
-            // 
-            // 
-            this.metroTextBox18.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image40")));
-            this.metroTextBox18.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode20")));
-            this.metroTextBox18.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location40")));
-            this.metroTextBox18.CustomButton.Name = "";
-            this.metroTextBox18.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size40")));
-            this.metroTextBox18.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox18.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex40")));
-            this.metroTextBox18.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox18.CustomButton.UseSelectable = true;
-            this.metroTextBox18.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible40")));
-            this.metroTextBox18.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox18.Lines = new string[0];
-            resources.ApplyResources(this.metroTextBox18, "metroTextBox18");
-            this.metroTextBox18.MaxLength = 32767;
-            this.metroTextBox18.Name = "metroTextBox18";
-            this.metroTextBox18.PasswordChar = '\0';
-            this.metroTextBox18.ReadOnly = true;
-            this.metroTextBox18.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox18.SelectedText = "";
-            this.metroTextBox18.SelectionLength = 0;
-            this.metroTextBox18.SelectionStart = 0;
-            this.metroTextBox18.UseCustomBackColor = true;
-            this.metroTextBox18.UseCustomForeColor = true;
-            this.metroTextBox18.UseSelectable = true;
-            this.metroTextBox18.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox18.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // metroTextBox19
-            // 
-            // 
-            // 
-            // 
-            this.metroTextBox19.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image41")));
-            this.metroTextBox19.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode21")));
-            this.metroTextBox19.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location41")));
-            this.metroTextBox19.CustomButton.Name = "";
-            this.metroTextBox19.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size41")));
-            this.metroTextBox19.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox19.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex41")));
-            this.metroTextBox19.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox19.CustomButton.UseSelectable = true;
-            this.metroTextBox19.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible41")));
-            this.metroTextBox19.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox19.Lines = new string[0];
-            resources.ApplyResources(this.metroTextBox19, "metroTextBox19");
-            this.metroTextBox19.MaxLength = 32767;
-            this.metroTextBox19.Name = "metroTextBox19";
-            this.metroTextBox19.PasswordChar = '\0';
-            this.metroTextBox19.ReadOnly = true;
-            this.metroTextBox19.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox19.SelectedText = "";
-            this.metroTextBox19.SelectionLength = 0;
-            this.metroTextBox19.SelectionStart = 0;
-            this.metroTextBox19.UseCustomBackColor = true;
-            this.metroTextBox19.UseCustomForeColor = true;
-            this.metroTextBox19.UseSelectable = true;
-            this.metroTextBox19.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox19.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // metroTextBox20
-            // 
-            // 
-            // 
-            // 
-            this.metroTextBox20.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image42")));
-            this.metroTextBox20.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode22")));
-            this.metroTextBox20.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location42")));
-            this.metroTextBox20.CustomButton.Name = "";
-            this.metroTextBox20.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size42")));
-            this.metroTextBox20.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox20.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex42")));
-            this.metroTextBox20.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox20.CustomButton.UseSelectable = true;
-            this.metroTextBox20.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible42")));
-            this.metroTextBox20.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox20.Lines = new string[0];
-            resources.ApplyResources(this.metroTextBox20, "metroTextBox20");
-            this.metroTextBox20.MaxLength = 32767;
-            this.metroTextBox20.Name = "metroTextBox20";
-            this.metroTextBox20.PasswordChar = '\0';
-            this.metroTextBox20.ReadOnly = true;
-            this.metroTextBox20.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox20.SelectedText = "";
-            this.metroTextBox20.SelectionLength = 0;
-            this.metroTextBox20.SelectionStart = 0;
-            this.metroTextBox20.UseCustomBackColor = true;
-            this.metroTextBox20.UseCustomForeColor = true;
-            this.metroTextBox20.UseSelectable = true;
-            this.metroTextBox20.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox20.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // metroTextBox21
-            // 
-            // 
-            // 
-            // 
-            this.metroTextBox21.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image43")));
-            this.metroTextBox21.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode23")));
-            this.metroTextBox21.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location43")));
-            this.metroTextBox21.CustomButton.Name = "";
-            this.metroTextBox21.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size43")));
-            this.metroTextBox21.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox21.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex43")));
-            this.metroTextBox21.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox21.CustomButton.UseSelectable = true;
-            this.metroTextBox21.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible43")));
-            this.metroTextBox21.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox21.Lines = new string[0];
-            resources.ApplyResources(this.metroTextBox21, "metroTextBox21");
-            this.metroTextBox21.MaxLength = 32767;
-            this.metroTextBox21.Name = "metroTextBox21";
-            this.metroTextBox21.PasswordChar = '\0';
-            this.metroTextBox21.ReadOnly = true;
-            this.metroTextBox21.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox21.SelectedText = "";
-            this.metroTextBox21.SelectionLength = 0;
-            this.metroTextBox21.SelectionStart = 0;
-            this.metroTextBox21.UseCustomBackColor = true;
-            this.metroTextBox21.UseCustomForeColor = true;
-            this.metroTextBox21.UseSelectable = true;
-            this.metroTextBox21.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox21.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // metroTextBox22
-            // 
-            // 
-            // 
-            // 
-            this.metroTextBox22.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image44")));
-            this.metroTextBox22.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode24")));
-            this.metroTextBox22.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location44")));
-            this.metroTextBox22.CustomButton.Name = "";
-            this.metroTextBox22.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size44")));
-            this.metroTextBox22.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox22.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex44")));
-            this.metroTextBox22.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox22.CustomButton.UseSelectable = true;
-            this.metroTextBox22.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible44")));
-            this.metroTextBox22.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox22.Lines = new string[0];
-            resources.ApplyResources(this.metroTextBox22, "metroTextBox22");
-            this.metroTextBox22.MaxLength = 32767;
-            this.metroTextBox22.Name = "metroTextBox22";
-            this.metroTextBox22.PasswordChar = '\0';
-            this.metroTextBox22.ReadOnly = true;
-            this.metroTextBox22.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox22.SelectedText = "";
-            this.metroTextBox22.SelectionLength = 0;
-            this.metroTextBox22.SelectionStart = 0;
-            this.metroTextBox22.UseCustomBackColor = true;
-            this.metroTextBox22.UseCustomForeColor = true;
-            this.metroTextBox22.UseSelectable = true;
-            this.metroTextBox22.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox22.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // metroTextBox23
-            // 
-            // 
-            // 
-            // 
-            this.metroTextBox23.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image45")));
-            this.metroTextBox23.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode25")));
-            this.metroTextBox23.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location45")));
-            this.metroTextBox23.CustomButton.Name = "";
-            this.metroTextBox23.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size45")));
-            this.metroTextBox23.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox23.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex45")));
-            this.metroTextBox23.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox23.CustomButton.UseSelectable = true;
-            this.metroTextBox23.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible45")));
-            this.metroTextBox23.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox23.Lines = new string[0];
-            resources.ApplyResources(this.metroTextBox23, "metroTextBox23");
-            this.metroTextBox23.MaxLength = 32767;
-            this.metroTextBox23.Name = "metroTextBox23";
-            this.metroTextBox23.PasswordChar = '\0';
-            this.metroTextBox23.ReadOnly = true;
-            this.metroTextBox23.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox23.SelectedText = "";
-            this.metroTextBox23.SelectionLength = 0;
-            this.metroTextBox23.SelectionStart = 0;
-            this.metroTextBox23.UseCustomBackColor = true;
-            this.metroTextBox23.UseCustomForeColor = true;
-            this.metroTextBox23.UseSelectable = true;
-            this.metroTextBox23.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox23.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // metroTextBox24
-            // 
-            // 
-            // 
-            // 
-            this.metroTextBox24.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image46")));
-            this.metroTextBox24.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode26")));
-            this.metroTextBox24.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location46")));
-            this.metroTextBox24.CustomButton.Name = "";
-            this.metroTextBox24.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size46")));
-            this.metroTextBox24.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox24.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex46")));
-            this.metroTextBox24.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox24.CustomButton.UseSelectable = true;
-            this.metroTextBox24.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible46")));
-            this.metroTextBox24.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox24.Lines = new string[0];
-            resources.ApplyResources(this.metroTextBox24, "metroTextBox24");
-            this.metroTextBox24.MaxLength = 32767;
-            this.metroTextBox24.Name = "metroTextBox24";
-            this.metroTextBox24.PasswordChar = '\0';
-            this.metroTextBox24.ReadOnly = true;
-            this.metroTextBox24.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox24.SelectedText = "";
-            this.metroTextBox24.SelectionLength = 0;
-            this.metroTextBox24.SelectionStart = 0;
-            this.metroTextBox24.UseCustomBackColor = true;
-            this.metroTextBox24.UseCustomForeColor = true;
-            this.metroTextBox24.UseSelectable = true;
-            this.metroTextBox24.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox24.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // metroTextBox25
-            // 
-            // 
-            // 
-            // 
-            this.metroTextBox25.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image47")));
-            this.metroTextBox25.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode27")));
-            this.metroTextBox25.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location47")));
-            this.metroTextBox25.CustomButton.Name = "";
-            this.metroTextBox25.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size47")));
-            this.metroTextBox25.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox25.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex47")));
-            this.metroTextBox25.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox25.CustomButton.UseSelectable = true;
-            this.metroTextBox25.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible47")));
-            this.metroTextBox25.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox25.Lines = new string[0];
-            resources.ApplyResources(this.metroTextBox25, "metroTextBox25");
-            this.metroTextBox25.MaxLength = 32767;
-            this.metroTextBox25.Name = "metroTextBox25";
-            this.metroTextBox25.PasswordChar = '\0';
-            this.metroTextBox25.ReadOnly = true;
-            this.metroTextBox25.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox25.SelectedText = "";
-            this.metroTextBox25.SelectionLength = 0;
-            this.metroTextBox25.SelectionStart = 0;
-            this.metroTextBox25.UseCustomBackColor = true;
-            this.metroTextBox25.UseCustomForeColor = true;
-            this.metroTextBox25.UseSelectable = true;
-            this.metroTextBox25.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox25.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // metroTextBox26
-            // 
-            // 
-            // 
-            // 
-            this.metroTextBox26.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image48")));
-            this.metroTextBox26.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode28")));
-            this.metroTextBox26.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location48")));
-            this.metroTextBox26.CustomButton.Name = "";
-            this.metroTextBox26.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size48")));
-            this.metroTextBox26.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox26.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex48")));
-            this.metroTextBox26.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox26.CustomButton.UseSelectable = true;
-            this.metroTextBox26.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible48")));
-            this.metroTextBox26.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox26.Lines = new string[0];
-            resources.ApplyResources(this.metroTextBox26, "metroTextBox26");
-            this.metroTextBox26.MaxLength = 32767;
-            this.metroTextBox26.Name = "metroTextBox26";
-            this.metroTextBox26.PasswordChar = '\0';
-            this.metroTextBox26.ReadOnly = true;
-            this.metroTextBox26.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox26.SelectedText = "";
-            this.metroTextBox26.SelectionLength = 0;
-            this.metroTextBox26.SelectionStart = 0;
-            this.metroTextBox26.UseCustomBackColor = true;
-            this.metroTextBox26.UseCustomForeColor = true;
-            this.metroTextBox26.UseSelectable = true;
-            this.metroTextBox26.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox26.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // metroTextBox27
-            // 
-            // 
-            // 
-            // 
-            this.metroTextBox27.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image49")));
-            this.metroTextBox27.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode29")));
-            this.metroTextBox27.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location49")));
-            this.metroTextBox27.CustomButton.Name = "";
-            this.metroTextBox27.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size49")));
-            this.metroTextBox27.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox27.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex49")));
-            this.metroTextBox27.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox27.CustomButton.UseSelectable = true;
-            this.metroTextBox27.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible49")));
-            this.metroTextBox27.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox27.Lines = new string[0];
-            resources.ApplyResources(this.metroTextBox27, "metroTextBox27");
-            this.metroTextBox27.MaxLength = 32767;
-            this.metroTextBox27.Name = "metroTextBox27";
-            this.metroTextBox27.PasswordChar = '\0';
-            this.metroTextBox27.ReadOnly = true;
-            this.metroTextBox27.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox27.SelectedText = "";
-            this.metroTextBox27.SelectionLength = 0;
-            this.metroTextBox27.SelectionStart = 0;
-            this.metroTextBox27.UseCustomBackColor = true;
-            this.metroTextBox27.UseCustomForeColor = true;
-            this.metroTextBox27.UseSelectable = true;
-            this.metroTextBox27.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox27.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // metroTextBox28
-            // 
-            // 
-            // 
-            // 
-            this.metroTextBox28.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image50")));
-            this.metroTextBox28.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode30")));
-            this.metroTextBox28.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location50")));
-            this.metroTextBox28.CustomButton.Name = "";
-            this.metroTextBox28.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size50")));
-            this.metroTextBox28.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox28.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex50")));
-            this.metroTextBox28.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox28.CustomButton.UseSelectable = true;
-            this.metroTextBox28.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible50")));
-            this.metroTextBox28.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox28.Lines = new string[0];
-            resources.ApplyResources(this.metroTextBox28, "metroTextBox28");
-            this.metroTextBox28.MaxLength = 32767;
-            this.metroTextBox28.Name = "metroTextBox28";
-            this.metroTextBox28.PasswordChar = '\0';
-            this.metroTextBox28.ReadOnly = true;
-            this.metroTextBox28.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox28.SelectedText = "";
-            this.metroTextBox28.SelectionLength = 0;
-            this.metroTextBox28.SelectionStart = 0;
-            this.metroTextBox28.UseCustomBackColor = true;
-            this.metroTextBox28.UseCustomForeColor = true;
-            this.metroTextBox28.UseSelectable = true;
-            this.metroTextBox28.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox28.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // label80
-            // 
-            resources.ApplyResources(this.label80, "label80");
-            this.label80.ForeColor = System.Drawing.Color.White;
-            this.label80.Name = "label80";
-            // 
-            // metroTextBox29
-            // 
-            // 
-            // 
-            // 
-            this.metroTextBox29.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image51")));
-            this.metroTextBox29.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode31")));
-            this.metroTextBox29.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location51")));
-            this.metroTextBox29.CustomButton.Name = "";
-            this.metroTextBox29.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size51")));
-            this.metroTextBox29.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox29.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex51")));
-            this.metroTextBox29.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox29.CustomButton.UseSelectable = true;
-            this.metroTextBox29.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible51")));
-            this.metroTextBox29.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox29.Lines = new string[0];
-            resources.ApplyResources(this.metroTextBox29, "metroTextBox29");
-            this.metroTextBox29.MaxLength = 32767;
-            this.metroTextBox29.Name = "metroTextBox29";
-            this.metroTextBox29.PasswordChar = '\0';
-            this.metroTextBox29.ReadOnly = true;
-            this.metroTextBox29.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox29.SelectedText = "";
-            this.metroTextBox29.SelectionLength = 0;
-            this.metroTextBox29.SelectionStart = 0;
-            this.metroTextBox29.UseCustomBackColor = true;
-            this.metroTextBox29.UseCustomForeColor = true;
-            this.metroTextBox29.UseSelectable = true;
-            this.metroTextBox29.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox29.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // label81
-            // 
-            resources.ApplyResources(this.label81, "label81");
-            this.label81.ForeColor = System.Drawing.Color.White;
-            this.label81.Name = "label81";
-            // 
-            // label82
-            // 
-            resources.ApplyResources(this.label82, "label82");
-            this.label82.ForeColor = System.Drawing.Color.White;
-            this.label82.Name = "label82";
-            // 
-            // metroTextBox30
-            // 
-            // 
-            // 
-            // 
-            this.metroTextBox30.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image52")));
-            this.metroTextBox30.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode32")));
-            this.metroTextBox30.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location52")));
-            this.metroTextBox30.CustomButton.Name = "";
-            this.metroTextBox30.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size52")));
-            this.metroTextBox30.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox30.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex52")));
-            this.metroTextBox30.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox30.CustomButton.UseSelectable = true;
-            this.metroTextBox30.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible52")));
-            this.metroTextBox30.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox30.Lines = new string[0];
-            resources.ApplyResources(this.metroTextBox30, "metroTextBox30");
-            this.metroTextBox30.MaxLength = 32767;
-            this.metroTextBox30.Name = "metroTextBox30";
-            this.metroTextBox30.PasswordChar = '\0';
-            this.metroTextBox30.ReadOnly = true;
-            this.metroTextBox30.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox30.SelectedText = "";
-            this.metroTextBox30.SelectionLength = 0;
-            this.metroTextBox30.SelectionStart = 0;
-            this.metroTextBox30.UseCustomBackColor = true;
-            this.metroTextBox30.UseCustomForeColor = true;
-            this.metroTextBox30.UseSelectable = true;
-            this.metroTextBox30.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox30.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // label83
-            // 
-            resources.ApplyResources(this.label83, "label83");
-            this.label83.ForeColor = System.Drawing.Color.White;
-            this.label83.Name = "label83";
-            // 
-            // label84
-            // 
-            resources.ApplyResources(this.label84, "label84");
-            this.label84.ForeColor = System.Drawing.Color.White;
-            this.label84.Name = "label84";
-            // 
-            // label85
-            // 
-            resources.ApplyResources(this.label85, "label85");
-            this.label85.ForeColor = System.Drawing.Color.White;
-            this.label85.Name = "label85";
-            // 
-            // panel9
-            // 
-            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.panel9.Controls.Add(this.pictureBox5);
-            this.panel9.Controls.Add(this.label86);
-            this.panel9.Controls.Add(this.panel11);
-            this.panel9.Controls.Add(this.panel12);
-            resources.ApplyResources(this.panel9, "panel9");
-            this.panel9.Name = "panel9";
-            // 
-            // pictureBox5
-            // 
-            resources.ApplyResources(this.pictureBox5, "pictureBox5");
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.TabStop = false;
-            // 
-            // label86
-            // 
-            this.label86.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.label86, "label86");
-            this.label86.ForeColor = System.Drawing.Color.White;
-            this.label86.Name = "label86";
-            // 
-            // panel11
-            // 
-            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(213)))));
-            this.panel11.Controls.Add(this.label87);
-            this.panel11.Controls.Add(this.label88);
-            resources.ApplyResources(this.panel11, "panel11");
-            this.panel11.Name = "panel11";
-            // 
-            // label87
-            // 
-            resources.ApplyResources(this.label87, "label87");
-            this.label87.ForeColor = System.Drawing.Color.White;
-            this.label87.Name = "label87";
-            // 
-            // label88
-            // 
-            resources.ApplyResources(this.label88, "label88");
-            this.label88.ForeColor = System.Drawing.Color.White;
-            this.label88.Name = "label88";
-            // 
-            // panel12
-            // 
-            this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            resources.ApplyResources(this.panel12, "panel12");
-            this.panel12.Name = "panel12";
-            // 
-            // label89
-            // 
-            resources.ApplyResources(this.label89, "label89");
-            this.label89.ForeColor = System.Drawing.Color.White;
-            this.label89.Name = "label89";
-            // 
-            // label90
-            // 
-            resources.ApplyResources(this.label90, "label90");
-            this.label90.ForeColor = System.Drawing.Color.White;
-            this.label90.Name = "label90";
-            // 
-            // label91
-            // 
-            resources.ApplyResources(this.label91, "label91");
-            this.label91.ForeColor = System.Drawing.Color.White;
-            this.label91.Name = "label91";
-            // 
-            // label92
-            // 
-            resources.ApplyResources(this.label92, "label92");
-            this.label92.ForeColor = System.Drawing.Color.White;
-            this.label92.Name = "label92";
-            // 
-            // label93
-            // 
-            resources.ApplyResources(this.label93, "label93");
-            this.label93.ForeColor = System.Drawing.Color.White;
-            this.label93.Name = "label93";
-            // 
-            // label94
-            // 
-            resources.ApplyResources(this.label94, "label94");
-            this.label94.ForeColor = System.Drawing.Color.White;
-            this.label94.Name = "label94";
-            // 
-            // label95
-            // 
-            resources.ApplyResources(this.label95, "label95");
-            this.label95.ForeColor = System.Drawing.Color.White;
-            this.label95.Name = "label95";
-            // 
-            // label96
-            // 
-            resources.ApplyResources(this.label96, "label96");
-            this.label96.ForeColor = System.Drawing.Color.White;
-            this.label96.Name = "label96";
             // 
             // panel17
             // 
@@ -4481,509 +2965,6 @@
             this.BTN_Prof_Ajouter.LabelText = "Ajouter";
             this.BTN_Prof_Ajouter.Name = "BTN_Prof_Ajouter";
             this.BTN_Prof_Ajouter.Click += new System.EventHandler(this.BTN_Prof_Ajouter_Click);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackgroundImage = global::GestionCentre.Properties.Resources.stagiaire2;
-            resources.ApplyResources(this.pictureBox3, "pictureBox3");
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.TabStop = false;
-            // 
-            // DTP_Prof_Ajouter_DateEmbauche
-            // 
-            this.DTP_Prof_Ajouter_DateEmbauche.CalendarForeColor = System.Drawing.Color.White;
-            this.DTP_Prof_Ajouter_DateEmbauche.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.DTP_Prof_Ajouter_DateEmbauche.CalendarTitleBackColor = System.Drawing.Color.Aqua;
-            this.DTP_Prof_Ajouter_DateEmbauche.CalendarTitleForeColor = System.Drawing.Color.Maroon;
-            this.DTP_Prof_Ajouter_DateEmbauche.CalendarTrailingForeColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.DTP_Prof_Ajouter_DateEmbauche, "DTP_Prof_Ajouter_DateEmbauche");
-            this.DTP_Prof_Ajouter_DateEmbauche.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.DTP_Prof_Ajouter_DateEmbauche.Name = "DTP_Prof_Ajouter_DateEmbauche";
-            this.DTP_Prof_Ajouter_DateEmbauche.UseCustomBackColor = true;
-            this.DTP_Prof_Ajouter_DateEmbauche.UseCustomForeColor = true;
-            this.DTP_Prof_Ajouter_DateEmbauche.UseStyleColors = true;
-            this.DTP_Prof_Ajouter_DateEmbauche.Value = new System.DateTime(2017, 3, 26, 4, 6, 31, 0);
-            // 
-            // DTP_Prof_Ajouter_DateNaissance
-            // 
-            this.DTP_Prof_Ajouter_DateNaissance.CalendarForeColor = System.Drawing.Color.White;
-            this.DTP_Prof_Ajouter_DateNaissance.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.DTP_Prof_Ajouter_DateNaissance.CalendarTitleBackColor = System.Drawing.Color.Aqua;
-            this.DTP_Prof_Ajouter_DateNaissance.CalendarTitleForeColor = System.Drawing.Color.Maroon;
-            this.DTP_Prof_Ajouter_DateNaissance.CalendarTrailingForeColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.DTP_Prof_Ajouter_DateNaissance, "DTP_Prof_Ajouter_DateNaissance");
-            this.DTP_Prof_Ajouter_DateNaissance.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.DTP_Prof_Ajouter_DateNaissance.Name = "DTP_Prof_Ajouter_DateNaissance";
-            this.DTP_Prof_Ajouter_DateNaissance.UseCustomBackColor = true;
-            this.DTP_Prof_Ajouter_DateNaissance.UseCustomForeColor = true;
-            this.DTP_Prof_Ajouter_DateNaissance.UseStyleColors = true;
-            this.DTP_Prof_Ajouter_DateNaissance.Value = new System.DateTime(2017, 3, 26, 4, 6, 31, 0);
-            // 
-            // TB_Prof_Ajouter_Cin
-            // 
-            // 
-            // 
-            // 
-            this.TB_Prof_Ajouter_Cin.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image53")));
-            this.TB_Prof_Ajouter_Cin.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode33")));
-            this.TB_Prof_Ajouter_Cin.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location53")));
-            this.TB_Prof_Ajouter_Cin.CustomButton.Name = "";
-            this.TB_Prof_Ajouter_Cin.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size53")));
-            this.TB_Prof_Ajouter_Cin.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.TB_Prof_Ajouter_Cin.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex53")));
-            this.TB_Prof_Ajouter_Cin.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.TB_Prof_Ajouter_Cin.CustomButton.UseSelectable = true;
-            this.TB_Prof_Ajouter_Cin.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible53")));
-            this.TB_Prof_Ajouter_Cin.ForeColor = System.Drawing.Color.White;
-            this.TB_Prof_Ajouter_Cin.Lines = new string[0];
-            resources.ApplyResources(this.TB_Prof_Ajouter_Cin, "TB_Prof_Ajouter_Cin");
-            this.TB_Prof_Ajouter_Cin.MaxLength = 32767;
-            this.TB_Prof_Ajouter_Cin.Name = "TB_Prof_Ajouter_Cin";
-            this.TB_Prof_Ajouter_Cin.PasswordChar = '\0';
-            this.TB_Prof_Ajouter_Cin.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.TB_Prof_Ajouter_Cin.SelectedText = "";
-            this.TB_Prof_Ajouter_Cin.SelectionLength = 0;
-            this.TB_Prof_Ajouter_Cin.SelectionStart = 0;
-            this.TB_Prof_Ajouter_Cin.UseCustomBackColor = true;
-            this.TB_Prof_Ajouter_Cin.UseCustomForeColor = true;
-            this.TB_Prof_Ajouter_Cin.UseSelectable = true;
-            this.TB_Prof_Ajouter_Cin.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.TB_Prof_Ajouter_Cin.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // BTN_Prof_Ajouter_Ajouter
-            // 
-            this.BTN_Prof_Ajouter_Ajouter.ActiveBorderThickness = 1;
-            this.BTN_Prof_Ajouter_Ajouter.ActiveCornerRadius = 20;
-            this.BTN_Prof_Ajouter_Ajouter.ActiveFillColor = System.Drawing.Color.Aqua;
-            this.BTN_Prof_Ajouter_Ajouter.ActiveForecolor = System.Drawing.Color.Black;
-            this.BTN_Prof_Ajouter_Ajouter.ActiveLineColor = System.Drawing.Color.Aqua;
-            this.BTN_Prof_Ajouter_Ajouter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
-            resources.ApplyResources(this.BTN_Prof_Ajouter_Ajouter, "BTN_Prof_Ajouter_Ajouter");
-            this.BTN_Prof_Ajouter_Ajouter.ButtonText = "Ajouter";
-            this.BTN_Prof_Ajouter_Ajouter.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BTN_Prof_Ajouter_Ajouter.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.BTN_Prof_Ajouter_Ajouter.IdleBorderThickness = 1;
-            this.BTN_Prof_Ajouter_Ajouter.IdleCornerRadius = 20;
-            this.BTN_Prof_Ajouter_Ajouter.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.BTN_Prof_Ajouter_Ajouter.IdleForecolor = System.Drawing.Color.White;
-            this.BTN_Prof_Ajouter_Ajouter.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.BTN_Prof_Ajouter_Ajouter.Name = "BTN_Prof_Ajouter_Ajouter";
-            this.BTN_Prof_Ajouter_Ajouter.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // BTN_Prof_Ajouter_Vider
-            // 
-            this.BTN_Prof_Ajouter_Vider.ActiveBorderThickness = 1;
-            this.BTN_Prof_Ajouter_Vider.ActiveCornerRadius = 20;
-            this.BTN_Prof_Ajouter_Vider.ActiveFillColor = System.Drawing.Color.Aqua;
-            this.BTN_Prof_Ajouter_Vider.ActiveForecolor = System.Drawing.Color.Black;
-            this.BTN_Prof_Ajouter_Vider.ActiveLineColor = System.Drawing.Color.Aqua;
-            this.BTN_Prof_Ajouter_Vider.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
-            resources.ApplyResources(this.BTN_Prof_Ajouter_Vider, "BTN_Prof_Ajouter_Vider");
-            this.BTN_Prof_Ajouter_Vider.ButtonText = "Vider";
-            this.BTN_Prof_Ajouter_Vider.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BTN_Prof_Ajouter_Vider.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.BTN_Prof_Ajouter_Vider.IdleBorderThickness = 1;
-            this.BTN_Prof_Ajouter_Vider.IdleCornerRadius = 20;
-            this.BTN_Prof_Ajouter_Vider.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.BTN_Prof_Ajouter_Vider.IdleForecolor = System.Drawing.Color.White;
-            this.BTN_Prof_Ajouter_Vider.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.BTN_Prof_Ajouter_Vider.Name = "BTN_Prof_Ajouter_Vider";
-            this.BTN_Prof_Ajouter_Vider.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuImageButton3
-            // 
-            this.bunifuImageButton3.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.bunifuImageButton3, "bunifuImageButton3");
-            this.bunifuImageButton3.ImageActive = null;
-            this.bunifuImageButton3.Name = "bunifuImageButton3";
-            this.bunifuImageButton3.TabStop = false;
-            this.bunifuImageButton3.Zoom = 10;
-            // 
-            // label5
-            // 
-            resources.ApplyResources(this.label5, "label5");
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Name = "label5";
-            // 
-            // CB_Prof_Ajouter_Question
-            // 
-            this.CB_Prof_Ajouter_Question.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.CB_Prof_Ajouter_Question.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.CB_Prof_Ajouter_Question, "CB_Prof_Ajouter_Question");
-            this.CB_Prof_Ajouter_Question.ForeColor = System.Drawing.Color.White;
-            this.CB_Prof_Ajouter_Question.FormattingEnabled = true;
-            this.CB_Prof_Ajouter_Question.Items.AddRange(new object[] {
-            resources.GetString("CB_Prof_Ajouter_Question.Items"),
-            resources.GetString("CB_Prof_Ajouter_Question.Items1"),
-            resources.GetString("CB_Prof_Ajouter_Question.Items2")});
-            this.CB_Prof_Ajouter_Question.Name = "CB_Prof_Ajouter_Question";
-            this.CB_Prof_Ajouter_Question.Style = MetroFramework.MetroColorStyle.Blue;
-            this.CB_Prof_Ajouter_Question.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.CB_Prof_Ajouter_Question.UseCustomBackColor = true;
-            this.CB_Prof_Ajouter_Question.UseCustomForeColor = true;
-            this.CB_Prof_Ajouter_Question.UseSelectable = true;
-            // 
-            // label25
-            // 
-            resources.ApplyResources(this.label25, "label25");
-            this.label25.ForeColor = System.Drawing.Color.White;
-            this.label25.Name = "label25";
-            // 
-            // TB_Prof_Ajouter_Reponse
-            // 
-            // 
-            // 
-            // 
-            this.TB_Prof_Ajouter_Reponse.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image54")));
-            this.TB_Prof_Ajouter_Reponse.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode34")));
-            this.TB_Prof_Ajouter_Reponse.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location54")));
-            this.TB_Prof_Ajouter_Reponse.CustomButton.Name = "";
-            this.TB_Prof_Ajouter_Reponse.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size54")));
-            this.TB_Prof_Ajouter_Reponse.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.TB_Prof_Ajouter_Reponse.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex54")));
-            this.TB_Prof_Ajouter_Reponse.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.TB_Prof_Ajouter_Reponse.CustomButton.UseSelectable = true;
-            this.TB_Prof_Ajouter_Reponse.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible54")));
-            this.TB_Prof_Ajouter_Reponse.ForeColor = System.Drawing.Color.White;
-            this.TB_Prof_Ajouter_Reponse.Lines = new string[0];
-            resources.ApplyResources(this.TB_Prof_Ajouter_Reponse, "TB_Prof_Ajouter_Reponse");
-            this.TB_Prof_Ajouter_Reponse.MaxLength = 32767;
-            this.TB_Prof_Ajouter_Reponse.Name = "TB_Prof_Ajouter_Reponse";
-            this.TB_Prof_Ajouter_Reponse.PasswordChar = '\0';
-            this.TB_Prof_Ajouter_Reponse.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.TB_Prof_Ajouter_Reponse.SelectedText = "";
-            this.TB_Prof_Ajouter_Reponse.SelectionLength = 0;
-            this.TB_Prof_Ajouter_Reponse.SelectionStart = 0;
-            this.TB_Prof_Ajouter_Reponse.UseCustomBackColor = true;
-            this.TB_Prof_Ajouter_Reponse.UseCustomForeColor = true;
-            this.TB_Prof_Ajouter_Reponse.UseSelectable = true;
-            this.TB_Prof_Ajouter_Reponse.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.TB_Prof_Ajouter_Reponse.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // label26
-            // 
-            resources.ApplyResources(this.label26, "label26");
-            this.label26.ForeColor = System.Drawing.Color.White;
-            this.label26.Name = "label26";
-            // 
-            // label27
-            // 
-            resources.ApplyResources(this.label27, "label27");
-            this.label27.ForeColor = System.Drawing.Color.White;
-            this.label27.Name = "label27";
-            // 
-            // label28
-            // 
-            resources.ApplyResources(this.label28, "label28");
-            this.label28.ForeColor = System.Drawing.Color.White;
-            this.label28.Name = "label28";
-            // 
-            // label29
-            // 
-            resources.ApplyResources(this.label29, "label29");
-            this.label29.ForeColor = System.Drawing.Color.White;
-            this.label29.Name = "label29";
-            // 
-            // label30
-            // 
-            resources.ApplyResources(this.label30, "label30");
-            this.label30.ForeColor = System.Drawing.Color.White;
-            this.label30.Name = "label30";
-            // 
-            // label31
-            // 
-            resources.ApplyResources(this.label31, "label31");
-            this.label31.ForeColor = System.Drawing.Color.White;
-            this.label31.Name = "label31";
-            // 
-            // label33
-            // 
-            resources.ApplyResources(this.label33, "label33");
-            this.label33.ForeColor = System.Drawing.Color.White;
-            this.label33.Name = "label33";
-            // 
-            // label35
-            // 
-            resources.ApplyResources(this.label35, "label35");
-            this.label35.ForeColor = System.Drawing.Color.White;
-            this.label35.Name = "label35";
-            // 
-            // label37
-            // 
-            resources.ApplyResources(this.label37, "label37");
-            this.label37.ForeColor = System.Drawing.Color.White;
-            this.label37.Name = "label37";
-            // 
-            // label60
-            // 
-            resources.ApplyResources(this.label60, "label60");
-            this.label60.ForeColor = System.Drawing.Color.White;
-            this.label60.Name = "label60";
-            // 
-            // TB_Prof_Ajouter_Adresse
-            // 
-            // 
-            // 
-            // 
-            this.TB_Prof_Ajouter_Adresse.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image55")));
-            this.TB_Prof_Ajouter_Adresse.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode35")));
-            this.TB_Prof_Ajouter_Adresse.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location55")));
-            this.TB_Prof_Ajouter_Adresse.CustomButton.Name = "";
-            this.TB_Prof_Ajouter_Adresse.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size55")));
-            this.TB_Prof_Ajouter_Adresse.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.TB_Prof_Ajouter_Adresse.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex55")));
-            this.TB_Prof_Ajouter_Adresse.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.TB_Prof_Ajouter_Adresse.CustomButton.UseSelectable = true;
-            this.TB_Prof_Ajouter_Adresse.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible55")));
-            this.TB_Prof_Ajouter_Adresse.ForeColor = System.Drawing.Color.White;
-            this.TB_Prof_Ajouter_Adresse.Lines = new string[0];
-            resources.ApplyResources(this.TB_Prof_Ajouter_Adresse, "TB_Prof_Ajouter_Adresse");
-            this.TB_Prof_Ajouter_Adresse.MaxLength = 32767;
-            this.TB_Prof_Ajouter_Adresse.Multiline = true;
-            this.TB_Prof_Ajouter_Adresse.Name = "TB_Prof_Ajouter_Adresse";
-            this.TB_Prof_Ajouter_Adresse.PasswordChar = '\0';
-            this.TB_Prof_Ajouter_Adresse.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.TB_Prof_Ajouter_Adresse.SelectedText = "";
-            this.TB_Prof_Ajouter_Adresse.SelectionLength = 0;
-            this.TB_Prof_Ajouter_Adresse.SelectionStart = 0;
-            this.TB_Prof_Ajouter_Adresse.UseCustomBackColor = true;
-            this.TB_Prof_Ajouter_Adresse.UseCustomForeColor = true;
-            this.TB_Prof_Ajouter_Adresse.UseSelectable = true;
-            this.TB_Prof_Ajouter_Adresse.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.TB_Prof_Ajouter_Adresse.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // CHB_Prof_Ajouter_M
-            // 
-            this.CHB_Prof_Ajouter_M.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.CHB_Prof_Ajouter_M, "CHB_Prof_Ajouter_M");
-            this.CHB_Prof_Ajouter_M.ForeColor = System.Drawing.Color.White;
-            this.CHB_Prof_Ajouter_M.Name = "CHB_Prof_Ajouter_M";
-            this.CHB_Prof_Ajouter_M.TabStop = true;
-            this.CHB_Prof_Ajouter_M.UseVisualStyleBackColor = false;
-            // 
-            // TB_Prof_Ajouter_Nom
-            // 
-            // 
-            // 
-            // 
-            this.TB_Prof_Ajouter_Nom.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image56")));
-            this.TB_Prof_Ajouter_Nom.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode36")));
-            this.TB_Prof_Ajouter_Nom.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location56")));
-            this.TB_Prof_Ajouter_Nom.CustomButton.Name = "";
-            this.TB_Prof_Ajouter_Nom.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size56")));
-            this.TB_Prof_Ajouter_Nom.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.TB_Prof_Ajouter_Nom.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex56")));
-            this.TB_Prof_Ajouter_Nom.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.TB_Prof_Ajouter_Nom.CustomButton.UseSelectable = true;
-            this.TB_Prof_Ajouter_Nom.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible56")));
-            this.TB_Prof_Ajouter_Nom.ForeColor = System.Drawing.Color.White;
-            this.TB_Prof_Ajouter_Nom.Lines = new string[0];
-            resources.ApplyResources(this.TB_Prof_Ajouter_Nom, "TB_Prof_Ajouter_Nom");
-            this.TB_Prof_Ajouter_Nom.MaxLength = 32767;
-            this.TB_Prof_Ajouter_Nom.Name = "TB_Prof_Ajouter_Nom";
-            this.TB_Prof_Ajouter_Nom.PasswordChar = '\0';
-            this.TB_Prof_Ajouter_Nom.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.TB_Prof_Ajouter_Nom.SelectedText = "";
-            this.TB_Prof_Ajouter_Nom.SelectionLength = 0;
-            this.TB_Prof_Ajouter_Nom.SelectionStart = 0;
-            this.TB_Prof_Ajouter_Nom.UseCustomBackColor = true;
-            this.TB_Prof_Ajouter_Nom.UseCustomForeColor = true;
-            this.TB_Prof_Ajouter_Nom.UseSelectable = true;
-            this.TB_Prof_Ajouter_Nom.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.TB_Prof_Ajouter_Nom.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // CHB_Prof_Ajouter_F
-            // 
-            this.CHB_Prof_Ajouter_F.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.CHB_Prof_Ajouter_F, "CHB_Prof_Ajouter_F");
-            this.CHB_Prof_Ajouter_F.ForeColor = System.Drawing.Color.White;
-            this.CHB_Prof_Ajouter_F.Name = "CHB_Prof_Ajouter_F";
-            this.CHB_Prof_Ajouter_F.TabStop = true;
-            this.CHB_Prof_Ajouter_F.UseVisualStyleBackColor = false;
-            // 
-            // TB_Prof_Ajouter_Prenom
-            // 
-            // 
-            // 
-            // 
-            this.TB_Prof_Ajouter_Prenom.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image57")));
-            this.TB_Prof_Ajouter_Prenom.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode37")));
-            this.TB_Prof_Ajouter_Prenom.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location57")));
-            this.TB_Prof_Ajouter_Prenom.CustomButton.Name = "";
-            this.TB_Prof_Ajouter_Prenom.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size57")));
-            this.TB_Prof_Ajouter_Prenom.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.TB_Prof_Ajouter_Prenom.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex57")));
-            this.TB_Prof_Ajouter_Prenom.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.TB_Prof_Ajouter_Prenom.CustomButton.UseSelectable = true;
-            this.TB_Prof_Ajouter_Prenom.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible57")));
-            this.TB_Prof_Ajouter_Prenom.ForeColor = System.Drawing.Color.White;
-            this.TB_Prof_Ajouter_Prenom.Lines = new string[0];
-            resources.ApplyResources(this.TB_Prof_Ajouter_Prenom, "TB_Prof_Ajouter_Prenom");
-            this.TB_Prof_Ajouter_Prenom.MaxLength = 32767;
-            this.TB_Prof_Ajouter_Prenom.Name = "TB_Prof_Ajouter_Prenom";
-            this.TB_Prof_Ajouter_Prenom.PasswordChar = '\0';
-            this.TB_Prof_Ajouter_Prenom.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.TB_Prof_Ajouter_Prenom.SelectedText = "";
-            this.TB_Prof_Ajouter_Prenom.SelectionLength = 0;
-            this.TB_Prof_Ajouter_Prenom.SelectionStart = 0;
-            this.TB_Prof_Ajouter_Prenom.UseCustomBackColor = true;
-            this.TB_Prof_Ajouter_Prenom.UseCustomForeColor = true;
-            this.TB_Prof_Ajouter_Prenom.UseSelectable = true;
-            this.TB_Prof_Ajouter_Prenom.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.TB_Prof_Ajouter_Prenom.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // TB_Prof_Ajouter_Email
-            // 
-            // 
-            // 
-            // 
-            this.TB_Prof_Ajouter_Email.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image58")));
-            this.TB_Prof_Ajouter_Email.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode38")));
-            this.TB_Prof_Ajouter_Email.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location58")));
-            this.TB_Prof_Ajouter_Email.CustomButton.Name = "";
-            this.TB_Prof_Ajouter_Email.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size58")));
-            this.TB_Prof_Ajouter_Email.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.TB_Prof_Ajouter_Email.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex58")));
-            this.TB_Prof_Ajouter_Email.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.TB_Prof_Ajouter_Email.CustomButton.UseSelectable = true;
-            this.TB_Prof_Ajouter_Email.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible58")));
-            this.TB_Prof_Ajouter_Email.ForeColor = System.Drawing.Color.White;
-            this.TB_Prof_Ajouter_Email.Lines = new string[0];
-            resources.ApplyResources(this.TB_Prof_Ajouter_Email, "TB_Prof_Ajouter_Email");
-            this.TB_Prof_Ajouter_Email.MaxLength = 32767;
-            this.TB_Prof_Ajouter_Email.Name = "TB_Prof_Ajouter_Email";
-            this.TB_Prof_Ajouter_Email.PasswordChar = '\0';
-            this.TB_Prof_Ajouter_Email.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.TB_Prof_Ajouter_Email.SelectedText = "";
-            this.TB_Prof_Ajouter_Email.SelectionLength = 0;
-            this.TB_Prof_Ajouter_Email.SelectionStart = 0;
-            this.TB_Prof_Ajouter_Email.UseCustomBackColor = true;
-            this.TB_Prof_Ajouter_Email.UseCustomForeColor = true;
-            this.TB_Prof_Ajouter_Email.UseSelectable = true;
-            this.TB_Prof_Ajouter_Email.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.TB_Prof_Ajouter_Email.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // TB_Prof_Ajouter_MoteDePasse
-            // 
-            // 
-            // 
-            // 
-            this.TB_Prof_Ajouter_MoteDePasse.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image59")));
-            this.TB_Prof_Ajouter_MoteDePasse.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode39")));
-            this.TB_Prof_Ajouter_MoteDePasse.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location59")));
-            this.TB_Prof_Ajouter_MoteDePasse.CustomButton.Name = "";
-            this.TB_Prof_Ajouter_MoteDePasse.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size59")));
-            this.TB_Prof_Ajouter_MoteDePasse.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.TB_Prof_Ajouter_MoteDePasse.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex59")));
-            this.TB_Prof_Ajouter_MoteDePasse.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.TB_Prof_Ajouter_MoteDePasse.CustomButton.UseSelectable = true;
-            this.TB_Prof_Ajouter_MoteDePasse.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible59")));
-            this.TB_Prof_Ajouter_MoteDePasse.ForeColor = System.Drawing.Color.White;
-            this.TB_Prof_Ajouter_MoteDePasse.Lines = new string[0];
-            resources.ApplyResources(this.TB_Prof_Ajouter_MoteDePasse, "TB_Prof_Ajouter_MoteDePasse");
-            this.TB_Prof_Ajouter_MoteDePasse.MaxLength = 32767;
-            this.TB_Prof_Ajouter_MoteDePasse.Name = "TB_Prof_Ajouter_MoteDePasse";
-            this.TB_Prof_Ajouter_MoteDePasse.PasswordChar = '\0';
-            this.TB_Prof_Ajouter_MoteDePasse.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.TB_Prof_Ajouter_MoteDePasse.SelectedText = "";
-            this.TB_Prof_Ajouter_MoteDePasse.SelectionLength = 0;
-            this.TB_Prof_Ajouter_MoteDePasse.SelectionStart = 0;
-            this.TB_Prof_Ajouter_MoteDePasse.UseCustomBackColor = true;
-            this.TB_Prof_Ajouter_MoteDePasse.UseCustomForeColor = true;
-            this.TB_Prof_Ajouter_MoteDePasse.UseSelectable = true;
-            this.TB_Prof_Ajouter_MoteDePasse.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.TB_Prof_Ajouter_MoteDePasse.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // TB_Prof_Ajouter_Tel
-            // 
-            // 
-            // 
-            // 
-            this.TB_Prof_Ajouter_Tel.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image60")));
-            this.TB_Prof_Ajouter_Tel.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode40")));
-            this.TB_Prof_Ajouter_Tel.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location60")));
-            this.TB_Prof_Ajouter_Tel.CustomButton.Name = "";
-            this.TB_Prof_Ajouter_Tel.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size60")));
-            this.TB_Prof_Ajouter_Tel.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.TB_Prof_Ajouter_Tel.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex60")));
-            this.TB_Prof_Ajouter_Tel.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.TB_Prof_Ajouter_Tel.CustomButton.UseSelectable = true;
-            this.TB_Prof_Ajouter_Tel.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible60")));
-            this.TB_Prof_Ajouter_Tel.ForeColor = System.Drawing.Color.White;
-            this.TB_Prof_Ajouter_Tel.Lines = new string[0];
-            resources.ApplyResources(this.TB_Prof_Ajouter_Tel, "TB_Prof_Ajouter_Tel");
-            this.TB_Prof_Ajouter_Tel.MaxLength = 32767;
-            this.TB_Prof_Ajouter_Tel.Name = "TB_Prof_Ajouter_Tel";
-            this.TB_Prof_Ajouter_Tel.PasswordChar = '\0';
-            this.TB_Prof_Ajouter_Tel.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.TB_Prof_Ajouter_Tel.SelectedText = "";
-            this.TB_Prof_Ajouter_Tel.SelectionLength = 0;
-            this.TB_Prof_Ajouter_Tel.SelectionStart = 0;
-            this.TB_Prof_Ajouter_Tel.UseCustomBackColor = true;
-            this.TB_Prof_Ajouter_Tel.UseCustomForeColor = true;
-            this.TB_Prof_Ajouter_Tel.UseSelectable = true;
-            this.TB_Prof_Ajouter_Tel.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.TB_Prof_Ajouter_Tel.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // bunifuThinButton26
-            // 
-            this.bunifuThinButton26.ActiveBorderThickness = 1;
-            this.bunifuThinButton26.ActiveCornerRadius = 20;
-            this.bunifuThinButton26.ActiveFillColor = System.Drawing.Color.Aqua;
-            this.bunifuThinButton26.ActiveForecolor = System.Drawing.Color.Black;
-            this.bunifuThinButton26.ActiveLineColor = System.Drawing.Color.Aqua;
-            this.bunifuThinButton26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
-            resources.ApplyResources(this.bunifuThinButton26, "bunifuThinButton26");
-            this.bunifuThinButton26.ButtonText = "Valider";
-            this.bunifuThinButton26.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton26.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bunifuThinButton26.IdleBorderThickness = 1;
-            this.bunifuThinButton26.IdleCornerRadius = 20;
-            this.bunifuThinButton26.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.bunifuThinButton26.IdleForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton26.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.bunifuThinButton26.Name = "bunifuThinButton26";
-            this.bunifuThinButton26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuThinButton27
-            // 
-            this.bunifuThinButton27.ActiveBorderThickness = 1;
-            this.bunifuThinButton27.ActiveCornerRadius = 20;
-            this.bunifuThinButton27.ActiveFillColor = System.Drawing.Color.Aqua;
-            this.bunifuThinButton27.ActiveForecolor = System.Drawing.Color.Black;
-            this.bunifuThinButton27.ActiveLineColor = System.Drawing.Color.Aqua;
-            this.bunifuThinButton27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
-            resources.ApplyResources(this.bunifuThinButton27, "bunifuThinButton27");
-            this.bunifuThinButton27.ButtonText = "Valider";
-            this.bunifuThinButton27.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton27.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bunifuThinButton27.IdleBorderThickness = 1;
-            this.bunifuThinButton27.IdleCornerRadius = 20;
-            this.bunifuThinButton27.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.bunifuThinButton27.IdleForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton27.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.bunifuThinButton27.Name = "bunifuThinButton27";
-            this.bunifuThinButton27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuThinButton28
-            // 
-            this.bunifuThinButton28.ActiveBorderThickness = 1;
-            this.bunifuThinButton28.ActiveCornerRadius = 20;
-            this.bunifuThinButton28.ActiveFillColor = System.Drawing.Color.Aqua;
-            this.bunifuThinButton28.ActiveForecolor = System.Drawing.Color.Black;
-            this.bunifuThinButton28.ActiveLineColor = System.Drawing.Color.Aqua;
-            this.bunifuThinButton28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
-            resources.ApplyResources(this.bunifuThinButton28, "bunifuThinButton28");
-            this.bunifuThinButton28.ButtonText = "Valider";
-            this.bunifuThinButton28.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton28.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bunifuThinButton28.IdleBorderThickness = 1;
-            this.bunifuThinButton28.IdleCornerRadius = 20;
-            this.bunifuThinButton28.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.bunifuThinButton28.IdleForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton28.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.bunifuThinButton28.Name = "bunifuThinButton28";
-            this.bunifuThinButton28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel2
             // 
@@ -5410,20 +3391,156 @@
             this.bunifuDragControl1.TargetControl = this.panel1;
             this.bunifuDragControl1.Vertical = true;
             // 
+            // Consulter
+            // 
+            this.Consulter.DataPropertyName = "Afficher";
+            resources.ApplyResources(this.Consulter, "Consulter");
+            this.Consulter.Name = "Consulter";
+            this.Consulter.Text = "Afficher";
+            this.Consulter.UseColumnTextForButtonValue = true;
+            // 
+            // P_Stagiaire_Preview2
+            // 
+            this.P_Stagiaire_Preview2.Controls.Add(this.LBL_Stagiaire_Nom_Clicked);
+            this.P_Stagiaire_Preview2.Controls.Add(this.LBL_Stagiaire_Cin_Clicked);
+            this.P_Stagiaire_Preview2.Controls.Add(this.LBL_Stagiaire_Id_Clicked);
+            this.P_Stagiaire_Preview2.Controls.Add(this.LBL_Stagiaire_Prenom_Clicked);
+            resources.ApplyResources(this.P_Stagiaire_Preview2, "P_Stagiaire_Preview2");
+            this.P_Stagiaire_Preview2.Name = "P_Stagiaire_Preview2";
+            // 
+            // metroLabel4
+            // 
+            resources.ApplyResources(this.metroLabel4, "metroLabel4");
+            this.metroLabel4.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.metroLabel4.ForeColor = System.Drawing.Color.White;
+            this.metroLabel4.Name = "metroLabel4";
+            this.metroLabel4.UseCustomBackColor = true;
+            this.metroLabel4.UseCustomForeColor = true;
+            // 
+            // metroLabel3
+            // 
+            resources.ApplyResources(this.metroLabel3, "metroLabel3");
+            this.metroLabel3.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.metroLabel3.ForeColor = System.Drawing.Color.White;
+            this.metroLabel3.Name = "metroLabel3";
+            this.metroLabel3.UseCustomBackColor = true;
+            this.metroLabel3.UseCustomForeColor = true;
+            // 
+            // metroLabel2
+            // 
+            resources.ApplyResources(this.metroLabel2, "metroLabel2");
+            this.metroLabel2.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.metroLabel2.ForeColor = System.Drawing.Color.White;
+            this.metroLabel2.Name = "metroLabel2";
+            this.metroLabel2.UseCustomBackColor = true;
+            this.metroLabel2.UseCustomForeColor = true;
+            // 
+            // metroLabel1
+            // 
+            resources.ApplyResources(this.metroLabel1, "metroLabel1");
+            this.metroLabel1.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.metroLabel1.ForeColor = System.Drawing.Color.White;
+            this.metroLabel1.Name = "metroLabel1";
+            this.metroLabel1.UseCustomBackColor = true;
+            this.metroLabel1.UseCustomForeColor = true;
+            // 
+            // metroLabel5
+            // 
+            resources.ApplyResources(this.metroLabel5, "metroLabel5");
+            this.metroLabel5.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.metroLabel5.ForeColor = System.Drawing.Color.White;
+            this.metroLabel5.Name = "metroLabel5";
+            this.metroLabel5.UseCustomBackColor = true;
+            this.metroLabel5.UseCustomForeColor = true;
+            // 
+            // tabControl2_Professeur
+            // 
+            this.tabControl2_Professeur.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            resources.ApplyResources(this.tabControl2_Professeur, "tabControl2_Professeur");
+            this.tabControl2_Professeur.Controls.Add(this.tabPage1);
+            this.tabControl2_Professeur.Controls.Add(this.tabPage6);
+            this.tabControl2_Professeur.Controls.Add(this.tabPage7);
+            this.tabControl2_Professeur.Controls.Add(this.tabPage9);
+            this.tabControl2_Professeur.Controls.Add(this.tabPage8);
+            this.tabControl2_Professeur.Multiline = true;
+            this.tabControl2_Professeur.Name = "tabControl2_Professeur";
+            this.tabControl2_Professeur.SelectedIndex = 0;
+            this.tabControl2_Professeur.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.tabPage1.Controls.Add(this.DGV_Professeur1);
+            resources.ApplyResources(this.tabPage1, "tabPage1");
+            this.tabPage1.Name = "tabPage1";
+            // 
+            // DGV_Professeur1
+            // 
+            this.DGV_Professeur1.AllowUserToAddRows = false;
+            this.DGV_Professeur1.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle105.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.DGV_Professeur1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle105;
+            this.DGV_Professeur1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.DGV_Professeur1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
+            this.DGV_Professeur1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.DGV_Professeur1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle106.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle106.BackColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle106.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle106.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle106.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle106.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle106.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DGV_Professeur1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle106;
+            this.DGV_Professeur1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGV_Professeur1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewCheckBoxColumn1});
+            dataGridViewCellStyle107.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle107.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle107.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle107.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle107.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle107.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle107.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DGV_Professeur1.DefaultCellStyle = dataGridViewCellStyle107;
+            resources.ApplyResources(this.DGV_Professeur1, "DGV_Professeur1");
+            this.DGV_Professeur1.DoubleBuffered = true;
+            this.DGV_Professeur1.EnableHeadersVisualStyles = false;
+            this.DGV_Professeur1.GridColor = System.Drawing.Color.DimGray;
+            this.DGV_Professeur1.HeaderBgColor = System.Drawing.Color.SeaGreen;
+            this.DGV_Professeur1.HeaderForeColor = System.Drawing.Color.Black;
+            this.DGV_Professeur1.Name = "DGV_Professeur1";
+            this.DGV_Professeur1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle108.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle108.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle108.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle108.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle108.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle108.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle108.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DGV_Professeur1.RowHeadersDefaultCellStyle = dataGridViewCellStyle108;
+            // 
+            // dataGridViewCheckBoxColumn1
+            // 
+            this.dataGridViewCheckBoxColumn1.FalseValue = "F";
+            resources.ApplyResources(this.dataGridViewCheckBoxColumn1, "dataGridViewCheckBoxColumn1");
+            this.dataGridViewCheckBoxColumn1.Name = "dataGridViewCheckBoxColumn1";
+            this.dataGridViewCheckBoxColumn1.TrueValue = "T";
+            // 
             // tabPage6
             // 
             this.tabPage6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
             this.tabPage6.Controls.Add(this.pictureBox3);
-            this.tabPage6.Controls.Add(this.DTP_Prof_Ajouter_DateEmbauche);
-            this.tabPage6.Controls.Add(this.DTP_Prof_Ajouter_DateNaissance);
+            this.tabPage6.Controls.Add(this.metroDateTime3);
+            this.tabPage6.Controls.Add(this.metroDateTime1);
             this.tabPage6.Controls.Add(this.TB_Prof_Ajouter_Cin);
-            this.tabPage6.Controls.Add(this.BTN_Prof_Ajouter_Ajouter);
-            this.tabPage6.Controls.Add(this.BTN_Prof_Ajouter_Vider);
+            this.tabPage6.Controls.Add(this.bunifuThinButton24);
+            this.tabPage6.Controls.Add(this.bunifuThinButton25);
             this.tabPage6.Controls.Add(this.bunifuImageButton3);
             this.tabPage6.Controls.Add(this.label5);
-            this.tabPage6.Controls.Add(this.CB_Prof_Ajouter_Question);
+            this.tabPage6.Controls.Add(this.metroComboBox1);
             this.tabPage6.Controls.Add(this.label25);
-            this.tabPage6.Controls.Add(this.TB_Prof_Ajouter_Reponse);
+            this.tabPage6.Controls.Add(this.metroTextBox2);
             this.tabPage6.Controls.Add(this.label26);
             this.tabPage6.Controls.Add(this.label27);
             this.tabPage6.Controls.Add(this.label28);
@@ -5434,20 +3551,1895 @@
             this.tabPage6.Controls.Add(this.label35);
             this.tabPage6.Controls.Add(this.label37);
             this.tabPage6.Controls.Add(this.label60);
-            this.tabPage6.Controls.Add(this.TB_Prof_Ajouter_Adresse);
-            this.tabPage6.Controls.Add(this.CHB_Prof_Ajouter_M);
+            this.tabPage6.Controls.Add(this.metroTextBox3);
+            this.tabPage6.Controls.Add(this.radioButton1);
             this.tabPage6.Controls.Add(this.TB_Prof_Ajouter_Nom);
-            this.tabPage6.Controls.Add(this.CHB_Prof_Ajouter_F);
-            this.tabPage6.Controls.Add(this.TB_Prof_Ajouter_Prenom);
-            this.tabPage6.Controls.Add(this.TB_Prof_Ajouter_Email);
-            this.tabPage6.Controls.Add(this.TB_Prof_Ajouter_MoteDePasse);
-            this.tabPage6.Controls.Add(this.TB_Prof_Ajouter_Tel);
+            this.tabPage6.Controls.Add(this.radioButton2);
+            this.tabPage6.Controls.Add(this.metroTextBox5);
+            this.tabPage6.Controls.Add(this.metroTextBox6);
+            this.tabPage6.Controls.Add(this.metroTextBox31);
+            this.tabPage6.Controls.Add(this.metroTextBox7);
             this.tabPage6.Controls.Add(this.bunifuThinButton26);
             this.tabPage6.Controls.Add(this.bunifuThinButton27);
             this.tabPage6.Controls.Add(this.bunifuThinButton28);
             resources.ApplyResources(this.tabPage6, "tabPage6");
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Click += new System.EventHandler(this.tabPage6_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = global::GestionCentre.Properties.Resources.stagiaire2;
+            resources.ApplyResources(this.pictureBox3, "pictureBox3");
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.TabStop = false;
+            // 
+            // metroDateTime1
+            // 
+            this.metroDateTime1.CalendarForeColor = System.Drawing.Color.White;
+            this.metroDateTime1.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.metroDateTime1.CalendarTitleBackColor = System.Drawing.Color.Aqua;
+            this.metroDateTime1.CalendarTitleForeColor = System.Drawing.Color.Maroon;
+            this.metroDateTime1.CalendarTrailingForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.metroDateTime1, "metroDateTime1");
+            this.metroDateTime1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.metroDateTime1.Name = "metroDateTime1";
+            this.metroDateTime1.UseCustomBackColor = true;
+            this.metroDateTime1.UseCustomForeColor = true;
+            this.metroDateTime1.UseStyleColors = true;
+            this.metroDateTime1.Value = new System.DateTime(2017, 3, 26, 4, 6, 31, 0);
+            // 
+            // TB_Prof_Ajouter_Cin
+            // 
+            // 
+            // 
+            // 
+            this.TB_Prof_Ajouter_Cin.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image30")));
+            this.TB_Prof_Ajouter_Cin.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode10")));
+            this.TB_Prof_Ajouter_Cin.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location30")));
+            this.TB_Prof_Ajouter_Cin.CustomButton.Name = "";
+            this.TB_Prof_Ajouter_Cin.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size30")));
+            this.TB_Prof_Ajouter_Cin.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.TB_Prof_Ajouter_Cin.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex30")));
+            this.TB_Prof_Ajouter_Cin.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.TB_Prof_Ajouter_Cin.CustomButton.UseSelectable = true;
+            this.TB_Prof_Ajouter_Cin.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible30")));
+            this.TB_Prof_Ajouter_Cin.ForeColor = System.Drawing.Color.White;
+            this.TB_Prof_Ajouter_Cin.Lines = new string[0];
+            resources.ApplyResources(this.TB_Prof_Ajouter_Cin, "TB_Prof_Ajouter_Cin");
+            this.TB_Prof_Ajouter_Cin.MaxLength = 32767;
+            this.TB_Prof_Ajouter_Cin.Name = "TB_Prof_Ajouter_Cin";
+            this.TB_Prof_Ajouter_Cin.PasswordChar = '\0';
+            this.TB_Prof_Ajouter_Cin.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TB_Prof_Ajouter_Cin.SelectedText = "";
+            this.TB_Prof_Ajouter_Cin.SelectionLength = 0;
+            this.TB_Prof_Ajouter_Cin.SelectionStart = 0;
+            this.TB_Prof_Ajouter_Cin.UseCustomBackColor = true;
+            this.TB_Prof_Ajouter_Cin.UseCustomForeColor = true;
+            this.TB_Prof_Ajouter_Cin.UseSelectable = true;
+            this.TB_Prof_Ajouter_Cin.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.TB_Prof_Ajouter_Cin.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // bunifuThinButton24
+            // 
+            this.bunifuThinButton24.ActiveBorderThickness = 1;
+            this.bunifuThinButton24.ActiveCornerRadius = 20;
+            this.bunifuThinButton24.ActiveFillColor = System.Drawing.Color.Aqua;
+            this.bunifuThinButton24.ActiveForecolor = System.Drawing.Color.Black;
+            this.bunifuThinButton24.ActiveLineColor = System.Drawing.Color.Aqua;
+            this.bunifuThinButton24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
+            resources.ApplyResources(this.bunifuThinButton24, "bunifuThinButton24");
+            this.bunifuThinButton24.ButtonText = "Ajouter";
+            this.bunifuThinButton24.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton24.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.bunifuThinButton24.IdleBorderThickness = 1;
+            this.bunifuThinButton24.IdleCornerRadius = 20;
+            this.bunifuThinButton24.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.bunifuThinButton24.IdleForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton24.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.bunifuThinButton24.Name = "bunifuThinButton24";
+            this.bunifuThinButton24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuThinButton25
+            // 
+            this.bunifuThinButton25.ActiveBorderThickness = 1;
+            this.bunifuThinButton25.ActiveCornerRadius = 20;
+            this.bunifuThinButton25.ActiveFillColor = System.Drawing.Color.Aqua;
+            this.bunifuThinButton25.ActiveForecolor = System.Drawing.Color.Black;
+            this.bunifuThinButton25.ActiveLineColor = System.Drawing.Color.Aqua;
+            this.bunifuThinButton25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
+            resources.ApplyResources(this.bunifuThinButton25, "bunifuThinButton25");
+            this.bunifuThinButton25.ButtonText = "Vider";
+            this.bunifuThinButton25.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton25.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.bunifuThinButton25.IdleBorderThickness = 1;
+            this.bunifuThinButton25.IdleCornerRadius = 20;
+            this.bunifuThinButton25.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.bunifuThinButton25.IdleForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton25.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.bunifuThinButton25.Name = "bunifuThinButton25";
+            this.bunifuThinButton25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuImageButton3
+            // 
+            this.bunifuImageButton3.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.bunifuImageButton3, "bunifuImageButton3");
+            this.bunifuImageButton3.ImageActive = null;
+            this.bunifuImageButton3.Name = "bunifuImageButton3";
+            this.bunifuImageButton3.TabStop = false;
+            this.bunifuImageButton3.Zoom = 10;
+            // 
+            // label5
+            // 
+            resources.ApplyResources(this.label5, "label5");
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Name = "label5";
+            // 
+            // metroComboBox1
+            // 
+            this.metroComboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.metroComboBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.metroComboBox1, "metroComboBox1");
+            this.metroComboBox1.ForeColor = System.Drawing.Color.White;
+            this.metroComboBox1.FormattingEnabled = true;
+            this.metroComboBox1.Items.AddRange(new object[] {
+            resources.GetString("metroComboBox1.Items"),
+            resources.GetString("metroComboBox1.Items1"),
+            resources.GetString("metroComboBox1.Items2")});
+            this.metroComboBox1.Name = "metroComboBox1";
+            this.metroComboBox1.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroComboBox1.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroComboBox1.UseCustomBackColor = true;
+            this.metroComboBox1.UseCustomForeColor = true;
+            this.metroComboBox1.UseSelectable = true;
+            // 
+            // label25
+            // 
+            resources.ApplyResources(this.label25, "label25");
+            this.label25.ForeColor = System.Drawing.Color.White;
+            this.label25.Name = "label25";
+            // 
+            // metroTextBox2
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox2.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image31")));
+            this.metroTextBox2.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode11")));
+            this.metroTextBox2.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location31")));
+            this.metroTextBox2.CustomButton.Name = "";
+            this.metroTextBox2.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size31")));
+            this.metroTextBox2.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox2.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex31")));
+            this.metroTextBox2.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox2.CustomButton.UseSelectable = true;
+            this.metroTextBox2.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible31")));
+            this.metroTextBox2.ForeColor = System.Drawing.Color.White;
+            this.metroTextBox2.Lines = new string[0];
+            resources.ApplyResources(this.metroTextBox2, "metroTextBox2");
+            this.metroTextBox2.MaxLength = 32767;
+            this.metroTextBox2.Name = "metroTextBox2";
+            this.metroTextBox2.PasswordChar = '\0';
+            this.metroTextBox2.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox2.SelectedText = "";
+            this.metroTextBox2.SelectionLength = 0;
+            this.metroTextBox2.SelectionStart = 0;
+            this.metroTextBox2.UseCustomBackColor = true;
+            this.metroTextBox2.UseCustomForeColor = true;
+            this.metroTextBox2.UseSelectable = true;
+            this.metroTextBox2.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox2.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // label26
+            // 
+            resources.ApplyResources(this.label26, "label26");
+            this.label26.ForeColor = System.Drawing.Color.White;
+            this.label26.Name = "label26";
+            // 
+            // label27
+            // 
+            resources.ApplyResources(this.label27, "label27");
+            this.label27.ForeColor = System.Drawing.Color.White;
+            this.label27.Name = "label27";
+            // 
+            // label28
+            // 
+            resources.ApplyResources(this.label28, "label28");
+            this.label28.ForeColor = System.Drawing.Color.White;
+            this.label28.Name = "label28";
+            // 
+            // label29
+            // 
+            resources.ApplyResources(this.label29, "label29");
+            this.label29.ForeColor = System.Drawing.Color.White;
+            this.label29.Name = "label29";
+            // 
+            // label30
+            // 
+            resources.ApplyResources(this.label30, "label30");
+            this.label30.ForeColor = System.Drawing.Color.White;
+            this.label30.Name = "label30";
+            // 
+            // label31
+            // 
+            resources.ApplyResources(this.label31, "label31");
+            this.label31.ForeColor = System.Drawing.Color.White;
+            this.label31.Name = "label31";
+            // 
+            // label33
+            // 
+            resources.ApplyResources(this.label33, "label33");
+            this.label33.ForeColor = System.Drawing.Color.White;
+            this.label33.Name = "label33";
+            // 
+            // label35
+            // 
+            resources.ApplyResources(this.label35, "label35");
+            this.label35.ForeColor = System.Drawing.Color.White;
+            this.label35.Name = "label35";
+            // 
+            // label37
+            // 
+            resources.ApplyResources(this.label37, "label37");
+            this.label37.ForeColor = System.Drawing.Color.White;
+            this.label37.Name = "label37";
+            // 
+            // label60
+            // 
+            resources.ApplyResources(this.label60, "label60");
+            this.label60.ForeColor = System.Drawing.Color.White;
+            this.label60.Name = "label60";
+            // 
+            // metroTextBox3
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox3.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image32")));
+            this.metroTextBox3.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode12")));
+            this.metroTextBox3.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location32")));
+            this.metroTextBox3.CustomButton.Name = "";
+            this.metroTextBox3.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size32")));
+            this.metroTextBox3.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox3.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex32")));
+            this.metroTextBox3.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox3.CustomButton.UseSelectable = true;
+            this.metroTextBox3.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible32")));
+            this.metroTextBox3.ForeColor = System.Drawing.Color.White;
+            this.metroTextBox3.Lines = new string[0];
+            resources.ApplyResources(this.metroTextBox3, "metroTextBox3");
+            this.metroTextBox3.MaxLength = 32767;
+            this.metroTextBox3.Multiline = true;
+            this.metroTextBox3.Name = "metroTextBox3";
+            this.metroTextBox3.PasswordChar = '\0';
+            this.metroTextBox3.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox3.SelectedText = "";
+            this.metroTextBox3.SelectionLength = 0;
+            this.metroTextBox3.SelectionStart = 0;
+            this.metroTextBox3.UseCustomBackColor = true;
+            this.metroTextBox3.UseCustomForeColor = true;
+            this.metroTextBox3.UseSelectable = true;
+            this.metroTextBox3.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox3.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.radioButton1, "radioButton1");
+            this.radioButton1.ForeColor = System.Drawing.Color.White;
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.TabStop = true;
+            this.radioButton1.UseVisualStyleBackColor = false;
+            // 
+            // TB_Prof_Ajouter_Nom
+            // 
+            // 
+            // 
+            // 
+            this.TB_Prof_Ajouter_Nom.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image33")));
+            this.TB_Prof_Ajouter_Nom.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode13")));
+            this.TB_Prof_Ajouter_Nom.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location33")));
+            this.TB_Prof_Ajouter_Nom.CustomButton.Name = "";
+            this.TB_Prof_Ajouter_Nom.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size33")));
+            this.TB_Prof_Ajouter_Nom.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.TB_Prof_Ajouter_Nom.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex33")));
+            this.TB_Prof_Ajouter_Nom.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.TB_Prof_Ajouter_Nom.CustomButton.UseSelectable = true;
+            this.TB_Prof_Ajouter_Nom.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible33")));
+            this.TB_Prof_Ajouter_Nom.ForeColor = System.Drawing.Color.White;
+            this.TB_Prof_Ajouter_Nom.Lines = new string[0];
+            resources.ApplyResources(this.TB_Prof_Ajouter_Nom, "TB_Prof_Ajouter_Nom");
+            this.TB_Prof_Ajouter_Nom.MaxLength = 32767;
+            this.TB_Prof_Ajouter_Nom.Name = "TB_Prof_Ajouter_Nom";
+            this.TB_Prof_Ajouter_Nom.PasswordChar = '\0';
+            this.TB_Prof_Ajouter_Nom.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TB_Prof_Ajouter_Nom.SelectedText = "";
+            this.TB_Prof_Ajouter_Nom.SelectionLength = 0;
+            this.TB_Prof_Ajouter_Nom.SelectionStart = 0;
+            this.TB_Prof_Ajouter_Nom.UseCustomBackColor = true;
+            this.TB_Prof_Ajouter_Nom.UseCustomForeColor = true;
+            this.TB_Prof_Ajouter_Nom.UseSelectable = true;
+            this.TB_Prof_Ajouter_Nom.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.TB_Prof_Ajouter_Nom.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.radioButton2, "radioButton2");
+            this.radioButton2.ForeColor = System.Drawing.Color.White;
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.TabStop = true;
+            this.radioButton2.UseVisualStyleBackColor = false;
+            // 
+            // metroTextBox5
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox5.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image34")));
+            this.metroTextBox5.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode14")));
+            this.metroTextBox5.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location34")));
+            this.metroTextBox5.CustomButton.Name = "";
+            this.metroTextBox5.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size34")));
+            this.metroTextBox5.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox5.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex34")));
+            this.metroTextBox5.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox5.CustomButton.UseSelectable = true;
+            this.metroTextBox5.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible34")));
+            this.metroTextBox5.ForeColor = System.Drawing.Color.White;
+            this.metroTextBox5.Lines = new string[0];
+            resources.ApplyResources(this.metroTextBox5, "metroTextBox5");
+            this.metroTextBox5.MaxLength = 32767;
+            this.metroTextBox5.Name = "metroTextBox5";
+            this.metroTextBox5.PasswordChar = '\0';
+            this.metroTextBox5.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox5.SelectedText = "";
+            this.metroTextBox5.SelectionLength = 0;
+            this.metroTextBox5.SelectionStart = 0;
+            this.metroTextBox5.UseCustomBackColor = true;
+            this.metroTextBox5.UseCustomForeColor = true;
+            this.metroTextBox5.UseSelectable = true;
+            this.metroTextBox5.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox5.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // metroTextBox6
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox6.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image35")));
+            this.metroTextBox6.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode15")));
+            this.metroTextBox6.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location35")));
+            this.metroTextBox6.CustomButton.Name = "";
+            this.metroTextBox6.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size35")));
+            this.metroTextBox6.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox6.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex35")));
+            this.metroTextBox6.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox6.CustomButton.UseSelectable = true;
+            this.metroTextBox6.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible35")));
+            this.metroTextBox6.ForeColor = System.Drawing.Color.White;
+            this.metroTextBox6.Lines = new string[0];
+            resources.ApplyResources(this.metroTextBox6, "metroTextBox6");
+            this.metroTextBox6.MaxLength = 32767;
+            this.metroTextBox6.Name = "metroTextBox6";
+            this.metroTextBox6.PasswordChar = '\0';
+            this.metroTextBox6.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox6.SelectedText = "";
+            this.metroTextBox6.SelectionLength = 0;
+            this.metroTextBox6.SelectionStart = 0;
+            this.metroTextBox6.UseCustomBackColor = true;
+            this.metroTextBox6.UseCustomForeColor = true;
+            this.metroTextBox6.UseSelectable = true;
+            this.metroTextBox6.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox6.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // metroTextBox7
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox7.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image37")));
+            this.metroTextBox7.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode17")));
+            this.metroTextBox7.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location37")));
+            this.metroTextBox7.CustomButton.Name = "";
+            this.metroTextBox7.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size37")));
+            this.metroTextBox7.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox7.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex37")));
+            this.metroTextBox7.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox7.CustomButton.UseSelectable = true;
+            this.metroTextBox7.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible37")));
+            this.metroTextBox7.ForeColor = System.Drawing.Color.White;
+            this.metroTextBox7.Lines = new string[0];
+            resources.ApplyResources(this.metroTextBox7, "metroTextBox7");
+            this.metroTextBox7.MaxLength = 32767;
+            this.metroTextBox7.Name = "metroTextBox7";
+            this.metroTextBox7.PasswordChar = '\0';
+            this.metroTextBox7.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox7.SelectedText = "";
+            this.metroTextBox7.SelectionLength = 0;
+            this.metroTextBox7.SelectionStart = 0;
+            this.metroTextBox7.UseCustomBackColor = true;
+            this.metroTextBox7.UseCustomForeColor = true;
+            this.metroTextBox7.UseSelectable = true;
+            this.metroTextBox7.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox7.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // bunifuThinButton26
+            // 
+            this.bunifuThinButton26.ActiveBorderThickness = 1;
+            this.bunifuThinButton26.ActiveCornerRadius = 20;
+            this.bunifuThinButton26.ActiveFillColor = System.Drawing.Color.Aqua;
+            this.bunifuThinButton26.ActiveForecolor = System.Drawing.Color.Black;
+            this.bunifuThinButton26.ActiveLineColor = System.Drawing.Color.Aqua;
+            this.bunifuThinButton26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
+            resources.ApplyResources(this.bunifuThinButton26, "bunifuThinButton26");
+            this.bunifuThinButton26.ButtonText = "Valider";
+            this.bunifuThinButton26.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton26.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.bunifuThinButton26.IdleBorderThickness = 1;
+            this.bunifuThinButton26.IdleCornerRadius = 20;
+            this.bunifuThinButton26.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.bunifuThinButton26.IdleForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton26.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.bunifuThinButton26.Name = "bunifuThinButton26";
+            this.bunifuThinButton26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuThinButton27
+            // 
+            this.bunifuThinButton27.ActiveBorderThickness = 1;
+            this.bunifuThinButton27.ActiveCornerRadius = 20;
+            this.bunifuThinButton27.ActiveFillColor = System.Drawing.Color.Aqua;
+            this.bunifuThinButton27.ActiveForecolor = System.Drawing.Color.Black;
+            this.bunifuThinButton27.ActiveLineColor = System.Drawing.Color.Aqua;
+            this.bunifuThinButton27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
+            resources.ApplyResources(this.bunifuThinButton27, "bunifuThinButton27");
+            this.bunifuThinButton27.ButtonText = "Valider";
+            this.bunifuThinButton27.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton27.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.bunifuThinButton27.IdleBorderThickness = 1;
+            this.bunifuThinButton27.IdleCornerRadius = 20;
+            this.bunifuThinButton27.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.bunifuThinButton27.IdleForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton27.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.bunifuThinButton27.Name = "bunifuThinButton27";
+            this.bunifuThinButton27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuThinButton28
+            // 
+            this.bunifuThinButton28.ActiveBorderThickness = 1;
+            this.bunifuThinButton28.ActiveCornerRadius = 20;
+            this.bunifuThinButton28.ActiveFillColor = System.Drawing.Color.Aqua;
+            this.bunifuThinButton28.ActiveForecolor = System.Drawing.Color.Black;
+            this.bunifuThinButton28.ActiveLineColor = System.Drawing.Color.Aqua;
+            this.bunifuThinButton28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
+            resources.ApplyResources(this.bunifuThinButton28, "bunifuThinButton28");
+            this.bunifuThinButton28.ButtonText = "Valider";
+            this.bunifuThinButton28.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton28.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.bunifuThinButton28.IdleBorderThickness = 1;
+            this.bunifuThinButton28.IdleCornerRadius = 20;
+            this.bunifuThinButton28.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.bunifuThinButton28.IdleForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton28.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.bunifuThinButton28.Name = "bunifuThinButton28";
+            this.bunifuThinButton28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tabPage7
+            // 
+            this.tabPage7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
+            this.tabPage7.Controls.Add(this.bunifuThinButton29);
+            this.tabPage7.Controls.Add(this.pictureBox4);
+            this.tabPage7.Controls.Add(this.metroDateTime2);
+            this.tabPage7.Controls.Add(this.metroTextBox8);
+            this.tabPage7.Controls.Add(this.metroTextBox9);
+            this.tabPage7.Controls.Add(this.metroTextBox10);
+            this.tabPage7.Controls.Add(this.bunifuThinButton210);
+            this.tabPage7.Controls.Add(this.bunifuImageButton4);
+            this.tabPage7.Controls.Add(this.label61);
+            this.tabPage7.Controls.Add(this.label62);
+            this.tabPage7.Controls.Add(this.metroComboBox6);
+            this.tabPage7.Controls.Add(this.metroComboBox7);
+            this.tabPage7.Controls.Add(this.metroComboBox8);
+            this.tabPage7.Controls.Add(this.metroComboBox9);
+            this.tabPage7.Controls.Add(this.label63);
+            this.tabPage7.Controls.Add(this.metroTextBox11);
+            this.tabPage7.Controls.Add(this.label66);
+            this.tabPage7.Controls.Add(this.label68);
+            this.tabPage7.Controls.Add(this.label69);
+            this.tabPage7.Controls.Add(this.label70);
+            this.tabPage7.Controls.Add(this.label71);
+            this.tabPage7.Controls.Add(this.label72);
+            this.tabPage7.Controls.Add(this.label73);
+            this.tabPage7.Controls.Add(this.label74);
+            this.tabPage7.Controls.Add(this.label75);
+            this.tabPage7.Controls.Add(this.label76);
+            this.tabPage7.Controls.Add(this.label77);
+            this.tabPage7.Controls.Add(this.label78);
+            this.tabPage7.Controls.Add(this.label79);
+            this.tabPage7.Controls.Add(this.metroComboBox10);
+            this.tabPage7.Controls.Add(this.metroTextBox12);
+            this.tabPage7.Controls.Add(this.radioButton3);
+            this.tabPage7.Controls.Add(this.metroTextBox13);
+            this.tabPage7.Controls.Add(this.radioButton4);
+            this.tabPage7.Controls.Add(this.metroTextBox14);
+            this.tabPage7.Controls.Add(this.metroTextBox15);
+            this.tabPage7.Controls.Add(this.metroTextBox16);
+            resources.ApplyResources(this.tabPage7, "tabPage7");
+            this.tabPage7.Name = "tabPage7";
+            // 
+            // bunifuThinButton29
+            // 
+            this.bunifuThinButton29.ActiveBorderThickness = 1;
+            this.bunifuThinButton29.ActiveCornerRadius = 20;
+            this.bunifuThinButton29.ActiveFillColor = System.Drawing.Color.Aqua;
+            this.bunifuThinButton29.ActiveForecolor = System.Drawing.Color.Black;
+            this.bunifuThinButton29.ActiveLineColor = System.Drawing.Color.Aqua;
+            this.bunifuThinButton29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
+            resources.ApplyResources(this.bunifuThinButton29, "bunifuThinButton29");
+            this.bunifuThinButton29.ButtonText = "Annuler";
+            this.bunifuThinButton29.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton29.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.bunifuThinButton29.IdleBorderThickness = 1;
+            this.bunifuThinButton29.IdleCornerRadius = 20;
+            this.bunifuThinButton29.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.bunifuThinButton29.IdleForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton29.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.bunifuThinButton29.Name = "bunifuThinButton29";
+            this.bunifuThinButton29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackgroundImage = global::GestionCentre.Properties.Resources.stagiaire2;
+            resources.ApplyResources(this.pictureBox4, "pictureBox4");
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.TabStop = false;
+            // 
+            // metroDateTime2
+            // 
+            this.metroDateTime2.CalendarForeColor = System.Drawing.Color.White;
+            this.metroDateTime2.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.metroDateTime2.CalendarTitleBackColor = System.Drawing.Color.Aqua;
+            this.metroDateTime2.CalendarTitleForeColor = System.Drawing.Color.Maroon;
+            this.metroDateTime2.CalendarTrailingForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.metroDateTime2, "metroDateTime2");
+            this.metroDateTime2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.metroDateTime2.Name = "metroDateTime2";
+            this.metroDateTime2.UseCustomBackColor = true;
+            this.metroDateTime2.UseCustomForeColor = true;
+            this.metroDateTime2.UseStyleColors = true;
+            this.metroDateTime2.Value = new System.DateTime(2017, 3, 26, 4, 6, 31, 0);
+            // 
+            // metroTextBox8
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox8.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image38")));
+            this.metroTextBox8.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode18")));
+            this.metroTextBox8.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location38")));
+            this.metroTextBox8.CustomButton.Name = "";
+            this.metroTextBox8.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size38")));
+            this.metroTextBox8.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox8.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex38")));
+            this.metroTextBox8.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox8.CustomButton.UseSelectable = true;
+            this.metroTextBox8.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible38")));
+            this.metroTextBox8.ForeColor = System.Drawing.Color.White;
+            this.metroTextBox8.Lines = new string[0];
+            resources.ApplyResources(this.metroTextBox8, "metroTextBox8");
+            this.metroTextBox8.MaxLength = 32767;
+            this.metroTextBox8.Name = "metroTextBox8";
+            this.metroTextBox8.PasswordChar = '\0';
+            this.metroTextBox8.ReadOnly = true;
+            this.metroTextBox8.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox8.SelectedText = "";
+            this.metroTextBox8.SelectionLength = 0;
+            this.metroTextBox8.SelectionStart = 0;
+            this.metroTextBox8.UseCustomBackColor = true;
+            this.metroTextBox8.UseCustomForeColor = true;
+            this.metroTextBox8.UseSelectable = true;
+            this.metroTextBox8.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox8.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // metroTextBox9
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox9.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image39")));
+            this.metroTextBox9.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode19")));
+            this.metroTextBox9.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location39")));
+            this.metroTextBox9.CustomButton.Name = "";
+            this.metroTextBox9.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size39")));
+            this.metroTextBox9.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox9.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex39")));
+            this.metroTextBox9.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox9.CustomButton.UseSelectable = true;
+            this.metroTextBox9.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible39")));
+            this.metroTextBox9.ForeColor = System.Drawing.Color.White;
+            this.metroTextBox9.Lines = new string[0];
+            resources.ApplyResources(this.metroTextBox9, "metroTextBox9");
+            this.metroTextBox9.MaxLength = 32767;
+            this.metroTextBox9.Name = "metroTextBox9";
+            this.metroTextBox9.PasswordChar = '\0';
+            this.metroTextBox9.ReadOnly = true;
+            this.metroTextBox9.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox9.SelectedText = "";
+            this.metroTextBox9.SelectionLength = 0;
+            this.metroTextBox9.SelectionStart = 0;
+            this.metroTextBox9.UseCustomBackColor = true;
+            this.metroTextBox9.UseCustomForeColor = true;
+            this.metroTextBox9.UseSelectable = true;
+            this.metroTextBox9.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox9.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // metroTextBox10
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox10.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image40")));
+            this.metroTextBox10.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode20")));
+            this.metroTextBox10.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location40")));
+            this.metroTextBox10.CustomButton.Name = "";
+            this.metroTextBox10.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size40")));
+            this.metroTextBox10.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox10.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex40")));
+            this.metroTextBox10.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox10.CustomButton.UseSelectable = true;
+            this.metroTextBox10.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible40")));
+            this.metroTextBox10.ForeColor = System.Drawing.Color.White;
+            this.metroTextBox10.Lines = new string[0];
+            resources.ApplyResources(this.metroTextBox10, "metroTextBox10");
+            this.metroTextBox10.MaxLength = 32767;
+            this.metroTextBox10.Name = "metroTextBox10";
+            this.metroTextBox10.PasswordChar = '\0';
+            this.metroTextBox10.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox10.SelectedText = "";
+            this.metroTextBox10.SelectionLength = 0;
+            this.metroTextBox10.SelectionStart = 0;
+            this.metroTextBox10.UseCustomBackColor = true;
+            this.metroTextBox10.UseCustomForeColor = true;
+            this.metroTextBox10.UseSelectable = true;
+            this.metroTextBox10.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox10.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // bunifuThinButton210
+            // 
+            this.bunifuThinButton210.ActiveBorderThickness = 1;
+            this.bunifuThinButton210.ActiveCornerRadius = 20;
+            this.bunifuThinButton210.ActiveFillColor = System.Drawing.Color.Aqua;
+            this.bunifuThinButton210.ActiveForecolor = System.Drawing.Color.Black;
+            this.bunifuThinButton210.ActiveLineColor = System.Drawing.Color.Aqua;
+            this.bunifuThinButton210.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
+            resources.ApplyResources(this.bunifuThinButton210, "bunifuThinButton210");
+            this.bunifuThinButton210.ButtonText = "Modifier";
+            this.bunifuThinButton210.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton210.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.bunifuThinButton210.IdleBorderThickness = 1;
+            this.bunifuThinButton210.IdleCornerRadius = 20;
+            this.bunifuThinButton210.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.bunifuThinButton210.IdleForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton210.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.bunifuThinButton210.Name = "bunifuThinButton210";
+            this.bunifuThinButton210.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuImageButton4
+            // 
+            this.bunifuImageButton4.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.bunifuImageButton4, "bunifuImageButton4");
+            this.bunifuImageButton4.ImageActive = null;
+            this.bunifuImageButton4.Name = "bunifuImageButton4";
+            this.bunifuImageButton4.TabStop = false;
+            this.bunifuImageButton4.Zoom = 10;
+            // 
+            // label61
+            // 
+            resources.ApplyResources(this.label61, "label61");
+            this.label61.ForeColor = System.Drawing.Color.White;
+            this.label61.Name = "label61";
+            // 
+            // label62
+            // 
+            resources.ApplyResources(this.label62, "label62");
+            this.label62.ForeColor = System.Drawing.Color.White;
+            this.label62.Name = "label62";
+            // 
+            // metroComboBox6
+            // 
+            this.metroComboBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.metroComboBox6.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.metroComboBox6, "metroComboBox6");
+            this.metroComboBox6.ForeColor = System.Drawing.Color.White;
+            this.metroComboBox6.FormattingEnabled = true;
+            this.metroComboBox6.Items.AddRange(new object[] {
+            resources.GetString("metroComboBox6.Items"),
+            resources.GetString("metroComboBox6.Items1"),
+            resources.GetString("metroComboBox6.Items2")});
+            this.metroComboBox6.Name = "metroComboBox6";
+            this.metroComboBox6.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroComboBox6.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroComboBox6.UseCustomBackColor = true;
+            this.metroComboBox6.UseCustomForeColor = true;
+            this.metroComboBox6.UseSelectable = true;
+            // 
+            // metroComboBox7
+            // 
+            this.metroComboBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.metroComboBox7.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.metroComboBox7, "metroComboBox7");
+            this.metroComboBox7.ForeColor = System.Drawing.Color.White;
+            this.metroComboBox7.FormattingEnabled = true;
+            this.metroComboBox7.Items.AddRange(new object[] {
+            resources.GetString("metroComboBox7.Items"),
+            resources.GetString("metroComboBox7.Items1"),
+            resources.GetString("metroComboBox7.Items2"),
+            resources.GetString("metroComboBox7.Items3"),
+            resources.GetString("metroComboBox7.Items4"),
+            resources.GetString("metroComboBox7.Items5"),
+            resources.GetString("metroComboBox7.Items6"),
+            resources.GetString("metroComboBox7.Items7"),
+            resources.GetString("metroComboBox7.Items8"),
+            resources.GetString("metroComboBox7.Items9")});
+            this.metroComboBox7.Name = "metroComboBox7";
+            this.metroComboBox7.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroComboBox7.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroComboBox7.UseCustomBackColor = true;
+            this.metroComboBox7.UseCustomForeColor = true;
+            this.metroComboBox7.UseSelectable = true;
+            // 
+            // metroComboBox8
+            // 
+            this.metroComboBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.metroComboBox8.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.metroComboBox8, "metroComboBox8");
+            this.metroComboBox8.ForeColor = System.Drawing.Color.White;
+            this.metroComboBox8.FormattingEnabled = true;
+            this.metroComboBox8.Items.AddRange(new object[] {
+            resources.GetString("metroComboBox8.Items"),
+            resources.GetString("metroComboBox8.Items1")});
+            this.metroComboBox8.Name = "metroComboBox8";
+            this.metroComboBox8.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroComboBox8.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroComboBox8.UseCustomBackColor = true;
+            this.metroComboBox8.UseCustomForeColor = true;
+            this.metroComboBox8.UseSelectable = true;
+            // 
+            // metroComboBox9
+            // 
+            this.metroComboBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.metroComboBox9.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.metroComboBox9, "metroComboBox9");
+            this.metroComboBox9.ForeColor = System.Drawing.Color.White;
+            this.metroComboBox9.FormattingEnabled = true;
+            this.metroComboBox9.Items.AddRange(new object[] {
+            resources.GetString("metroComboBox9.Items"),
+            resources.GetString("metroComboBox9.Items1"),
+            resources.GetString("metroComboBox9.Items2")});
+            this.metroComboBox9.Name = "metroComboBox9";
+            this.metroComboBox9.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroComboBox9.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroComboBox9.UseCustomBackColor = true;
+            this.metroComboBox9.UseCustomForeColor = true;
+            this.metroComboBox9.UseSelectable = true;
+            // 
+            // label63
+            // 
+            resources.ApplyResources(this.label63, "label63");
+            this.label63.ForeColor = System.Drawing.Color.White;
+            this.label63.Name = "label63";
+            // 
+            // metroTextBox11
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox11.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image41")));
+            this.metroTextBox11.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode21")));
+            this.metroTextBox11.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location41")));
+            this.metroTextBox11.CustomButton.Name = "";
+            this.metroTextBox11.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size41")));
+            this.metroTextBox11.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox11.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex41")));
+            this.metroTextBox11.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox11.CustomButton.UseSelectable = true;
+            this.metroTextBox11.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible41")));
+            this.metroTextBox11.ForeColor = System.Drawing.Color.White;
+            this.metroTextBox11.Lines = new string[0];
+            resources.ApplyResources(this.metroTextBox11, "metroTextBox11");
+            this.metroTextBox11.MaxLength = 32767;
+            this.metroTextBox11.Name = "metroTextBox11";
+            this.metroTextBox11.PasswordChar = '\0';
+            this.metroTextBox11.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox11.SelectedText = "";
+            this.metroTextBox11.SelectionLength = 0;
+            this.metroTextBox11.SelectionStart = 0;
+            this.metroTextBox11.UseCustomBackColor = true;
+            this.metroTextBox11.UseCustomForeColor = true;
+            this.metroTextBox11.UseSelectable = true;
+            this.metroTextBox11.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox11.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // label66
+            // 
+            resources.ApplyResources(this.label66, "label66");
+            this.label66.ForeColor = System.Drawing.Color.White;
+            this.label66.Name = "label66";
+            // 
+            // label68
+            // 
+            resources.ApplyResources(this.label68, "label68");
+            this.label68.ForeColor = System.Drawing.Color.White;
+            this.label68.Name = "label68";
+            // 
+            // label69
+            // 
+            resources.ApplyResources(this.label69, "label69");
+            this.label69.ForeColor = System.Drawing.Color.White;
+            this.label69.Name = "label69";
+            // 
+            // label70
+            // 
+            resources.ApplyResources(this.label70, "label70");
+            this.label70.ForeColor = System.Drawing.Color.White;
+            this.label70.Name = "label70";
+            // 
+            // label71
+            // 
+            resources.ApplyResources(this.label71, "label71");
+            this.label71.ForeColor = System.Drawing.Color.White;
+            this.label71.Name = "label71";
+            // 
+            // label72
+            // 
+            resources.ApplyResources(this.label72, "label72");
+            this.label72.ForeColor = System.Drawing.Color.White;
+            this.label72.Name = "label72";
+            // 
+            // label73
+            // 
+            resources.ApplyResources(this.label73, "label73");
+            this.label73.ForeColor = System.Drawing.Color.White;
+            this.label73.Name = "label73";
+            // 
+            // label74
+            // 
+            resources.ApplyResources(this.label74, "label74");
+            this.label74.ForeColor = System.Drawing.Color.White;
+            this.label74.Name = "label74";
+            // 
+            // label75
+            // 
+            resources.ApplyResources(this.label75, "label75");
+            this.label75.ForeColor = System.Drawing.Color.White;
+            this.label75.Name = "label75";
+            // 
+            // label76
+            // 
+            resources.ApplyResources(this.label76, "label76");
+            this.label76.ForeColor = System.Drawing.Color.White;
+            this.label76.Name = "label76";
+            // 
+            // label77
+            // 
+            resources.ApplyResources(this.label77, "label77");
+            this.label77.ForeColor = System.Drawing.Color.White;
+            this.label77.Name = "label77";
+            // 
+            // label78
+            // 
+            resources.ApplyResources(this.label78, "label78");
+            this.label78.ForeColor = System.Drawing.Color.White;
+            this.label78.Name = "label78";
+            // 
+            // label79
+            // 
+            resources.ApplyResources(this.label79, "label79");
+            this.label79.ForeColor = System.Drawing.Color.White;
+            this.label79.Name = "label79";
+            // 
+            // metroComboBox10
+            // 
+            this.metroComboBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.metroComboBox10.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.metroComboBox10, "metroComboBox10");
+            this.metroComboBox10.ForeColor = System.Drawing.Color.White;
+            this.metroComboBox10.FormattingEnabled = true;
+            this.metroComboBox10.Items.AddRange(new object[] {
+            resources.GetString("metroComboBox10.Items"),
+            resources.GetString("metroComboBox10.Items1"),
+            resources.GetString("metroComboBox10.Items2")});
+            this.metroComboBox10.Name = "metroComboBox10";
+            this.metroComboBox10.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroComboBox10.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroComboBox10.UseCustomBackColor = true;
+            this.metroComboBox10.UseCustomForeColor = true;
+            this.metroComboBox10.UseSelectable = true;
+            // 
+            // metroTextBox12
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox12.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image42")));
+            this.metroTextBox12.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode22")));
+            this.metroTextBox12.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location42")));
+            this.metroTextBox12.CustomButton.Name = "";
+            this.metroTextBox12.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size42")));
+            this.metroTextBox12.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox12.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex42")));
+            this.metroTextBox12.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox12.CustomButton.UseSelectable = true;
+            this.metroTextBox12.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible42")));
+            this.metroTextBox12.ForeColor = System.Drawing.Color.White;
+            this.metroTextBox12.Lines = new string[0];
+            resources.ApplyResources(this.metroTextBox12, "metroTextBox12");
+            this.metroTextBox12.MaxLength = 32767;
+            this.metroTextBox12.Name = "metroTextBox12";
+            this.metroTextBox12.PasswordChar = '\0';
+            this.metroTextBox12.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox12.SelectedText = "";
+            this.metroTextBox12.SelectionLength = 0;
+            this.metroTextBox12.SelectionStart = 0;
+            this.metroTextBox12.UseCustomBackColor = true;
+            this.metroTextBox12.UseCustomForeColor = true;
+            this.metroTextBox12.UseSelectable = true;
+            this.metroTextBox12.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox12.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton3.Checked = true;
+            resources.ApplyResources(this.radioButton3, "radioButton3");
+            this.radioButton3.ForeColor = System.Drawing.Color.White;
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.TabStop = true;
+            this.radioButton3.UseVisualStyleBackColor = false;
+            // 
+            // metroTextBox13
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox13.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image43")));
+            this.metroTextBox13.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode23")));
+            this.metroTextBox13.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location43")));
+            this.metroTextBox13.CustomButton.Name = "";
+            this.metroTextBox13.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size43")));
+            this.metroTextBox13.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox13.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex43")));
+            this.metroTextBox13.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox13.CustomButton.UseSelectable = true;
+            this.metroTextBox13.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible43")));
+            this.metroTextBox13.ForeColor = System.Drawing.Color.White;
+            this.metroTextBox13.Lines = new string[0];
+            resources.ApplyResources(this.metroTextBox13, "metroTextBox13");
+            this.metroTextBox13.MaxLength = 32767;
+            this.metroTextBox13.Name = "metroTextBox13";
+            this.metroTextBox13.PasswordChar = '\0';
+            this.metroTextBox13.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox13.SelectedText = "";
+            this.metroTextBox13.SelectionLength = 0;
+            this.metroTextBox13.SelectionStart = 0;
+            this.metroTextBox13.UseCustomBackColor = true;
+            this.metroTextBox13.UseCustomForeColor = true;
+            this.metroTextBox13.UseSelectable = true;
+            this.metroTextBox13.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox13.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // radioButton4
+            // 
+            this.radioButton4.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.radioButton4, "radioButton4");
+            this.radioButton4.ForeColor = System.Drawing.Color.White;
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.UseVisualStyleBackColor = false;
+            // 
+            // metroTextBox14
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox14.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image44")));
+            this.metroTextBox14.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode24")));
+            this.metroTextBox14.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location44")));
+            this.metroTextBox14.CustomButton.Name = "";
+            this.metroTextBox14.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size44")));
+            this.metroTextBox14.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox14.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex44")));
+            this.metroTextBox14.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox14.CustomButton.UseSelectable = true;
+            this.metroTextBox14.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible44")));
+            this.metroTextBox14.ForeColor = System.Drawing.Color.White;
+            this.metroTextBox14.Lines = new string[0];
+            resources.ApplyResources(this.metroTextBox14, "metroTextBox14");
+            this.metroTextBox14.MaxLength = 32767;
+            this.metroTextBox14.Name = "metroTextBox14";
+            this.metroTextBox14.PasswordChar = '\0';
+            this.metroTextBox14.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox14.SelectedText = "";
+            this.metroTextBox14.SelectionLength = 0;
+            this.metroTextBox14.SelectionStart = 0;
+            this.metroTextBox14.UseCustomBackColor = true;
+            this.metroTextBox14.UseCustomForeColor = true;
+            this.metroTextBox14.UseSelectable = true;
+            this.metroTextBox14.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox14.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // metroTextBox15
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox15.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image45")));
+            this.metroTextBox15.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode25")));
+            this.metroTextBox15.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location45")));
+            this.metroTextBox15.CustomButton.Name = "";
+            this.metroTextBox15.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size45")));
+            this.metroTextBox15.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox15.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex45")));
+            this.metroTextBox15.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox15.CustomButton.UseSelectable = true;
+            this.metroTextBox15.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible45")));
+            this.metroTextBox15.ForeColor = System.Drawing.Color.White;
+            this.metroTextBox15.Lines = new string[0];
+            resources.ApplyResources(this.metroTextBox15, "metroTextBox15");
+            this.metroTextBox15.MaxLength = 32767;
+            this.metroTextBox15.Name = "metroTextBox15";
+            this.metroTextBox15.PasswordChar = '\0';
+            this.metroTextBox15.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox15.SelectedText = "";
+            this.metroTextBox15.SelectionLength = 0;
+            this.metroTextBox15.SelectionStart = 0;
+            this.metroTextBox15.UseCustomBackColor = true;
+            this.metroTextBox15.UseCustomForeColor = true;
+            this.metroTextBox15.UseSelectable = true;
+            this.metroTextBox15.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox15.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // metroTextBox16
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox16.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image46")));
+            this.metroTextBox16.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode26")));
+            this.metroTextBox16.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location46")));
+            this.metroTextBox16.CustomButton.Name = "";
+            this.metroTextBox16.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size46")));
+            this.metroTextBox16.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox16.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex46")));
+            this.metroTextBox16.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox16.CustomButton.UseSelectable = true;
+            this.metroTextBox16.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible46")));
+            this.metroTextBox16.ForeColor = System.Drawing.Color.White;
+            this.metroTextBox16.Lines = new string[0];
+            resources.ApplyResources(this.metroTextBox16, "metroTextBox16");
+            this.metroTextBox16.MaxLength = 32767;
+            this.metroTextBox16.Name = "metroTextBox16";
+            this.metroTextBox16.PasswordChar = '\0';
+            this.metroTextBox16.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox16.SelectedText = "";
+            this.metroTextBox16.SelectionLength = 0;
+            this.metroTextBox16.SelectionStart = 0;
+            this.metroTextBox16.UseCustomBackColor = true;
+            this.metroTextBox16.UseCustomForeColor = true;
+            this.metroTextBox16.UseSelectable = true;
+            this.metroTextBox16.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox16.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // tabPage8
+            // 
+            this.tabPage8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
+            this.tabPage8.Controls.Add(this.metroTextBox17);
+            this.tabPage8.Controls.Add(this.metroTextBox18);
+            this.tabPage8.Controls.Add(this.metroTextBox19);
+            this.tabPage8.Controls.Add(this.metroTextBox20);
+            this.tabPage8.Controls.Add(this.metroTextBox21);
+            this.tabPage8.Controls.Add(this.metroTextBox22);
+            this.tabPage8.Controls.Add(this.metroTextBox23);
+            this.tabPage8.Controls.Add(this.metroTextBox24);
+            this.tabPage8.Controls.Add(this.metroTextBox25);
+            this.tabPage8.Controls.Add(this.metroTextBox26);
+            this.tabPage8.Controls.Add(this.metroTextBox27);
+            this.tabPage8.Controls.Add(this.metroTextBox28);
+            this.tabPage8.Controls.Add(this.label80);
+            this.tabPage8.Controls.Add(this.metroTextBox29);
+            this.tabPage8.Controls.Add(this.label81);
+            this.tabPage8.Controls.Add(this.label82);
+            this.tabPage8.Controls.Add(this.metroTextBox30);
+            this.tabPage8.Controls.Add(this.label83);
+            this.tabPage8.Controls.Add(this.label84);
+            this.tabPage8.Controls.Add(this.label85);
+            this.tabPage8.Controls.Add(this.panel9);
+            this.tabPage8.Controls.Add(this.label89);
+            this.tabPage8.Controls.Add(this.label90);
+            this.tabPage8.Controls.Add(this.label91);
+            this.tabPage8.Controls.Add(this.label92);
+            this.tabPage8.Controls.Add(this.label93);
+            this.tabPage8.Controls.Add(this.label94);
+            this.tabPage8.Controls.Add(this.label95);
+            this.tabPage8.Controls.Add(this.label96);
+            resources.ApplyResources(this.tabPage8, "tabPage8");
+            this.tabPage8.Name = "tabPage8";
+            // 
+            // metroTextBox17
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox17.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image47")));
+            this.metroTextBox17.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode27")));
+            this.metroTextBox17.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location47")));
+            this.metroTextBox17.CustomButton.Name = "";
+            this.metroTextBox17.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size47")));
+            this.metroTextBox17.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox17.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex47")));
+            this.metroTextBox17.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox17.CustomButton.UseSelectable = true;
+            this.metroTextBox17.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible47")));
+            this.metroTextBox17.ForeColor = System.Drawing.Color.White;
+            this.metroTextBox17.Lines = new string[0];
+            resources.ApplyResources(this.metroTextBox17, "metroTextBox17");
+            this.metroTextBox17.MaxLength = 32767;
+            this.metroTextBox17.Name = "metroTextBox17";
+            this.metroTextBox17.PasswordChar = '\0';
+            this.metroTextBox17.ReadOnly = true;
+            this.metroTextBox17.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox17.SelectedText = "";
+            this.metroTextBox17.SelectionLength = 0;
+            this.metroTextBox17.SelectionStart = 0;
+            this.metroTextBox17.UseCustomBackColor = true;
+            this.metroTextBox17.UseCustomForeColor = true;
+            this.metroTextBox17.UseSelectable = true;
+            this.metroTextBox17.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox17.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // metroTextBox18
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox18.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image48")));
+            this.metroTextBox18.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode28")));
+            this.metroTextBox18.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location48")));
+            this.metroTextBox18.CustomButton.Name = "";
+            this.metroTextBox18.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size48")));
+            this.metroTextBox18.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox18.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex48")));
+            this.metroTextBox18.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox18.CustomButton.UseSelectable = true;
+            this.metroTextBox18.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible48")));
+            this.metroTextBox18.ForeColor = System.Drawing.Color.White;
+            this.metroTextBox18.Lines = new string[0];
+            resources.ApplyResources(this.metroTextBox18, "metroTextBox18");
+            this.metroTextBox18.MaxLength = 32767;
+            this.metroTextBox18.Name = "metroTextBox18";
+            this.metroTextBox18.PasswordChar = '\0';
+            this.metroTextBox18.ReadOnly = true;
+            this.metroTextBox18.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox18.SelectedText = "";
+            this.metroTextBox18.SelectionLength = 0;
+            this.metroTextBox18.SelectionStart = 0;
+            this.metroTextBox18.UseCustomBackColor = true;
+            this.metroTextBox18.UseCustomForeColor = true;
+            this.metroTextBox18.UseSelectable = true;
+            this.metroTextBox18.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox18.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // metroTextBox19
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox19.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image49")));
+            this.metroTextBox19.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode29")));
+            this.metroTextBox19.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location49")));
+            this.metroTextBox19.CustomButton.Name = "";
+            this.metroTextBox19.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size49")));
+            this.metroTextBox19.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox19.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex49")));
+            this.metroTextBox19.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox19.CustomButton.UseSelectable = true;
+            this.metroTextBox19.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible49")));
+            this.metroTextBox19.ForeColor = System.Drawing.Color.White;
+            this.metroTextBox19.Lines = new string[0];
+            resources.ApplyResources(this.metroTextBox19, "metroTextBox19");
+            this.metroTextBox19.MaxLength = 32767;
+            this.metroTextBox19.Name = "metroTextBox19";
+            this.metroTextBox19.PasswordChar = '\0';
+            this.metroTextBox19.ReadOnly = true;
+            this.metroTextBox19.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox19.SelectedText = "";
+            this.metroTextBox19.SelectionLength = 0;
+            this.metroTextBox19.SelectionStart = 0;
+            this.metroTextBox19.UseCustomBackColor = true;
+            this.metroTextBox19.UseCustomForeColor = true;
+            this.metroTextBox19.UseSelectable = true;
+            this.metroTextBox19.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox19.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // metroTextBox20
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox20.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image50")));
+            this.metroTextBox20.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode30")));
+            this.metroTextBox20.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location50")));
+            this.metroTextBox20.CustomButton.Name = "";
+            this.metroTextBox20.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size50")));
+            this.metroTextBox20.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox20.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex50")));
+            this.metroTextBox20.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox20.CustomButton.UseSelectable = true;
+            this.metroTextBox20.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible50")));
+            this.metroTextBox20.ForeColor = System.Drawing.Color.White;
+            this.metroTextBox20.Lines = new string[0];
+            resources.ApplyResources(this.metroTextBox20, "metroTextBox20");
+            this.metroTextBox20.MaxLength = 32767;
+            this.metroTextBox20.Name = "metroTextBox20";
+            this.metroTextBox20.PasswordChar = '\0';
+            this.metroTextBox20.ReadOnly = true;
+            this.metroTextBox20.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox20.SelectedText = "";
+            this.metroTextBox20.SelectionLength = 0;
+            this.metroTextBox20.SelectionStart = 0;
+            this.metroTextBox20.UseCustomBackColor = true;
+            this.metroTextBox20.UseCustomForeColor = true;
+            this.metroTextBox20.UseSelectable = true;
+            this.metroTextBox20.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox20.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // metroTextBox21
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox21.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image51")));
+            this.metroTextBox21.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode31")));
+            this.metroTextBox21.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location51")));
+            this.metroTextBox21.CustomButton.Name = "";
+            this.metroTextBox21.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size51")));
+            this.metroTextBox21.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox21.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex51")));
+            this.metroTextBox21.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox21.CustomButton.UseSelectable = true;
+            this.metroTextBox21.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible51")));
+            this.metroTextBox21.ForeColor = System.Drawing.Color.White;
+            this.metroTextBox21.Lines = new string[0];
+            resources.ApplyResources(this.metroTextBox21, "metroTextBox21");
+            this.metroTextBox21.MaxLength = 32767;
+            this.metroTextBox21.Name = "metroTextBox21";
+            this.metroTextBox21.PasswordChar = '\0';
+            this.metroTextBox21.ReadOnly = true;
+            this.metroTextBox21.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox21.SelectedText = "";
+            this.metroTextBox21.SelectionLength = 0;
+            this.metroTextBox21.SelectionStart = 0;
+            this.metroTextBox21.UseCustomBackColor = true;
+            this.metroTextBox21.UseCustomForeColor = true;
+            this.metroTextBox21.UseSelectable = true;
+            this.metroTextBox21.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox21.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // metroTextBox22
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox22.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image52")));
+            this.metroTextBox22.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode32")));
+            this.metroTextBox22.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location52")));
+            this.metroTextBox22.CustomButton.Name = "";
+            this.metroTextBox22.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size52")));
+            this.metroTextBox22.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox22.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex52")));
+            this.metroTextBox22.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox22.CustomButton.UseSelectable = true;
+            this.metroTextBox22.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible52")));
+            this.metroTextBox22.ForeColor = System.Drawing.Color.White;
+            this.metroTextBox22.Lines = new string[0];
+            resources.ApplyResources(this.metroTextBox22, "metroTextBox22");
+            this.metroTextBox22.MaxLength = 32767;
+            this.metroTextBox22.Name = "metroTextBox22";
+            this.metroTextBox22.PasswordChar = '\0';
+            this.metroTextBox22.ReadOnly = true;
+            this.metroTextBox22.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox22.SelectedText = "";
+            this.metroTextBox22.SelectionLength = 0;
+            this.metroTextBox22.SelectionStart = 0;
+            this.metroTextBox22.UseCustomBackColor = true;
+            this.metroTextBox22.UseCustomForeColor = true;
+            this.metroTextBox22.UseSelectable = true;
+            this.metroTextBox22.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox22.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // metroTextBox23
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox23.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image53")));
+            this.metroTextBox23.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode33")));
+            this.metroTextBox23.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location53")));
+            this.metroTextBox23.CustomButton.Name = "";
+            this.metroTextBox23.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size53")));
+            this.metroTextBox23.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox23.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex53")));
+            this.metroTextBox23.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox23.CustomButton.UseSelectable = true;
+            this.metroTextBox23.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible53")));
+            this.metroTextBox23.ForeColor = System.Drawing.Color.White;
+            this.metroTextBox23.Lines = new string[0];
+            resources.ApplyResources(this.metroTextBox23, "metroTextBox23");
+            this.metroTextBox23.MaxLength = 32767;
+            this.metroTextBox23.Name = "metroTextBox23";
+            this.metroTextBox23.PasswordChar = '\0';
+            this.metroTextBox23.ReadOnly = true;
+            this.metroTextBox23.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox23.SelectedText = "";
+            this.metroTextBox23.SelectionLength = 0;
+            this.metroTextBox23.SelectionStart = 0;
+            this.metroTextBox23.UseCustomBackColor = true;
+            this.metroTextBox23.UseCustomForeColor = true;
+            this.metroTextBox23.UseSelectable = true;
+            this.metroTextBox23.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox23.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // metroTextBox24
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox24.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image54")));
+            this.metroTextBox24.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode34")));
+            this.metroTextBox24.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location54")));
+            this.metroTextBox24.CustomButton.Name = "";
+            this.metroTextBox24.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size54")));
+            this.metroTextBox24.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox24.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex54")));
+            this.metroTextBox24.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox24.CustomButton.UseSelectable = true;
+            this.metroTextBox24.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible54")));
+            this.metroTextBox24.ForeColor = System.Drawing.Color.White;
+            this.metroTextBox24.Lines = new string[0];
+            resources.ApplyResources(this.metroTextBox24, "metroTextBox24");
+            this.metroTextBox24.MaxLength = 32767;
+            this.metroTextBox24.Name = "metroTextBox24";
+            this.metroTextBox24.PasswordChar = '\0';
+            this.metroTextBox24.ReadOnly = true;
+            this.metroTextBox24.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox24.SelectedText = "";
+            this.metroTextBox24.SelectionLength = 0;
+            this.metroTextBox24.SelectionStart = 0;
+            this.metroTextBox24.UseCustomBackColor = true;
+            this.metroTextBox24.UseCustomForeColor = true;
+            this.metroTextBox24.UseSelectable = true;
+            this.metroTextBox24.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox24.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // metroTextBox25
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox25.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image55")));
+            this.metroTextBox25.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode35")));
+            this.metroTextBox25.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location55")));
+            this.metroTextBox25.CustomButton.Name = "";
+            this.metroTextBox25.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size55")));
+            this.metroTextBox25.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox25.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex55")));
+            this.metroTextBox25.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox25.CustomButton.UseSelectable = true;
+            this.metroTextBox25.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible55")));
+            this.metroTextBox25.ForeColor = System.Drawing.Color.White;
+            this.metroTextBox25.Lines = new string[0];
+            resources.ApplyResources(this.metroTextBox25, "metroTextBox25");
+            this.metroTextBox25.MaxLength = 32767;
+            this.metroTextBox25.Name = "metroTextBox25";
+            this.metroTextBox25.PasswordChar = '\0';
+            this.metroTextBox25.ReadOnly = true;
+            this.metroTextBox25.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox25.SelectedText = "";
+            this.metroTextBox25.SelectionLength = 0;
+            this.metroTextBox25.SelectionStart = 0;
+            this.metroTextBox25.UseCustomBackColor = true;
+            this.metroTextBox25.UseCustomForeColor = true;
+            this.metroTextBox25.UseSelectable = true;
+            this.metroTextBox25.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox25.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // metroTextBox26
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox26.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image56")));
+            this.metroTextBox26.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode36")));
+            this.metroTextBox26.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location56")));
+            this.metroTextBox26.CustomButton.Name = "";
+            this.metroTextBox26.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size56")));
+            this.metroTextBox26.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox26.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex56")));
+            this.metroTextBox26.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox26.CustomButton.UseSelectable = true;
+            this.metroTextBox26.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible56")));
+            this.metroTextBox26.ForeColor = System.Drawing.Color.White;
+            this.metroTextBox26.Lines = new string[0];
+            resources.ApplyResources(this.metroTextBox26, "metroTextBox26");
+            this.metroTextBox26.MaxLength = 32767;
+            this.metroTextBox26.Name = "metroTextBox26";
+            this.metroTextBox26.PasswordChar = '\0';
+            this.metroTextBox26.ReadOnly = true;
+            this.metroTextBox26.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox26.SelectedText = "";
+            this.metroTextBox26.SelectionLength = 0;
+            this.metroTextBox26.SelectionStart = 0;
+            this.metroTextBox26.UseCustomBackColor = true;
+            this.metroTextBox26.UseCustomForeColor = true;
+            this.metroTextBox26.UseSelectable = true;
+            this.metroTextBox26.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox26.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // metroTextBox27
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox27.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image57")));
+            this.metroTextBox27.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode37")));
+            this.metroTextBox27.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location57")));
+            this.metroTextBox27.CustomButton.Name = "";
+            this.metroTextBox27.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size57")));
+            this.metroTextBox27.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox27.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex57")));
+            this.metroTextBox27.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox27.CustomButton.UseSelectable = true;
+            this.metroTextBox27.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible57")));
+            this.metroTextBox27.ForeColor = System.Drawing.Color.White;
+            this.metroTextBox27.Lines = new string[0];
+            resources.ApplyResources(this.metroTextBox27, "metroTextBox27");
+            this.metroTextBox27.MaxLength = 32767;
+            this.metroTextBox27.Name = "metroTextBox27";
+            this.metroTextBox27.PasswordChar = '\0';
+            this.metroTextBox27.ReadOnly = true;
+            this.metroTextBox27.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox27.SelectedText = "";
+            this.metroTextBox27.SelectionLength = 0;
+            this.metroTextBox27.SelectionStart = 0;
+            this.metroTextBox27.UseCustomBackColor = true;
+            this.metroTextBox27.UseCustomForeColor = true;
+            this.metroTextBox27.UseSelectable = true;
+            this.metroTextBox27.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox27.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // metroTextBox28
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox28.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image58")));
+            this.metroTextBox28.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode38")));
+            this.metroTextBox28.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location58")));
+            this.metroTextBox28.CustomButton.Name = "";
+            this.metroTextBox28.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size58")));
+            this.metroTextBox28.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox28.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex58")));
+            this.metroTextBox28.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox28.CustomButton.UseSelectable = true;
+            this.metroTextBox28.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible58")));
+            this.metroTextBox28.ForeColor = System.Drawing.Color.White;
+            this.metroTextBox28.Lines = new string[0];
+            resources.ApplyResources(this.metroTextBox28, "metroTextBox28");
+            this.metroTextBox28.MaxLength = 32767;
+            this.metroTextBox28.Name = "metroTextBox28";
+            this.metroTextBox28.PasswordChar = '\0';
+            this.metroTextBox28.ReadOnly = true;
+            this.metroTextBox28.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox28.SelectedText = "";
+            this.metroTextBox28.SelectionLength = 0;
+            this.metroTextBox28.SelectionStart = 0;
+            this.metroTextBox28.UseCustomBackColor = true;
+            this.metroTextBox28.UseCustomForeColor = true;
+            this.metroTextBox28.UseSelectable = true;
+            this.metroTextBox28.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox28.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // label80
+            // 
+            resources.ApplyResources(this.label80, "label80");
+            this.label80.ForeColor = System.Drawing.Color.White;
+            this.label80.Name = "label80";
+            // 
+            // metroTextBox29
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox29.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image59")));
+            this.metroTextBox29.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode39")));
+            this.metroTextBox29.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location59")));
+            this.metroTextBox29.CustomButton.Name = "";
+            this.metroTextBox29.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size59")));
+            this.metroTextBox29.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox29.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex59")));
+            this.metroTextBox29.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox29.CustomButton.UseSelectable = true;
+            this.metroTextBox29.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible59")));
+            this.metroTextBox29.ForeColor = System.Drawing.Color.White;
+            this.metroTextBox29.Lines = new string[0];
+            resources.ApplyResources(this.metroTextBox29, "metroTextBox29");
+            this.metroTextBox29.MaxLength = 32767;
+            this.metroTextBox29.Name = "metroTextBox29";
+            this.metroTextBox29.PasswordChar = '\0';
+            this.metroTextBox29.ReadOnly = true;
+            this.metroTextBox29.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox29.SelectedText = "";
+            this.metroTextBox29.SelectionLength = 0;
+            this.metroTextBox29.SelectionStart = 0;
+            this.metroTextBox29.UseCustomBackColor = true;
+            this.metroTextBox29.UseCustomForeColor = true;
+            this.metroTextBox29.UseSelectable = true;
+            this.metroTextBox29.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox29.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // label81
+            // 
+            resources.ApplyResources(this.label81, "label81");
+            this.label81.ForeColor = System.Drawing.Color.White;
+            this.label81.Name = "label81";
+            // 
+            // label82
+            // 
+            resources.ApplyResources(this.label82, "label82");
+            this.label82.ForeColor = System.Drawing.Color.White;
+            this.label82.Name = "label82";
+            // 
+            // metroTextBox30
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox30.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image60")));
+            this.metroTextBox30.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode40")));
+            this.metroTextBox30.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location60")));
+            this.metroTextBox30.CustomButton.Name = "";
+            this.metroTextBox30.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size60")));
+            this.metroTextBox30.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox30.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex60")));
+            this.metroTextBox30.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox30.CustomButton.UseSelectable = true;
+            this.metroTextBox30.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible60")));
+            this.metroTextBox30.ForeColor = System.Drawing.Color.White;
+            this.metroTextBox30.Lines = new string[0];
+            resources.ApplyResources(this.metroTextBox30, "metroTextBox30");
+            this.metroTextBox30.MaxLength = 32767;
+            this.metroTextBox30.Name = "metroTextBox30";
+            this.metroTextBox30.PasswordChar = '\0';
+            this.metroTextBox30.ReadOnly = true;
+            this.metroTextBox30.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox30.SelectedText = "";
+            this.metroTextBox30.SelectionLength = 0;
+            this.metroTextBox30.SelectionStart = 0;
+            this.metroTextBox30.UseCustomBackColor = true;
+            this.metroTextBox30.UseCustomForeColor = true;
+            this.metroTextBox30.UseSelectable = true;
+            this.metroTextBox30.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox30.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // label83
+            // 
+            resources.ApplyResources(this.label83, "label83");
+            this.label83.ForeColor = System.Drawing.Color.White;
+            this.label83.Name = "label83";
+            // 
+            // label84
+            // 
+            resources.ApplyResources(this.label84, "label84");
+            this.label84.ForeColor = System.Drawing.Color.White;
+            this.label84.Name = "label84";
+            // 
+            // label85
+            // 
+            resources.ApplyResources(this.label85, "label85");
+            this.label85.ForeColor = System.Drawing.Color.White;
+            this.label85.Name = "label85";
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.panel9.Controls.Add(this.pictureBox5);
+            this.panel9.Controls.Add(this.label86);
+            this.panel9.Controls.Add(this.panel11);
+            this.panel9.Controls.Add(this.panel12);
+            resources.ApplyResources(this.panel9, "panel9");
+            this.panel9.Name = "panel9";
+            // 
+            // pictureBox5
+            // 
+            resources.ApplyResources(this.pictureBox5, "pictureBox5");
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.TabStop = false;
+            // 
+            // label86
+            // 
+            this.label86.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.label86, "label86");
+            this.label86.ForeColor = System.Drawing.Color.White;
+            this.label86.Name = "label86";
+            // 
+            // panel11
+            // 
+            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(213)))));
+            this.panel11.Controls.Add(this.label87);
+            this.panel11.Controls.Add(this.label88);
+            resources.ApplyResources(this.panel11, "panel11");
+            this.panel11.Name = "panel11";
+            // 
+            // label87
+            // 
+            resources.ApplyResources(this.label87, "label87");
+            this.label87.ForeColor = System.Drawing.Color.White;
+            this.label87.Name = "label87";
+            // 
+            // label88
+            // 
+            resources.ApplyResources(this.label88, "label88");
+            this.label88.ForeColor = System.Drawing.Color.White;
+            this.label88.Name = "label88";
+            // 
+            // panel12
+            // 
+            this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            resources.ApplyResources(this.panel12, "panel12");
+            this.panel12.Name = "panel12";
+            // 
+            // label89
+            // 
+            resources.ApplyResources(this.label89, "label89");
+            this.label89.ForeColor = System.Drawing.Color.White;
+            this.label89.Name = "label89";
+            // 
+            // label90
+            // 
+            resources.ApplyResources(this.label90, "label90");
+            this.label90.ForeColor = System.Drawing.Color.White;
+            this.label90.Name = "label90";
+            // 
+            // label91
+            // 
+            resources.ApplyResources(this.label91, "label91");
+            this.label91.ForeColor = System.Drawing.Color.White;
+            this.label91.Name = "label91";
+            // 
+            // label92
+            // 
+            resources.ApplyResources(this.label92, "label92");
+            this.label92.ForeColor = System.Drawing.Color.White;
+            this.label92.Name = "label92";
+            // 
+            // label93
+            // 
+            resources.ApplyResources(this.label93, "label93");
+            this.label93.ForeColor = System.Drawing.Color.White;
+            this.label93.Name = "label93";
+            // 
+            // label94
+            // 
+            resources.ApplyResources(this.label94, "label94");
+            this.label94.ForeColor = System.Drawing.Color.White;
+            this.label94.Name = "label94";
+            // 
+            // label95
+            // 
+            resources.ApplyResources(this.label95, "label95");
+            this.label95.ForeColor = System.Drawing.Color.White;
+            this.label95.Name = "label95";
+            // 
+            // label96
+            // 
+            resources.ApplyResources(this.label96, "label96");
+            this.label96.ForeColor = System.Drawing.Color.White;
+            this.label96.Name = "label96";
+            // 
+            // tabPage9
+            // 
+            this.tabPage9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
+            this.tabPage9.Controls.Add(this.bunifuCustomDataGrid2);
+            this.tabPage9.Controls.Add(this.bunifuFlatButton2);
+            this.tabPage9.Controls.Add(this.bunifuTextbox1);
+            this.tabPage9.Controls.Add(this.bunifuTextbox2);
+            this.tabPage9.Controls.Add(this.metroComboBox11);
+            this.tabPage9.Controls.Add(this.label97);
+            this.tabPage9.Controls.Add(this.label98);
+            this.tabPage9.Controls.Add(this.label99);
+            resources.ApplyResources(this.tabPage9, "tabPage9");
+            this.tabPage9.Name = "tabPage9";
+            // 
+            // bunifuCustomDataGrid2
+            // 
+            this.bunifuCustomDataGrid2.AllowUserToAddRows = false;
+            this.bunifuCustomDataGrid2.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle109.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bunifuCustomDataGrid2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle109;
+            this.bunifuCustomDataGrid2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
+            this.bunifuCustomDataGrid2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.bunifuCustomDataGrid2.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle110.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle110.BackColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle110.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle110.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle110.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle110.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle110.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuCustomDataGrid2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle110;
+            this.bunifuCustomDataGrid2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.bunifuCustomDataGrid2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewButtonColumn1});
+            dataGridViewCellStyle111.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle111.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle111.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle111.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle111.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle111.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle111.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.bunifuCustomDataGrid2.DefaultCellStyle = dataGridViewCellStyle111;
+            resources.ApplyResources(this.bunifuCustomDataGrid2, "bunifuCustomDataGrid2");
+            this.bunifuCustomDataGrid2.DoubleBuffered = true;
+            this.bunifuCustomDataGrid2.EnableHeadersVisualStyles = false;
+            this.bunifuCustomDataGrid2.GridColor = System.Drawing.Color.DimGray;
+            this.bunifuCustomDataGrid2.HeaderBgColor = System.Drawing.Color.SeaGreen;
+            this.bunifuCustomDataGrid2.HeaderForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomDataGrid2.Name = "bunifuCustomDataGrid2";
+            this.bunifuCustomDataGrid2.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle112.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle112.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle112.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle112.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle112.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle112.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle112.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuCustomDataGrid2.RowHeadersDefaultCellStyle = dataGridViewCellStyle112;
+            // 
+            // dataGridViewButtonColumn1
+            // 
+            this.dataGridViewButtonColumn1.DataPropertyName = "Afficher";
+            resources.ApplyResources(this.dataGridViewButtonColumn1, "dataGridViewButtonColumn1");
+            this.dataGridViewButtonColumn1.Name = "dataGridViewButtonColumn1";
+            this.dataGridViewButtonColumn1.Text = "Afficher";
+            this.dataGridViewButtonColumn1.UseColumnTextForButtonValue = true;
+            // 
+            // bunifuFlatButton2
+            // 
+            this.bunifuFlatButton2.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.bunifuFlatButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            resources.ApplyResources(this.bunifuFlatButton2, "bunifuFlatButton2");
+            this.bunifuFlatButton2.BorderRadius = 0;
+            this.bunifuFlatButton2.ButtonText = "Chercher";
+            this.bunifuFlatButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuFlatButton2.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton2.ForeColor = System.Drawing.Color.Black;
+            this.bunifuFlatButton2.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton2.Iconimage = null;
+            this.bunifuFlatButton2.Iconimage_right = null;
+            this.bunifuFlatButton2.Iconimage_right_Selected = null;
+            this.bunifuFlatButton2.Iconimage_Selected = null;
+            this.bunifuFlatButton2.IconMarginLeft = 5;
+            this.bunifuFlatButton2.IconMarginRight = 0;
+            this.bunifuFlatButton2.IconRightVisible = false;
+            this.bunifuFlatButton2.IconRightZoom = 0D;
+            this.bunifuFlatButton2.IconVisible = false;
+            this.bunifuFlatButton2.IconZoom = 90D;
+            this.bunifuFlatButton2.IsTab = false;
+            this.bunifuFlatButton2.Name = "bunifuFlatButton2";
+            this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.bunifuFlatButton2.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton2.selected = false;
+            this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuFlatButton2.Textcolor = System.Drawing.Color.White;
+            this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // bunifuTextbox1
+            // 
+            this.bunifuTextbox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            resources.ApplyResources(this.bunifuTextbox1, "bunifuTextbox1");
+            this.bunifuTextbox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(123)))), ((int)(((byte)(231)))));
+            this.bunifuTextbox1.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox1.Icon")));
+            this.bunifuTextbox1.Name = "bunifuTextbox1";
+            this.bunifuTextbox1.text = "";
+            // 
+            // bunifuTextbox2
+            // 
+            this.bunifuTextbox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            resources.ApplyResources(this.bunifuTextbox2, "bunifuTextbox2");
+            this.bunifuTextbox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(123)))), ((int)(((byte)(231)))));
+            this.bunifuTextbox2.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox2.Icon")));
+            this.bunifuTextbox2.Name = "bunifuTextbox2";
+            this.bunifuTextbox2.text = "";
+            // 
+            // metroComboBox11
+            // 
+            this.metroComboBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.metroComboBox11.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.metroComboBox11, "metroComboBox11");
+            this.metroComboBox11.ForeColor = System.Drawing.Color.White;
+            this.metroComboBox11.FormattingEnabled = true;
+            this.metroComboBox11.Items.AddRange(new object[] {
+            resources.GetString("metroComboBox11.Items"),
+            resources.GetString("metroComboBox11.Items1")});
+            this.metroComboBox11.Name = "metroComboBox11";
+            this.metroComboBox11.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroComboBox11.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroComboBox11.UseCustomBackColor = true;
+            this.metroComboBox11.UseCustomForeColor = true;
+            this.metroComboBox11.UseSelectable = true;
+            // 
+            // label97
+            // 
+            resources.ApplyResources(this.label97, "label97");
+            this.label97.ForeColor = System.Drawing.Color.White;
+            this.label97.Name = "label97";
+            // 
+            // label98
+            // 
+            resources.ApplyResources(this.label98, "label98");
+            this.label98.ForeColor = System.Drawing.Color.White;
+            this.label98.Name = "label98";
+            // 
+            // label99
+            // 
+            resources.ApplyResources(this.label99, "label99");
+            this.label99.ForeColor = System.Drawing.Color.White;
+            this.label99.Name = "label99";
+            // 
+            // metroDateTime3
+            // 
+            this.metroDateTime3.CalendarForeColor = System.Drawing.Color.White;
+            this.metroDateTime3.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.metroDateTime3.CalendarTitleBackColor = System.Drawing.Color.Aqua;
+            this.metroDateTime3.CalendarTitleForeColor = System.Drawing.Color.Maroon;
+            this.metroDateTime3.CalendarTrailingForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.metroDateTime3, "metroDateTime3");
+            this.metroDateTime3.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.metroDateTime3.Name = "metroDateTime3";
+            this.metroDateTime3.UseCustomBackColor = true;
+            this.metroDateTime3.UseCustomForeColor = true;
+            this.metroDateTime3.UseStyleColors = true;
+            this.metroDateTime3.Value = new System.DateTime(2017, 3, 26, 4, 6, 31, 0);
+            // 
+            // metroTextBox31
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox31.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image36")));
+            this.metroTextBox31.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode16")));
+            this.metroTextBox31.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location36")));
+            this.metroTextBox31.CustomButton.Name = "";
+            this.metroTextBox31.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size36")));
+            this.metroTextBox31.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox31.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex36")));
+            this.metroTextBox31.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox31.CustomButton.UseSelectable = true;
+            this.metroTextBox31.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible36")));
+            this.metroTextBox31.ForeColor = System.Drawing.Color.White;
+            this.metroTextBox31.Lines = new string[0];
+            resources.ApplyResources(this.metroTextBox31, "metroTextBox31");
+            this.metroTextBox31.MaxLength = 32767;
+            this.metroTextBox31.Name = "metroTextBox31";
+            this.metroTextBox31.PasswordChar = '\0';
+            this.metroTextBox31.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox31.SelectedText = "";
+            this.metroTextBox31.SelectionLength = 0;
+            this.metroTextBox31.SelectionStart = 0;
+            this.metroTextBox31.UseCustomBackColor = true;
+            this.metroTextBox31.UseCustomForeColor = true;
+            this.metroTextBox31.UseSelectable = true;
+            this.metroTextBox31.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox31.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
             // Form1
             // 
@@ -5489,27 +5481,27 @@
             this.panel10.ResumeLayout(false);
             this.P_Stagiaire_Preview.ResumeLayout(false);
             this.P_Stagiaire_Preview.PerformLayout();
-            this.P_Stagiaire_Preview2.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
+            this.panel17.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.P_Stagiaire_Preview2.ResumeLayout(false);
             this.tabControl2_Professeur.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.DGV_Professeur1)).EndInit();
+            this.tabPage6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton3)).EndInit();
             this.tabPage7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton4)).EndInit();
-            this.tabPage9.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid2)).EndInit();
             this.tabPage8.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel11.ResumeLayout(false);
-            this.panel17.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton3)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.tabPage6.ResumeLayout(false);
+            this.tabPage9.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -5711,18 +5703,18 @@
         private System.Windows.Forms.TabPage tabPage1;
         private ns1.BunifuCustomDataGrid DGV_Professeur1;
         private System.Windows.Forms.DataGridViewCheckBoxColumn dataGridViewCheckBoxColumn1;
-        private System.Windows.Forms.TabPage tabControl2_Prof_tabpage2_Ajouter;
+        private System.Windows.Forms.TabPage tabPage6;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private MetroFramework.Controls.MetroDateTime DTP_Prof_Ajouter_DateEmbauche;
-        private MetroFramework.Controls.MetroDateTime DTP_Prof_Ajouter_DateNaissance;
+        private MetroFramework.Controls.MetroDateTime metroDateTime3;
+        private MetroFramework.Controls.MetroDateTime metroDateTime1;
         private MetroFramework.Controls.MetroTextBox TB_Prof_Ajouter_Cin;
-        private ns1.BunifuThinButton2 BTN_Prof_Ajouter_Ajouter;
-        private ns1.BunifuThinButton2 BTN_Prof_Ajouter_Vider;
+        private ns1.BunifuThinButton2 bunifuThinButton24;
+        private ns1.BunifuThinButton2 bunifuThinButton25;
         private ns1.BunifuImageButton bunifuImageButton3;
         private System.Windows.Forms.Label label5;
-        private MetroFramework.Controls.MetroComboBox CB_Prof_Ajouter_Question;
+        private MetroFramework.Controls.MetroComboBox metroComboBox1;
         private System.Windows.Forms.Label label25;
-        private MetroFramework.Controls.MetroTextBox TB_Prof_Ajouter_Reponse;
+        private MetroFramework.Controls.MetroTextBox metroTextBox2;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label28;
@@ -5733,14 +5725,14 @@
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Label label60;
-        private MetroFramework.Controls.MetroTextBox TB_Prof_Ajouter_Adresse;
-        private System.Windows.Forms.RadioButton CHB_Prof_Ajouter_M;
+        private MetroFramework.Controls.MetroTextBox metroTextBox3;
+        private System.Windows.Forms.RadioButton radioButton1;
         private MetroFramework.Controls.MetroTextBox TB_Prof_Ajouter_Nom;
-        private System.Windows.Forms.RadioButton CHB_Prof_Ajouter_F;
-        private MetroFramework.Controls.MetroTextBox TB_Prof_Ajouter_Prenom;
-        private MetroFramework.Controls.MetroTextBox TB_Prof_Ajouter_Email;
-        private MetroFramework.Controls.MetroTextBox TB_Prof_Ajouter_MoteDePasse;
-        private MetroFramework.Controls.MetroTextBox TB_Prof_Ajouter_Tel;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private MetroFramework.Controls.MetroTextBox metroTextBox5;
+        private MetroFramework.Controls.MetroTextBox metroTextBox6;
+        private MetroFramework.Controls.MetroTextBox metroTextBox31;
+        private MetroFramework.Controls.MetroTextBox metroTextBox7;
         private ns1.BunifuThinButton2 bunifuThinButton26;
         private ns1.BunifuThinButton2 bunifuThinButton27;
         private ns1.BunifuThinButton2 bunifuThinButton28;
@@ -5828,7 +5820,6 @@
         private System.Windows.Forms.Label label97;
         private System.Windows.Forms.Label label98;
         private System.Windows.Forms.Label label99;
-        private System.Windows.Forms.TabPage tabPage6;
     }
 }
 
