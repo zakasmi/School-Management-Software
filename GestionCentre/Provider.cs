@@ -18,6 +18,8 @@ namespace GestionCentre
         public static bool originalstagiaredeleted = false;
         public static string RecentGroupeYearInStagiaire = "";
         public static string LastStagiaireGroup ="";
+        public static  int ConsulterType =0;
+        public static DataTable dtStagiaireChercher = new DataTable();
 
         //----------------------Specialite ------------------------------------
         //fill All Specialite Table 
@@ -92,7 +94,7 @@ namespace GestionCentre
              }
 
          }*/
-        //Method : Fill table Stagiaire with a specific Groupe----------
+        //Stagiaire  Method : Fill table Stagiaire with a specific Groupe-----------------
         public static void FillStagiaireByGroupe(string Groupe)
         {
             if (ds.Tables.Contains("StagPersonne")) { ds.Tables["StagPersonne"].Rows.Clear(); }
@@ -103,7 +105,7 @@ namespace GestionCentre
                 ds.Tables["StagPersonne"].PrimaryKey = new DataColumn[] { ds.Tables["StagPersonne"].Columns["IdStagiaire"] };
             }
         }
-        //Stagiaire : Methode =>Modifier 
+        //Stagiaire : Methode =>Modifier -------------------------------
         public static bool ModifierStagiaire(string IdStagiaire,string Cin, string Nom, string Prenom, string Tel, string Email, string DateNaissance, string Adresse, string Sexe, string idspecialite, string idgroupe, string Question, string Reponse,string OriginalCin)
         {
             int x = 0;
@@ -132,9 +134,28 @@ namespace GestionCentre
 
             return false;
         }
+        //Stagiaire  Method : Chercher Stagiaire par Nom et Prenom=>>
 
- 
-        //Getter : Get ALl Stagiaire Recently in StagePersonne
+
+        public static DataTable ChercherStagiaireByNomPrenom(string Prenom,string Nom)
+        {    
+                using (SqlDataAdapter da = new SqlDataAdapter("select S.IdStagiaire,P.Cin,P.Nom,P.Prenom,P.Tel,P.Email,P.DateNaissance,P.Adresse,P.sexe,S.DateInscription,S.idspecialite,S.idgroupe,G.NomGroupe,S.Question,S.Reponse from  Personne P inner join Stagiaire S  on P.Cin=S.cin inner join Groupe G on G.IdGroupe=S.idgroupe where  P.Prenom='" + Prenom + "' and P.Nom='" + Nom + "'", cnx))
+                {
+                    da.Fill(dtStagiaireChercher);
+                }
+            return dtStagiaireChercher;
+        }
+        //Stagiaire :Method : Chercher Stagiaire : Cin
+        public static DataTable ChercherStagiaireByCin(string Cin)
+        {
+
+            using (SqlDataAdapter da = new SqlDataAdapter("select S.IdStagiaire,P.Cin,P.Nom,P.Prenom,P.Tel,P.Email,P.DateNaissance,P.Adresse,P.sexe,S.DateInscription,S.idspecialite,S.idgroupe,G.NomGroupe,S.Question,S.Reponse from  Personne P inner join Stagiaire S  on P.Cin=S.cin inner join Groupe G on G.IdGroupe=S.idgroupe where  P.Cin='" +Cin+"'", cnx))
+                {
+                    da.Fill(dtStagiaireChercher);
+                }
+            return dtStagiaireChercher;
+        }
+        //Stagiaire :Getter : Get ALl Stagiaire Recently in StagePersonne
         public static DataTable GetStagiaire
         {
             get { return ds.Tables["StagPersonne"]; }
@@ -149,8 +170,8 @@ namespace GestionCentre
                 {
                     cnx.Open();
                     var c = cmd.ExecuteNonQuery();
-                        if (c.ToString() == "2") MessageBox.Show(c.ToString() + " Le stagiaire a été inscrit dans le groupe avec succée \n N.B ce stagiaire est deja Inscrit dans ce centre , ancien donnée  n'est pas modifier . Penser a modifier les donnée necessaire");
-                        if (c.ToString() == "1") MessageBox.Show(c.ToString() + " Le stagiaire a éte inscrit avec succes .\n N.B Nouveau Stagiare ");
+                        if (c.ToString() == "1") MessageBox.Show(c.ToString() + " Le stagiaire a été inscrit dans le groupe avec succée \n N.B ce stagiaire est deja Inscrit dans ce centre , ancien donnée  n'est pas modifier . Penser a modifier les donnée necessaire");
+                        if (c.ToString() == "2") MessageBox.Show(c.ToString() + " Le stagiaire a éte inscrit avec succes .\n N.B Nouveau Stagiare ");
                         if (c.ToString() == "0") MessageBox.Show(c.ToString() + " Erreur !! Le stagiaire n'est pas inscrit .", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     cnx.Close();
                     return true;
@@ -179,15 +200,16 @@ namespace GestionCentre
         }
 
         //get Stagiare by groupe------------
-     /*   public static DataTable GetStagiareByGroupe(string Groupe)
-        {
-           // MessageBox.Show("idgroupe=" + Groupe);
-            DataRow[] dr = ds.Tables["StagPersonne"].Select("idgroupe="+ Groupe);
-            DataTable dt = ds.Tables["StagPersonne"].Clone();
-            foreach (DataRow r in dr) { dt.ImportRow(r); }
-            return dt;
-        }*/
-        //--------------------Method ---------------Delete Stagiaire from DataGrid By IdStagiaire -----------------------------------------
+        /*   public static DataTable GetStagiareByGroupe(string Groupe)
+           {
+              // MessageBox.Show("idgroupe=" + Groupe);
+               DataRow[] dr = ds.Tables["StagPersonne"].Select("idgroupe="+ Groupe);
+               DataTable dt = ds.Tables["StagPersonne"].Clone();
+               foreach (DataRow r in dr) { dt.ImportRow(r); }
+               return dt;
+           }*/
+
+        //Stagiaire :Method => Delete Stagiaire from DataGrid and ds.TAbles["StagPersonne"] By IdStagiaire --------
 
         public static bool DeleteStagiaireFromDataGrid(DataGridView DGV,ref string DeletedString) {
             int k = 0;          
@@ -222,12 +244,28 @@ namespace GestionCentre
                 MessageBox.Show("Cocher Au minimum 1 Stagiaire !!", "Stagiaire", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
-
-           
-
+            
         }
+        //---------------------------------- Professeur ---------------------------------------------------------
+        //Professeur : Method FillProfesseur
+        public static void FillProfesseur()
+        {
+            if (ds.Tables.Contains("Professeur")) { ds.Tables["Professeur"].Rows.Clear(); }
+            using(SqlDataAdapter da = new SqlDataAdapter("select *from Professeur", cnx)){
+                da.Fill(ds, "Professeur");
+                ds.Tables["Professeur"].PrimaryKey = new DataColumn[] { ds.Tables["Professeur"].Columns["Cin"] };
+            }
+        }
+        // Professeur Getter : GetProfesseur
+
+            public static DataTable GetProf
+        {
+            get { return ds.Tables["Professeur"]; }
+        }
+        //
 
 
+        
         // ---------------------- Methods ---------- ViderTabPage--------------------
         public static void ViderTabPage(TabPage P)
         {
@@ -269,6 +307,14 @@ namespace GestionCentre
        public static void InitialiserDataGrid(DataGridView DGV) {
             foreach (DataGridViewRow R in DGV.Rows) {
                 R.Cells[0].Value = "F";
+            }
+        }
+        // initialiser Panel avec -----
+        public static void InitialiserPanel(Panel P)
+        {
+            foreach(Label L in P.Controls)
+            {
+                L.Text = "----------";
             }
         }
 
