@@ -654,6 +654,11 @@ namespace GestionCentre
         {
             tabControl2_Professeur.SelectTab(3);
         }
+
+        private void BTN_Prof_Ajouter_Ajouter_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

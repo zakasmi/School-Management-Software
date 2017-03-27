@@ -247,6 +247,7 @@ namespace GestionCentre
             
         }
         //---------------------------------- Professeur ---------------------------------------------------------
+
         //Professeur : Method FillProfesseur
         public static void FillProfesseur()
         {
@@ -262,7 +263,40 @@ namespace GestionCentre
         {
             get { return ds.Tables["Professeur"]; }
         }
-        //
+        //Professeur :Method => Ajouter 
+        public static void AjouterProf(string Cin, string Nom, string Prenom, string Tel, string Email, string DateNaissance, string Adresse, string Sexe, string DateEmbauche,string MotDePasse, string Question, string Reponse)
+        {
+
+            try
+            {
+                DataRow dr = ds.Tables["Professeur"].NewRow();
+                dr[0] = Cin;
+                dr[1] = Nom;
+                dr[2] = Prenom;
+                dr[3] = Tel;
+                dr[4] = Email;
+                dr[5] = DateNaissance;
+                dr[6] = Adresse;
+                dr[7] = Sexe;
+                dr[8] = DateEmbauche;
+                dr[9] = MotDePasse;
+                dr[10] = Question;
+                dr[11] = Reponse;
+
+                ds.Tables["Professeur"].Rows.Add(dr);
+                using (SqlDataAdapter da = new SqlDataAdapter("Select *from Professeur", cnx))
+                {
+                    SqlCommandBuilder cb = new SqlCommandBuilder(da);
+                    da.Update(ds, "Professeur");
+                }
+                MessageBox.Show("Le Professeur a été ajouter ");
+            }
+            catch (Exception e3)
+            {
+                MessageBox.Show("Le Professeur n'est pas ajouter",e3.Message);
+                throw; 
+            }
+        }
 
 
         
