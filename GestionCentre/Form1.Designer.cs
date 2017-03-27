@@ -30,22 +30,22 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle97 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle98 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle99 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle100 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle101 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle102 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle103 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle104 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle105 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle106 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle107 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle108 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle109 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle110 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle111 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle112 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle41 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle42 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle43 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle45 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle46 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle47 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle48 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.bunifuImageButton2 = new ns1.BunifuImageButton();
@@ -185,6 +185,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.DGV_Stagiaire_Chercher = new ns1.BunifuCustomDataGrid();
+            this.Consulter = new System.Windows.Forms.DataGridViewButtonColumn();
             this.BFBTN8CB_Stagiaire_Chercher = new ns1.BunifuFlatButton();
             this.TB_Stagiaire_Chercher_Chercher_Nom = new ns1.BunifuTextbox();
             this.TB_Stagiaire_Chercher_Chercher_CinOuPrenom = new ns1.BunifuTextbox();
@@ -193,12 +194,18 @@
             this.LBL_Chercher_Nom = new System.Windows.Forms.Label();
             this.LBL_Stagiaire_Chercher_CinOuNom = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.BTN_Stagiaire_Liste = new ns1.BunifuTileButton();
             this.P_Stagiaire_Preview = new System.Windows.Forms.Panel();
-            this.LBL_Stagiaire_Prenom_Clicked = new System.Windows.Forms.Label();
+            this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
+            this.P_Stagiaire_Preview2 = new System.Windows.Forms.Panel();
             this.LBL_Stagiaire_Nom_Clicked = new System.Windows.Forms.Label();
-            this.LBL_Stagiaire_Id_Clicked = new System.Windows.Forms.Label();
             this.LBL_Stagiaire_Cin_Clicked = new System.Windows.Forms.Label();
+            this.LBL_Stagiaire_Id_Clicked = new System.Windows.Forms.Label();
+            this.LBL_Stagiaire_Prenom_Clicked = new System.Windows.Forms.Label();
+            this.BTN_Stagiaire_Liste = new ns1.BunifuTileButton();
             this.BTN_Stagiaire_Consulter = new ns1.BunifuTileButton();
             this.BTN_Stagiaire_Chercher = new ns1.BunifuTileButton();
             this.BTN_Stagiaire_Supprimer = new ns1.BunifuTileButton();
@@ -206,52 +213,22 @@
             this.BTN_Stagiaire_Ajouter = new ns1.BunifuTileButton();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.BTN_Prof_Liste = new ns1.BunifuTileButton();
-            this.panel18 = new System.Windows.Forms.Panel();
-            this.BTN_Prof_Consulter = new ns1.BunifuTileButton();
-            this.BTN_Prof_Chercher = new ns1.BunifuTileButton();
-            this.BTN_Prof_Supprimer = new ns1.BunifuTileButton();
-            this.BTN_Prof_Modifier = new ns1.BunifuTileButton();
-            this.BTN_Prof_Ajouter = new ns1.BunifuTileButton();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.bunifuFlatButton11 = new ns1.BunifuFlatButton();
-            this.bunifuFlatButton1 = new ns1.BunifuFlatButton();
-            this.bunifuFlatButton12 = new ns1.BunifuFlatButton();
-            this.BTN_Menu_Parametre = new ns1.BunifuFlatButton();
-            this.BTN_Menu_Notification = new ns1.BunifuFlatButton();
-            this.BTN_Menu_Seance = new ns1.BunifuFlatButton();
-            this.BTN_Menu_Cours = new ns1.BunifuFlatButton();
-            this.BTN_Menu_Note = new ns1.BunifuFlatButton();
-            this.BTN_Menu_Matiere = new ns1.BunifuFlatButton();
-            this.BTN_Menu_Groupe = new ns1.BunifuFlatButton();
-            this.BTN_Menu_Filiere = new ns1.BunifuFlatButton();
-            this.BTN_Menu_Professeur = new ns1.BunifuFlatButton();
-            this.BTN_Menu_Stagiaire = new ns1.BunifuFlatButton();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.bunifuDragControl1 = new ns1.BunifuDragControl(this.components);
-            this.Consulter = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.P_Stagiaire_Preview2 = new System.Windows.Forms.Panel();
-            this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
             this.tabControl2_Professeur = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.DGV_Professeur1 = new ns1.BunifuCustomDataGrid();
             this.dataGridViewCheckBoxColumn1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.metroDateTime1 = new MetroFramework.Controls.MetroDateTime();
-            this.TB_Prof_Ajouter_Cin = new MetroFramework.Controls.MetroTextBox();
-            this.bunifuThinButton24 = new ns1.BunifuThinButton2();
+            this.DTP_Prof_Ajout_DEmbauche = new MetroFramework.Controls.MetroDateTime();
+            this.DTP_Prof_Ajout_Dnaissance = new MetroFramework.Controls.MetroDateTime();
+            this.TB_Prof_Ajout_Cin = new MetroFramework.Controls.MetroTextBox();
+            this.BTN_Prof_Ajout_Ajouter = new ns1.BunifuThinButton2();
             this.bunifuThinButton25 = new ns1.BunifuThinButton2();
             this.bunifuImageButton3 = new ns1.BunifuImageButton();
             this.label5 = new System.Windows.Forms.Label();
-            this.metroComboBox1 = new MetroFramework.Controls.MetroComboBox();
+            this.CB_Prof_Ajout_Quest = new MetroFramework.Controls.MetroComboBox();
             this.label25 = new System.Windows.Forms.Label();
-            this.metroTextBox2 = new MetroFramework.Controls.MetroTextBox();
+            this.TB_Prof_Ajout_Repon = new MetroFramework.Controls.MetroTextBox();
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
@@ -262,13 +239,14 @@
             this.label35 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
             this.label60 = new System.Windows.Forms.Label();
-            this.metroTextBox3 = new MetroFramework.Controls.MetroTextBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.TB_Prof_Ajouter_Nom = new MetroFramework.Controls.MetroTextBox();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.metroTextBox5 = new MetroFramework.Controls.MetroTextBox();
-            this.metroTextBox6 = new MetroFramework.Controls.MetroTextBox();
-            this.metroTextBox7 = new MetroFramework.Controls.MetroTextBox();
+            this.TB_Prof_Ajout_Adres = new MetroFramework.Controls.MetroTextBox();
+            this.CHB_Prof_Ajout_M = new System.Windows.Forms.RadioButton();
+            this.TB_Prof_Ajout_Nom = new MetroFramework.Controls.MetroTextBox();
+            this.CHB_Prof_Ajout_F = new System.Windows.Forms.RadioButton();
+            this.TB_Prof_Ajout_Pren = new MetroFramework.Controls.MetroTextBox();
+            this.TB_Prof_Ajout_Email = new MetroFramework.Controls.MetroTextBox();
+            this.TB_Prof_Ajout_MotPas = new MetroFramework.Controls.MetroTextBox();
+            this.TB_Prof_Ajout_Tel = new MetroFramework.Controls.MetroTextBox();
             this.bunifuThinButton26 = new ns1.BunifuThinButton2();
             this.bunifuThinButton27 = new ns1.BunifuThinButton2();
             this.bunifuThinButton28 = new ns1.BunifuThinButton2();
@@ -310,6 +288,16 @@
             this.metroTextBox14 = new MetroFramework.Controls.MetroTextBox();
             this.metroTextBox15 = new MetroFramework.Controls.MetroTextBox();
             this.metroTextBox16 = new MetroFramework.Controls.MetroTextBox();
+            this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.bunifuCustomDataGrid2 = new ns1.BunifuCustomDataGrid();
+            this.dataGridViewButtonColumn1 = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.bunifuFlatButton2 = new ns1.BunifuFlatButton();
+            this.bunifuTextbox1 = new ns1.BunifuTextbox();
+            this.bunifuTextbox2 = new ns1.BunifuTextbox();
+            this.metroComboBox11 = new MetroFramework.Controls.MetroComboBox();
+            this.label97 = new System.Windows.Forms.Label();
+            this.label98 = new System.Windows.Forms.Label();
+            this.label99 = new System.Windows.Forms.Label();
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.metroTextBox17 = new MetroFramework.Controls.MetroTextBox();
             this.metroTextBox18 = new MetroFramework.Controls.MetroTextBox();
@@ -346,18 +334,30 @@
             this.label94 = new System.Windows.Forms.Label();
             this.label95 = new System.Windows.Forms.Label();
             this.label96 = new System.Windows.Forms.Label();
-            this.tabPage9 = new System.Windows.Forms.TabPage();
-            this.bunifuCustomDataGrid2 = new ns1.BunifuCustomDataGrid();
-            this.dataGridViewButtonColumn1 = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.bunifuFlatButton2 = new ns1.BunifuFlatButton();
-            this.bunifuTextbox1 = new ns1.BunifuTextbox();
-            this.bunifuTextbox2 = new ns1.BunifuTextbox();
-            this.metroComboBox11 = new MetroFramework.Controls.MetroComboBox();
-            this.label97 = new System.Windows.Forms.Label();
-            this.label98 = new System.Windows.Forms.Label();
-            this.label99 = new System.Windows.Forms.Label();
-            this.metroDateTime3 = new MetroFramework.Controls.MetroDateTime();
-            this.metroTextBox31 = new MetroFramework.Controls.MetroTextBox();
+            this.panel17 = new System.Windows.Forms.Panel();
+            this.BTN_Prof_Liste = new ns1.BunifuTileButton();
+            this.panel18 = new System.Windows.Forms.Panel();
+            this.BTN_Prof_Consulter = new ns1.BunifuTileButton();
+            this.BTN_Prof_Chercher = new ns1.BunifuTileButton();
+            this.BTN_Prof_Supprimer = new ns1.BunifuTileButton();
+            this.BTN_Prof_Modifier = new ns1.BunifuTileButton();
+            this.BTN_Prof_Ajouter = new ns1.BunifuTileButton();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.bunifuFlatButton11 = new ns1.BunifuFlatButton();
+            this.bunifuFlatButton1 = new ns1.BunifuFlatButton();
+            this.bunifuFlatButton12 = new ns1.BunifuFlatButton();
+            this.BTN_Menu_Parametre = new ns1.BunifuFlatButton();
+            this.BTN_Menu_Notification = new ns1.BunifuFlatButton();
+            this.BTN_Menu_Seance = new ns1.BunifuFlatButton();
+            this.BTN_Menu_Cours = new ns1.BunifuFlatButton();
+            this.BTN_Menu_Note = new ns1.BunifuFlatButton();
+            this.BTN_Menu_Matiere = new ns1.BunifuFlatButton();
+            this.BTN_Menu_Groupe = new ns1.BunifuFlatButton();
+            this.BTN_Menu_Filiere = new ns1.BunifuFlatButton();
+            this.BTN_Menu_Professeur = new ns1.BunifuFlatButton();
+            this.BTN_Menu_Stagiaire = new ns1.BunifuFlatButton();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.bunifuDragControl1 = new ns1.BunifuDragControl(this.components);
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
@@ -384,12 +384,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.DGV_Stagiaire_Chercher)).BeginInit();
             this.panel10.SuspendLayout();
             this.P_Stagiaire_Preview.SuspendLayout();
+            this.P_Stagiaire_Preview2.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.panel6.SuspendLayout();
-            this.panel17.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.P_Stagiaire_Preview2.SuspendLayout();
             this.tabControl2_Professeur.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGV_Professeur1)).BeginInit();
@@ -399,12 +396,15 @@
             this.tabPage7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton4)).BeginInit();
+            this.tabPage9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid2)).BeginInit();
             this.tabPage8.SuspendLayout();
             this.panel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel11.SuspendLayout();
-            this.tabPage9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid2)).BeginInit();
+            this.panel17.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -695,30 +695,30 @@
             // 
             this.DGV_Stagiaire1.AllowUserToAddRows = false;
             this.DGV_Stagiaire1.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle97.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.DGV_Stagiaire1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle97;
+            dataGridViewCellStyle33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.DGV_Stagiaire1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle33;
             this.DGV_Stagiaire1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
             this.DGV_Stagiaire1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DGV_Stagiaire1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle98.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle98.BackColor = System.Drawing.Color.SeaGreen;
-            dataGridViewCellStyle98.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle98.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle98.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle98.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle98.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DGV_Stagiaire1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle98;
+            dataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle34.BackColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle34.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle34.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle34.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle34.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle34.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DGV_Stagiaire1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle34;
             this.DGV_Stagiaire1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGV_Stagiaire1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.supprimer});
-            dataGridViewCellStyle99.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle99.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle99.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle99.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle99.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle99.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle99.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DGV_Stagiaire1.DefaultCellStyle = dataGridViewCellStyle99;
+            dataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle35.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle35.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle35.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle35.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle35.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle35.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DGV_Stagiaire1.DefaultCellStyle = dataGridViewCellStyle35;
             resources.ApplyResources(this.DGV_Stagiaire1, "DGV_Stagiaire1");
             this.DGV_Stagiaire1.DoubleBuffered = true;
             this.DGV_Stagiaire1.EnableHeadersVisualStyles = false;
@@ -727,14 +727,14 @@
             this.DGV_Stagiaire1.HeaderForeColor = System.Drawing.Color.Black;
             this.DGV_Stagiaire1.Name = "DGV_Stagiaire1";
             this.DGV_Stagiaire1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle100.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle100.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle100.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle100.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle100.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle100.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle100.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DGV_Stagiaire1.RowHeadersDefaultCellStyle = dataGridViewCellStyle100;
+            dataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle36.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle36.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle36.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle36.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle36.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DGV_Stagiaire1.RowHeadersDefaultCellStyle = dataGridViewCellStyle36;
             this.DGV_Stagiaire1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV_Stagiaire1_CellClick);
             // 
             // supprimer
@@ -2563,30 +2563,30 @@
             // 
             this.DGV_Stagiaire_Chercher.AllowUserToAddRows = false;
             this.DGV_Stagiaire_Chercher.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle101.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.DGV_Stagiaire_Chercher.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle101;
+            dataGridViewCellStyle37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.DGV_Stagiaire_Chercher.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle37;
             this.DGV_Stagiaire_Chercher.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
             this.DGV_Stagiaire_Chercher.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DGV_Stagiaire_Chercher.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle102.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle102.BackColor = System.Drawing.Color.SeaGreen;
-            dataGridViewCellStyle102.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle102.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle102.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle102.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle102.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DGV_Stagiaire_Chercher.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle102;
+            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle38.BackColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle38.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle38.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle38.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle38.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle38.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DGV_Stagiaire_Chercher.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle38;
             this.DGV_Stagiaire_Chercher.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGV_Stagiaire_Chercher.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Consulter});
-            dataGridViewCellStyle103.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle103.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle103.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle103.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle103.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle103.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle103.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DGV_Stagiaire_Chercher.DefaultCellStyle = dataGridViewCellStyle103;
+            dataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle39.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle39.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle39.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle39.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle39.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle39.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DGV_Stagiaire_Chercher.DefaultCellStyle = dataGridViewCellStyle39;
             resources.ApplyResources(this.DGV_Stagiaire_Chercher, "DGV_Stagiaire_Chercher");
             this.DGV_Stagiaire_Chercher.DoubleBuffered = true;
             this.DGV_Stagiaire_Chercher.EnableHeadersVisualStyles = false;
@@ -2595,16 +2595,24 @@
             this.DGV_Stagiaire_Chercher.HeaderForeColor = System.Drawing.Color.Black;
             this.DGV_Stagiaire_Chercher.Name = "DGV_Stagiaire_Chercher";
             this.DGV_Stagiaire_Chercher.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle104.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle104.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle104.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle104.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle104.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle104.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle104.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DGV_Stagiaire_Chercher.RowHeadersDefaultCellStyle = dataGridViewCellStyle104;
+            dataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle40.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle40.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle40.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle40.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle40.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle40.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DGV_Stagiaire_Chercher.RowHeadersDefaultCellStyle = dataGridViewCellStyle40;
             this.DGV_Stagiaire_Chercher.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV_Stagiaire_Chercher_CellClick);
             this.DGV_Stagiaire_Chercher.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV_Stagiaire_Chercher_CellContentClick);
+            // 
+            // Consulter
+            // 
+            this.Consulter.DataPropertyName = "Afficher";
+            resources.ApplyResources(this.Consulter, "Consulter");
+            this.Consulter.Name = "Consulter";
+            this.Consulter.Text = "Afficher";
+            this.Consulter.UseColumnTextForButtonValue = true;
             // 
             // BFBTN8CB_Stagiaire_Chercher
             // 
@@ -2707,6 +2715,94 @@
             resources.ApplyResources(this.panel10, "panel10");
             this.panel10.Name = "panel10";
             // 
+            // P_Stagiaire_Preview
+            // 
+            this.P_Stagiaire_Preview.Controls.Add(this.metroLabel5);
+            this.P_Stagiaire_Preview.Controls.Add(this.metroLabel1);
+            this.P_Stagiaire_Preview.Controls.Add(this.metroLabel4);
+            this.P_Stagiaire_Preview.Controls.Add(this.metroLabel2);
+            this.P_Stagiaire_Preview.Controls.Add(this.metroLabel3);
+            resources.ApplyResources(this.P_Stagiaire_Preview, "P_Stagiaire_Preview");
+            this.P_Stagiaire_Preview.Name = "P_Stagiaire_Preview";
+            // 
+            // metroLabel5
+            // 
+            resources.ApplyResources(this.metroLabel5, "metroLabel5");
+            this.metroLabel5.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.metroLabel5.ForeColor = System.Drawing.Color.White;
+            this.metroLabel5.Name = "metroLabel5";
+            this.metroLabel5.UseCustomBackColor = true;
+            this.metroLabel5.UseCustomForeColor = true;
+            // 
+            // metroLabel1
+            // 
+            resources.ApplyResources(this.metroLabel1, "metroLabel1");
+            this.metroLabel1.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.metroLabel1.ForeColor = System.Drawing.Color.White;
+            this.metroLabel1.Name = "metroLabel1";
+            this.metroLabel1.UseCustomBackColor = true;
+            this.metroLabel1.UseCustomForeColor = true;
+            // 
+            // metroLabel4
+            // 
+            resources.ApplyResources(this.metroLabel4, "metroLabel4");
+            this.metroLabel4.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.metroLabel4.ForeColor = System.Drawing.Color.White;
+            this.metroLabel4.Name = "metroLabel4";
+            this.metroLabel4.UseCustomBackColor = true;
+            this.metroLabel4.UseCustomForeColor = true;
+            // 
+            // metroLabel2
+            // 
+            resources.ApplyResources(this.metroLabel2, "metroLabel2");
+            this.metroLabel2.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.metroLabel2.ForeColor = System.Drawing.Color.White;
+            this.metroLabel2.Name = "metroLabel2";
+            this.metroLabel2.UseCustomBackColor = true;
+            this.metroLabel2.UseCustomForeColor = true;
+            // 
+            // metroLabel3
+            // 
+            resources.ApplyResources(this.metroLabel3, "metroLabel3");
+            this.metroLabel3.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.metroLabel3.ForeColor = System.Drawing.Color.White;
+            this.metroLabel3.Name = "metroLabel3";
+            this.metroLabel3.UseCustomBackColor = true;
+            this.metroLabel3.UseCustomForeColor = true;
+            // 
+            // P_Stagiaire_Preview2
+            // 
+            this.P_Stagiaire_Preview2.Controls.Add(this.LBL_Stagiaire_Nom_Clicked);
+            this.P_Stagiaire_Preview2.Controls.Add(this.LBL_Stagiaire_Cin_Clicked);
+            this.P_Stagiaire_Preview2.Controls.Add(this.LBL_Stagiaire_Id_Clicked);
+            this.P_Stagiaire_Preview2.Controls.Add(this.LBL_Stagiaire_Prenom_Clicked);
+            resources.ApplyResources(this.P_Stagiaire_Preview2, "P_Stagiaire_Preview2");
+            this.P_Stagiaire_Preview2.Name = "P_Stagiaire_Preview2";
+            // 
+            // LBL_Stagiaire_Nom_Clicked
+            // 
+            resources.ApplyResources(this.LBL_Stagiaire_Nom_Clicked, "LBL_Stagiaire_Nom_Clicked");
+            this.LBL_Stagiaire_Nom_Clicked.ForeColor = System.Drawing.Color.White;
+            this.LBL_Stagiaire_Nom_Clicked.Name = "LBL_Stagiaire_Nom_Clicked";
+            // 
+            // LBL_Stagiaire_Cin_Clicked
+            // 
+            resources.ApplyResources(this.LBL_Stagiaire_Cin_Clicked, "LBL_Stagiaire_Cin_Clicked");
+            this.LBL_Stagiaire_Cin_Clicked.ForeColor = System.Drawing.Color.White;
+            this.LBL_Stagiaire_Cin_Clicked.Name = "LBL_Stagiaire_Cin_Clicked";
+            // 
+            // LBL_Stagiaire_Id_Clicked
+            // 
+            resources.ApplyResources(this.LBL_Stagiaire_Id_Clicked, "LBL_Stagiaire_Id_Clicked");
+            this.LBL_Stagiaire_Id_Clicked.ForeColor = System.Drawing.Color.White;
+            this.LBL_Stagiaire_Id_Clicked.Name = "LBL_Stagiaire_Id_Clicked";
+            // 
+            // LBL_Stagiaire_Prenom_Clicked
+            // 
+            resources.ApplyResources(this.LBL_Stagiaire_Prenom_Clicked, "LBL_Stagiaire_Prenom_Clicked");
+            this.LBL_Stagiaire_Prenom_Clicked.ForeColor = System.Drawing.Color.White;
+            this.LBL_Stagiaire_Prenom_Clicked.Name = "LBL_Stagiaire_Prenom_Clicked";
+            // 
             // BTN_Stagiaire_Liste
             // 
             this.BTN_Stagiaire_Liste.BackColor = System.Drawing.Color.Transparent;
@@ -2722,40 +2818,6 @@
             this.BTN_Stagiaire_Liste.LabelText = "Liste";
             this.BTN_Stagiaire_Liste.Name = "BTN_Stagiaire_Liste";
             this.BTN_Stagiaire_Liste.Click += new System.EventHandler(this.BTN_Stagiaire_Liste_Click);
-            // 
-            // P_Stagiaire_Preview
-            // 
-            this.P_Stagiaire_Preview.Controls.Add(this.metroLabel5);
-            this.P_Stagiaire_Preview.Controls.Add(this.metroLabel1);
-            this.P_Stagiaire_Preview.Controls.Add(this.metroLabel4);
-            this.P_Stagiaire_Preview.Controls.Add(this.metroLabel2);
-            this.P_Stagiaire_Preview.Controls.Add(this.metroLabel3);
-            resources.ApplyResources(this.P_Stagiaire_Preview, "P_Stagiaire_Preview");
-            this.P_Stagiaire_Preview.Name = "P_Stagiaire_Preview";
-            // 
-            // LBL_Stagiaire_Prenom_Clicked
-            // 
-            resources.ApplyResources(this.LBL_Stagiaire_Prenom_Clicked, "LBL_Stagiaire_Prenom_Clicked");
-            this.LBL_Stagiaire_Prenom_Clicked.ForeColor = System.Drawing.Color.White;
-            this.LBL_Stagiaire_Prenom_Clicked.Name = "LBL_Stagiaire_Prenom_Clicked";
-            // 
-            // LBL_Stagiaire_Nom_Clicked
-            // 
-            resources.ApplyResources(this.LBL_Stagiaire_Nom_Clicked, "LBL_Stagiaire_Nom_Clicked");
-            this.LBL_Stagiaire_Nom_Clicked.ForeColor = System.Drawing.Color.White;
-            this.LBL_Stagiaire_Nom_Clicked.Name = "LBL_Stagiaire_Nom_Clicked";
-            // 
-            // LBL_Stagiaire_Id_Clicked
-            // 
-            resources.ApplyResources(this.LBL_Stagiaire_Id_Clicked, "LBL_Stagiaire_Id_Clicked");
-            this.LBL_Stagiaire_Id_Clicked.ForeColor = System.Drawing.Color.White;
-            this.LBL_Stagiaire_Id_Clicked.Name = "LBL_Stagiaire_Id_Clicked";
-            // 
-            // LBL_Stagiaire_Cin_Clicked
-            // 
-            resources.ApplyResources(this.LBL_Stagiaire_Cin_Clicked, "LBL_Stagiaire_Cin_Clicked");
-            this.LBL_Stagiaire_Cin_Clicked.ForeColor = System.Drawing.Color.White;
-            this.LBL_Stagiaire_Cin_Clicked.Name = "LBL_Stagiaire_Cin_Clicked";
             // 
             // BTN_Stagiaire_Consulter
             // 
@@ -2852,607 +2914,6 @@
             resources.ApplyResources(this.panel6, "panel6");
             this.panel6.Name = "panel6";
             // 
-            // panel17
-            // 
-            this.panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.panel17.Controls.Add(this.BTN_Prof_Liste);
-            this.panel17.Controls.Add(this.panel18);
-            this.panel17.Controls.Add(this.BTN_Prof_Consulter);
-            this.panel17.Controls.Add(this.BTN_Prof_Chercher);
-            this.panel17.Controls.Add(this.BTN_Prof_Supprimer);
-            this.panel17.Controls.Add(this.BTN_Prof_Modifier);
-            this.panel17.Controls.Add(this.BTN_Prof_Ajouter);
-            resources.ApplyResources(this.panel17, "panel17");
-            this.panel17.Name = "panel17";
-            // 
-            // BTN_Prof_Liste
-            // 
-            this.BTN_Prof_Liste.BackColor = System.Drawing.Color.Transparent;
-            this.BTN_Prof_Liste.color = System.Drawing.Color.Transparent;
-            this.BTN_Prof_Liste.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(123)))), ((int)(((byte)(231)))));
-            this.BTN_Prof_Liste.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.BTN_Prof_Liste, "BTN_Prof_Liste");
-            this.BTN_Prof_Liste.ForeColor = System.Drawing.Color.White;
-            this.BTN_Prof_Liste.Image = ((System.Drawing.Image)(resources.GetObject("BTN_Prof_Liste.Image")));
-            this.BTN_Prof_Liste.ImagePosition = 0;
-            this.BTN_Prof_Liste.ImageZoom = 70;
-            this.BTN_Prof_Liste.LabelPosition = 24;
-            this.BTN_Prof_Liste.LabelText = "Liste";
-            this.BTN_Prof_Liste.Name = "BTN_Prof_Liste";
-            this.BTN_Prof_Liste.Click += new System.EventHandler(this.BTN_Prof_Liste_Click);
-            // 
-            // panel18
-            // 
-            resources.ApplyResources(this.panel18, "panel18");
-            this.panel18.Name = "panel18";
-            // 
-            // BTN_Prof_Consulter
-            // 
-            this.BTN_Prof_Consulter.BackColor = System.Drawing.Color.Transparent;
-            this.BTN_Prof_Consulter.color = System.Drawing.Color.Transparent;
-            this.BTN_Prof_Consulter.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(123)))), ((int)(((byte)(231)))));
-            this.BTN_Prof_Consulter.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.BTN_Prof_Consulter, "BTN_Prof_Consulter");
-            this.BTN_Prof_Consulter.ForeColor = System.Drawing.Color.White;
-            this.BTN_Prof_Consulter.Image = ((System.Drawing.Image)(resources.GetObject("BTN_Prof_Consulter.Image")));
-            this.BTN_Prof_Consulter.ImagePosition = 0;
-            this.BTN_Prof_Consulter.ImageZoom = 74;
-            this.BTN_Prof_Consulter.LabelPosition = 24;
-            this.BTN_Prof_Consulter.LabelText = "Consulter";
-            this.BTN_Prof_Consulter.Name = "BTN_Prof_Consulter";
-            this.BTN_Prof_Consulter.Click += new System.EventHandler(this.BTN_Prof_Consulter_Click);
-            // 
-            // BTN_Prof_Chercher
-            // 
-            this.BTN_Prof_Chercher.BackColor = System.Drawing.Color.Transparent;
-            this.BTN_Prof_Chercher.color = System.Drawing.Color.Transparent;
-            this.BTN_Prof_Chercher.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(123)))), ((int)(((byte)(231)))));
-            this.BTN_Prof_Chercher.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.BTN_Prof_Chercher, "BTN_Prof_Chercher");
-            this.BTN_Prof_Chercher.ForeColor = System.Drawing.Color.White;
-            this.BTN_Prof_Chercher.Image = ((System.Drawing.Image)(resources.GetObject("BTN_Prof_Chercher.Image")));
-            this.BTN_Prof_Chercher.ImagePosition = 0;
-            this.BTN_Prof_Chercher.ImageZoom = 74;
-            this.BTN_Prof_Chercher.LabelPosition = 24;
-            this.BTN_Prof_Chercher.LabelText = "Chercher";
-            this.BTN_Prof_Chercher.Name = "BTN_Prof_Chercher";
-            this.BTN_Prof_Chercher.Click += new System.EventHandler(this.BTN_Prof_Chercher_Click);
-            // 
-            // BTN_Prof_Supprimer
-            // 
-            this.BTN_Prof_Supprimer.BackColor = System.Drawing.Color.Transparent;
-            this.BTN_Prof_Supprimer.color = System.Drawing.Color.Transparent;
-            this.BTN_Prof_Supprimer.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(123)))), ((int)(((byte)(231)))));
-            this.BTN_Prof_Supprimer.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.BTN_Prof_Supprimer, "BTN_Prof_Supprimer");
-            this.BTN_Prof_Supprimer.ForeColor = System.Drawing.Color.White;
-            this.BTN_Prof_Supprimer.Image = ((System.Drawing.Image)(resources.GetObject("BTN_Prof_Supprimer.Image")));
-            this.BTN_Prof_Supprimer.ImagePosition = 0;
-            this.BTN_Prof_Supprimer.ImageZoom = 74;
-            this.BTN_Prof_Supprimer.LabelPosition = 24;
-            this.BTN_Prof_Supprimer.LabelText = "Supprimer";
-            this.BTN_Prof_Supprimer.Name = "BTN_Prof_Supprimer";
-            this.BTN_Prof_Supprimer.Click += new System.EventHandler(this.BTN_Prof_Supprimer_Click);
-            // 
-            // BTN_Prof_Modifier
-            // 
-            this.BTN_Prof_Modifier.BackColor = System.Drawing.Color.Transparent;
-            this.BTN_Prof_Modifier.color = System.Drawing.Color.Transparent;
-            this.BTN_Prof_Modifier.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(123)))), ((int)(((byte)(231)))));
-            this.BTN_Prof_Modifier.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.BTN_Prof_Modifier, "BTN_Prof_Modifier");
-            this.BTN_Prof_Modifier.ForeColor = System.Drawing.Color.White;
-            this.BTN_Prof_Modifier.Image = ((System.Drawing.Image)(resources.GetObject("BTN_Prof_Modifier.Image")));
-            this.BTN_Prof_Modifier.ImagePosition = 0;
-            this.BTN_Prof_Modifier.ImageZoom = 74;
-            this.BTN_Prof_Modifier.LabelPosition = 24;
-            this.BTN_Prof_Modifier.LabelText = "Modifier";
-            this.BTN_Prof_Modifier.Name = "BTN_Prof_Modifier";
-            this.BTN_Prof_Modifier.Click += new System.EventHandler(this.BTN_Prof_Modifier_Click);
-            // 
-            // BTN_Prof_Ajouter
-            // 
-            this.BTN_Prof_Ajouter.BackColor = System.Drawing.Color.Transparent;
-            this.BTN_Prof_Ajouter.color = System.Drawing.Color.Transparent;
-            this.BTN_Prof_Ajouter.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(123)))), ((int)(((byte)(231)))));
-            this.BTN_Prof_Ajouter.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.BTN_Prof_Ajouter, "BTN_Prof_Ajouter");
-            this.BTN_Prof_Ajouter.ForeColor = System.Drawing.Color.White;
-            this.BTN_Prof_Ajouter.Image = ((System.Drawing.Image)(resources.GetObject("BTN_Prof_Ajouter.Image")));
-            this.BTN_Prof_Ajouter.ImagePosition = 0;
-            this.BTN_Prof_Ajouter.ImageZoom = 74;
-            this.BTN_Prof_Ajouter.LabelPosition = 24;
-            this.BTN_Prof_Ajouter.LabelText = "Ajouter";
-            this.BTN_Prof_Ajouter.Name = "BTN_Prof_Ajouter";
-            this.BTN_Prof_Ajouter.Click += new System.EventHandler(this.BTN_Prof_Ajouter_Click);
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.panel2.Controls.Add(this.bunifuFlatButton11);
-            this.panel2.Controls.Add(this.bunifuFlatButton1);
-            this.panel2.Controls.Add(this.bunifuFlatButton12);
-            this.panel2.Controls.Add(this.BTN_Menu_Parametre);
-            this.panel2.Controls.Add(this.BTN_Menu_Notification);
-            this.panel2.Controls.Add(this.BTN_Menu_Seance);
-            this.panel2.Controls.Add(this.BTN_Menu_Cours);
-            this.panel2.Controls.Add(this.BTN_Menu_Note);
-            this.panel2.Controls.Add(this.BTN_Menu_Matiere);
-            this.panel2.Controls.Add(this.BTN_Menu_Groupe);
-            this.panel2.Controls.Add(this.BTN_Menu_Filiere);
-            this.panel2.Controls.Add(this.BTN_Menu_Professeur);
-            this.panel2.Controls.Add(this.BTN_Menu_Stagiaire);
-            resources.ApplyResources(this.panel2, "panel2");
-            this.panel2.Name = "panel2";
-            // 
-            // bunifuFlatButton11
-            // 
-            this.bunifuFlatButton11.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.bunifuFlatButton11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(123)))), ((int)(((byte)(231)))));
-            resources.ApplyResources(this.bunifuFlatButton11, "bunifuFlatButton11");
-            this.bunifuFlatButton11.BorderRadius = 0;
-            this.bunifuFlatButton11.ButtonText = "        Contact";
-            this.bunifuFlatButton11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton11.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton11.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton11.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton11.Iconimage")));
-            this.bunifuFlatButton11.Iconimage_right = null;
-            this.bunifuFlatButton11.Iconimage_right_Selected = null;
-            this.bunifuFlatButton11.Iconimage_Selected = null;
-            this.bunifuFlatButton11.IconMarginLeft = 0;
-            this.bunifuFlatButton11.IconMarginRight = 0;
-            this.bunifuFlatButton11.IconRightVisible = true;
-            this.bunifuFlatButton11.IconRightZoom = 0D;
-            this.bunifuFlatButton11.IconVisible = true;
-            this.bunifuFlatButton11.IconZoom = 90D;
-            this.bunifuFlatButton11.IsTab = false;
-            this.bunifuFlatButton11.Name = "bunifuFlatButton11";
-            this.bunifuFlatButton11.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(123)))), ((int)(((byte)(231)))));
-            this.bunifuFlatButton11.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.bunifuFlatButton11.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton11.selected = false;
-            this.bunifuFlatButton11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton11.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton11.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // bunifuFlatButton1
-            // 
-            this.bunifuFlatButton1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.bunifuFlatButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            resources.ApplyResources(this.bunifuFlatButton1, "bunifuFlatButton1");
-            this.bunifuFlatButton1.BorderRadius = 0;
-            this.bunifuFlatButton1.ButtonText = "        Déconnecter";
-            this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton1.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton1.Iconimage")));
-            this.bunifuFlatButton1.Iconimage_right = null;
-            this.bunifuFlatButton1.Iconimage_right_Selected = null;
-            this.bunifuFlatButton1.Iconimage_Selected = null;
-            this.bunifuFlatButton1.IconMarginLeft = 5;
-            this.bunifuFlatButton1.IconMarginRight = 0;
-            this.bunifuFlatButton1.IconRightVisible = true;
-            this.bunifuFlatButton1.IconRightZoom = 0D;
-            this.bunifuFlatButton1.IconVisible = true;
-            this.bunifuFlatButton1.IconZoom = 90D;
-            this.bunifuFlatButton1.IsTab = false;
-            this.bunifuFlatButton1.Name = "bunifuFlatButton1";
-            this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.selected = false;
-            this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton1.Textcolor = System.Drawing.Color.WhiteSmoke;
-            this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // bunifuFlatButton12
-            // 
-            this.bunifuFlatButton12.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.bunifuFlatButton12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            resources.ApplyResources(this.bunifuFlatButton12, "bunifuFlatButton12");
-            this.bunifuFlatButton12.BorderRadius = 0;
-            this.bunifuFlatButton12.ButtonText = "        Paramètre";
-            this.bunifuFlatButton12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton12.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton12.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton12.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton12.Iconimage")));
-            this.bunifuFlatButton12.Iconimage_right = null;
-            this.bunifuFlatButton12.Iconimage_right_Selected = null;
-            this.bunifuFlatButton12.Iconimage_Selected = null;
-            this.bunifuFlatButton12.IconMarginLeft = 5;
-            this.bunifuFlatButton12.IconMarginRight = 0;
-            this.bunifuFlatButton12.IconRightVisible = true;
-            this.bunifuFlatButton12.IconRightZoom = 0D;
-            this.bunifuFlatButton12.IconVisible = true;
-            this.bunifuFlatButton12.IconZoom = 90D;
-            this.bunifuFlatButton12.IsTab = false;
-            this.bunifuFlatButton12.Name = "bunifuFlatButton12";
-            this.bunifuFlatButton12.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.bunifuFlatButton12.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.bunifuFlatButton12.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton12.selected = false;
-            this.bunifuFlatButton12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton12.Textcolor = System.Drawing.Color.WhiteSmoke;
-            this.bunifuFlatButton12.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // BTN_Menu_Parametre
-            // 
-            this.BTN_Menu_Parametre.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.BTN_Menu_Parametre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            resources.ApplyResources(this.BTN_Menu_Parametre, "BTN_Menu_Parametre");
-            this.BTN_Menu_Parametre.BorderRadius = 0;
-            this.BTN_Menu_Parametre.ButtonText = "        Sécurite";
-            this.BTN_Menu_Parametre.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BTN_Menu_Parametre.DisabledColor = System.Drawing.Color.Gray;
-            this.BTN_Menu_Parametre.Iconcolor = System.Drawing.Color.Transparent;
-            this.BTN_Menu_Parametre.Iconimage = ((System.Drawing.Image)(resources.GetObject("BTN_Menu_Parametre.Iconimage")));
-            this.BTN_Menu_Parametre.Iconimage_right = null;
-            this.BTN_Menu_Parametre.Iconimage_right_Selected = null;
-            this.BTN_Menu_Parametre.Iconimage_Selected = null;
-            this.BTN_Menu_Parametre.IconMarginLeft = 5;
-            this.BTN_Menu_Parametre.IconMarginRight = 0;
-            this.BTN_Menu_Parametre.IconRightVisible = true;
-            this.BTN_Menu_Parametre.IconRightZoom = 0D;
-            this.BTN_Menu_Parametre.IconVisible = true;
-            this.BTN_Menu_Parametre.IconZoom = 90D;
-            this.BTN_Menu_Parametre.IsTab = false;
-            this.BTN_Menu_Parametre.Name = "BTN_Menu_Parametre";
-            this.BTN_Menu_Parametre.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.BTN_Menu_Parametre.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.BTN_Menu_Parametre.OnHoverTextColor = System.Drawing.Color.White;
-            this.BTN_Menu_Parametre.selected = false;
-            this.BTN_Menu_Parametre.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTN_Menu_Parametre.Textcolor = System.Drawing.Color.WhiteSmoke;
-            this.BTN_Menu_Parametre.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // BTN_Menu_Notification
-            // 
-            this.BTN_Menu_Notification.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.BTN_Menu_Notification.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            resources.ApplyResources(this.BTN_Menu_Notification, "BTN_Menu_Notification");
-            this.BTN_Menu_Notification.BorderRadius = 0;
-            this.BTN_Menu_Notification.ButtonText = "        Notification";
-            this.BTN_Menu_Notification.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BTN_Menu_Notification.DisabledColor = System.Drawing.Color.Gray;
-            this.BTN_Menu_Notification.Iconcolor = System.Drawing.Color.Transparent;
-            this.BTN_Menu_Notification.Iconimage = ((System.Drawing.Image)(resources.GetObject("BTN_Menu_Notification.Iconimage")));
-            this.BTN_Menu_Notification.Iconimage_right = null;
-            this.BTN_Menu_Notification.Iconimage_right_Selected = null;
-            this.BTN_Menu_Notification.Iconimage_Selected = null;
-            this.BTN_Menu_Notification.IconMarginLeft = 5;
-            this.BTN_Menu_Notification.IconMarginRight = 0;
-            this.BTN_Menu_Notification.IconRightVisible = true;
-            this.BTN_Menu_Notification.IconRightZoom = 0D;
-            this.BTN_Menu_Notification.IconVisible = true;
-            this.BTN_Menu_Notification.IconZoom = 90D;
-            this.BTN_Menu_Notification.IsTab = false;
-            this.BTN_Menu_Notification.Name = "BTN_Menu_Notification";
-            this.BTN_Menu_Notification.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.BTN_Menu_Notification.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.BTN_Menu_Notification.OnHoverTextColor = System.Drawing.Color.White;
-            this.BTN_Menu_Notification.selected = false;
-            this.BTN_Menu_Notification.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTN_Menu_Notification.Textcolor = System.Drawing.Color.WhiteSmoke;
-            this.BTN_Menu_Notification.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // BTN_Menu_Seance
-            // 
-            this.BTN_Menu_Seance.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.BTN_Menu_Seance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            resources.ApplyResources(this.BTN_Menu_Seance, "BTN_Menu_Seance");
-            this.BTN_Menu_Seance.BorderRadius = 0;
-            this.BTN_Menu_Seance.ButtonText = "        Séance";
-            this.BTN_Menu_Seance.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BTN_Menu_Seance.DisabledColor = System.Drawing.Color.Gray;
-            this.BTN_Menu_Seance.Iconcolor = System.Drawing.Color.Transparent;
-            this.BTN_Menu_Seance.Iconimage = ((System.Drawing.Image)(resources.GetObject("BTN_Menu_Seance.Iconimage")));
-            this.BTN_Menu_Seance.Iconimage_right = null;
-            this.BTN_Menu_Seance.Iconimage_right_Selected = null;
-            this.BTN_Menu_Seance.Iconimage_Selected = null;
-            this.BTN_Menu_Seance.IconMarginLeft = 5;
-            this.BTN_Menu_Seance.IconMarginRight = 0;
-            this.BTN_Menu_Seance.IconRightVisible = true;
-            this.BTN_Menu_Seance.IconRightZoom = 0D;
-            this.BTN_Menu_Seance.IconVisible = true;
-            this.BTN_Menu_Seance.IconZoom = 90D;
-            this.BTN_Menu_Seance.IsTab = false;
-            this.BTN_Menu_Seance.Name = "BTN_Menu_Seance";
-            this.BTN_Menu_Seance.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.BTN_Menu_Seance.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.BTN_Menu_Seance.OnHoverTextColor = System.Drawing.Color.White;
-            this.BTN_Menu_Seance.selected = false;
-            this.BTN_Menu_Seance.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTN_Menu_Seance.Textcolor = System.Drawing.Color.WhiteSmoke;
-            this.BTN_Menu_Seance.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // BTN_Menu_Cours
-            // 
-            this.BTN_Menu_Cours.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.BTN_Menu_Cours.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            resources.ApplyResources(this.BTN_Menu_Cours, "BTN_Menu_Cours");
-            this.BTN_Menu_Cours.BorderRadius = 0;
-            this.BTN_Menu_Cours.ButtonText = "        Cours";
-            this.BTN_Menu_Cours.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BTN_Menu_Cours.DisabledColor = System.Drawing.Color.Gray;
-            this.BTN_Menu_Cours.Iconcolor = System.Drawing.Color.Transparent;
-            this.BTN_Menu_Cours.Iconimage = ((System.Drawing.Image)(resources.GetObject("BTN_Menu_Cours.Iconimage")));
-            this.BTN_Menu_Cours.Iconimage_right = null;
-            this.BTN_Menu_Cours.Iconimage_right_Selected = null;
-            this.BTN_Menu_Cours.Iconimage_Selected = null;
-            this.BTN_Menu_Cours.IconMarginLeft = 5;
-            this.BTN_Menu_Cours.IconMarginRight = 0;
-            this.BTN_Menu_Cours.IconRightVisible = true;
-            this.BTN_Menu_Cours.IconRightZoom = 0D;
-            this.BTN_Menu_Cours.IconVisible = true;
-            this.BTN_Menu_Cours.IconZoom = 90D;
-            this.BTN_Menu_Cours.IsTab = false;
-            this.BTN_Menu_Cours.Name = "BTN_Menu_Cours";
-            this.BTN_Menu_Cours.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.BTN_Menu_Cours.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.BTN_Menu_Cours.OnHoverTextColor = System.Drawing.Color.White;
-            this.BTN_Menu_Cours.selected = false;
-            this.BTN_Menu_Cours.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTN_Menu_Cours.Textcolor = System.Drawing.Color.WhiteSmoke;
-            this.BTN_Menu_Cours.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // BTN_Menu_Note
-            // 
-            this.BTN_Menu_Note.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.BTN_Menu_Note.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            resources.ApplyResources(this.BTN_Menu_Note, "BTN_Menu_Note");
-            this.BTN_Menu_Note.BorderRadius = 0;
-            this.BTN_Menu_Note.ButtonText = "        Notes";
-            this.BTN_Menu_Note.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BTN_Menu_Note.DisabledColor = System.Drawing.Color.Gray;
-            this.BTN_Menu_Note.Iconcolor = System.Drawing.Color.Transparent;
-            this.BTN_Menu_Note.Iconimage = ((System.Drawing.Image)(resources.GetObject("BTN_Menu_Note.Iconimage")));
-            this.BTN_Menu_Note.Iconimage_right = null;
-            this.BTN_Menu_Note.Iconimage_right_Selected = null;
-            this.BTN_Menu_Note.Iconimage_Selected = null;
-            this.BTN_Menu_Note.IconMarginLeft = 5;
-            this.BTN_Menu_Note.IconMarginRight = 0;
-            this.BTN_Menu_Note.IconRightVisible = true;
-            this.BTN_Menu_Note.IconRightZoom = 0D;
-            this.BTN_Menu_Note.IconVisible = true;
-            this.BTN_Menu_Note.IconZoom = 90D;
-            this.BTN_Menu_Note.IsTab = false;
-            this.BTN_Menu_Note.Name = "BTN_Menu_Note";
-            this.BTN_Menu_Note.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.BTN_Menu_Note.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.BTN_Menu_Note.OnHoverTextColor = System.Drawing.Color.White;
-            this.BTN_Menu_Note.selected = false;
-            this.BTN_Menu_Note.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTN_Menu_Note.Textcolor = System.Drawing.Color.WhiteSmoke;
-            this.BTN_Menu_Note.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // BTN_Menu_Matiere
-            // 
-            this.BTN_Menu_Matiere.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.BTN_Menu_Matiere.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            resources.ApplyResources(this.BTN_Menu_Matiere, "BTN_Menu_Matiere");
-            this.BTN_Menu_Matiere.BorderRadius = 0;
-            this.BTN_Menu_Matiere.ButtonText = "        Matière";
-            this.BTN_Menu_Matiere.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BTN_Menu_Matiere.DisabledColor = System.Drawing.Color.Gray;
-            this.BTN_Menu_Matiere.Iconcolor = System.Drawing.Color.Transparent;
-            this.BTN_Menu_Matiere.Iconimage = ((System.Drawing.Image)(resources.GetObject("BTN_Menu_Matiere.Iconimage")));
-            this.BTN_Menu_Matiere.Iconimage_right = null;
-            this.BTN_Menu_Matiere.Iconimage_right_Selected = null;
-            this.BTN_Menu_Matiere.Iconimage_Selected = null;
-            this.BTN_Menu_Matiere.IconMarginLeft = 5;
-            this.BTN_Menu_Matiere.IconMarginRight = 0;
-            this.BTN_Menu_Matiere.IconRightVisible = true;
-            this.BTN_Menu_Matiere.IconRightZoom = 0D;
-            this.BTN_Menu_Matiere.IconVisible = true;
-            this.BTN_Menu_Matiere.IconZoom = 90D;
-            this.BTN_Menu_Matiere.IsTab = false;
-            this.BTN_Menu_Matiere.Name = "BTN_Menu_Matiere";
-            this.BTN_Menu_Matiere.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.BTN_Menu_Matiere.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.BTN_Menu_Matiere.OnHoverTextColor = System.Drawing.Color.White;
-            this.BTN_Menu_Matiere.selected = false;
-            this.BTN_Menu_Matiere.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTN_Menu_Matiere.Textcolor = System.Drawing.Color.WhiteSmoke;
-            this.BTN_Menu_Matiere.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // BTN_Menu_Groupe
-            // 
-            this.BTN_Menu_Groupe.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.BTN_Menu_Groupe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            resources.ApplyResources(this.BTN_Menu_Groupe, "BTN_Menu_Groupe");
-            this.BTN_Menu_Groupe.BorderRadius = 0;
-            this.BTN_Menu_Groupe.ButtonText = "        Groupe";
-            this.BTN_Menu_Groupe.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BTN_Menu_Groupe.DisabledColor = System.Drawing.Color.Gray;
-            this.BTN_Menu_Groupe.Iconcolor = System.Drawing.Color.Transparent;
-            this.BTN_Menu_Groupe.Iconimage = ((System.Drawing.Image)(resources.GetObject("BTN_Menu_Groupe.Iconimage")));
-            this.BTN_Menu_Groupe.Iconimage_right = null;
-            this.BTN_Menu_Groupe.Iconimage_right_Selected = null;
-            this.BTN_Menu_Groupe.Iconimage_Selected = null;
-            this.BTN_Menu_Groupe.IconMarginLeft = 5;
-            this.BTN_Menu_Groupe.IconMarginRight = 0;
-            this.BTN_Menu_Groupe.IconRightVisible = true;
-            this.BTN_Menu_Groupe.IconRightZoom = 0D;
-            this.BTN_Menu_Groupe.IconVisible = true;
-            this.BTN_Menu_Groupe.IconZoom = 90D;
-            this.BTN_Menu_Groupe.IsTab = false;
-            this.BTN_Menu_Groupe.Name = "BTN_Menu_Groupe";
-            this.BTN_Menu_Groupe.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.BTN_Menu_Groupe.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.BTN_Menu_Groupe.OnHoverTextColor = System.Drawing.Color.White;
-            this.BTN_Menu_Groupe.selected = false;
-            this.BTN_Menu_Groupe.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTN_Menu_Groupe.Textcolor = System.Drawing.Color.WhiteSmoke;
-            this.BTN_Menu_Groupe.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // BTN_Menu_Filiere
-            // 
-            this.BTN_Menu_Filiere.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.BTN_Menu_Filiere.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            resources.ApplyResources(this.BTN_Menu_Filiere, "BTN_Menu_Filiere");
-            this.BTN_Menu_Filiere.BorderRadius = 0;
-            this.BTN_Menu_Filiere.ButtonText = "        Filière";
-            this.BTN_Menu_Filiere.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BTN_Menu_Filiere.DisabledColor = System.Drawing.Color.Gray;
-            this.BTN_Menu_Filiere.Iconcolor = System.Drawing.Color.Transparent;
-            this.BTN_Menu_Filiere.Iconimage = ((System.Drawing.Image)(resources.GetObject("BTN_Menu_Filiere.Iconimage")));
-            this.BTN_Menu_Filiere.Iconimage_right = null;
-            this.BTN_Menu_Filiere.Iconimage_right_Selected = null;
-            this.BTN_Menu_Filiere.Iconimage_Selected = null;
-            this.BTN_Menu_Filiere.IconMarginLeft = 5;
-            this.BTN_Menu_Filiere.IconMarginRight = 0;
-            this.BTN_Menu_Filiere.IconRightVisible = true;
-            this.BTN_Menu_Filiere.IconRightZoom = 0D;
-            this.BTN_Menu_Filiere.IconVisible = true;
-            this.BTN_Menu_Filiere.IconZoom = 90D;
-            this.BTN_Menu_Filiere.IsTab = false;
-            this.BTN_Menu_Filiere.Name = "BTN_Menu_Filiere";
-            this.BTN_Menu_Filiere.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.BTN_Menu_Filiere.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.BTN_Menu_Filiere.OnHoverTextColor = System.Drawing.Color.White;
-            this.BTN_Menu_Filiere.selected = false;
-            this.BTN_Menu_Filiere.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTN_Menu_Filiere.Textcolor = System.Drawing.Color.WhiteSmoke;
-            this.BTN_Menu_Filiere.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // BTN_Menu_Professeur
-            // 
-            this.BTN_Menu_Professeur.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.BTN_Menu_Professeur.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            resources.ApplyResources(this.BTN_Menu_Professeur, "BTN_Menu_Professeur");
-            this.BTN_Menu_Professeur.BorderRadius = 0;
-            this.BTN_Menu_Professeur.ButtonText = "        Professeur";
-            this.BTN_Menu_Professeur.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BTN_Menu_Professeur.DisabledColor = System.Drawing.Color.Gray;
-            this.BTN_Menu_Professeur.Iconcolor = System.Drawing.Color.Transparent;
-            this.BTN_Menu_Professeur.Iconimage = ((System.Drawing.Image)(resources.GetObject("BTN_Menu_Professeur.Iconimage")));
-            this.BTN_Menu_Professeur.Iconimage_right = null;
-            this.BTN_Menu_Professeur.Iconimage_right_Selected = null;
-            this.BTN_Menu_Professeur.Iconimage_Selected = null;
-            this.BTN_Menu_Professeur.IconMarginLeft = 5;
-            this.BTN_Menu_Professeur.IconMarginRight = 0;
-            this.BTN_Menu_Professeur.IconRightVisible = true;
-            this.BTN_Menu_Professeur.IconRightZoom = 0D;
-            this.BTN_Menu_Professeur.IconVisible = true;
-            this.BTN_Menu_Professeur.IconZoom = 90D;
-            this.BTN_Menu_Professeur.IsTab = false;
-            this.BTN_Menu_Professeur.Name = "BTN_Menu_Professeur";
-            this.BTN_Menu_Professeur.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.BTN_Menu_Professeur.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.BTN_Menu_Professeur.OnHoverTextColor = System.Drawing.Color.White;
-            this.BTN_Menu_Professeur.selected = false;
-            this.BTN_Menu_Professeur.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTN_Menu_Professeur.Textcolor = System.Drawing.Color.WhiteSmoke;
-            this.BTN_Menu_Professeur.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTN_Menu_Professeur.Click += new System.EventHandler(this.BTN_Menu_Professeur_Click);
-            // 
-            // BTN_Menu_Stagiaire
-            // 
-            this.BTN_Menu_Stagiaire.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.BTN_Menu_Stagiaire.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            resources.ApplyResources(this.BTN_Menu_Stagiaire, "BTN_Menu_Stagiaire");
-            this.BTN_Menu_Stagiaire.BorderRadius = 0;
-            this.BTN_Menu_Stagiaire.ButtonText = "        Stagiaire";
-            this.BTN_Menu_Stagiaire.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BTN_Menu_Stagiaire.DisabledColor = System.Drawing.Color.Gray;
-            this.BTN_Menu_Stagiaire.Iconcolor = System.Drawing.Color.Transparent;
-            this.BTN_Menu_Stagiaire.Iconimage = ((System.Drawing.Image)(resources.GetObject("BTN_Menu_Stagiaire.Iconimage")));
-            this.BTN_Menu_Stagiaire.Iconimage_right = null;
-            this.BTN_Menu_Stagiaire.Iconimage_right_Selected = null;
-            this.BTN_Menu_Stagiaire.Iconimage_Selected = null;
-            this.BTN_Menu_Stagiaire.IconMarginLeft = 5;
-            this.BTN_Menu_Stagiaire.IconMarginRight = 0;
-            this.BTN_Menu_Stagiaire.IconRightVisible = true;
-            this.BTN_Menu_Stagiaire.IconRightZoom = 0D;
-            this.BTN_Menu_Stagiaire.IconVisible = true;
-            this.BTN_Menu_Stagiaire.IconZoom = 90D;
-            this.BTN_Menu_Stagiaire.IsTab = false;
-            this.BTN_Menu_Stagiaire.Name = "BTN_Menu_Stagiaire";
-            this.BTN_Menu_Stagiaire.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.BTN_Menu_Stagiaire.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.BTN_Menu_Stagiaire.OnHoverTextColor = System.Drawing.Color.White;
-            this.BTN_Menu_Stagiaire.selected = false;
-            this.BTN_Menu_Stagiaire.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTN_Menu_Stagiaire.Textcolor = System.Drawing.Color.WhiteSmoke;
-            this.BTN_Menu_Stagiaire.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTN_Menu_Stagiaire.Click += new System.EventHandler(this.BTN_Menu_Stagiaire_Click);
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(215)))), ((int)(((byte)(215)))));
-            this.panel3.Controls.Add(this.tabControl1);
-            resources.ApplyResources(this.panel3, "panel3");
-            this.panel3.Name = "panel3";
-            // 
-            // bunifuDragControl1
-            // 
-            this.bunifuDragControl1.Fixed = true;
-            this.bunifuDragControl1.Horizontal = true;
-            this.bunifuDragControl1.TargetControl = this.panel1;
-            this.bunifuDragControl1.Vertical = true;
-            // 
-            // Consulter
-            // 
-            this.Consulter.DataPropertyName = "Afficher";
-            resources.ApplyResources(this.Consulter, "Consulter");
-            this.Consulter.Name = "Consulter";
-            this.Consulter.Text = "Afficher";
-            this.Consulter.UseColumnTextForButtonValue = true;
-            // 
-            // P_Stagiaire_Preview2
-            // 
-            this.P_Stagiaire_Preview2.Controls.Add(this.LBL_Stagiaire_Nom_Clicked);
-            this.P_Stagiaire_Preview2.Controls.Add(this.LBL_Stagiaire_Cin_Clicked);
-            this.P_Stagiaire_Preview2.Controls.Add(this.LBL_Stagiaire_Id_Clicked);
-            this.P_Stagiaire_Preview2.Controls.Add(this.LBL_Stagiaire_Prenom_Clicked);
-            resources.ApplyResources(this.P_Stagiaire_Preview2, "P_Stagiaire_Preview2");
-            this.P_Stagiaire_Preview2.Name = "P_Stagiaire_Preview2";
-            // 
-            // metroLabel4
-            // 
-            resources.ApplyResources(this.metroLabel4, "metroLabel4");
-            this.metroLabel4.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel4.ForeColor = System.Drawing.Color.White;
-            this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.UseCustomBackColor = true;
-            this.metroLabel4.UseCustomForeColor = true;
-            // 
-            // metroLabel3
-            // 
-            resources.ApplyResources(this.metroLabel3, "metroLabel3");
-            this.metroLabel3.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel3.ForeColor = System.Drawing.Color.White;
-            this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.UseCustomBackColor = true;
-            this.metroLabel3.UseCustomForeColor = true;
-            // 
-            // metroLabel2
-            // 
-            resources.ApplyResources(this.metroLabel2, "metroLabel2");
-            this.metroLabel2.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel2.ForeColor = System.Drawing.Color.White;
-            this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.UseCustomBackColor = true;
-            this.metroLabel2.UseCustomForeColor = true;
-            // 
-            // metroLabel1
-            // 
-            resources.ApplyResources(this.metroLabel1, "metroLabel1");
-            this.metroLabel1.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel1.ForeColor = System.Drawing.Color.White;
-            this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.UseCustomBackColor = true;
-            this.metroLabel1.UseCustomForeColor = true;
-            // 
-            // metroLabel5
-            // 
-            resources.ApplyResources(this.metroLabel5, "metroLabel5");
-            this.metroLabel5.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel5.ForeColor = System.Drawing.Color.White;
-            this.metroLabel5.Name = "metroLabel5";
-            this.metroLabel5.UseCustomBackColor = true;
-            this.metroLabel5.UseCustomForeColor = true;
-            // 
             // tabControl2_Professeur
             // 
             this.tabControl2_Professeur.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
@@ -3478,31 +2939,31 @@
             // 
             this.DGV_Professeur1.AllowUserToAddRows = false;
             this.DGV_Professeur1.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle105.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.DGV_Professeur1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle105;
+            dataGridViewCellStyle41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.DGV_Professeur1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle41;
             this.DGV_Professeur1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.DGV_Professeur1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
             this.DGV_Professeur1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DGV_Professeur1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle106.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle106.BackColor = System.Drawing.Color.SeaGreen;
-            dataGridViewCellStyle106.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle106.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle106.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle106.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle106.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DGV_Professeur1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle106;
+            dataGridViewCellStyle42.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle42.BackColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle42.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle42.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle42.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle42.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle42.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DGV_Professeur1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle42;
             this.DGV_Professeur1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGV_Professeur1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewCheckBoxColumn1});
-            dataGridViewCellStyle107.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle107.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle107.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle107.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle107.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle107.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle107.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DGV_Professeur1.DefaultCellStyle = dataGridViewCellStyle107;
+            dataGridViewCellStyle43.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle43.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle43.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle43.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle43.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle43.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle43.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DGV_Professeur1.DefaultCellStyle = dataGridViewCellStyle43;
             resources.ApplyResources(this.DGV_Professeur1, "DGV_Professeur1");
             this.DGV_Professeur1.DoubleBuffered = true;
             this.DGV_Professeur1.EnableHeadersVisualStyles = false;
@@ -3511,14 +2972,14 @@
             this.DGV_Professeur1.HeaderForeColor = System.Drawing.Color.Black;
             this.DGV_Professeur1.Name = "DGV_Professeur1";
             this.DGV_Professeur1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle108.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle108.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle108.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle108.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle108.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle108.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle108.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DGV_Professeur1.RowHeadersDefaultCellStyle = dataGridViewCellStyle108;
+            dataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle44.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle44.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle44.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle44.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle44.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle44.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DGV_Professeur1.RowHeadersDefaultCellStyle = dataGridViewCellStyle44;
             // 
             // dataGridViewCheckBoxColumn1
             // 
@@ -3531,16 +2992,16 @@
             // 
             this.tabPage6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
             this.tabPage6.Controls.Add(this.pictureBox3);
-            this.tabPage6.Controls.Add(this.metroDateTime3);
-            this.tabPage6.Controls.Add(this.metroDateTime1);
-            this.tabPage6.Controls.Add(this.TB_Prof_Ajouter_Cin);
-            this.tabPage6.Controls.Add(this.bunifuThinButton24);
+            this.tabPage6.Controls.Add(this.DTP_Prof_Ajout_DEmbauche);
+            this.tabPage6.Controls.Add(this.DTP_Prof_Ajout_Dnaissance);
+            this.tabPage6.Controls.Add(this.TB_Prof_Ajout_Cin);
+            this.tabPage6.Controls.Add(this.BTN_Prof_Ajout_Ajouter);
             this.tabPage6.Controls.Add(this.bunifuThinButton25);
             this.tabPage6.Controls.Add(this.bunifuImageButton3);
             this.tabPage6.Controls.Add(this.label5);
-            this.tabPage6.Controls.Add(this.metroComboBox1);
+            this.tabPage6.Controls.Add(this.CB_Prof_Ajout_Quest);
             this.tabPage6.Controls.Add(this.label25);
-            this.tabPage6.Controls.Add(this.metroTextBox2);
+            this.tabPage6.Controls.Add(this.TB_Prof_Ajout_Repon);
             this.tabPage6.Controls.Add(this.label26);
             this.tabPage6.Controls.Add(this.label27);
             this.tabPage6.Controls.Add(this.label28);
@@ -3551,14 +3012,14 @@
             this.tabPage6.Controls.Add(this.label35);
             this.tabPage6.Controls.Add(this.label37);
             this.tabPage6.Controls.Add(this.label60);
-            this.tabPage6.Controls.Add(this.metroTextBox3);
-            this.tabPage6.Controls.Add(this.radioButton1);
-            this.tabPage6.Controls.Add(this.TB_Prof_Ajouter_Nom);
-            this.tabPage6.Controls.Add(this.radioButton2);
-            this.tabPage6.Controls.Add(this.metroTextBox5);
-            this.tabPage6.Controls.Add(this.metroTextBox6);
-            this.tabPage6.Controls.Add(this.metroTextBox31);
-            this.tabPage6.Controls.Add(this.metroTextBox7);
+            this.tabPage6.Controls.Add(this.TB_Prof_Ajout_Adres);
+            this.tabPage6.Controls.Add(this.CHB_Prof_Ajout_M);
+            this.tabPage6.Controls.Add(this.TB_Prof_Ajout_Nom);
+            this.tabPage6.Controls.Add(this.CHB_Prof_Ajout_F);
+            this.tabPage6.Controls.Add(this.TB_Prof_Ajout_Pren);
+            this.tabPage6.Controls.Add(this.TB_Prof_Ajout_Email);
+            this.tabPage6.Controls.Add(this.TB_Prof_Ajout_MotPas);
+            this.tabPage6.Controls.Add(this.TB_Prof_Ajout_Tel);
             this.tabPage6.Controls.Add(this.bunifuThinButton26);
             this.tabPage6.Controls.Add(this.bunifuThinButton27);
             this.tabPage6.Controls.Add(this.bunifuThinButton28);
@@ -3568,76 +3029,91 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackgroundImage = global::GestionCentre.Properties.Resources.stagiaire2;
             resources.ApplyResources(this.pictureBox3, "pictureBox3");
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.TabStop = false;
             // 
-            // metroDateTime1
+            // DTP_Prof_Ajout_DEmbauche
             // 
-            this.metroDateTime1.CalendarForeColor = System.Drawing.Color.White;
-            this.metroDateTime1.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.metroDateTime1.CalendarTitleBackColor = System.Drawing.Color.Aqua;
-            this.metroDateTime1.CalendarTitleForeColor = System.Drawing.Color.Maroon;
-            this.metroDateTime1.CalendarTrailingForeColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.metroDateTime1, "metroDateTime1");
-            this.metroDateTime1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.metroDateTime1.Name = "metroDateTime1";
-            this.metroDateTime1.UseCustomBackColor = true;
-            this.metroDateTime1.UseCustomForeColor = true;
-            this.metroDateTime1.UseStyleColors = true;
-            this.metroDateTime1.Value = new System.DateTime(2017, 3, 26, 4, 6, 31, 0);
+            this.DTP_Prof_Ajout_DEmbauche.CalendarForeColor = System.Drawing.Color.White;
+            this.DTP_Prof_Ajout_DEmbauche.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.DTP_Prof_Ajout_DEmbauche.CalendarTitleBackColor = System.Drawing.Color.Aqua;
+            this.DTP_Prof_Ajout_DEmbauche.CalendarTitleForeColor = System.Drawing.Color.Maroon;
+            this.DTP_Prof_Ajout_DEmbauche.CalendarTrailingForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.DTP_Prof_Ajout_DEmbauche, "DTP_Prof_Ajout_DEmbauche");
+            this.DTP_Prof_Ajout_DEmbauche.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.DTP_Prof_Ajout_DEmbauche.Name = "DTP_Prof_Ajout_DEmbauche";
+            this.DTP_Prof_Ajout_DEmbauche.UseCustomBackColor = true;
+            this.DTP_Prof_Ajout_DEmbauche.UseCustomForeColor = true;
+            this.DTP_Prof_Ajout_DEmbauche.UseStyleColors = true;
+            this.DTP_Prof_Ajout_DEmbauche.Value = new System.DateTime(2017, 3, 26, 4, 6, 31, 0);
             // 
-            // TB_Prof_Ajouter_Cin
+            // DTP_Prof_Ajout_Dnaissance
+            // 
+            this.DTP_Prof_Ajout_Dnaissance.CalendarForeColor = System.Drawing.Color.White;
+            this.DTP_Prof_Ajout_Dnaissance.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.DTP_Prof_Ajout_Dnaissance.CalendarTitleBackColor = System.Drawing.Color.Aqua;
+            this.DTP_Prof_Ajout_Dnaissance.CalendarTitleForeColor = System.Drawing.Color.Maroon;
+            this.DTP_Prof_Ajout_Dnaissance.CalendarTrailingForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.DTP_Prof_Ajout_Dnaissance, "DTP_Prof_Ajout_Dnaissance");
+            this.DTP_Prof_Ajout_Dnaissance.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.DTP_Prof_Ajout_Dnaissance.Name = "DTP_Prof_Ajout_Dnaissance";
+            this.DTP_Prof_Ajout_Dnaissance.UseCustomBackColor = true;
+            this.DTP_Prof_Ajout_Dnaissance.UseCustomForeColor = true;
+            this.DTP_Prof_Ajout_Dnaissance.UseStyleColors = true;
+            this.DTP_Prof_Ajout_Dnaissance.Value = new System.DateTime(2017, 3, 26, 4, 6, 31, 0);
+            // 
+            // TB_Prof_Ajout_Cin
             // 
             // 
             // 
             // 
-            this.TB_Prof_Ajouter_Cin.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image30")));
-            this.TB_Prof_Ajouter_Cin.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode10")));
-            this.TB_Prof_Ajouter_Cin.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location30")));
-            this.TB_Prof_Ajouter_Cin.CustomButton.Name = "";
-            this.TB_Prof_Ajouter_Cin.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size30")));
-            this.TB_Prof_Ajouter_Cin.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.TB_Prof_Ajouter_Cin.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex30")));
-            this.TB_Prof_Ajouter_Cin.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.TB_Prof_Ajouter_Cin.CustomButton.UseSelectable = true;
-            this.TB_Prof_Ajouter_Cin.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible30")));
-            this.TB_Prof_Ajouter_Cin.ForeColor = System.Drawing.Color.White;
-            this.TB_Prof_Ajouter_Cin.Lines = new string[0];
-            resources.ApplyResources(this.TB_Prof_Ajouter_Cin, "TB_Prof_Ajouter_Cin");
-            this.TB_Prof_Ajouter_Cin.MaxLength = 32767;
-            this.TB_Prof_Ajouter_Cin.Name = "TB_Prof_Ajouter_Cin";
-            this.TB_Prof_Ajouter_Cin.PasswordChar = '\0';
-            this.TB_Prof_Ajouter_Cin.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.TB_Prof_Ajouter_Cin.SelectedText = "";
-            this.TB_Prof_Ajouter_Cin.SelectionLength = 0;
-            this.TB_Prof_Ajouter_Cin.SelectionStart = 0;
-            this.TB_Prof_Ajouter_Cin.UseCustomBackColor = true;
-            this.TB_Prof_Ajouter_Cin.UseCustomForeColor = true;
-            this.TB_Prof_Ajouter_Cin.UseSelectable = true;
-            this.TB_Prof_Ajouter_Cin.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.TB_Prof_Ajouter_Cin.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.TB_Prof_Ajout_Cin.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image30")));
+            this.TB_Prof_Ajout_Cin.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode10")));
+            this.TB_Prof_Ajout_Cin.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location30")));
+            this.TB_Prof_Ajout_Cin.CustomButton.Name = "";
+            this.TB_Prof_Ajout_Cin.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size30")));
+            this.TB_Prof_Ajout_Cin.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.TB_Prof_Ajout_Cin.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex30")));
+            this.TB_Prof_Ajout_Cin.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.TB_Prof_Ajout_Cin.CustomButton.UseSelectable = true;
+            this.TB_Prof_Ajout_Cin.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible30")));
+            this.TB_Prof_Ajout_Cin.ForeColor = System.Drawing.Color.White;
+            this.TB_Prof_Ajout_Cin.Lines = new string[0];
+            resources.ApplyResources(this.TB_Prof_Ajout_Cin, "TB_Prof_Ajout_Cin");
+            this.TB_Prof_Ajout_Cin.MaxLength = 32767;
+            this.TB_Prof_Ajout_Cin.Name = "TB_Prof_Ajout_Cin";
+            this.TB_Prof_Ajout_Cin.PasswordChar = '\0';
+            this.TB_Prof_Ajout_Cin.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TB_Prof_Ajout_Cin.SelectedText = "";
+            this.TB_Prof_Ajout_Cin.SelectionLength = 0;
+            this.TB_Prof_Ajout_Cin.SelectionStart = 0;
+            this.TB_Prof_Ajout_Cin.UseCustomBackColor = true;
+            this.TB_Prof_Ajout_Cin.UseCustomForeColor = true;
+            this.TB_Prof_Ajout_Cin.UseSelectable = true;
+            this.TB_Prof_Ajout_Cin.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.TB_Prof_Ajout_Cin.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // bunifuThinButton24
+            // BTN_Prof_Ajout_Ajouter
             // 
-            this.bunifuThinButton24.ActiveBorderThickness = 1;
-            this.bunifuThinButton24.ActiveCornerRadius = 20;
-            this.bunifuThinButton24.ActiveFillColor = System.Drawing.Color.Aqua;
-            this.bunifuThinButton24.ActiveForecolor = System.Drawing.Color.Black;
-            this.bunifuThinButton24.ActiveLineColor = System.Drawing.Color.Aqua;
-            this.bunifuThinButton24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
-            resources.ApplyResources(this.bunifuThinButton24, "bunifuThinButton24");
-            this.bunifuThinButton24.ButtonText = "Ajouter";
-            this.bunifuThinButton24.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton24.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bunifuThinButton24.IdleBorderThickness = 1;
-            this.bunifuThinButton24.IdleCornerRadius = 20;
-            this.bunifuThinButton24.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.bunifuThinButton24.IdleForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton24.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.bunifuThinButton24.Name = "bunifuThinButton24";
-            this.bunifuThinButton24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.BTN_Prof_Ajout_Ajouter.ActiveBorderThickness = 1;
+            this.BTN_Prof_Ajout_Ajouter.ActiveCornerRadius = 20;
+            this.BTN_Prof_Ajout_Ajouter.ActiveFillColor = System.Drawing.Color.Aqua;
+            this.BTN_Prof_Ajout_Ajouter.ActiveForecolor = System.Drawing.Color.Black;
+            this.BTN_Prof_Ajout_Ajouter.ActiveLineColor = System.Drawing.Color.Aqua;
+            this.BTN_Prof_Ajout_Ajouter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
+            resources.ApplyResources(this.BTN_Prof_Ajout_Ajouter, "BTN_Prof_Ajout_Ajouter");
+            this.BTN_Prof_Ajout_Ajouter.ButtonText = "Ajouter";
+            this.BTN_Prof_Ajout_Ajouter.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BTN_Prof_Ajout_Ajouter.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BTN_Prof_Ajout_Ajouter.IdleBorderThickness = 1;
+            this.BTN_Prof_Ajout_Ajouter.IdleCornerRadius = 20;
+            this.BTN_Prof_Ajout_Ajouter.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.BTN_Prof_Ajout_Ajouter.IdleForecolor = System.Drawing.Color.White;
+            this.BTN_Prof_Ajout_Ajouter.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.BTN_Prof_Ajout_Ajouter.Name = "BTN_Prof_Ajout_Ajouter";
+            this.BTN_Prof_Ajout_Ajouter.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.BTN_Prof_Ajout_Ajouter.Click += new System.EventHandler(this.BTN_Prof_Ajout_Ajouter_Click);
             // 
             // bunifuThinButton25
             // 
@@ -3674,23 +3150,19 @@
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Name = "label5";
             // 
-            // metroComboBox1
+            // CB_Prof_Ajout_Quest
             // 
-            this.metroComboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.metroComboBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.metroComboBox1, "metroComboBox1");
-            this.metroComboBox1.ForeColor = System.Drawing.Color.White;
-            this.metroComboBox1.FormattingEnabled = true;
-            this.metroComboBox1.Items.AddRange(new object[] {
-            resources.GetString("metroComboBox1.Items"),
-            resources.GetString("metroComboBox1.Items1"),
-            resources.GetString("metroComboBox1.Items2")});
-            this.metroComboBox1.Name = "metroComboBox1";
-            this.metroComboBox1.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroComboBox1.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroComboBox1.UseCustomBackColor = true;
-            this.metroComboBox1.UseCustomForeColor = true;
-            this.metroComboBox1.UseSelectable = true;
+            this.CB_Prof_Ajout_Quest.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.CB_Prof_Ajout_Quest.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.CB_Prof_Ajout_Quest, "CB_Prof_Ajout_Quest");
+            this.CB_Prof_Ajout_Quest.ForeColor = System.Drawing.Color.White;
+            this.CB_Prof_Ajout_Quest.FormattingEnabled = true;
+            this.CB_Prof_Ajout_Quest.Name = "CB_Prof_Ajout_Quest";
+            this.CB_Prof_Ajout_Quest.Style = MetroFramework.MetroColorStyle.Blue;
+            this.CB_Prof_Ajout_Quest.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.CB_Prof_Ajout_Quest.UseCustomBackColor = true;
+            this.CB_Prof_Ajout_Quest.UseCustomForeColor = true;
+            this.CB_Prof_Ajout_Quest.UseSelectable = true;
             // 
             // label25
             // 
@@ -3698,36 +3170,36 @@
             this.label25.ForeColor = System.Drawing.Color.White;
             this.label25.Name = "label25";
             // 
-            // metroTextBox2
+            // TB_Prof_Ajout_Repon
             // 
             // 
             // 
             // 
-            this.metroTextBox2.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image31")));
-            this.metroTextBox2.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode11")));
-            this.metroTextBox2.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location31")));
-            this.metroTextBox2.CustomButton.Name = "";
-            this.metroTextBox2.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size31")));
-            this.metroTextBox2.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox2.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex31")));
-            this.metroTextBox2.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox2.CustomButton.UseSelectable = true;
-            this.metroTextBox2.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible31")));
-            this.metroTextBox2.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox2.Lines = new string[0];
-            resources.ApplyResources(this.metroTextBox2, "metroTextBox2");
-            this.metroTextBox2.MaxLength = 32767;
-            this.metroTextBox2.Name = "metroTextBox2";
-            this.metroTextBox2.PasswordChar = '\0';
-            this.metroTextBox2.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox2.SelectedText = "";
-            this.metroTextBox2.SelectionLength = 0;
-            this.metroTextBox2.SelectionStart = 0;
-            this.metroTextBox2.UseCustomBackColor = true;
-            this.metroTextBox2.UseCustomForeColor = true;
-            this.metroTextBox2.UseSelectable = true;
-            this.metroTextBox2.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox2.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.TB_Prof_Ajout_Repon.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image31")));
+            this.TB_Prof_Ajout_Repon.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode11")));
+            this.TB_Prof_Ajout_Repon.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location31")));
+            this.TB_Prof_Ajout_Repon.CustomButton.Name = "";
+            this.TB_Prof_Ajout_Repon.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size31")));
+            this.TB_Prof_Ajout_Repon.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.TB_Prof_Ajout_Repon.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex31")));
+            this.TB_Prof_Ajout_Repon.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.TB_Prof_Ajout_Repon.CustomButton.UseSelectable = true;
+            this.TB_Prof_Ajout_Repon.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible31")));
+            this.TB_Prof_Ajout_Repon.ForeColor = System.Drawing.Color.White;
+            this.TB_Prof_Ajout_Repon.Lines = new string[0];
+            resources.ApplyResources(this.TB_Prof_Ajout_Repon, "TB_Prof_Ajout_Repon");
+            this.TB_Prof_Ajout_Repon.MaxLength = 32767;
+            this.TB_Prof_Ajout_Repon.Name = "TB_Prof_Ajout_Repon";
+            this.TB_Prof_Ajout_Repon.PasswordChar = '\0';
+            this.TB_Prof_Ajout_Repon.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TB_Prof_Ajout_Repon.SelectedText = "";
+            this.TB_Prof_Ajout_Repon.SelectionLength = 0;
+            this.TB_Prof_Ajout_Repon.SelectionStart = 0;
+            this.TB_Prof_Ajout_Repon.UseCustomBackColor = true;
+            this.TB_Prof_Ajout_Repon.UseCustomForeColor = true;
+            this.TB_Prof_Ajout_Repon.UseSelectable = true;
+            this.TB_Prof_Ajout_Repon.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.TB_Prof_Ajout_Repon.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
             // label26
             // 
@@ -3789,179 +3261,210 @@
             this.label60.ForeColor = System.Drawing.Color.White;
             this.label60.Name = "label60";
             // 
-            // metroTextBox3
+            // TB_Prof_Ajout_Adres
             // 
             // 
             // 
             // 
-            this.metroTextBox3.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image32")));
-            this.metroTextBox3.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode12")));
-            this.metroTextBox3.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location32")));
-            this.metroTextBox3.CustomButton.Name = "";
-            this.metroTextBox3.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size32")));
-            this.metroTextBox3.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox3.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex32")));
-            this.metroTextBox3.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox3.CustomButton.UseSelectable = true;
-            this.metroTextBox3.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible32")));
-            this.metroTextBox3.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox3.Lines = new string[0];
-            resources.ApplyResources(this.metroTextBox3, "metroTextBox3");
-            this.metroTextBox3.MaxLength = 32767;
-            this.metroTextBox3.Multiline = true;
-            this.metroTextBox3.Name = "metroTextBox3";
-            this.metroTextBox3.PasswordChar = '\0';
-            this.metroTextBox3.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox3.SelectedText = "";
-            this.metroTextBox3.SelectionLength = 0;
-            this.metroTextBox3.SelectionStart = 0;
-            this.metroTextBox3.UseCustomBackColor = true;
-            this.metroTextBox3.UseCustomForeColor = true;
-            this.metroTextBox3.UseSelectable = true;
-            this.metroTextBox3.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox3.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.TB_Prof_Ajout_Adres.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image32")));
+            this.TB_Prof_Ajout_Adres.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode12")));
+            this.TB_Prof_Ajout_Adres.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location32")));
+            this.TB_Prof_Ajout_Adres.CustomButton.Name = "";
+            this.TB_Prof_Ajout_Adres.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size32")));
+            this.TB_Prof_Ajout_Adres.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.TB_Prof_Ajout_Adres.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex32")));
+            this.TB_Prof_Ajout_Adres.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.TB_Prof_Ajout_Adres.CustomButton.UseSelectable = true;
+            this.TB_Prof_Ajout_Adres.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible32")));
+            this.TB_Prof_Ajout_Adres.ForeColor = System.Drawing.Color.White;
+            this.TB_Prof_Ajout_Adres.Lines = new string[0];
+            resources.ApplyResources(this.TB_Prof_Ajout_Adres, "TB_Prof_Ajout_Adres");
+            this.TB_Prof_Ajout_Adres.MaxLength = 32767;
+            this.TB_Prof_Ajout_Adres.Multiline = true;
+            this.TB_Prof_Ajout_Adres.Name = "TB_Prof_Ajout_Adres";
+            this.TB_Prof_Ajout_Adres.PasswordChar = '\0';
+            this.TB_Prof_Ajout_Adres.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TB_Prof_Ajout_Adres.SelectedText = "";
+            this.TB_Prof_Ajout_Adres.SelectionLength = 0;
+            this.TB_Prof_Ajout_Adres.SelectionStart = 0;
+            this.TB_Prof_Ajout_Adres.UseCustomBackColor = true;
+            this.TB_Prof_Ajout_Adres.UseCustomForeColor = true;
+            this.TB_Prof_Ajout_Adres.UseSelectable = true;
+            this.TB_Prof_Ajout_Adres.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.TB_Prof_Ajout_Adres.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // radioButton1
+            // CHB_Prof_Ajout_M
             // 
-            this.radioButton1.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.radioButton1, "radioButton1");
-            this.radioButton1.ForeColor = System.Drawing.Color.White;
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.TabStop = true;
-            this.radioButton1.UseVisualStyleBackColor = false;
+            this.CHB_Prof_Ajout_M.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.CHB_Prof_Ajout_M, "CHB_Prof_Ajout_M");
+            this.CHB_Prof_Ajout_M.ForeColor = System.Drawing.Color.White;
+            this.CHB_Prof_Ajout_M.Name = "CHB_Prof_Ajout_M";
+            this.CHB_Prof_Ajout_M.TabStop = true;
+            this.CHB_Prof_Ajout_M.UseVisualStyleBackColor = false;
             // 
-            // TB_Prof_Ajouter_Nom
-            // 
-            // 
-            // 
-            // 
-            this.TB_Prof_Ajouter_Nom.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image33")));
-            this.TB_Prof_Ajouter_Nom.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode13")));
-            this.TB_Prof_Ajouter_Nom.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location33")));
-            this.TB_Prof_Ajouter_Nom.CustomButton.Name = "";
-            this.TB_Prof_Ajouter_Nom.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size33")));
-            this.TB_Prof_Ajouter_Nom.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.TB_Prof_Ajouter_Nom.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex33")));
-            this.TB_Prof_Ajouter_Nom.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.TB_Prof_Ajouter_Nom.CustomButton.UseSelectable = true;
-            this.TB_Prof_Ajouter_Nom.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible33")));
-            this.TB_Prof_Ajouter_Nom.ForeColor = System.Drawing.Color.White;
-            this.TB_Prof_Ajouter_Nom.Lines = new string[0];
-            resources.ApplyResources(this.TB_Prof_Ajouter_Nom, "TB_Prof_Ajouter_Nom");
-            this.TB_Prof_Ajouter_Nom.MaxLength = 32767;
-            this.TB_Prof_Ajouter_Nom.Name = "TB_Prof_Ajouter_Nom";
-            this.TB_Prof_Ajouter_Nom.PasswordChar = '\0';
-            this.TB_Prof_Ajouter_Nom.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.TB_Prof_Ajouter_Nom.SelectedText = "";
-            this.TB_Prof_Ajouter_Nom.SelectionLength = 0;
-            this.TB_Prof_Ajouter_Nom.SelectionStart = 0;
-            this.TB_Prof_Ajouter_Nom.UseCustomBackColor = true;
-            this.TB_Prof_Ajouter_Nom.UseCustomForeColor = true;
-            this.TB_Prof_Ajouter_Nom.UseSelectable = true;
-            this.TB_Prof_Ajouter_Nom.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.TB_Prof_Ajouter_Nom.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.radioButton2, "radioButton2");
-            this.radioButton2.ForeColor = System.Drawing.Color.White;
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.TabStop = true;
-            this.radioButton2.UseVisualStyleBackColor = false;
-            // 
-            // metroTextBox5
+            // TB_Prof_Ajout_Nom
             // 
             // 
             // 
             // 
-            this.metroTextBox5.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image34")));
-            this.metroTextBox5.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode14")));
-            this.metroTextBox5.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location34")));
-            this.metroTextBox5.CustomButton.Name = "";
-            this.metroTextBox5.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size34")));
-            this.metroTextBox5.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox5.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex34")));
-            this.metroTextBox5.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox5.CustomButton.UseSelectable = true;
-            this.metroTextBox5.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible34")));
-            this.metroTextBox5.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox5.Lines = new string[0];
-            resources.ApplyResources(this.metroTextBox5, "metroTextBox5");
-            this.metroTextBox5.MaxLength = 32767;
-            this.metroTextBox5.Name = "metroTextBox5";
-            this.metroTextBox5.PasswordChar = '\0';
-            this.metroTextBox5.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox5.SelectedText = "";
-            this.metroTextBox5.SelectionLength = 0;
-            this.metroTextBox5.SelectionStart = 0;
-            this.metroTextBox5.UseCustomBackColor = true;
-            this.metroTextBox5.UseCustomForeColor = true;
-            this.metroTextBox5.UseSelectable = true;
-            this.metroTextBox5.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox5.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.TB_Prof_Ajout_Nom.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image33")));
+            this.TB_Prof_Ajout_Nom.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode13")));
+            this.TB_Prof_Ajout_Nom.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location33")));
+            this.TB_Prof_Ajout_Nom.CustomButton.Name = "";
+            this.TB_Prof_Ajout_Nom.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size33")));
+            this.TB_Prof_Ajout_Nom.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.TB_Prof_Ajout_Nom.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex33")));
+            this.TB_Prof_Ajout_Nom.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.TB_Prof_Ajout_Nom.CustomButton.UseSelectable = true;
+            this.TB_Prof_Ajout_Nom.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible33")));
+            this.TB_Prof_Ajout_Nom.ForeColor = System.Drawing.Color.White;
+            this.TB_Prof_Ajout_Nom.Lines = new string[0];
+            resources.ApplyResources(this.TB_Prof_Ajout_Nom, "TB_Prof_Ajout_Nom");
+            this.TB_Prof_Ajout_Nom.MaxLength = 32767;
+            this.TB_Prof_Ajout_Nom.Name = "TB_Prof_Ajout_Nom";
+            this.TB_Prof_Ajout_Nom.PasswordChar = '\0';
+            this.TB_Prof_Ajout_Nom.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TB_Prof_Ajout_Nom.SelectedText = "";
+            this.TB_Prof_Ajout_Nom.SelectionLength = 0;
+            this.TB_Prof_Ajout_Nom.SelectionStart = 0;
+            this.TB_Prof_Ajout_Nom.UseCustomBackColor = true;
+            this.TB_Prof_Ajout_Nom.UseCustomForeColor = true;
+            this.TB_Prof_Ajout_Nom.UseSelectable = true;
+            this.TB_Prof_Ajout_Nom.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.TB_Prof_Ajout_Nom.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // metroTextBox6
+            // CHB_Prof_Ajout_F
             // 
+            this.CHB_Prof_Ajout_F.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.CHB_Prof_Ajout_F, "CHB_Prof_Ajout_F");
+            this.CHB_Prof_Ajout_F.ForeColor = System.Drawing.Color.White;
+            this.CHB_Prof_Ajout_F.Name = "CHB_Prof_Ajout_F";
+            this.CHB_Prof_Ajout_F.TabStop = true;
+            this.CHB_Prof_Ajout_F.UseVisualStyleBackColor = false;
             // 
-            // 
-            // 
-            this.metroTextBox6.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image35")));
-            this.metroTextBox6.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode15")));
-            this.metroTextBox6.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location35")));
-            this.metroTextBox6.CustomButton.Name = "";
-            this.metroTextBox6.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size35")));
-            this.metroTextBox6.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox6.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex35")));
-            this.metroTextBox6.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox6.CustomButton.UseSelectable = true;
-            this.metroTextBox6.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible35")));
-            this.metroTextBox6.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox6.Lines = new string[0];
-            resources.ApplyResources(this.metroTextBox6, "metroTextBox6");
-            this.metroTextBox6.MaxLength = 32767;
-            this.metroTextBox6.Name = "metroTextBox6";
-            this.metroTextBox6.PasswordChar = '\0';
-            this.metroTextBox6.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox6.SelectedText = "";
-            this.metroTextBox6.SelectionLength = 0;
-            this.metroTextBox6.SelectionStart = 0;
-            this.metroTextBox6.UseCustomBackColor = true;
-            this.metroTextBox6.UseCustomForeColor = true;
-            this.metroTextBox6.UseSelectable = true;
-            this.metroTextBox6.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox6.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // metroTextBox7
+            // TB_Prof_Ajout_Pren
             // 
             // 
             // 
             // 
-            this.metroTextBox7.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image37")));
-            this.metroTextBox7.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode17")));
-            this.metroTextBox7.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location37")));
-            this.metroTextBox7.CustomButton.Name = "";
-            this.metroTextBox7.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size37")));
-            this.metroTextBox7.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox7.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex37")));
-            this.metroTextBox7.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox7.CustomButton.UseSelectable = true;
-            this.metroTextBox7.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible37")));
-            this.metroTextBox7.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox7.Lines = new string[0];
-            resources.ApplyResources(this.metroTextBox7, "metroTextBox7");
-            this.metroTextBox7.MaxLength = 32767;
-            this.metroTextBox7.Name = "metroTextBox7";
-            this.metroTextBox7.PasswordChar = '\0';
-            this.metroTextBox7.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox7.SelectedText = "";
-            this.metroTextBox7.SelectionLength = 0;
-            this.metroTextBox7.SelectionStart = 0;
-            this.metroTextBox7.UseCustomBackColor = true;
-            this.metroTextBox7.UseCustomForeColor = true;
-            this.metroTextBox7.UseSelectable = true;
-            this.metroTextBox7.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox7.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.TB_Prof_Ajout_Pren.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image34")));
+            this.TB_Prof_Ajout_Pren.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode14")));
+            this.TB_Prof_Ajout_Pren.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location34")));
+            this.TB_Prof_Ajout_Pren.CustomButton.Name = "";
+            this.TB_Prof_Ajout_Pren.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size34")));
+            this.TB_Prof_Ajout_Pren.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.TB_Prof_Ajout_Pren.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex34")));
+            this.TB_Prof_Ajout_Pren.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.TB_Prof_Ajout_Pren.CustomButton.UseSelectable = true;
+            this.TB_Prof_Ajout_Pren.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible34")));
+            this.TB_Prof_Ajout_Pren.ForeColor = System.Drawing.Color.White;
+            this.TB_Prof_Ajout_Pren.Lines = new string[0];
+            resources.ApplyResources(this.TB_Prof_Ajout_Pren, "TB_Prof_Ajout_Pren");
+            this.TB_Prof_Ajout_Pren.MaxLength = 32767;
+            this.TB_Prof_Ajout_Pren.Name = "TB_Prof_Ajout_Pren";
+            this.TB_Prof_Ajout_Pren.PasswordChar = '\0';
+            this.TB_Prof_Ajout_Pren.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TB_Prof_Ajout_Pren.SelectedText = "";
+            this.TB_Prof_Ajout_Pren.SelectionLength = 0;
+            this.TB_Prof_Ajout_Pren.SelectionStart = 0;
+            this.TB_Prof_Ajout_Pren.UseCustomBackColor = true;
+            this.TB_Prof_Ajout_Pren.UseCustomForeColor = true;
+            this.TB_Prof_Ajout_Pren.UseSelectable = true;
+            this.TB_Prof_Ajout_Pren.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.TB_Prof_Ajout_Pren.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // TB_Prof_Ajout_Email
+            // 
+            // 
+            // 
+            // 
+            this.TB_Prof_Ajout_Email.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image35")));
+            this.TB_Prof_Ajout_Email.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode15")));
+            this.TB_Prof_Ajout_Email.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location35")));
+            this.TB_Prof_Ajout_Email.CustomButton.Name = "";
+            this.TB_Prof_Ajout_Email.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size35")));
+            this.TB_Prof_Ajout_Email.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.TB_Prof_Ajout_Email.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex35")));
+            this.TB_Prof_Ajout_Email.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.TB_Prof_Ajout_Email.CustomButton.UseSelectable = true;
+            this.TB_Prof_Ajout_Email.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible35")));
+            this.TB_Prof_Ajout_Email.ForeColor = System.Drawing.Color.White;
+            this.TB_Prof_Ajout_Email.Lines = new string[0];
+            resources.ApplyResources(this.TB_Prof_Ajout_Email, "TB_Prof_Ajout_Email");
+            this.TB_Prof_Ajout_Email.MaxLength = 32767;
+            this.TB_Prof_Ajout_Email.Name = "TB_Prof_Ajout_Email";
+            this.TB_Prof_Ajout_Email.PasswordChar = '\0';
+            this.TB_Prof_Ajout_Email.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TB_Prof_Ajout_Email.SelectedText = "";
+            this.TB_Prof_Ajout_Email.SelectionLength = 0;
+            this.TB_Prof_Ajout_Email.SelectionStart = 0;
+            this.TB_Prof_Ajout_Email.UseCustomBackColor = true;
+            this.TB_Prof_Ajout_Email.UseCustomForeColor = true;
+            this.TB_Prof_Ajout_Email.UseSelectable = true;
+            this.TB_Prof_Ajout_Email.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.TB_Prof_Ajout_Email.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // TB_Prof_Ajout_MotPas
+            // 
+            // 
+            // 
+            // 
+            this.TB_Prof_Ajout_MotPas.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image36")));
+            this.TB_Prof_Ajout_MotPas.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode16")));
+            this.TB_Prof_Ajout_MotPas.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location36")));
+            this.TB_Prof_Ajout_MotPas.CustomButton.Name = "";
+            this.TB_Prof_Ajout_MotPas.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size36")));
+            this.TB_Prof_Ajout_MotPas.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.TB_Prof_Ajout_MotPas.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex36")));
+            this.TB_Prof_Ajout_MotPas.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.TB_Prof_Ajout_MotPas.CustomButton.UseSelectable = true;
+            this.TB_Prof_Ajout_MotPas.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible36")));
+            this.TB_Prof_Ajout_MotPas.ForeColor = System.Drawing.Color.White;
+            this.TB_Prof_Ajout_MotPas.Lines = new string[0];
+            resources.ApplyResources(this.TB_Prof_Ajout_MotPas, "TB_Prof_Ajout_MotPas");
+            this.TB_Prof_Ajout_MotPas.MaxLength = 32767;
+            this.TB_Prof_Ajout_MotPas.Name = "TB_Prof_Ajout_MotPas";
+            this.TB_Prof_Ajout_MotPas.PasswordChar = '\0';
+            this.TB_Prof_Ajout_MotPas.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TB_Prof_Ajout_MotPas.SelectedText = "";
+            this.TB_Prof_Ajout_MotPas.SelectionLength = 0;
+            this.TB_Prof_Ajout_MotPas.SelectionStart = 0;
+            this.TB_Prof_Ajout_MotPas.UseCustomBackColor = true;
+            this.TB_Prof_Ajout_MotPas.UseCustomForeColor = true;
+            this.TB_Prof_Ajout_MotPas.UseSelectable = true;
+            this.TB_Prof_Ajout_MotPas.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.TB_Prof_Ajout_MotPas.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // TB_Prof_Ajout_Tel
+            // 
+            // 
+            // 
+            // 
+            this.TB_Prof_Ajout_Tel.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image37")));
+            this.TB_Prof_Ajout_Tel.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode17")));
+            this.TB_Prof_Ajout_Tel.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location37")));
+            this.TB_Prof_Ajout_Tel.CustomButton.Name = "";
+            this.TB_Prof_Ajout_Tel.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size37")));
+            this.TB_Prof_Ajout_Tel.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.TB_Prof_Ajout_Tel.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex37")));
+            this.TB_Prof_Ajout_Tel.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.TB_Prof_Ajout_Tel.CustomButton.UseSelectable = true;
+            this.TB_Prof_Ajout_Tel.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible37")));
+            this.TB_Prof_Ajout_Tel.ForeColor = System.Drawing.Color.White;
+            this.TB_Prof_Ajout_Tel.Lines = new string[0];
+            resources.ApplyResources(this.TB_Prof_Ajout_Tel, "TB_Prof_Ajout_Tel");
+            this.TB_Prof_Ajout_Tel.MaxLength = 32767;
+            this.TB_Prof_Ajout_Tel.Name = "TB_Prof_Ajout_Tel";
+            this.TB_Prof_Ajout_Tel.PasswordChar = '\0';
+            this.TB_Prof_Ajout_Tel.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TB_Prof_Ajout_Tel.SelectedText = "";
+            this.TB_Prof_Ajout_Tel.SelectionLength = 0;
+            this.TB_Prof_Ajout_Tel.SelectionStart = 0;
+            this.TB_Prof_Ajout_Tel.UseCustomBackColor = true;
+            this.TB_Prof_Ajout_Tel.UseCustomForeColor = true;
+            this.TB_Prof_Ajout_Tel.UseSelectable = true;
+            this.TB_Prof_Ajout_Tel.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.TB_Prof_Ajout_Tel.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
             // bunifuThinButton26
             // 
@@ -4628,6 +4131,157 @@
             this.metroTextBox16.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.metroTextBox16.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
+            // tabPage9
+            // 
+            this.tabPage9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
+            this.tabPage9.Controls.Add(this.bunifuCustomDataGrid2);
+            this.tabPage9.Controls.Add(this.bunifuFlatButton2);
+            this.tabPage9.Controls.Add(this.bunifuTextbox1);
+            this.tabPage9.Controls.Add(this.bunifuTextbox2);
+            this.tabPage9.Controls.Add(this.metroComboBox11);
+            this.tabPage9.Controls.Add(this.label97);
+            this.tabPage9.Controls.Add(this.label98);
+            this.tabPage9.Controls.Add(this.label99);
+            resources.ApplyResources(this.tabPage9, "tabPage9");
+            this.tabPage9.Name = "tabPage9";
+            // 
+            // bunifuCustomDataGrid2
+            // 
+            this.bunifuCustomDataGrid2.AllowUserToAddRows = false;
+            this.bunifuCustomDataGrid2.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bunifuCustomDataGrid2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle45;
+            this.bunifuCustomDataGrid2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
+            this.bunifuCustomDataGrid2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.bunifuCustomDataGrid2.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle46.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle46.BackColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle46.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle46.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle46.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle46.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle46.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuCustomDataGrid2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle46;
+            this.bunifuCustomDataGrid2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.bunifuCustomDataGrid2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewButtonColumn1});
+            dataGridViewCellStyle47.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle47.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle47.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle47.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle47.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle47.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle47.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.bunifuCustomDataGrid2.DefaultCellStyle = dataGridViewCellStyle47;
+            resources.ApplyResources(this.bunifuCustomDataGrid2, "bunifuCustomDataGrid2");
+            this.bunifuCustomDataGrid2.DoubleBuffered = true;
+            this.bunifuCustomDataGrid2.EnableHeadersVisualStyles = false;
+            this.bunifuCustomDataGrid2.GridColor = System.Drawing.Color.DimGray;
+            this.bunifuCustomDataGrid2.HeaderBgColor = System.Drawing.Color.SeaGreen;
+            this.bunifuCustomDataGrid2.HeaderForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomDataGrid2.Name = "bunifuCustomDataGrid2";
+            this.bunifuCustomDataGrid2.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle48.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle48.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle48.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle48.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle48.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle48.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle48.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuCustomDataGrid2.RowHeadersDefaultCellStyle = dataGridViewCellStyle48;
+            // 
+            // dataGridViewButtonColumn1
+            // 
+            this.dataGridViewButtonColumn1.DataPropertyName = "Afficher";
+            resources.ApplyResources(this.dataGridViewButtonColumn1, "dataGridViewButtonColumn1");
+            this.dataGridViewButtonColumn1.Name = "dataGridViewButtonColumn1";
+            this.dataGridViewButtonColumn1.Text = "Afficher";
+            this.dataGridViewButtonColumn1.UseColumnTextForButtonValue = true;
+            // 
+            // bunifuFlatButton2
+            // 
+            this.bunifuFlatButton2.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.bunifuFlatButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            resources.ApplyResources(this.bunifuFlatButton2, "bunifuFlatButton2");
+            this.bunifuFlatButton2.BorderRadius = 0;
+            this.bunifuFlatButton2.ButtonText = "Chercher";
+            this.bunifuFlatButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuFlatButton2.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton2.ForeColor = System.Drawing.Color.Black;
+            this.bunifuFlatButton2.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton2.Iconimage = null;
+            this.bunifuFlatButton2.Iconimage_right = null;
+            this.bunifuFlatButton2.Iconimage_right_Selected = null;
+            this.bunifuFlatButton2.Iconimage_Selected = null;
+            this.bunifuFlatButton2.IconMarginLeft = 5;
+            this.bunifuFlatButton2.IconMarginRight = 0;
+            this.bunifuFlatButton2.IconRightVisible = false;
+            this.bunifuFlatButton2.IconRightZoom = 0D;
+            this.bunifuFlatButton2.IconVisible = false;
+            this.bunifuFlatButton2.IconZoom = 90D;
+            this.bunifuFlatButton2.IsTab = false;
+            this.bunifuFlatButton2.Name = "bunifuFlatButton2";
+            this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.bunifuFlatButton2.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton2.selected = false;
+            this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuFlatButton2.Textcolor = System.Drawing.Color.White;
+            this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // bunifuTextbox1
+            // 
+            this.bunifuTextbox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            resources.ApplyResources(this.bunifuTextbox1, "bunifuTextbox1");
+            this.bunifuTextbox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(123)))), ((int)(((byte)(231)))));
+            this.bunifuTextbox1.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox1.Icon")));
+            this.bunifuTextbox1.Name = "bunifuTextbox1";
+            this.bunifuTextbox1.text = "";
+            // 
+            // bunifuTextbox2
+            // 
+            this.bunifuTextbox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            resources.ApplyResources(this.bunifuTextbox2, "bunifuTextbox2");
+            this.bunifuTextbox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(123)))), ((int)(((byte)(231)))));
+            this.bunifuTextbox2.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox2.Icon")));
+            this.bunifuTextbox2.Name = "bunifuTextbox2";
+            this.bunifuTextbox2.text = "";
+            // 
+            // metroComboBox11
+            // 
+            this.metroComboBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.metroComboBox11.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.metroComboBox11, "metroComboBox11");
+            this.metroComboBox11.ForeColor = System.Drawing.Color.White;
+            this.metroComboBox11.FormattingEnabled = true;
+            this.metroComboBox11.Items.AddRange(new object[] {
+            resources.GetString("metroComboBox11.Items"),
+            resources.GetString("metroComboBox11.Items1")});
+            this.metroComboBox11.Name = "metroComboBox11";
+            this.metroComboBox11.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroComboBox11.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroComboBox11.UseCustomBackColor = true;
+            this.metroComboBox11.UseCustomForeColor = true;
+            this.metroComboBox11.UseSelectable = true;
+            // 
+            // label97
+            // 
+            resources.ApplyResources(this.label97, "label97");
+            this.label97.ForeColor = System.Drawing.Color.White;
+            this.label97.Name = "label97";
+            // 
+            // label98
+            // 
+            resources.ApplyResources(this.label98, "label98");
+            this.label98.ForeColor = System.Drawing.Color.White;
+            this.label98.Name = "label98";
+            // 
+            // label99
+            // 
+            resources.ApplyResources(this.label99, "label99");
+            this.label99.ForeColor = System.Drawing.Color.White;
+            this.label99.Name = "label99";
+            // 
             // tabPage8
             // 
             this.tabPage8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
@@ -5244,202 +4898,544 @@
             this.label96.ForeColor = System.Drawing.Color.White;
             this.label96.Name = "label96";
             // 
-            // tabPage9
+            // panel17
             // 
-            this.tabPage9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
-            this.tabPage9.Controls.Add(this.bunifuCustomDataGrid2);
-            this.tabPage9.Controls.Add(this.bunifuFlatButton2);
-            this.tabPage9.Controls.Add(this.bunifuTextbox1);
-            this.tabPage9.Controls.Add(this.bunifuTextbox2);
-            this.tabPage9.Controls.Add(this.metroComboBox11);
-            this.tabPage9.Controls.Add(this.label97);
-            this.tabPage9.Controls.Add(this.label98);
-            this.tabPage9.Controls.Add(this.label99);
-            resources.ApplyResources(this.tabPage9, "tabPage9");
-            this.tabPage9.Name = "tabPage9";
+            this.panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.panel17.Controls.Add(this.BTN_Prof_Liste);
+            this.panel17.Controls.Add(this.panel18);
+            this.panel17.Controls.Add(this.BTN_Prof_Consulter);
+            this.panel17.Controls.Add(this.BTN_Prof_Chercher);
+            this.panel17.Controls.Add(this.BTN_Prof_Supprimer);
+            this.panel17.Controls.Add(this.BTN_Prof_Modifier);
+            this.panel17.Controls.Add(this.BTN_Prof_Ajouter);
+            resources.ApplyResources(this.panel17, "panel17");
+            this.panel17.Name = "panel17";
             // 
-            // bunifuCustomDataGrid2
+            // BTN_Prof_Liste
             // 
-            this.bunifuCustomDataGrid2.AllowUserToAddRows = false;
-            this.bunifuCustomDataGrid2.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle109.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuCustomDataGrid2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle109;
-            this.bunifuCustomDataGrid2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(67)))), ((int)(((byte)(74)))));
-            this.bunifuCustomDataGrid2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.bunifuCustomDataGrid2.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle110.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle110.BackColor = System.Drawing.Color.SeaGreen;
-            dataGridViewCellStyle110.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle110.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle110.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle110.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle110.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuCustomDataGrid2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle110;
-            this.bunifuCustomDataGrid2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.bunifuCustomDataGrid2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewButtonColumn1});
-            dataGridViewCellStyle111.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle111.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle111.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle111.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle111.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle111.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle111.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.bunifuCustomDataGrid2.DefaultCellStyle = dataGridViewCellStyle111;
-            resources.ApplyResources(this.bunifuCustomDataGrid2, "bunifuCustomDataGrid2");
-            this.bunifuCustomDataGrid2.DoubleBuffered = true;
-            this.bunifuCustomDataGrid2.EnableHeadersVisualStyles = false;
-            this.bunifuCustomDataGrid2.GridColor = System.Drawing.Color.DimGray;
-            this.bunifuCustomDataGrid2.HeaderBgColor = System.Drawing.Color.SeaGreen;
-            this.bunifuCustomDataGrid2.HeaderForeColor = System.Drawing.Color.Black;
-            this.bunifuCustomDataGrid2.Name = "bunifuCustomDataGrid2";
-            this.bunifuCustomDataGrid2.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle112.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle112.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle112.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle112.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle112.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle112.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle112.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuCustomDataGrid2.RowHeadersDefaultCellStyle = dataGridViewCellStyle112;
+            this.BTN_Prof_Liste.BackColor = System.Drawing.Color.Transparent;
+            this.BTN_Prof_Liste.color = System.Drawing.Color.Transparent;
+            this.BTN_Prof_Liste.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(123)))), ((int)(((byte)(231)))));
+            this.BTN_Prof_Liste.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.BTN_Prof_Liste, "BTN_Prof_Liste");
+            this.BTN_Prof_Liste.ForeColor = System.Drawing.Color.White;
+            this.BTN_Prof_Liste.Image = ((System.Drawing.Image)(resources.GetObject("BTN_Prof_Liste.Image")));
+            this.BTN_Prof_Liste.ImagePosition = 0;
+            this.BTN_Prof_Liste.ImageZoom = 70;
+            this.BTN_Prof_Liste.LabelPosition = 24;
+            this.BTN_Prof_Liste.LabelText = "Liste";
+            this.BTN_Prof_Liste.Name = "BTN_Prof_Liste";
+            this.BTN_Prof_Liste.Click += new System.EventHandler(this.BTN_Prof_Liste_Click);
             // 
-            // dataGridViewButtonColumn1
+            // panel18
             // 
-            this.dataGridViewButtonColumn1.DataPropertyName = "Afficher";
-            resources.ApplyResources(this.dataGridViewButtonColumn1, "dataGridViewButtonColumn1");
-            this.dataGridViewButtonColumn1.Name = "dataGridViewButtonColumn1";
-            this.dataGridViewButtonColumn1.Text = "Afficher";
-            this.dataGridViewButtonColumn1.UseColumnTextForButtonValue = true;
+            resources.ApplyResources(this.panel18, "panel18");
+            this.panel18.Name = "panel18";
             // 
-            // bunifuFlatButton2
+            // BTN_Prof_Consulter
             // 
-            this.bunifuFlatButton2.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.bunifuFlatButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            resources.ApplyResources(this.bunifuFlatButton2, "bunifuFlatButton2");
-            this.bunifuFlatButton2.BorderRadius = 0;
-            this.bunifuFlatButton2.ButtonText = "Chercher";
-            this.bunifuFlatButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton2.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton2.ForeColor = System.Drawing.Color.Black;
-            this.bunifuFlatButton2.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton2.Iconimage = null;
-            this.bunifuFlatButton2.Iconimage_right = null;
-            this.bunifuFlatButton2.Iconimage_right_Selected = null;
-            this.bunifuFlatButton2.Iconimage_Selected = null;
-            this.bunifuFlatButton2.IconMarginLeft = 5;
-            this.bunifuFlatButton2.IconMarginRight = 0;
-            this.bunifuFlatButton2.IconRightVisible = false;
-            this.bunifuFlatButton2.IconRightZoom = 0D;
-            this.bunifuFlatButton2.IconVisible = false;
-            this.bunifuFlatButton2.IconZoom = 90D;
-            this.bunifuFlatButton2.IsTab = false;
-            this.bunifuFlatButton2.Name = "bunifuFlatButton2";
-            this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.bunifuFlatButton2.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton2.selected = false;
-            this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton2.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_Prof_Consulter.BackColor = System.Drawing.Color.Transparent;
+            this.BTN_Prof_Consulter.color = System.Drawing.Color.Transparent;
+            this.BTN_Prof_Consulter.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(123)))), ((int)(((byte)(231)))));
+            this.BTN_Prof_Consulter.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.BTN_Prof_Consulter, "BTN_Prof_Consulter");
+            this.BTN_Prof_Consulter.ForeColor = System.Drawing.Color.White;
+            this.BTN_Prof_Consulter.Image = ((System.Drawing.Image)(resources.GetObject("BTN_Prof_Consulter.Image")));
+            this.BTN_Prof_Consulter.ImagePosition = 0;
+            this.BTN_Prof_Consulter.ImageZoom = 74;
+            this.BTN_Prof_Consulter.LabelPosition = 24;
+            this.BTN_Prof_Consulter.LabelText = "Consulter";
+            this.BTN_Prof_Consulter.Name = "BTN_Prof_Consulter";
+            this.BTN_Prof_Consulter.Click += new System.EventHandler(this.BTN_Prof_Consulter_Click);
             // 
-            // bunifuTextbox1
+            // BTN_Prof_Chercher
             // 
-            this.bunifuTextbox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            resources.ApplyResources(this.bunifuTextbox1, "bunifuTextbox1");
-            this.bunifuTextbox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(123)))), ((int)(((byte)(231)))));
-            this.bunifuTextbox1.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox1.Icon")));
-            this.bunifuTextbox1.Name = "bunifuTextbox1";
-            this.bunifuTextbox1.text = "";
+            this.BTN_Prof_Chercher.BackColor = System.Drawing.Color.Transparent;
+            this.BTN_Prof_Chercher.color = System.Drawing.Color.Transparent;
+            this.BTN_Prof_Chercher.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(123)))), ((int)(((byte)(231)))));
+            this.BTN_Prof_Chercher.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.BTN_Prof_Chercher, "BTN_Prof_Chercher");
+            this.BTN_Prof_Chercher.ForeColor = System.Drawing.Color.White;
+            this.BTN_Prof_Chercher.Image = ((System.Drawing.Image)(resources.GetObject("BTN_Prof_Chercher.Image")));
+            this.BTN_Prof_Chercher.ImagePosition = 0;
+            this.BTN_Prof_Chercher.ImageZoom = 74;
+            this.BTN_Prof_Chercher.LabelPosition = 24;
+            this.BTN_Prof_Chercher.LabelText = "Chercher";
+            this.BTN_Prof_Chercher.Name = "BTN_Prof_Chercher";
+            this.BTN_Prof_Chercher.Click += new System.EventHandler(this.BTN_Prof_Chercher_Click);
             // 
-            // bunifuTextbox2
+            // BTN_Prof_Supprimer
             // 
-            this.bunifuTextbox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            resources.ApplyResources(this.bunifuTextbox2, "bunifuTextbox2");
-            this.bunifuTextbox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(123)))), ((int)(((byte)(231)))));
-            this.bunifuTextbox2.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox2.Icon")));
-            this.bunifuTextbox2.Name = "bunifuTextbox2";
-            this.bunifuTextbox2.text = "";
+            this.BTN_Prof_Supprimer.BackColor = System.Drawing.Color.Transparent;
+            this.BTN_Prof_Supprimer.color = System.Drawing.Color.Transparent;
+            this.BTN_Prof_Supprimer.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(123)))), ((int)(((byte)(231)))));
+            this.BTN_Prof_Supprimer.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.BTN_Prof_Supprimer, "BTN_Prof_Supprimer");
+            this.BTN_Prof_Supprimer.ForeColor = System.Drawing.Color.White;
+            this.BTN_Prof_Supprimer.Image = ((System.Drawing.Image)(resources.GetObject("BTN_Prof_Supprimer.Image")));
+            this.BTN_Prof_Supprimer.ImagePosition = 0;
+            this.BTN_Prof_Supprimer.ImageZoom = 74;
+            this.BTN_Prof_Supprimer.LabelPosition = 24;
+            this.BTN_Prof_Supprimer.LabelText = "Supprimer";
+            this.BTN_Prof_Supprimer.Name = "BTN_Prof_Supprimer";
+            this.BTN_Prof_Supprimer.Click += new System.EventHandler(this.BTN_Prof_Supprimer_Click);
             // 
-            // metroComboBox11
+            // BTN_Prof_Modifier
             // 
-            this.metroComboBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.metroComboBox11.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.metroComboBox11, "metroComboBox11");
-            this.metroComboBox11.ForeColor = System.Drawing.Color.White;
-            this.metroComboBox11.FormattingEnabled = true;
-            this.metroComboBox11.Items.AddRange(new object[] {
-            resources.GetString("metroComboBox11.Items"),
-            resources.GetString("metroComboBox11.Items1")});
-            this.metroComboBox11.Name = "metroComboBox11";
-            this.metroComboBox11.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroComboBox11.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroComboBox11.UseCustomBackColor = true;
-            this.metroComboBox11.UseCustomForeColor = true;
-            this.metroComboBox11.UseSelectable = true;
+            this.BTN_Prof_Modifier.BackColor = System.Drawing.Color.Transparent;
+            this.BTN_Prof_Modifier.color = System.Drawing.Color.Transparent;
+            this.BTN_Prof_Modifier.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(123)))), ((int)(((byte)(231)))));
+            this.BTN_Prof_Modifier.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.BTN_Prof_Modifier, "BTN_Prof_Modifier");
+            this.BTN_Prof_Modifier.ForeColor = System.Drawing.Color.White;
+            this.BTN_Prof_Modifier.Image = ((System.Drawing.Image)(resources.GetObject("BTN_Prof_Modifier.Image")));
+            this.BTN_Prof_Modifier.ImagePosition = 0;
+            this.BTN_Prof_Modifier.ImageZoom = 74;
+            this.BTN_Prof_Modifier.LabelPosition = 24;
+            this.BTN_Prof_Modifier.LabelText = "Modifier";
+            this.BTN_Prof_Modifier.Name = "BTN_Prof_Modifier";
+            this.BTN_Prof_Modifier.Click += new System.EventHandler(this.BTN_Prof_Modifier_Click);
             // 
-            // label97
+            // BTN_Prof_Ajouter
             // 
-            resources.ApplyResources(this.label97, "label97");
-            this.label97.ForeColor = System.Drawing.Color.White;
-            this.label97.Name = "label97";
+            this.BTN_Prof_Ajouter.BackColor = System.Drawing.Color.Transparent;
+            this.BTN_Prof_Ajouter.color = System.Drawing.Color.Transparent;
+            this.BTN_Prof_Ajouter.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(123)))), ((int)(((byte)(231)))));
+            this.BTN_Prof_Ajouter.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.BTN_Prof_Ajouter, "BTN_Prof_Ajouter");
+            this.BTN_Prof_Ajouter.ForeColor = System.Drawing.Color.White;
+            this.BTN_Prof_Ajouter.Image = ((System.Drawing.Image)(resources.GetObject("BTN_Prof_Ajouter.Image")));
+            this.BTN_Prof_Ajouter.ImagePosition = 0;
+            this.BTN_Prof_Ajouter.ImageZoom = 74;
+            this.BTN_Prof_Ajouter.LabelPosition = 24;
+            this.BTN_Prof_Ajouter.LabelText = "Ajouter";
+            this.BTN_Prof_Ajouter.Name = "BTN_Prof_Ajouter";
+            this.BTN_Prof_Ajouter.Click += new System.EventHandler(this.BTN_Prof_Ajouter_Click);
             // 
-            // label98
+            // panel2
             // 
-            resources.ApplyResources(this.label98, "label98");
-            this.label98.ForeColor = System.Drawing.Color.White;
-            this.label98.Name = "label98";
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.panel2.Controls.Add(this.bunifuFlatButton11);
+            this.panel2.Controls.Add(this.bunifuFlatButton1);
+            this.panel2.Controls.Add(this.bunifuFlatButton12);
+            this.panel2.Controls.Add(this.BTN_Menu_Parametre);
+            this.panel2.Controls.Add(this.BTN_Menu_Notification);
+            this.panel2.Controls.Add(this.BTN_Menu_Seance);
+            this.panel2.Controls.Add(this.BTN_Menu_Cours);
+            this.panel2.Controls.Add(this.BTN_Menu_Note);
+            this.panel2.Controls.Add(this.BTN_Menu_Matiere);
+            this.panel2.Controls.Add(this.BTN_Menu_Groupe);
+            this.panel2.Controls.Add(this.BTN_Menu_Filiere);
+            this.panel2.Controls.Add(this.BTN_Menu_Professeur);
+            this.panel2.Controls.Add(this.BTN_Menu_Stagiaire);
+            resources.ApplyResources(this.panel2, "panel2");
+            this.panel2.Name = "panel2";
             // 
-            // label99
+            // bunifuFlatButton11
             // 
-            resources.ApplyResources(this.label99, "label99");
-            this.label99.ForeColor = System.Drawing.Color.White;
-            this.label99.Name = "label99";
+            this.bunifuFlatButton11.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.bunifuFlatButton11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(123)))), ((int)(((byte)(231)))));
+            resources.ApplyResources(this.bunifuFlatButton11, "bunifuFlatButton11");
+            this.bunifuFlatButton11.BorderRadius = 0;
+            this.bunifuFlatButton11.ButtonText = "        Contact";
+            this.bunifuFlatButton11.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuFlatButton11.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton11.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton11.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton11.Iconimage")));
+            this.bunifuFlatButton11.Iconimage_right = null;
+            this.bunifuFlatButton11.Iconimage_right_Selected = null;
+            this.bunifuFlatButton11.Iconimage_Selected = null;
+            this.bunifuFlatButton11.IconMarginLeft = 0;
+            this.bunifuFlatButton11.IconMarginRight = 0;
+            this.bunifuFlatButton11.IconRightVisible = true;
+            this.bunifuFlatButton11.IconRightZoom = 0D;
+            this.bunifuFlatButton11.IconVisible = true;
+            this.bunifuFlatButton11.IconZoom = 90D;
+            this.bunifuFlatButton11.IsTab = false;
+            this.bunifuFlatButton11.Name = "bunifuFlatButton11";
+            this.bunifuFlatButton11.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(123)))), ((int)(((byte)(231)))));
+            this.bunifuFlatButton11.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.bunifuFlatButton11.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton11.selected = false;
+            this.bunifuFlatButton11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bunifuFlatButton11.Textcolor = System.Drawing.Color.White;
+            this.bunifuFlatButton11.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // metroDateTime3
+            // bunifuFlatButton1
             // 
-            this.metroDateTime3.CalendarForeColor = System.Drawing.Color.White;
-            this.metroDateTime3.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.metroDateTime3.CalendarTitleBackColor = System.Drawing.Color.Aqua;
-            this.metroDateTime3.CalendarTitleForeColor = System.Drawing.Color.Maroon;
-            this.metroDateTime3.CalendarTrailingForeColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.metroDateTime3, "metroDateTime3");
-            this.metroDateTime3.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.metroDateTime3.Name = "metroDateTime3";
-            this.metroDateTime3.UseCustomBackColor = true;
-            this.metroDateTime3.UseCustomForeColor = true;
-            this.metroDateTime3.UseStyleColors = true;
-            this.metroDateTime3.Value = new System.DateTime(2017, 3, 26, 4, 6, 31, 0);
+            this.bunifuFlatButton1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.bunifuFlatButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            resources.ApplyResources(this.bunifuFlatButton1, "bunifuFlatButton1");
+            this.bunifuFlatButton1.BorderRadius = 0;
+            this.bunifuFlatButton1.ButtonText = "        Déconnecter";
+            this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton1.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton1.Iconimage")));
+            this.bunifuFlatButton1.Iconimage_right = null;
+            this.bunifuFlatButton1.Iconimage_right_Selected = null;
+            this.bunifuFlatButton1.Iconimage_Selected = null;
+            this.bunifuFlatButton1.IconMarginLeft = 5;
+            this.bunifuFlatButton1.IconMarginRight = 0;
+            this.bunifuFlatButton1.IconRightVisible = true;
+            this.bunifuFlatButton1.IconRightZoom = 0D;
+            this.bunifuFlatButton1.IconVisible = true;
+            this.bunifuFlatButton1.IconZoom = 90D;
+            this.bunifuFlatButton1.IsTab = false;
+            this.bunifuFlatButton1.Name = "bunifuFlatButton1";
+            this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton1.selected = false;
+            this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bunifuFlatButton1.Textcolor = System.Drawing.Color.WhiteSmoke;
+            this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // metroTextBox31
+            // bunifuFlatButton12
             // 
+            this.bunifuFlatButton12.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.bunifuFlatButton12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            resources.ApplyResources(this.bunifuFlatButton12, "bunifuFlatButton12");
+            this.bunifuFlatButton12.BorderRadius = 0;
+            this.bunifuFlatButton12.ButtonText = "        Paramètre";
+            this.bunifuFlatButton12.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuFlatButton12.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton12.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton12.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton12.Iconimage")));
+            this.bunifuFlatButton12.Iconimage_right = null;
+            this.bunifuFlatButton12.Iconimage_right_Selected = null;
+            this.bunifuFlatButton12.Iconimage_Selected = null;
+            this.bunifuFlatButton12.IconMarginLeft = 5;
+            this.bunifuFlatButton12.IconMarginRight = 0;
+            this.bunifuFlatButton12.IconRightVisible = true;
+            this.bunifuFlatButton12.IconRightZoom = 0D;
+            this.bunifuFlatButton12.IconVisible = true;
+            this.bunifuFlatButton12.IconZoom = 90D;
+            this.bunifuFlatButton12.IsTab = false;
+            this.bunifuFlatButton12.Name = "bunifuFlatButton12";
+            this.bunifuFlatButton12.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.bunifuFlatButton12.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.bunifuFlatButton12.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton12.selected = false;
+            this.bunifuFlatButton12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bunifuFlatButton12.Textcolor = System.Drawing.Color.WhiteSmoke;
+            this.bunifuFlatButton12.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
+            // BTN_Menu_Parametre
             // 
+            this.BTN_Menu_Parametre.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.BTN_Menu_Parametre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            resources.ApplyResources(this.BTN_Menu_Parametre, "BTN_Menu_Parametre");
+            this.BTN_Menu_Parametre.BorderRadius = 0;
+            this.BTN_Menu_Parametre.ButtonText = "        Sécurite";
+            this.BTN_Menu_Parametre.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BTN_Menu_Parametre.DisabledColor = System.Drawing.Color.Gray;
+            this.BTN_Menu_Parametre.Iconcolor = System.Drawing.Color.Transparent;
+            this.BTN_Menu_Parametre.Iconimage = ((System.Drawing.Image)(resources.GetObject("BTN_Menu_Parametre.Iconimage")));
+            this.BTN_Menu_Parametre.Iconimage_right = null;
+            this.BTN_Menu_Parametre.Iconimage_right_Selected = null;
+            this.BTN_Menu_Parametre.Iconimage_Selected = null;
+            this.BTN_Menu_Parametre.IconMarginLeft = 5;
+            this.BTN_Menu_Parametre.IconMarginRight = 0;
+            this.BTN_Menu_Parametre.IconRightVisible = true;
+            this.BTN_Menu_Parametre.IconRightZoom = 0D;
+            this.BTN_Menu_Parametre.IconVisible = true;
+            this.BTN_Menu_Parametre.IconZoom = 90D;
+            this.BTN_Menu_Parametre.IsTab = false;
+            this.BTN_Menu_Parametre.Name = "BTN_Menu_Parametre";
+            this.BTN_Menu_Parametre.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.BTN_Menu_Parametre.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.BTN_Menu_Parametre.OnHoverTextColor = System.Drawing.Color.White;
+            this.BTN_Menu_Parametre.selected = false;
+            this.BTN_Menu_Parametre.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BTN_Menu_Parametre.Textcolor = System.Drawing.Color.WhiteSmoke;
+            this.BTN_Menu_Parametre.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            this.metroTextBox31.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image36")));
-            this.metroTextBox31.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode16")));
-            this.metroTextBox31.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location36")));
-            this.metroTextBox31.CustomButton.Name = "";
-            this.metroTextBox31.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size36")));
-            this.metroTextBox31.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox31.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex36")));
-            this.metroTextBox31.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox31.CustomButton.UseSelectable = true;
-            this.metroTextBox31.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible36")));
-            this.metroTextBox31.ForeColor = System.Drawing.Color.White;
-            this.metroTextBox31.Lines = new string[0];
-            resources.ApplyResources(this.metroTextBox31, "metroTextBox31");
-            this.metroTextBox31.MaxLength = 32767;
-            this.metroTextBox31.Name = "metroTextBox31";
-            this.metroTextBox31.PasswordChar = '\0';
-            this.metroTextBox31.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox31.SelectedText = "";
-            this.metroTextBox31.SelectionLength = 0;
-            this.metroTextBox31.SelectionStart = 0;
-            this.metroTextBox31.UseCustomBackColor = true;
-            this.metroTextBox31.UseCustomForeColor = true;
-            this.metroTextBox31.UseSelectable = true;
-            this.metroTextBox31.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox31.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // BTN_Menu_Notification
+            // 
+            this.BTN_Menu_Notification.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.BTN_Menu_Notification.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            resources.ApplyResources(this.BTN_Menu_Notification, "BTN_Menu_Notification");
+            this.BTN_Menu_Notification.BorderRadius = 0;
+            this.BTN_Menu_Notification.ButtonText = "        Notification";
+            this.BTN_Menu_Notification.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BTN_Menu_Notification.DisabledColor = System.Drawing.Color.Gray;
+            this.BTN_Menu_Notification.Iconcolor = System.Drawing.Color.Transparent;
+            this.BTN_Menu_Notification.Iconimage = ((System.Drawing.Image)(resources.GetObject("BTN_Menu_Notification.Iconimage")));
+            this.BTN_Menu_Notification.Iconimage_right = null;
+            this.BTN_Menu_Notification.Iconimage_right_Selected = null;
+            this.BTN_Menu_Notification.Iconimage_Selected = null;
+            this.BTN_Menu_Notification.IconMarginLeft = 5;
+            this.BTN_Menu_Notification.IconMarginRight = 0;
+            this.BTN_Menu_Notification.IconRightVisible = true;
+            this.BTN_Menu_Notification.IconRightZoom = 0D;
+            this.BTN_Menu_Notification.IconVisible = true;
+            this.BTN_Menu_Notification.IconZoom = 90D;
+            this.BTN_Menu_Notification.IsTab = false;
+            this.BTN_Menu_Notification.Name = "BTN_Menu_Notification";
+            this.BTN_Menu_Notification.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.BTN_Menu_Notification.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.BTN_Menu_Notification.OnHoverTextColor = System.Drawing.Color.White;
+            this.BTN_Menu_Notification.selected = false;
+            this.BTN_Menu_Notification.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BTN_Menu_Notification.Textcolor = System.Drawing.Color.WhiteSmoke;
+            this.BTN_Menu_Notification.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // BTN_Menu_Seance
+            // 
+            this.BTN_Menu_Seance.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.BTN_Menu_Seance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            resources.ApplyResources(this.BTN_Menu_Seance, "BTN_Menu_Seance");
+            this.BTN_Menu_Seance.BorderRadius = 0;
+            this.BTN_Menu_Seance.ButtonText = "        Séance";
+            this.BTN_Menu_Seance.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BTN_Menu_Seance.DisabledColor = System.Drawing.Color.Gray;
+            this.BTN_Menu_Seance.Iconcolor = System.Drawing.Color.Transparent;
+            this.BTN_Menu_Seance.Iconimage = ((System.Drawing.Image)(resources.GetObject("BTN_Menu_Seance.Iconimage")));
+            this.BTN_Menu_Seance.Iconimage_right = null;
+            this.BTN_Menu_Seance.Iconimage_right_Selected = null;
+            this.BTN_Menu_Seance.Iconimage_Selected = null;
+            this.BTN_Menu_Seance.IconMarginLeft = 5;
+            this.BTN_Menu_Seance.IconMarginRight = 0;
+            this.BTN_Menu_Seance.IconRightVisible = true;
+            this.BTN_Menu_Seance.IconRightZoom = 0D;
+            this.BTN_Menu_Seance.IconVisible = true;
+            this.BTN_Menu_Seance.IconZoom = 90D;
+            this.BTN_Menu_Seance.IsTab = false;
+            this.BTN_Menu_Seance.Name = "BTN_Menu_Seance";
+            this.BTN_Menu_Seance.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.BTN_Menu_Seance.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.BTN_Menu_Seance.OnHoverTextColor = System.Drawing.Color.White;
+            this.BTN_Menu_Seance.selected = false;
+            this.BTN_Menu_Seance.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BTN_Menu_Seance.Textcolor = System.Drawing.Color.WhiteSmoke;
+            this.BTN_Menu_Seance.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // BTN_Menu_Cours
+            // 
+            this.BTN_Menu_Cours.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.BTN_Menu_Cours.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            resources.ApplyResources(this.BTN_Menu_Cours, "BTN_Menu_Cours");
+            this.BTN_Menu_Cours.BorderRadius = 0;
+            this.BTN_Menu_Cours.ButtonText = "        Cours";
+            this.BTN_Menu_Cours.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BTN_Menu_Cours.DisabledColor = System.Drawing.Color.Gray;
+            this.BTN_Menu_Cours.Iconcolor = System.Drawing.Color.Transparent;
+            this.BTN_Menu_Cours.Iconimage = ((System.Drawing.Image)(resources.GetObject("BTN_Menu_Cours.Iconimage")));
+            this.BTN_Menu_Cours.Iconimage_right = null;
+            this.BTN_Menu_Cours.Iconimage_right_Selected = null;
+            this.BTN_Menu_Cours.Iconimage_Selected = null;
+            this.BTN_Menu_Cours.IconMarginLeft = 5;
+            this.BTN_Menu_Cours.IconMarginRight = 0;
+            this.BTN_Menu_Cours.IconRightVisible = true;
+            this.BTN_Menu_Cours.IconRightZoom = 0D;
+            this.BTN_Menu_Cours.IconVisible = true;
+            this.BTN_Menu_Cours.IconZoom = 90D;
+            this.BTN_Menu_Cours.IsTab = false;
+            this.BTN_Menu_Cours.Name = "BTN_Menu_Cours";
+            this.BTN_Menu_Cours.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.BTN_Menu_Cours.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.BTN_Menu_Cours.OnHoverTextColor = System.Drawing.Color.White;
+            this.BTN_Menu_Cours.selected = false;
+            this.BTN_Menu_Cours.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BTN_Menu_Cours.Textcolor = System.Drawing.Color.WhiteSmoke;
+            this.BTN_Menu_Cours.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // BTN_Menu_Note
+            // 
+            this.BTN_Menu_Note.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.BTN_Menu_Note.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            resources.ApplyResources(this.BTN_Menu_Note, "BTN_Menu_Note");
+            this.BTN_Menu_Note.BorderRadius = 0;
+            this.BTN_Menu_Note.ButtonText = "        Notes";
+            this.BTN_Menu_Note.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BTN_Menu_Note.DisabledColor = System.Drawing.Color.Gray;
+            this.BTN_Menu_Note.Iconcolor = System.Drawing.Color.Transparent;
+            this.BTN_Menu_Note.Iconimage = ((System.Drawing.Image)(resources.GetObject("BTN_Menu_Note.Iconimage")));
+            this.BTN_Menu_Note.Iconimage_right = null;
+            this.BTN_Menu_Note.Iconimage_right_Selected = null;
+            this.BTN_Menu_Note.Iconimage_Selected = null;
+            this.BTN_Menu_Note.IconMarginLeft = 5;
+            this.BTN_Menu_Note.IconMarginRight = 0;
+            this.BTN_Menu_Note.IconRightVisible = true;
+            this.BTN_Menu_Note.IconRightZoom = 0D;
+            this.BTN_Menu_Note.IconVisible = true;
+            this.BTN_Menu_Note.IconZoom = 90D;
+            this.BTN_Menu_Note.IsTab = false;
+            this.BTN_Menu_Note.Name = "BTN_Menu_Note";
+            this.BTN_Menu_Note.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.BTN_Menu_Note.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.BTN_Menu_Note.OnHoverTextColor = System.Drawing.Color.White;
+            this.BTN_Menu_Note.selected = false;
+            this.BTN_Menu_Note.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BTN_Menu_Note.Textcolor = System.Drawing.Color.WhiteSmoke;
+            this.BTN_Menu_Note.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // BTN_Menu_Matiere
+            // 
+            this.BTN_Menu_Matiere.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.BTN_Menu_Matiere.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            resources.ApplyResources(this.BTN_Menu_Matiere, "BTN_Menu_Matiere");
+            this.BTN_Menu_Matiere.BorderRadius = 0;
+            this.BTN_Menu_Matiere.ButtonText = "        Matière";
+            this.BTN_Menu_Matiere.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BTN_Menu_Matiere.DisabledColor = System.Drawing.Color.Gray;
+            this.BTN_Menu_Matiere.Iconcolor = System.Drawing.Color.Transparent;
+            this.BTN_Menu_Matiere.Iconimage = ((System.Drawing.Image)(resources.GetObject("BTN_Menu_Matiere.Iconimage")));
+            this.BTN_Menu_Matiere.Iconimage_right = null;
+            this.BTN_Menu_Matiere.Iconimage_right_Selected = null;
+            this.BTN_Menu_Matiere.Iconimage_Selected = null;
+            this.BTN_Menu_Matiere.IconMarginLeft = 5;
+            this.BTN_Menu_Matiere.IconMarginRight = 0;
+            this.BTN_Menu_Matiere.IconRightVisible = true;
+            this.BTN_Menu_Matiere.IconRightZoom = 0D;
+            this.BTN_Menu_Matiere.IconVisible = true;
+            this.BTN_Menu_Matiere.IconZoom = 90D;
+            this.BTN_Menu_Matiere.IsTab = false;
+            this.BTN_Menu_Matiere.Name = "BTN_Menu_Matiere";
+            this.BTN_Menu_Matiere.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.BTN_Menu_Matiere.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.BTN_Menu_Matiere.OnHoverTextColor = System.Drawing.Color.White;
+            this.BTN_Menu_Matiere.selected = false;
+            this.BTN_Menu_Matiere.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BTN_Menu_Matiere.Textcolor = System.Drawing.Color.WhiteSmoke;
+            this.BTN_Menu_Matiere.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // BTN_Menu_Groupe
+            // 
+            this.BTN_Menu_Groupe.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.BTN_Menu_Groupe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            resources.ApplyResources(this.BTN_Menu_Groupe, "BTN_Menu_Groupe");
+            this.BTN_Menu_Groupe.BorderRadius = 0;
+            this.BTN_Menu_Groupe.ButtonText = "        Groupe";
+            this.BTN_Menu_Groupe.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BTN_Menu_Groupe.DisabledColor = System.Drawing.Color.Gray;
+            this.BTN_Menu_Groupe.Iconcolor = System.Drawing.Color.Transparent;
+            this.BTN_Menu_Groupe.Iconimage = ((System.Drawing.Image)(resources.GetObject("BTN_Menu_Groupe.Iconimage")));
+            this.BTN_Menu_Groupe.Iconimage_right = null;
+            this.BTN_Menu_Groupe.Iconimage_right_Selected = null;
+            this.BTN_Menu_Groupe.Iconimage_Selected = null;
+            this.BTN_Menu_Groupe.IconMarginLeft = 5;
+            this.BTN_Menu_Groupe.IconMarginRight = 0;
+            this.BTN_Menu_Groupe.IconRightVisible = true;
+            this.BTN_Menu_Groupe.IconRightZoom = 0D;
+            this.BTN_Menu_Groupe.IconVisible = true;
+            this.BTN_Menu_Groupe.IconZoom = 90D;
+            this.BTN_Menu_Groupe.IsTab = false;
+            this.BTN_Menu_Groupe.Name = "BTN_Menu_Groupe";
+            this.BTN_Menu_Groupe.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.BTN_Menu_Groupe.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.BTN_Menu_Groupe.OnHoverTextColor = System.Drawing.Color.White;
+            this.BTN_Menu_Groupe.selected = false;
+            this.BTN_Menu_Groupe.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BTN_Menu_Groupe.Textcolor = System.Drawing.Color.WhiteSmoke;
+            this.BTN_Menu_Groupe.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // BTN_Menu_Filiere
+            // 
+            this.BTN_Menu_Filiere.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.BTN_Menu_Filiere.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            resources.ApplyResources(this.BTN_Menu_Filiere, "BTN_Menu_Filiere");
+            this.BTN_Menu_Filiere.BorderRadius = 0;
+            this.BTN_Menu_Filiere.ButtonText = "        Filière";
+            this.BTN_Menu_Filiere.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BTN_Menu_Filiere.DisabledColor = System.Drawing.Color.Gray;
+            this.BTN_Menu_Filiere.Iconcolor = System.Drawing.Color.Transparent;
+            this.BTN_Menu_Filiere.Iconimage = ((System.Drawing.Image)(resources.GetObject("BTN_Menu_Filiere.Iconimage")));
+            this.BTN_Menu_Filiere.Iconimage_right = null;
+            this.BTN_Menu_Filiere.Iconimage_right_Selected = null;
+            this.BTN_Menu_Filiere.Iconimage_Selected = null;
+            this.BTN_Menu_Filiere.IconMarginLeft = 5;
+            this.BTN_Menu_Filiere.IconMarginRight = 0;
+            this.BTN_Menu_Filiere.IconRightVisible = true;
+            this.BTN_Menu_Filiere.IconRightZoom = 0D;
+            this.BTN_Menu_Filiere.IconVisible = true;
+            this.BTN_Menu_Filiere.IconZoom = 90D;
+            this.BTN_Menu_Filiere.IsTab = false;
+            this.BTN_Menu_Filiere.Name = "BTN_Menu_Filiere";
+            this.BTN_Menu_Filiere.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.BTN_Menu_Filiere.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.BTN_Menu_Filiere.OnHoverTextColor = System.Drawing.Color.White;
+            this.BTN_Menu_Filiere.selected = false;
+            this.BTN_Menu_Filiere.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BTN_Menu_Filiere.Textcolor = System.Drawing.Color.WhiteSmoke;
+            this.BTN_Menu_Filiere.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // BTN_Menu_Professeur
+            // 
+            this.BTN_Menu_Professeur.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.BTN_Menu_Professeur.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            resources.ApplyResources(this.BTN_Menu_Professeur, "BTN_Menu_Professeur");
+            this.BTN_Menu_Professeur.BorderRadius = 0;
+            this.BTN_Menu_Professeur.ButtonText = "        Professeur";
+            this.BTN_Menu_Professeur.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BTN_Menu_Professeur.DisabledColor = System.Drawing.Color.Gray;
+            this.BTN_Menu_Professeur.Iconcolor = System.Drawing.Color.Transparent;
+            this.BTN_Menu_Professeur.Iconimage = ((System.Drawing.Image)(resources.GetObject("BTN_Menu_Professeur.Iconimage")));
+            this.BTN_Menu_Professeur.Iconimage_right = null;
+            this.BTN_Menu_Professeur.Iconimage_right_Selected = null;
+            this.BTN_Menu_Professeur.Iconimage_Selected = null;
+            this.BTN_Menu_Professeur.IconMarginLeft = 5;
+            this.BTN_Menu_Professeur.IconMarginRight = 0;
+            this.BTN_Menu_Professeur.IconRightVisible = true;
+            this.BTN_Menu_Professeur.IconRightZoom = 0D;
+            this.BTN_Menu_Professeur.IconVisible = true;
+            this.BTN_Menu_Professeur.IconZoom = 90D;
+            this.BTN_Menu_Professeur.IsTab = false;
+            this.BTN_Menu_Professeur.Name = "BTN_Menu_Professeur";
+            this.BTN_Menu_Professeur.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.BTN_Menu_Professeur.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.BTN_Menu_Professeur.OnHoverTextColor = System.Drawing.Color.White;
+            this.BTN_Menu_Professeur.selected = false;
+            this.BTN_Menu_Professeur.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BTN_Menu_Professeur.Textcolor = System.Drawing.Color.WhiteSmoke;
+            this.BTN_Menu_Professeur.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_Menu_Professeur.Click += new System.EventHandler(this.BTN_Menu_Professeur_Click);
+            // 
+            // BTN_Menu_Stagiaire
+            // 
+            this.BTN_Menu_Stagiaire.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.BTN_Menu_Stagiaire.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            resources.ApplyResources(this.BTN_Menu_Stagiaire, "BTN_Menu_Stagiaire");
+            this.BTN_Menu_Stagiaire.BorderRadius = 0;
+            this.BTN_Menu_Stagiaire.ButtonText = "        Stagiaire";
+            this.BTN_Menu_Stagiaire.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BTN_Menu_Stagiaire.DisabledColor = System.Drawing.Color.Gray;
+            this.BTN_Menu_Stagiaire.Iconcolor = System.Drawing.Color.Transparent;
+            this.BTN_Menu_Stagiaire.Iconimage = ((System.Drawing.Image)(resources.GetObject("BTN_Menu_Stagiaire.Iconimage")));
+            this.BTN_Menu_Stagiaire.Iconimage_right = null;
+            this.BTN_Menu_Stagiaire.Iconimage_right_Selected = null;
+            this.BTN_Menu_Stagiaire.Iconimage_Selected = null;
+            this.BTN_Menu_Stagiaire.IconMarginLeft = 5;
+            this.BTN_Menu_Stagiaire.IconMarginRight = 0;
+            this.BTN_Menu_Stagiaire.IconRightVisible = true;
+            this.BTN_Menu_Stagiaire.IconRightZoom = 0D;
+            this.BTN_Menu_Stagiaire.IconVisible = true;
+            this.BTN_Menu_Stagiaire.IconZoom = 90D;
+            this.BTN_Menu_Stagiaire.IsTab = false;
+            this.BTN_Menu_Stagiaire.Name = "BTN_Menu_Stagiaire";
+            this.BTN_Menu_Stagiaire.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.BTN_Menu_Stagiaire.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.BTN_Menu_Stagiaire.OnHoverTextColor = System.Drawing.Color.White;
+            this.BTN_Menu_Stagiaire.selected = false;
+            this.BTN_Menu_Stagiaire.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BTN_Menu_Stagiaire.Textcolor = System.Drawing.Color.WhiteSmoke;
+            this.BTN_Menu_Stagiaire.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_Menu_Stagiaire.Click += new System.EventHandler(this.BTN_Menu_Stagiaire_Click);
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(215)))), ((int)(((byte)(215)))));
+            this.panel3.Controls.Add(this.tabControl1);
+            resources.ApplyResources(this.panel3, "panel3");
+            this.panel3.Name = "panel3";
+            // 
+            // bunifuDragControl1
+            // 
+            this.bunifuDragControl1.Fixed = true;
+            this.bunifuDragControl1.Horizontal = true;
+            this.bunifuDragControl1.TargetControl = this.panel1;
+            this.bunifuDragControl1.Vertical = true;
             // 
             // Form1
             // 
@@ -5481,12 +5477,9 @@
             this.panel10.ResumeLayout(false);
             this.P_Stagiaire_Preview.ResumeLayout(false);
             this.P_Stagiaire_Preview.PerformLayout();
+            this.P_Stagiaire_Preview2.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
-            this.panel17.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.P_Stagiaire_Preview2.ResumeLayout(false);
             this.tabControl2_Professeur.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.DGV_Professeur1)).EndInit();
@@ -5496,12 +5489,15 @@
             this.tabPage7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton4)).EndInit();
+            this.tabPage9.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid2)).EndInit();
             this.tabPage8.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel11.ResumeLayout(false);
-            this.tabPage9.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid2)).EndInit();
+            this.panel17.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -5705,16 +5701,16 @@
         private System.Windows.Forms.DataGridViewCheckBoxColumn dataGridViewCheckBoxColumn1;
         private System.Windows.Forms.TabPage tabPage6;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private MetroFramework.Controls.MetroDateTime metroDateTime3;
-        private MetroFramework.Controls.MetroDateTime metroDateTime1;
-        private MetroFramework.Controls.MetroTextBox TB_Prof_Ajouter_Cin;
-        private ns1.BunifuThinButton2 bunifuThinButton24;
+        private MetroFramework.Controls.MetroDateTime DTP_Prof_Ajout_DEmbauche;
+        private MetroFramework.Controls.MetroDateTime DTP_Prof_Ajout_Dnaissance;
+        private MetroFramework.Controls.MetroTextBox TB_Prof_Ajout_Cin;
+        private ns1.BunifuThinButton2 BTN_Prof_Ajout_Ajouter;
         private ns1.BunifuThinButton2 bunifuThinButton25;
         private ns1.BunifuImageButton bunifuImageButton3;
         private System.Windows.Forms.Label label5;
-        private MetroFramework.Controls.MetroComboBox metroComboBox1;
+        private MetroFramework.Controls.MetroComboBox CB_Prof_Ajout_Quest;
         private System.Windows.Forms.Label label25;
-        private MetroFramework.Controls.MetroTextBox metroTextBox2;
+        private MetroFramework.Controls.MetroTextBox TB_Prof_Ajout_Repon;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label28;
@@ -5725,14 +5721,14 @@
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Label label60;
-        private MetroFramework.Controls.MetroTextBox metroTextBox3;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private MetroFramework.Controls.MetroTextBox TB_Prof_Ajouter_Nom;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private MetroFramework.Controls.MetroTextBox metroTextBox5;
-        private MetroFramework.Controls.MetroTextBox metroTextBox6;
-        private MetroFramework.Controls.MetroTextBox metroTextBox31;
-        private MetroFramework.Controls.MetroTextBox metroTextBox7;
+        private MetroFramework.Controls.MetroTextBox TB_Prof_Ajout_Adres;
+        private System.Windows.Forms.RadioButton CHB_Prof_Ajout_M;
+        private MetroFramework.Controls.MetroTextBox TB_Prof_Ajout_Nom;
+        private System.Windows.Forms.RadioButton CHB_Prof_Ajout_F;
+        private MetroFramework.Controls.MetroTextBox TB_Prof_Ajout_Pren;
+        private MetroFramework.Controls.MetroTextBox TB_Prof_Ajout_Email;
+        private MetroFramework.Controls.MetroTextBox TB_Prof_Ajout_MotPas;
+        private MetroFramework.Controls.MetroTextBox TB_Prof_Ajout_Tel;
         private ns1.BunifuThinButton2 bunifuThinButton26;
         private ns1.BunifuThinButton2 bunifuThinButton27;
         private ns1.BunifuThinButton2 bunifuThinButton28;
