@@ -5,7 +5,10 @@ School Management App is one of my best projects so far .
 Features . 
 - Students Management , you can add delete edit students 
 - search for students by Id , Name ..
-- Professors Management , you can add delete edit Professors , 
+
+- Professors Management , you can add delete edit Professors ,
+  -search for Professors by Id , Name ..
+
 - Groups Management , Add Edit Delete Groups .
 - Courses Management Add Edit Delete Courses .
 - Class Management Add Edit Delete Classes
@@ -20,3 +23,7 @@ Features .
   - You can know if the message is seen or not (like Whatsapp)
 - Login Form 
 - Notification Area
+- Archive System That Stores All Users (even if you delete it from database)
+
+(the app contains more Feature ,please  Feel Free To Download The app and Explore it )
+Copyright Zakaria kasmi 
